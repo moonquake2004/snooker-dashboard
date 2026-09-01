@@ -366,8 +366,11 @@ def main():
 
         ms = rec["meetings"] if not args.meetings else rec["meetings"][:args.meetings]
         out_meet[key] = [
-            {"date": m["date"], "e": m["e"], "z": m["z"],
-             "r": m["r"], "rz": m["rz"],
+            {"date": m["date"], "e": m["e"],
+             # 缓存里的 z/rz 可能是旧翻译表时代抓的，统一用当前翻译表重译，
+             # 保证新增翻译词条立即生效、无需重新抓取 CueTracker
+             "z": tour_zh(m["e"]),
+             "r": m["r"], "rz": T.round_zh(m["r"]),
              # 统一成 sorted-key 视角；前端按选择方向再翻一次
              "as": (m["bs"] if flip else m["as"]),
              "bs": (m["as"] if flip else m["bs"]),
@@ -376,7 +379,7 @@ def main():
         ]
         n_meet += len(ms)
         for m in ms:
-            if m["z"] == m["e"]:
+            if tour_zh(m["e"]) == m["e"]:
                 untranslated[m["e"]] = untranslated.get(m["e"], 0) + 1
 
     out = {
