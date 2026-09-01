@@ -552,6 +552,8 @@
       { k: 'centuries', cn: '破百榜', en: 'Century Breaks', unit: '' },
       { k: 'highestBreak', cn: '最高单杆', en: 'Highest Break', unit: '' },
       { k: 'fiftyPlus', cn: '50+ 单杆数', en: '50+ Breaks', unit: '' },
+      { k: 'centuryRate', cn: '破百率', en: 'Century %', fmt: 'pct', unit: '' },
+      { k: 'fiftyRate', cn: '50+ 率', en: '50+ %', fmt: 'pct', unit: '' },
       { k: 'wins', cn: '胜场榜', en: 'Most Wins', unit: '' },
       { k: 'titles', cn: '冠军数', en: 'Titles', unit: '' }
     ];
@@ -563,6 +565,7 @@
         '<h4><span class="cn">' + d.cn + '</span><span class="en">' + d.en + '</span></h4>' +
         rows.map(function (r, i) {
           var pct = Math.round((r.value || 0) / max * 100);
+          var val = d.fmt === 'pct' ? (r.value || 0) + '%' : (r.value || 0);
           return '<div class="leader-row">' +
             '<span class="lr-rank">' + (i + 1) + '</span>' +
             '<span style="flex:1;min-width:0">' +
@@ -570,7 +573,7 @@
               '<span class="en">' + esc(r.name_en) + '</span></div>' +
               '<div class="lr-bar"><i style="width:' + pct + '%"></i></div>' +
             '</span>' +
-            '<span class="lr-val">' + (r.value || 0) + '</span>' +
+            '<span class="lr-val">' + val + '</span>' +
           '</div>';
         }).join('') +
       '</div>';
@@ -745,6 +748,8 @@
         stat(p.centuries, '破百', '100+') +
         stat(p.fiftyPlus, '50+', '50+') +
         stat(p.highestBreak || '—', '最高单杆', 'Hi-break') +
+        stat(p.centuryRate != null ? p.centuryRate + '%' : '—', '破百率', 'Century %') +
+        stat(p.fiftyRate != null ? p.fiftyRate + '%' : '—', '50+ 率', '50+ %') +
         stat(p.titles, '冠军', 'Titles') +
         stat(p.bestRound || '—', '最好成绩', 'Best') +
       '</div>' +

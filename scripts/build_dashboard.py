@@ -134,6 +134,7 @@ def main():
             "matches": 0, "wins": 0, "losses": 0,
             "framesWon": 0, "framesLost": 0,
             "centuries": 0, "fiftyPlus": 0, "highestBreak": 0,
+            "centuryRate": 0.0, "fiftyRate": 0.0,
             "titles": 0, "bestRound": "", "bestRoundRank": 0,
             "tournaments": [],
         }
@@ -349,6 +350,17 @@ def main():
                 if brk > pl["highestBreak"]:
                     pl["highestBreak"] = brk
 
+    # 破百率 / 50+ 率（按「出场总局数」= framesWon+framesLost 折算成百分比，
+    # 单杆与局一一对应，故比率恒 ≤100%，比「按场」更直观；数据直接派生，无需额外抓取）
+    for pl in players.values():
+        frames = pl["framesWon"] + pl["framesLost"]
+        if frames > 0:
+            pl["centuryRate"] = round(pl["centuries"] / frames * 100, 1)
+            pl["fiftyRate"] = round(pl["fiftyPlus"] / frames * 100, 1)
+        else:
+            pl["centuryRate"] = 0.0
+            pl["fiftyRate"] = 0.0
+
     # 每站冠军 / 亚军 / 决赛比分
     for rec in matches:
         if rec["round_en"] != "Final" or rec["status"] != "Completed":
@@ -489,6 +501,8 @@ def main():
         "centuries": top("centuries"),
         "highestBreak": top("highestBreak"),
         "fiftyPlus": top("fiftyPlus"),
+        "centuryRate": top("centuryRate", min_matches=1),
+        "fiftyRate": top("fiftyRate", min_matches=1),
         "wins": top("wins"),
         "titles": top("titles", n=15, min_matches=1),
     }
