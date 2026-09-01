@@ -932,7 +932,7 @@
         stat(p.bestFinalResult
                ? (p.bestFinalResult === 'winner' ? '冠军' : '亚军')
                : (p.bestRound || '—'),
-             '最好成绩', 'Best') +
+             '最好成绩', 'Best', 'md-stat-best') +
       '</div>' +
 
       (p.career
@@ -990,8 +990,8 @@
     document.body.style.overflow = 'hidden';
   }
 
-  function stat(v, cn, en) {
-    return '<div class="md-stat"><b>' + esc(v) + '</b><span><span class="cn">' + cn +
+  function stat(v, cn, en, cls) {
+    return '<div class="md-stat' + (cls ? ' ' + cls : '') + '"><b>' + esc(v) + '</b><span><span class="cn">' + cn +
       '</span><span class="en">' + en + '</span></span></div>';
   }
 

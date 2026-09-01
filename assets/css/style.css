@@ -715,6 +715,8 @@ tbody tr.top1:hover{background:rgba(217,180,74,.17)}
 .md-stat b{display:block;font-family:var(--font-en);font-weight:700;font-size:22px;line-height:1;color:#fff}
 .md-stat span{display:block;font-size:11px;color:var(--ivory-dim);margin-top:4px;font-family:var(--font-cn)}
 .md-stat span.en{font-family:var(--font-en);font-size:9px;opacity:.7}
+.md-stat.md-stat-best b{font-size:13px;line-height:1.35;font-weight:500;font-family:var(--font-cn);white-space:normal;word-break:break-word;min-height:auto;padding:2px 0}
+.md-stat.md-stat-best span{margin-top:3px}
 
 .md-sec-title{font-family:var(--font-cn);font-weight:700;font-size:15px;margin:18px 0 9px;
   padding-left:11px;border-left:3px solid var(--brass-500)}
