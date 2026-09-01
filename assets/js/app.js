@@ -714,8 +714,12 @@
   function ensureMeetings() {
     if (h2hMeetState !== 0) return;
     h2hMeetState = 1;
+    // 复用 index.html 中为 data/h2h.js 注入的 ?v= 版本号，避免 CDN/浏览器缓存旧明细
+    var v = '';
+    var h2 = document.querySelector('script[src^="data/h2h.js"]');
+    if (h2) { var mm = /[?&]v=([^&]+)/.exec(h2.src); if (mm) v = '?v=' + mm[1]; }
     var s = document.createElement('script');
-    s.src = 'data/h2h_meetings.js';
+    s.src = 'data/h2h_meetings.js' + v;
     s.onload = function () {
       h2hMeet = window.H2H_MEETINGS || {};
       h2hMeetState = 2;

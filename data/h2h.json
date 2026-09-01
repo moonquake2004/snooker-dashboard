@@ -1,10 +1,10 @@
 {
  "meta": {
   "source": "cuetracker.net",
-  "fetched": "2026-09-01 22:16:23",
+  "fetched": "2026-09-01 23:09:56",
   "top": 64,
-  "pairs": 764,
-  "meetings": 7064,
+  "pairs": 1709,
+  "meetings": 10777,
   "meetingsPerPair": "all",
   "http": {
    "ok": 0,
@@ -1423,6 +1423,12 @@
    10,
    14
   ],
+  "mark-selby__robbie-williams": [
+   7,
+   1,
+   31,
+   18
+  ],
   "mark-selby__oliver-lines": [
    5,
    1,
@@ -1584,6 +1590,12 @@
    1,
    53,
    25
+  ],
+  "chang-bingyu__judd-trump": [
+   1,
+   0,
+   5,
+   1
   ],
   "elliot-slessor__judd-trump": [
    2,
@@ -1795,6 +1807,12 @@
    6,
    32
   ],
+  "jamie-jones__judd-trump": [
+   1,
+   5,
+   12,
+   22
+  ],
   "judd-trump__lyu-haotian": [
    2,
    0,
@@ -1981,6 +1999,12 @@
    4,
    10
   ],
+  "wu-yize__xu-si": [
+   1,
+   0,
+   5,
+   2
+  ],
   "anthony-mcgill__wu-yize": [
    2,
    1,
@@ -2149,6 +2173,12 @@
    415,
    430
   ],
+  "ding-junhui__john-higgins": [
+   15,
+   18,
+   117,
+   135
+  ],
   "jack-lisowski__john-higgins": [
    4,
    9,
@@ -2173,11 +2203,23 @@
    8,
    8
   ],
+  "john-higgins__si-jiahui": [
+   1,
+   0,
+   4,
+   1
+  ],
   "chang-bingyu__john-higgins": [
    0,
    1,
    2,
    4
+  ],
+  "elliot-slessor__john-higgins": [
+   1,
+   7,
+   19,
+   38
   ],
   "john-higgins__thepchaiya-un-nooh": [
    6,
@@ -2425,6 +2467,12 @@
    32,
    20
   ],
+  "chris-wakelin__shaun-murphy": [
+   4,
+   3,
+   26,
+   20
+  ],
   "mark-allen__shaun-murphy": [
    9,
    17,
@@ -2557,6 +2605,12 @@
    29,
    20
   ],
+  "shaun-murphy__tom-ford": [
+   6,
+   3,
+   38,
+   25
+  ],
   "jackson-page__shaun-murphy": [
    1,
    0,
@@ -2586,6 +2640,12 @@
    18,
    70,
    89
+  ],
+  "shaun-murphy__zak-surety": [
+   6,
+   0,
+   26,
+   4
   ],
   "jimmy-robertson__shaun-murphy": [
    0,
@@ -2646,6 +2706,12 @@
    4,
    17,
    25
+  ],
+  "martin-odonnell__shaun-murphy": [
+   1,
+   3,
+   10,
+   15
   ],
   "liu-hongyu__shaun-murphy": [
    2,
@@ -2803,11 +2869,23 @@
    15,
    10
   ],
+  "kyren-wilson__pang-junxu": [
+   4,
+   2,
+   17,
+   12
+  ],
   "kyren-wilson__noppon-saengkham": [
    2,
    1,
    7,
    6
+  ],
+  "hossein-vafaei__kyren-wilson": [
+   1,
+   4,
+   16,
+   20
   ],
   "jak-jones__kyren-wilson": [
    1,
@@ -2971,11 +3049,29 @@
    39,
    44
   ],
+  "david-lilley__kyren-wilson": [
+   0,
+   6,
+   3,
+   25
+  ],
   "jamie-jones__kyren-wilson": [
    3,
    8,
    28,
    44
+  ],
+  "kyren-wilson__lyu-haotian": [
+   3,
+   0,
+   15,
+   5
+  ],
+  "jordan-brown__kyren-wilson": [
+   4,
+   5,
+   21,
+   29
   ],
   "barry-hawkins__mark-williams": [
    8,
@@ -3025,6 +3121,12 @@
    40,
    30
   ],
+  "mark-williams__stuart-bingham": [
+   10,
+   12,
+   82,
+   80
+  ],
   "mark-williams__zhang-anda": [
    5,
    3,
@@ -3048,6 +3150,12 @@
    3,
    18,
    23
+  ],
+  "mark-williams__thepchaiya-un-nooh": [
+   13,
+   2,
+   70,
+   35
   ],
   "ali-carter__mark-williams": [
    19,
@@ -3193,6 +3301,12 @@
    117,
    113
   ],
+  "mark-williams__robbie-williams": [
+   4,
+   1,
+   12,
+   6
+  ],
   "mark-williams__oliver-lines": [
    4,
    1,
@@ -3325,6 +3439,12 @@
    30,
    23
   ],
+  "barry-hawkins__lei-peifan": [
+   3,
+   0,
+   13,
+   4
+  ],
   "barry-hawkins__pang-junxu": [
    1,
    3,
@@ -3348,6 +3468,12 @@
    1,
    42,
    25
+  ],
+  "barry-hawkins__joe-oconnor": [
+   1,
+   0,
+   4,
+   2
   ],
   "barry-hawkins__stephen-maguire": [
    17,
@@ -3463,6 +3589,12 @@
    49,
    42
   ],
+  "barry-hawkins__robbie-williams": [
+   7,
+   1,
+   33,
+   14
+  ],
   "barry-hawkins__oliver-lines": [
    1,
    0,
@@ -3517,6 +3649,12 @@
    9,
    8
   ],
+  "barry-hawkins__jordan-brown": [
+   2,
+   1,
+   10,
+   5
+  ],
   "chris-wakelin__xiao-guodong": [
    6,
    2,
@@ -3547,6 +3685,18 @@
    40,
    45
   ],
+  "xiao-guodong__zhou-yuelong": [
+   4,
+   4,
+   28,
+   21
+  ],
+  "stuart-bingham__xiao-guodong": [
+   3,
+   4,
+   14,
+   17
+  ],
   "xiao-guodong__zhang-anda": [
    3,
    6,
@@ -3558,6 +3708,12 @@
    5,
    28,
    31
+  ],
+  "elliot-slessor__xiao-guodong": [
+   1,
+   2,
+   7,
+   14
   ],
   "thepchaiya-un-nooh__xiao-guodong": [
    0,
@@ -3577,6 +3733,12 @@
    26,
    33
   ],
+  "lei-peifan__xiao-guodong": [
+   0,
+   3,
+   7,
+   15
+  ],
   "pang-junxu__xiao-guodong": [
    1,
    0,
@@ -3594,6 +3756,12 @@
    3,
    16,
    14
+  ],
+  "joe-oconnor__xiao-guodong": [
+   1,
+   1,
+   5,
+   3
   ],
   "stephen-maguire__xiao-guodong": [
    4,
@@ -3697,6 +3865,12 @@
    30,
    40
   ],
+  "daniel-wells__xiao-guodong": [
+   4,
+   1,
+   14,
+   11
+  ],
   "matthew-stevens__xiao-guodong": [
    2,
    2,
@@ -3708,6 +3882,12 @@
    2,
    7,
    10
+  ],
+  "robbie-williams__xiao-guodong": [
+   1,
+   3,
+   9,
+   13
   ],
   "oliver-lines__xiao-guodong": [
    3,
@@ -3780,6 +3960,18 @@
    5,
    26,
    25
+  ],
+  "chris-wakelin__ronnie-osullivan": [
+   2,
+   3,
+   11,
+   18
+  ],
+  "chris-wakelin__ding-junhui": [
+   1,
+   2,
+   14,
+   17
   ],
   "chris-wakelin__jack-lisowski": [
    1,
@@ -3931,6 +4123,12 @@
    13,
    22
   ],
+  "chris-wakelin__ryan-day": [
+   4,
+   3,
+   22,
+   23
+  ],
   "chris-wakelin__he-guoqiang": [
    1,
    0,
@@ -3949,6 +4147,18 @@
    18,
    17
   ],
+  "ben-woollaston__chris-wakelin": [
+   2,
+   2,
+   20,
+   20
+  ],
+  "chris-wakelin__matthew-selt": [
+   4,
+   4,
+   27,
+   30
+  ],
   "chris-wakelin__daniel-wells": [
    1,
    0,
@@ -3961,6 +4171,12 @@
    31,
    38
   ],
+  "chris-wakelin__robbie-williams": [
+   1,
+   3,
+   16,
+   22
+  ],
   "chris-wakelin__oliver-lines": [
    1,
    3,
@@ -3972,6 +4188,12 @@
    2,
    19,
    17
+  ],
+  "chris-wakelin__martin-odonnell": [
+   2,
+   2,
+   16,
+   11
   ],
   "chris-wakelin__liu-hongyu": [
    0,
@@ -4026,6 +4248,12 @@
    0,
    10,
    4
+  ],
+  "mark-allen__ronnie-osullivan": [
+   5,
+   7,
+   53,
+   69
   ],
   "ding-junhui__mark-allen": [
    14,
@@ -4393,6 +4621,12 @@
    26,
    37
   ],
+  "noppon-saengkham__ronnie-osullivan": [
+   2,
+   3,
+   15,
+   22
+  ],
   "hossein-vafaei__ronnie-osullivan": [
    2,
    5,
@@ -4435,6 +4669,12 @@
    28,
    13
   ],
+  "jackson-page__ronnie-osullivan": [
+   0,
+   4,
+   7,
+   26
+  ],
   "aaron-hill__ronnie-osullivan": [
    1,
    0,
@@ -4464,6 +4704,12 @@
    2,
    62,
    37
+  ],
+  "he-guoqiang__ronnie-osullivan": [
+   2,
+   2,
+   11,
+   18
   ],
   "jimmy-robertson__ronnie-osullivan": [
    0,
@@ -4723,6 +4969,12 @@
    21,
    7
   ],
+  "ding-junhui__michael-holt": [
+   6,
+   4,
+   37,
+   30
+  ],
   "ben-woollaston__ding-junhui": [
    2,
    6,
@@ -4771,6 +5023,18 @@
    0,
    1
   ],
+  "ding-junhui__martin-odonnell": [
+   3,
+   1,
+   19,
+   9
+  ],
+  "ding-junhui__liu-hongyu": [
+   2,
+   1,
+   11,
+   10
+  ],
   "ding-junhui__ricky-walden": [
    8,
    4,
@@ -4799,6 +5063,12 @@
    2,
    0,
    11,
+   4
+  ],
+  "ding-junhui__jordan-brown": [
+   3,
+   0,
+   13,
    4
   ],
   "jack-lisowski__zhou-yuelong": [
@@ -4987,6 +5257,12 @@
    41,
    22
   ],
+  "jack-lisowski__long-zehuang": [
+   0,
+   1,
+   1,
+   5
+  ],
   "jack-lisowski__robbie-williams": [
    2,
    2,
@@ -5029,11 +5305,23 @@
    13,
    23
   ],
+  "jack-lisowski__jamie-jones": [
+   0,
+   3,
+   11,
+   15
+  ],
   "jack-lisowski__lyu-haotian": [
    1,
    0,
    4,
    2
+  ],
+  "jack-lisowski__jiang-jun": [
+   1,
+   0,
+   3,
+   1
   ],
   "jack-lisowski__jordan-brown": [
    3,
@@ -5046,6 +5334,5388 @@
    5,
    34,
    27
+  ],
+  "zhang-anda__zhou-yuelong": [
+   4,
+   3,
+   35,
+   33
+  ],
+  "si-jiahui__zhou-yuelong": [
+   1,
+   1,
+   8,
+   6
+  ],
+  "chang-bingyu__zhou-yuelong": [
+   0,
+   2,
+   5,
+   9
+  ],
+  "elliot-slessor__zhou-yuelong": [
+   4,
+   0,
+   23,
+   11
+  ],
+  "thepchaiya-un-nooh__zhou-yuelong": [
+   5,
+   4,
+   31,
+   28
+  ],
+  "ali-carter__zhou-yuelong": [
+   5,
+   4,
+   36,
+   33
+  ],
+  "gary-wilson__zhou-yuelong": [
+   5,
+   2,
+   25,
+   19
+  ],
+  "lei-peifan__zhou-yuelong": [
+   0,
+   1,
+   0,
+   2
+  ],
+  "pang-junxu__zhou-yuelong": [
+   0,
+   1,
+   5,
+   6
+  ],
+  "noppon-saengkham__zhou-yuelong": [
+   5,
+   3,
+   23,
+   25
+  ],
+  "hossein-vafaei__zhou-yuelong": [
+   1,
+   0,
+   4,
+   3
+  ],
+  "jak-jones__zhou-yuelong": [
+   1,
+   5,
+   22,
+   31
+  ],
+  "joe-oconnor__zhou-yuelong": [
+   0,
+   2,
+   2,
+   6
+  ],
+  "david-gilbert__zhou-yuelong": [
+   3,
+   3,
+   24,
+   20
+  ],
+  "yuan-sijun__zhou-yuelong": [
+   2,
+   2,
+   15,
+   18
+  ],
+  "tom-ford__zhou-yuelong": [
+   2,
+   5,
+   16,
+   20
+  ],
+  "xu-si__zhou-yuelong": [
+   1,
+   4,
+   12,
+   20
+  ],
+  "anthony-mcgill__zhou-yuelong": [
+   3,
+   4,
+   23,
+   29
+  ],
+  "stan-moody__zhou-yuelong": [
+   3,
+   0,
+   13,
+   5
+  ],
+  "luca-brecel__zhou-yuelong": [
+   2,
+   3,
+   20,
+   18
+  ],
+  "ryan-day__zhou-yuelong": [
+   3,
+   5,
+   11,
+   18
+  ],
+  "jimmy-robertson__zhou-yuelong": [
+   7,
+   0,
+   33,
+   17
+  ],
+  "michael-holt__zhou-yuelong": [
+   4,
+   7,
+   24,
+   42
+  ],
+  "ben-woollaston__zhou-yuelong": [
+   1,
+   4,
+   17,
+   25
+  ],
+  "matthew-selt__zhou-yuelong": [
+   2,
+   4,
+   12,
+   17
+  ],
+  "daniel-wells__zhou-yuelong": [
+   2,
+   1,
+   20,
+   14
+  ],
+  "matthew-stevens__zhou-yuelong": [
+   0,
+   1,
+   3,
+   4
+  ],
+  "robbie-williams__zhou-yuelong": [
+   0,
+   2,
+   3,
+   5
+  ],
+  "oliver-lines__zhou-yuelong": [
+   2,
+   1,
+   7,
+   7
+  ],
+  "fan-zhengyi__zhou-yuelong": [
+   2,
+   2,
+   15,
+   13
+  ],
+  "martin-odonnell__zhou-yuelong": [
+   0,
+   2,
+   3,
+   11
+  ],
+  "liu-hongyu__zhou-yuelong": [
+   0,
+   1,
+   4,
+   6
+  ],
+  "ricky-walden__zhou-yuelong": [
+   3,
+   1,
+   14,
+   10
+  ],
+  "david-lilley__zhou-yuelong": [
+   1,
+   2,
+   6,
+   9
+  ],
+  "ben-mertens__zhou-yuelong": [
+   0,
+   1,
+   1,
+   3
+  ],
+  "jamie-jones__zhou-yuelong": [
+   3,
+   0,
+   13,
+   5
+  ],
+  "lyu-haotian__zhou-yuelong": [
+   3,
+   2,
+   13,
+   11
+  ],
+  "ishpreet-singh-chadha__zhou-yuelong": [
+   0,
+   1,
+   5,
+   10
+  ],
+  "jiang-jun__zhou-yuelong": [
+   0,
+   2,
+   3,
+   9
+  ],
+  "jordan-brown__zhou-yuelong": [
+   0,
+   2,
+   3,
+   9
+  ],
+  "stuart-bingham__zhang-anda": [
+   5,
+   2,
+   29,
+   17
+  ],
+  "si-jiahui__stuart-bingham": [
+   1,
+   0,
+   4,
+   1
+  ],
+  "chang-bingyu__stuart-bingham": [
+   1,
+   0,
+   4,
+   0
+  ],
+  "elliot-slessor__stuart-bingham": [
+   3,
+   3,
+   16,
+   20
+  ],
+  "stuart-bingham__thepchaiya-un-nooh": [
+   5,
+   6,
+   31,
+   40
+  ],
+  "ali-carter__stuart-bingham": [
+   22,
+   13,
+   134,
+   122
+  ],
+  "gary-wilson__stuart-bingham": [
+   1,
+   7,
+   13,
+   29
+  ],
+  "lei-peifan__stuart-bingham": [
+   0,
+   4,
+   7,
+   15
+  ],
+  "pang-junxu__stuart-bingham": [
+   0,
+   1,
+   0,
+   3
+  ],
+  "noppon-saengkham__stuart-bingham": [
+   2,
+   6,
+   21,
+   34
+  ],
+  "hossein-vafaei__stuart-bingham": [
+   1,
+   2,
+   4,
+   13
+  ],
+  "jak-jones__stuart-bingham": [
+   5,
+   0,
+   30,
+   14
+  ],
+  "joe-oconnor__stuart-bingham": [
+   1,
+   3,
+   7,
+   12
+  ],
+  "stephen-maguire__stuart-bingham": [
+   10,
+   10,
+   76,
+   76
+  ],
+  "david-gilbert__stuart-bingham": [
+   1,
+   14,
+   32,
+   71
+  ],
+  "stuart-bingham__yuan-sijun": [
+   3,
+   0,
+   11,
+   2
+  ],
+  "stuart-bingham__tom-ford": [
+   7,
+   1,
+   31,
+   15
+  ],
+  "jackson-page__stuart-bingham": [
+   2,
+   3,
+   12,
+   12
+  ],
+  "aaron-hill__stuart-bingham": [
+   0,
+   2,
+   4,
+   9
+  ],
+  "stuart-bingham__xu-si": [
+   1,
+   1,
+   8,
+   6
+  ],
+  "anthony-mcgill__stuart-bingham": [
+   2,
+   5,
+   30,
+   32
+  ],
+  "stan-moody__stuart-bingham": [
+   0,
+   1,
+   0,
+   5
+  ],
+  "luca-brecel__stuart-bingham": [
+   3,
+   7,
+   24,
+   36
+  ],
+  "ryan-day__stuart-bingham": [
+   10,
+   19,
+   80,
+   101
+  ],
+  "stuart-bingham__zak-surety": [
+   1,
+   1,
+   9,
+   6
+  ],
+  "he-guoqiang__stuart-bingham": [
+   2,
+   3,
+   11,
+   15
+  ],
+  "jimmy-robertson__stuart-bingham": [
+   2,
+   7,
+   18,
+   34
+  ],
+  "michael-holt__stuart-bingham": [
+   5,
+   12,
+   62,
+   74
+  ],
+  "ben-woollaston__stuart-bingham": [
+   3,
+   4,
+   15,
+   17
+  ],
+  "matthew-selt__stuart-bingham": [
+   6,
+   18,
+   51,
+   77
+  ],
+  "daniel-wells__stuart-bingham": [
+   1,
+   4,
+   7,
+   19
+  ],
+  "matthew-stevens__stuart-bingham": [
+   7,
+   11,
+   58,
+   64
+  ],
+  "robbie-williams__stuart-bingham": [
+   1,
+   6,
+   22,
+   34
+  ],
+  "fan-zhengyi__stuart-bingham": [
+   0,
+   1,
+   0,
+   6
+  ],
+  "martin-odonnell__stuart-bingham": [
+   0,
+   2,
+   1,
+   8
+  ],
+  "ricky-walden__stuart-bingham": [
+   6,
+   13,
+   50,
+   66
+  ],
+  "david-lilley__stuart-bingham": [
+   2,
+   1,
+   12,
+   6
+  ],
+  "jamie-jones__stuart-bingham": [
+   3,
+   5,
+   18,
+   31
+  ],
+  "lyu-haotian__stuart-bingham": [
+   1,
+   1,
+   10,
+   13
+  ],
+  "ishpreet-singh-chadha__stuart-bingham": [
+   2,
+   0,
+   9,
+   5
+  ],
+  "jordan-brown__stuart-bingham": [
+   2,
+   4,
+   13,
+   22
+  ],
+  "si-jiahui__zhang-anda": [
+   2,
+   3,
+   11,
+   18
+  ],
+  "chang-bingyu__zhang-anda": [
+   0,
+   1,
+   0,
+   5
+  ],
+  "elliot-slessor__zhang-anda": [
+   4,
+   2,
+   19,
+   17
+  ],
+  "thepchaiya-un-nooh__zhang-anda": [
+   4,
+   3,
+   26,
+   22
+  ],
+  "ali-carter__zhang-anda": [
+   0,
+   1,
+   5,
+   6
+  ],
+  "gary-wilson__zhang-anda": [
+   3,
+   1,
+   23,
+   14
+  ],
+  "lei-peifan__zhang-anda": [
+   0,
+   3,
+   7,
+   15
+  ],
+  "pang-junxu__zhang-anda": [
+   2,
+   0,
+   14,
+   9
+  ],
+  "noppon-saengkham__zhang-anda": [
+   3,
+   2,
+   26,
+   25
+  ],
+  "hossein-vafaei__zhang-anda": [
+   4,
+   2,
+   30,
+   25
+  ],
+  "jak-jones__zhang-anda": [
+   6,
+   1,
+   33,
+   18
+  ],
+  "stephen-maguire__zhang-anda": [
+   3,
+   2,
+   13,
+   13
+  ],
+  "david-gilbert__zhang-anda": [
+   2,
+   3,
+   18,
+   15
+  ],
+  "tom-ford__zhang-anda": [
+   0,
+   2,
+   7,
+   13
+  ],
+  "jackson-page__zhang-anda": [
+   1,
+   0,
+   5,
+   2
+  ],
+  "aaron-hill__zhang-anda": [
+   0,
+   1,
+   4,
+   5
+  ],
+  "xu-si__zhang-anda": [
+   0,
+   2,
+   1,
+   6
+  ],
+  "stan-moody__zhang-anda": [
+   2,
+   2,
+   15,
+   20
+  ],
+  "luca-brecel__zhang-anda": [
+   6,
+   2,
+   35,
+   17
+  ],
+  "ryan-day__zhang-anda": [
+   4,
+   1,
+   21,
+   11
+  ],
+  "zak-surety__zhang-anda": [
+   2,
+   2,
+   10,
+   14
+  ],
+  "jimmy-robertson__zhang-anda": [
+   2,
+   0,
+   7,
+   4
+  ],
+  "michael-holt__zhang-anda": [
+   1,
+   0,
+   5,
+   1
+  ],
+  "ben-woollaston__zhang-anda": [
+   2,
+   4,
+   15,
+   23
+  ],
+  "matthew-selt__zhang-anda": [
+   7,
+   0,
+   26,
+   9
+  ],
+  "daniel-wells__zhang-anda": [
+   1,
+   3,
+   16,
+   20
+  ],
+  "matthew-stevens__zhang-anda": [
+   1,
+   3,
+   7,
+   15
+  ],
+  "robbie-williams__zhang-anda": [
+   3,
+   1,
+   19,
+   17
+  ],
+  "oliver-lines__zhang-anda": [
+   1,
+   4,
+   13,
+   18
+  ],
+  "fan-zhengyi__zhang-anda": [
+   0,
+   2,
+   1,
+   5
+  ],
+  "martin-odonnell__zhang-anda": [
+   1,
+   0,
+   4,
+   3
+  ],
+  "ricky-walden__zhang-anda": [
+   3,
+   1,
+   21,
+   13
+  ],
+  "ben-mertens__zhang-anda": [
+   0,
+   1,
+   0,
+   4
+  ],
+  "jamie-jones__zhang-anda": [
+   3,
+   0,
+   15,
+   11
+  ],
+  "lyu-haotian__zhang-anda": [
+   4,
+   5,
+   21,
+   28
+  ],
+  "ishpreet-singh-chadha__zhang-anda": [
+   0,
+   1,
+   5,
+   6
+  ],
+  "jiang-jun__zhang-anda": [
+   0,
+   1,
+   1,
+   3
+  ],
+  "jordan-brown__zhang-anda": [
+   0,
+   1,
+   2,
+   4
+  ],
+  "chang-bingyu__si-jiahui": [
+   1,
+   2,
+   9,
+   12
+  ],
+  "elliot-slessor__si-jiahui": [
+   1,
+   0,
+   3,
+   2
+  ],
+  "ali-carter__si-jiahui": [
+   1,
+   0,
+   3,
+   1
+  ],
+  "gary-wilson__si-jiahui": [
+   0,
+   4,
+   7,
+   18
+  ],
+  "lei-peifan__si-jiahui": [
+   0,
+   1,
+   1,
+   4
+  ],
+  "pang-junxu__si-jiahui": [
+   2,
+   5,
+   23,
+   27
+  ],
+  "noppon-saengkham__si-jiahui": [
+   1,
+   0,
+   5,
+   0
+  ],
+  "hossein-vafaei__si-jiahui": [
+   3,
+   1,
+   17,
+   10
+  ],
+  "jak-jones__si-jiahui": [
+   3,
+   3,
+   32,
+   27
+  ],
+  "joe-oconnor__si-jiahui": [
+   0,
+   2,
+   3,
+   6
+  ],
+  "si-jiahui__stephen-maguire": [
+   3,
+   0,
+   13,
+   4
+  ],
+  "si-jiahui__yuan-sijun": [
+   1,
+   1,
+   6,
+   6
+  ],
+  "si-jiahui__tom-ford": [
+   5,
+   0,
+   29,
+   12
+  ],
+  "jackson-page__si-jiahui": [
+   0,
+   1,
+   3,
+   5
+  ],
+  "si-jiahui__xu-si": [
+   1,
+   0,
+   5,
+   3
+  ],
+  "anthony-mcgill__si-jiahui": [
+   0,
+   4,
+   16,
+   25
+  ],
+  "si-jiahui__stan-moody": [
+   1,
+   0,
+   5,
+   1
+  ],
+  "luca-brecel__si-jiahui": [
+   2,
+   1,
+   23,
+   23
+  ],
+  "ryan-day__si-jiahui": [
+   1,
+   4,
+   7,
+   18
+  ],
+  "si-jiahui__zak-surety": [
+   2,
+   1,
+   9,
+   9
+  ],
+  "jimmy-robertson__si-jiahui": [
+   0,
+   1,
+   1,
+   3
+  ],
+  "ben-woollaston__si-jiahui": [
+   0,
+   2,
+   10,
+   16
+  ],
+  "matthew-selt__si-jiahui": [
+   3,
+   1,
+   12,
+   8
+  ],
+  "daniel-wells__si-jiahui": [
+   1,
+   1,
+   9,
+   8
+  ],
+  "matthew-stevens__si-jiahui": [
+   0,
+   2,
+   2,
+   7
+  ],
+  "long-zehuang__si-jiahui": [
+   1,
+   0,
+   5,
+   2
+  ],
+  "robbie-williams__si-jiahui": [
+   1,
+   1,
+   4,
+   5
+  ],
+  "oliver-lines__si-jiahui": [
+   1,
+   0,
+   3,
+   0
+  ],
+  "fan-zhengyi__si-jiahui": [
+   0,
+   2,
+   6,
+   10
+  ],
+  "martin-odonnell__si-jiahui": [
+   1,
+   1,
+   2,
+   5
+  ],
+  "liu-hongyu__si-jiahui": [
+   0,
+   1,
+   2,
+   4
+  ],
+  "ricky-walden__si-jiahui": [
+   2,
+   0,
+   8,
+   4
+  ],
+  "david-lilley__si-jiahui": [
+   1,
+   1,
+   6,
+   5
+  ],
+  "ben-mertens__si-jiahui": [
+   0,
+   2,
+   12,
+   16
+  ],
+  "jamie-jones__si-jiahui": [
+   1,
+   0,
+   4,
+   2
+  ],
+  "lyu-haotian__si-jiahui": [
+   0,
+   1,
+   4,
+   5
+  ],
+  "jiang-jun__si-jiahui": [
+   0,
+   3,
+   6,
+   15
+  ],
+  "jordan-brown__si-jiahui": [
+   1,
+   3,
+   13,
+   16
+  ],
+  "chang-bingyu__elliot-slessor": [
+   0,
+   1,
+   4,
+   5
+  ],
+  "chang-bingyu__gary-wilson": [
+   0,
+   3,
+   5,
+   11
+  ],
+  "chang-bingyu__noppon-saengkham": [
+   1,
+   1,
+   8,
+   9
+  ],
+  "chang-bingyu__jak-jones": [
+   0,
+   1,
+   1,
+   3
+  ],
+  "chang-bingyu__joe-oconnor": [
+   1,
+   0,
+   5,
+   2
+  ],
+  "chang-bingyu__stephen-maguire": [
+   1,
+   2,
+   12,
+   13
+  ],
+  "chang-bingyu__david-gilbert": [
+   1,
+   3,
+   9,
+   14
+  ],
+  "chang-bingyu__tom-ford": [
+   2,
+   0,
+   11,
+   8
+  ],
+  "chang-bingyu__jackson-page": [
+   0,
+   1,
+   3,
+   4
+  ],
+  "aaron-hill__chang-bingyu": [
+   0,
+   1,
+   2,
+   4
+  ],
+  "chang-bingyu__xu-si": [
+   1,
+   0,
+   4,
+   0
+  ],
+  "chang-bingyu__stan-moody": [
+   1,
+   0,
+   5,
+   3
+  ],
+  "chang-bingyu__luca-brecel": [
+   1,
+   2,
+   13,
+   16
+  ],
+  "chang-bingyu__ryan-day": [
+   1,
+   2,
+   7,
+   10
+  ],
+  "chang-bingyu__jimmy-robertson": [
+   2,
+   1,
+   13,
+   13
+  ],
+  "ben-woollaston__chang-bingyu": [
+   1,
+   0,
+   5,
+   1
+  ],
+  "chang-bingyu__matthew-stevens": [
+   1,
+   0,
+   6,
+   4
+  ],
+  "chang-bingyu__long-zehuang": [
+   1,
+   0,
+   4,
+   1
+  ],
+  "chang-bingyu__oliver-lines": [
+   0,
+   1,
+   0,
+   1
+  ],
+  "chang-bingyu__martin-odonnell": [
+   0,
+   1,
+   3,
+   5
+  ],
+  "chang-bingyu__liu-hongyu": [
+   1,
+   0,
+   5,
+   1
+  ],
+  "chang-bingyu__ricky-walden": [
+   0,
+   2,
+   5,
+   9
+  ],
+  "chang-bingyu__jamie-jones": [
+   0,
+   1,
+   1,
+   4
+  ],
+  "chang-bingyu__lyu-haotian": [
+   0,
+   2,
+   8,
+   14
+  ],
+  "chang-bingyu__ishpreet-singh-chadha": [
+   1,
+   0,
+   4,
+   0
+  ],
+  "chang-bingyu__jiang-jun": [
+   1,
+   0,
+   4,
+   0
+  ],
+  "elliot-slessor__thepchaiya-un-nooh": [
+   2,
+   2,
+   13,
+   12
+  ],
+  "ali-carter__elliot-slessor": [
+   6,
+   3,
+   30,
+   20
+  ],
+  "elliot-slessor__gary-wilson": [
+   4,
+   3,
+   27,
+   21
+  ],
+  "elliot-slessor__lei-peifan": [
+   2,
+   0,
+   8,
+   3
+  ],
+  "elliot-slessor__pang-junxu": [
+   3,
+   3,
+   17,
+   12
+  ],
+  "elliot-slessor__noppon-saengkham": [
+   3,
+   2,
+   11,
+   10
+  ],
+  "elliot-slessor__hossein-vafaei": [
+   1,
+   3,
+   9,
+   12
+  ],
+  "elliot-slessor__jak-jones": [
+   0,
+   4,
+   7,
+   14
+  ],
+  "elliot-slessor__joe-oconnor": [
+   5,
+   4,
+   20,
+   18
+  ],
+  "elliot-slessor__stephen-maguire": [
+   0,
+   2,
+   6,
+   10
+  ],
+  "david-gilbert__elliot-slessor": [
+   3,
+   2,
+   17,
+   12
+  ],
+  "elliot-slessor__tom-ford": [
+   2,
+   4,
+   17,
+   17
+  ],
+  "elliot-slessor__jackson-page": [
+   2,
+   4,
+   13,
+   19
+  ],
+  "elliot-slessor__xu-si": [
+   3,
+   0,
+   12,
+   7
+  ],
+  "anthony-mcgill__elliot-slessor": [
+   0,
+   2,
+   5,
+   8
+  ],
+  "elliot-slessor__stan-moody": [
+   2,
+   0,
+   8,
+   5
+  ],
+  "elliot-slessor__luca-brecel": [
+   1,
+   1,
+   4,
+   7
+  ],
+  "elliot-slessor__ryan-day": [
+   3,
+   5,
+   22,
+   28
+  ],
+  "elliot-slessor__he-guoqiang": [
+   0,
+   2,
+   4,
+   9
+  ],
+  "elliot-slessor__michael-holt": [
+   0,
+   4,
+   10,
+   21
+  ],
+  "ben-woollaston__elliot-slessor": [
+   4,
+   2,
+   26,
+   27
+  ],
+  "elliot-slessor__matthew-selt": [
+   2,
+   2,
+   10,
+   13
+  ],
+  "daniel-wells__elliot-slessor": [
+   3,
+   6,
+   24,
+   27
+  ],
+  "elliot-slessor__matthew-stevens": [
+   3,
+   1,
+   16,
+   11
+  ],
+  "elliot-slessor__long-zehuang": [
+   2,
+   0,
+   10,
+   5
+  ],
+  "elliot-slessor__robbie-williams": [
+   1,
+   0,
+   5,
+   3
+  ],
+  "elliot-slessor__oliver-lines": [
+   1,
+   3,
+   11,
+   15
+  ],
+  "elliot-slessor__fan-zhengyi": [
+   2,
+   2,
+   14,
+   15
+  ],
+  "elliot-slessor__martin-odonnell": [
+   3,
+   2,
+   26,
+   18
+  ],
+  "elliot-slessor__liu-hongyu": [
+   0,
+   1,
+   4,
+   5
+  ],
+  "elliot-slessor__ricky-walden": [
+   2,
+   2,
+   12,
+   13
+  ],
+  "david-lilley__elliot-slessor": [
+   1,
+   2,
+   4,
+   11
+  ],
+  "ben-mertens__elliot-slessor": [
+   0,
+   2,
+   6,
+   10
+  ],
+  "elliot-slessor__jamie-jones": [
+   1,
+   1,
+   6,
+   4
+  ],
+  "elliot-slessor__lyu-haotian": [
+   2,
+   1,
+   14,
+   8
+  ],
+  "elliot-slessor__ishpreet-singh-chadha": [
+   0,
+   1,
+   3,
+   5
+  ],
+  "elliot-slessor__jiang-jun": [
+   0,
+   1,
+   7,
+   10
+  ],
+  "elliot-slessor__jordan-brown": [
+   1,
+   0,
+   3,
+   1
+  ],
+  "ali-carter__thepchaiya-un-nooh": [
+   3,
+   1,
+   15,
+   8
+  ],
+  "lei-peifan__thepchaiya-un-nooh": [
+   0,
+   3,
+   7,
+   13
+  ],
+  "pang-junxu__thepchaiya-un-nooh": [
+   2,
+   1,
+   10,
+   11
+  ],
+  "noppon-saengkham__thepchaiya-un-nooh": [
+   2,
+   3,
+   11,
+   22
+  ],
+  "hossein-vafaei__thepchaiya-un-nooh": [
+   0,
+   2,
+   8,
+   11
+  ],
+  "jak-jones__thepchaiya-un-nooh": [
+   1,
+   2,
+   12,
+   16
+  ],
+  "joe-oconnor__thepchaiya-un-nooh": [
+   1,
+   3,
+   18,
+   21
+  ],
+  "stephen-maguire__thepchaiya-un-nooh": [
+   3,
+   3,
+   22,
+   21
+  ],
+  "david-gilbert__thepchaiya-un-nooh": [
+   2,
+   1,
+   17,
+   10
+  ],
+  "thepchaiya-un-nooh__yuan-sijun": [
+   1,
+   0,
+   4,
+   1
+  ],
+  "thepchaiya-un-nooh__tom-ford": [
+   1,
+   2,
+   8,
+   12
+  ],
+  "jackson-page__thepchaiya-un-nooh": [
+   2,
+   1,
+   9,
+   5
+  ],
+  "aaron-hill__thepchaiya-un-nooh": [
+   1,
+   0,
+   1,
+   0
+  ],
+  "thepchaiya-un-nooh__xu-si": [
+   0,
+   2,
+   7,
+   10
+  ],
+  "anthony-mcgill__thepchaiya-un-nooh": [
+   3,
+   2,
+   23,
+   23
+  ],
+  "luca-brecel__thepchaiya-un-nooh": [
+   1,
+   1,
+   4,
+   4
+  ],
+  "ryan-day__thepchaiya-un-nooh": [
+   4,
+   3,
+   27,
+   16
+  ],
+  "jimmy-robertson__thepchaiya-un-nooh": [
+   3,
+   0,
+   13,
+   6
+  ],
+  "michael-holt__thepchaiya-un-nooh": [
+   1,
+   6,
+   12,
+   20
+  ],
+  "ben-woollaston__thepchaiya-un-nooh": [
+   2,
+   6,
+   23,
+   32
+  ],
+  "matthew-selt__thepchaiya-un-nooh": [
+   8,
+   2,
+   58,
+   40
+  ],
+  "daniel-wells__thepchaiya-un-nooh": [
+   3,
+   1,
+   11,
+   11
+  ],
+  "matthew-stevens__thepchaiya-un-nooh": [
+   3,
+   1,
+   19,
+   13
+  ],
+  "long-zehuang__thepchaiya-un-nooh": [
+   2,
+   0,
+   9,
+   7
+  ],
+  "robbie-williams__thepchaiya-un-nooh": [
+   1,
+   4,
+   9,
+   22
+  ],
+  "oliver-lines__thepchaiya-un-nooh": [
+   1,
+   1,
+   4,
+   5
+  ],
+  "fan-zhengyi__thepchaiya-un-nooh": [
+   1,
+   0,
+   5,
+   3
+  ],
+  "martin-odonnell__thepchaiya-un-nooh": [
+   1,
+   3,
+   13,
+   18
+  ],
+  "liu-hongyu__thepchaiya-un-nooh": [
+   0,
+   1,
+   0,
+   1
+  ],
+  "ricky-walden__thepchaiya-un-nooh": [
+   6,
+   2,
+   39,
+   29
+  ],
+  "david-lilley__thepchaiya-un-nooh": [
+   2,
+   0,
+   10,
+   4
+  ],
+  "ben-mertens__thepchaiya-un-nooh": [
+   1,
+   1,
+   6,
+   6
+  ],
+  "jamie-jones__thepchaiya-un-nooh": [
+   0,
+   4,
+   8,
+   19
+  ],
+  "lyu-haotian__thepchaiya-un-nooh": [
+   1,
+   0,
+   4,
+   2
+  ],
+  "ishpreet-singh-chadha__thepchaiya-un-nooh": [
+   1,
+   0,
+   5,
+   1
+  ],
+  "jiang-jun__thepchaiya-un-nooh": [
+   1,
+   1,
+   7,
+   6
+  ],
+  "jordan-brown__thepchaiya-un-nooh": [
+   1,
+   4,
+   9,
+   18
+  ],
+  "ali-carter__gary-wilson": [
+   2,
+   2,
+   21,
+   23
+  ],
+  "ali-carter__pang-junxu": [
+   3,
+   2,
+   19,
+   15
+  ],
+  "ali-carter__noppon-saengkham": [
+   0,
+   3,
+   7,
+   14
+  ],
+  "ali-carter__hossein-vafaei": [
+   1,
+   1,
+   5,
+   6
+  ],
+  "ali-carter__jak-jones": [
+   1,
+   5,
+   17,
+   25
+  ],
+  "ali-carter__joe-oconnor": [
+   2,
+   1,
+   14,
+   13
+  ],
+  "ali-carter__stephen-maguire": [
+   12,
+   12,
+   101,
+   94
+  ],
+  "ali-carter__david-gilbert": [
+   7,
+   5,
+   39,
+   32
+  ],
+  "ali-carter__yuan-sijun": [
+   1,
+   0,
+   5,
+   2
+  ],
+  "ali-carter__tom-ford": [
+   8,
+   2,
+   46,
+   22
+  ],
+  "ali-carter__jackson-page": [
+   1,
+   2,
+   10,
+   12
+  ],
+  "aaron-hill__ali-carter": [
+   1,
+   1,
+   5,
+   7
+  ],
+  "ali-carter__xu-si": [
+   5,
+   0,
+   21,
+   5
+  ],
+  "ali-carter__anthony-mcgill": [
+   3,
+   4,
+   27,
+   26
+  ],
+  "ali-carter__stan-moody": [
+   1,
+   2,
+   10,
+   12
+  ],
+  "ali-carter__luca-brecel": [
+   4,
+   3,
+   19,
+   19
+  ],
+  "ali-carter__ryan-day": [
+   15,
+   10,
+   77,
+   63
+  ],
+  "ali-carter__zak-surety": [
+   1,
+   1,
+   7,
+   4
+  ],
+  "ali-carter__he-guoqiang": [
+   3,
+   0,
+   20,
+   9
+  ],
+  "ali-carter__jimmy-robertson": [
+   5,
+   0,
+   22,
+   9
+  ],
+  "ali-carter__michael-holt": [
+   8,
+   2,
+   36,
+   18
+  ],
+  "ali-carter__matthew-selt": [
+   8,
+   7,
+   42,
+   37
+  ],
+  "ali-carter__daniel-wells": [
+   5,
+   1,
+   29,
+   19
+  ],
+  "ali-carter__matthew-stevens": [
+   8,
+   6,
+   45,
+   38
+  ],
+  "ali-carter__long-zehuang": [
+   1,
+   1,
+   5,
+   6
+  ],
+  "ali-carter__robbie-williams": [
+   5,
+   2,
+   30,
+   20
+  ],
+  "ali-carter__oliver-lines": [
+   3,
+   1,
+   15,
+   9
+  ],
+  "ali-carter__fan-zhengyi": [
+   2,
+   0,
+   8,
+   4
+  ],
+  "ali-carter__martin-odonnell": [
+   3,
+   1,
+   14,
+   10
+  ],
+  "ali-carter__ricky-walden": [
+   6,
+   3,
+   28,
+   24
+  ],
+  "ali-carter__david-lilley": [
+   3,
+   0,
+   14,
+   6
+  ],
+  "ali-carter__jamie-jones": [
+   4,
+   1,
+   27,
+   17
+  ],
+  "ali-carter__lyu-haotian": [
+   4,
+   2,
+   17,
+   12
+  ],
+  "ali-carter__ishpreet-singh-chadha": [
+   1,
+   0,
+   4,
+   3
+  ],
+  "ali-carter__jordan-brown": [
+   1,
+   3,
+   5,
+   9
+  ],
+  "gary-wilson__lei-peifan": [
+   3,
+   0,
+   15,
+   6
+  ],
+  "gary-wilson__pang-junxu": [
+   1,
+   4,
+   19,
+   22
+  ],
+  "gary-wilson__noppon-saengkham": [
+   4,
+   1,
+   23,
+   14
+  ],
+  "gary-wilson__hossein-vafaei": [
+   4,
+   3,
+   22,
+   21
+  ],
+  "gary-wilson__jak-jones": [
+   5,
+   3,
+   30,
+   20
+  ],
+  "gary-wilson__joe-oconnor": [
+   5,
+   0,
+   22,
+   10
+  ],
+  "gary-wilson__stephen-maguire": [
+   3,
+   3,
+   20,
+   18
+  ],
+  "david-gilbert__gary-wilson": [
+   2,
+   4,
+   19,
+   23
+  ],
+  "gary-wilson__yuan-sijun": [
+   2,
+   2,
+   11,
+   12
+  ],
+  "gary-wilson__tom-ford": [
+   6,
+   4,
+   33,
+   28
+  ],
+  "gary-wilson__jackson-page": [
+   2,
+   0,
+   7,
+   3
+  ],
+  "aaron-hill__gary-wilson": [
+   1,
+   3,
+   16,
+   20
+  ],
+  "gary-wilson__xu-si": [
+   3,
+   1,
+   23,
+   16
+  ],
+  "anthony-mcgill__gary-wilson": [
+   4,
+   2,
+   18,
+   14
+  ],
+  "gary-wilson__stan-moody": [
+   0,
+   2,
+   3,
+   7
+  ],
+  "gary-wilson__luca-brecel": [
+   4,
+   3,
+   31,
+   26
+  ],
+  "gary-wilson__ryan-day": [
+   3,
+   5,
+   14,
+   19
+  ],
+  "gary-wilson__zak-surety": [
+   0,
+   1,
+   3,
+   6
+  ],
+  "gary-wilson__he-guoqiang": [
+   1,
+   1,
+   6,
+   6
+  ],
+  "gary-wilson__jimmy-robertson": [
+   1,
+   4,
+   14,
+   20
+  ],
+  "gary-wilson__michael-holt": [
+   2,
+   3,
+   11,
+   17
+  ],
+  "ben-woollaston__gary-wilson": [
+   4,
+   2,
+   20,
+   14
+  ],
+  "gary-wilson__matthew-selt": [
+   5,
+   2,
+   19,
+   13
+  ],
+  "daniel-wells__gary-wilson": [
+   5,
+   4,
+   37,
+   37
+  ],
+  "gary-wilson__matthew-stevens": [
+   1,
+   0,
+   4,
+   1
+  ],
+  "gary-wilson__long-zehuang": [
+   1,
+   1,
+   7,
+   8
+  ],
+  "gary-wilson__robbie-williams": [
+   3,
+   0,
+   16,
+   11
+  ],
+  "gary-wilson__oliver-lines": [
+   0,
+   2,
+   7,
+   12
+  ],
+  "fan-zhengyi__gary-wilson": [
+   1,
+   1,
+   9,
+   7
+  ],
+  "gary-wilson__martin-odonnell": [
+   7,
+   4,
+   43,
+   32
+  ],
+  "gary-wilson__ricky-walden": [
+   6,
+   2,
+   30,
+   24
+  ],
+  "david-lilley__gary-wilson": [
+   1,
+   1,
+   2,
+   3
+  ],
+  "gary-wilson__jamie-jones": [
+   3,
+   2,
+   18,
+   11
+  ],
+  "gary-wilson__lyu-haotian": [
+   3,
+   1,
+   13,
+   7
+  ],
+  "gary-wilson__ishpreet-singh-chadha": [
+   0,
+   1,
+   3,
+   4
+  ],
+  "gary-wilson__jordan-brown": [
+   1,
+   2,
+   4,
+   5
+  ],
+  "lei-peifan__pang-junxu": [
+   0,
+   1,
+   1,
+   3
+  ],
+  "lei-peifan__noppon-saengkham": [
+   0,
+   1,
+   1,
+   3
+  ],
+  "hossein-vafaei__lei-peifan": [
+   1,
+   1,
+   11,
+   13
+  ],
+  "jak-jones__lei-peifan": [
+   0,
+   1,
+   1,
+   3
+  ],
+  "joe-oconnor__lei-peifan": [
+   1,
+   1,
+   7,
+   8
+  ],
+  "lei-peifan__yuan-sijun": [
+   0,
+   2,
+   3,
+   7
+  ],
+  "lei-peifan__tom-ford": [
+   3,
+   0,
+   15,
+   10
+  ],
+  "jackson-page__lei-peifan": [
+   3,
+   0,
+   14,
+   9
+  ],
+  "aaron-hill__lei-peifan": [
+   3,
+   0,
+   13,
+   7
+  ],
+  "lei-peifan__xu-si": [
+   1,
+   1,
+   5,
+   7
+  ],
+  "lei-peifan__luca-brecel": [
+   0,
+   1,
+   2,
+   6
+  ],
+  "lei-peifan__ryan-day": [
+   2,
+   2,
+   15,
+   14
+  ],
+  "jimmy-robertson__lei-peifan": [
+   1,
+   2,
+   11,
+   12
+  ],
+  "lei-peifan__michael-holt": [
+   0,
+   1,
+   0,
+   1
+  ],
+  "ben-woollaston__lei-peifan": [
+   1,
+   1,
+   6,
+   7
+  ],
+  "lei-peifan__matthew-selt": [
+   2,
+   0,
+   9,
+   5
+  ],
+  "lei-peifan__robbie-williams": [
+   2,
+   0,
+   8,
+   5
+  ],
+  "lei-peifan__oliver-lines": [
+   0,
+   1,
+   3,
+   4
+  ],
+  "david-lilley__lei-peifan": [
+   0,
+   1,
+   6,
+   10
+  ],
+  "ben-mertens__lei-peifan": [
+   0,
+   2,
+   7,
+   10
+  ],
+  "jamie-jones__lei-peifan": [
+   0,
+   1,
+   3,
+   4
+  ],
+  "ishpreet-singh-chadha__lei-peifan": [
+   0,
+   1,
+   1,
+   3
+  ],
+  "jordan-brown__lei-peifan": [
+   0,
+   1,
+   4,
+   10
+  ],
+  "noppon-saengkham__pang-junxu": [
+   0,
+   2,
+   6,
+   12
+  ],
+  "hossein-vafaei__pang-junxu": [
+   2,
+   2,
+   11,
+   13
+  ],
+  "jak-jones__pang-junxu": [
+   5,
+   1,
+   18,
+   5
+  ],
+  "joe-oconnor__pang-junxu": [
+   2,
+   3,
+   13,
+   14
+  ],
+  "pang-junxu__stephen-maguire": [
+   2,
+   2,
+   14,
+   15
+  ],
+  "david-gilbert__pang-junxu": [
+   1,
+   0,
+   5,
+   3
+  ],
+  "pang-junxu__yuan-sijun": [
+   2,
+   1,
+   7,
+   7
+  ],
+  "jackson-page__pang-junxu": [
+   3,
+   1,
+   18,
+   16
+  ],
+  "aaron-hill__pang-junxu": [
+   1,
+   1,
+   6,
+   8
+  ],
+  "anthony-mcgill__pang-junxu": [
+   2,
+   2,
+   11,
+   15
+  ],
+  "pang-junxu__stan-moody": [
+   2,
+   1,
+   10,
+   7
+  ],
+  "luca-brecel__pang-junxu": [
+   3,
+   5,
+   20,
+   28
+  ],
+  "pang-junxu__ryan-day": [
+   0,
+   2,
+   2,
+   6
+  ],
+  "pang-junxu__zak-surety": [
+   1,
+   2,
+   8,
+   8
+  ],
+  "jimmy-robertson__pang-junxu": [
+   2,
+   0,
+   8,
+   4
+  ],
+  "michael-holt__pang-junxu": [
+   0,
+   1,
+   2,
+   5
+  ],
+  "matthew-selt__pang-junxu": [
+   0,
+   3,
+   3,
+   14
+  ],
+  "daniel-wells__pang-junxu": [
+   0,
+   1,
+   3,
+   4
+  ],
+  "long-zehuang__pang-junxu": [
+   1,
+   0,
+   5,
+   3
+  ],
+  "pang-junxu__robbie-williams": [
+   3,
+   5,
+   17,
+   26
+  ],
+  "oliver-lines__pang-junxu": [
+   1,
+   2,
+   7,
+   9
+  ],
+  "fan-zhengyi__pang-junxu": [
+   0,
+   4,
+   10,
+   17
+  ],
+  "martin-odonnell__pang-junxu": [
+   0,
+   2,
+   2,
+   8
+  ],
+  "pang-junxu__ricky-walden": [
+   2,
+   1,
+   8,
+   5
+  ],
+  "ben-mertens__pang-junxu": [
+   1,
+   1,
+   3,
+   4
+  ],
+  "jiang-jun__pang-junxu": [
+   1,
+   0,
+   3,
+   1
+  ],
+  "jordan-brown__pang-junxu": [
+   1,
+   2,
+   6,
+   7
+  ],
+  "hossein-vafaei__noppon-saengkham": [
+   3,
+   1,
+   23,
+   13
+  ],
+  "jak-jones__noppon-saengkham": [
+   1,
+   2,
+   12,
+   16
+  ],
+  "joe-oconnor__noppon-saengkham": [
+   3,
+   1,
+   9,
+   7
+  ],
+  "noppon-saengkham__stephen-maguire": [
+   5,
+   3,
+   32,
+   26
+  ],
+  "noppon-saengkham__yuan-sijun": [
+   1,
+   3,
+   14,
+   15
+  ],
+  "noppon-saengkham__tom-ford": [
+   5,
+   6,
+   37,
+   42
+  ],
+  "jackson-page__noppon-saengkham": [
+   2,
+   2,
+   19,
+   21
+  ],
+  "aaron-hill__noppon-saengkham": [
+   0,
+   1,
+   2,
+   6
+  ],
+  "noppon-saengkham__xu-si": [
+   3,
+   1,
+   13,
+   7
+  ],
+  "anthony-mcgill__noppon-saengkham": [
+   0,
+   3,
+   4,
+   15
+  ],
+  "noppon-saengkham__stan-moody": [
+   1,
+   0,
+   1,
+   0
+  ],
+  "luca-brecel__noppon-saengkham": [
+   4,
+   2,
+   26,
+   18
+  ],
+  "noppon-saengkham__ryan-day": [
+   1,
+   5,
+   15,
+   23
+  ],
+  "noppon-saengkham__zak-surety": [
+   0,
+   1,
+   0,
+   4
+  ],
+  "jimmy-robertson__noppon-saengkham": [
+   3,
+   3,
+   20,
+   24
+  ],
+  "michael-holt__noppon-saengkham": [
+   3,
+   1,
+   22,
+   13
+  ],
+  "ben-woollaston__noppon-saengkham": [
+   2,
+   3,
+   14,
+   15
+  ],
+  "matthew-selt__noppon-saengkham": [
+   1,
+   3,
+   10,
+   15
+  ],
+  "daniel-wells__noppon-saengkham": [
+   2,
+   2,
+   6,
+   11
+  ],
+  "matthew-stevens__noppon-saengkham": [
+   0,
+   2,
+   6,
+   11
+  ],
+  "long-zehuang__noppon-saengkham": [
+   1,
+   0,
+   1,
+   0
+  ],
+  "noppon-saengkham__robbie-williams": [
+   1,
+   1,
+   5,
+   7
+  ],
+  "noppon-saengkham__oliver-lines": [
+   2,
+   4,
+   17,
+   24
+  ],
+  "fan-zhengyi__noppon-saengkham": [
+   0,
+   1,
+   3,
+   4
+  ],
+  "martin-odonnell__noppon-saengkham": [
+   1,
+   1,
+   7,
+   10
+  ],
+  "liu-hongyu__noppon-saengkham": [
+   0,
+   2,
+   0,
+   4
+  ],
+  "noppon-saengkham__ricky-walden": [
+   5,
+   2,
+   32,
+   25
+  ],
+  "david-lilley__noppon-saengkham": [
+   0,
+   2,
+   1,
+   4
+  ],
+  "ben-mertens__noppon-saengkham": [
+   0,
+   2,
+   0,
+   5
+  ],
+  "jamie-jones__noppon-saengkham": [
+   1,
+   2,
+   8,
+   13
+  ],
+  "lyu-haotian__noppon-saengkham": [
+   0,
+   1,
+   1,
+   5
+  ],
+  "jordan-brown__noppon-saengkham": [
+   0,
+   3,
+   4,
+   11
+  ],
+  "hossein-vafaei__jak-jones": [
+   5,
+   4,
+   24,
+   23
+  ],
+  "hossein-vafaei__joe-oconnor": [
+   1,
+   1,
+   7,
+   6
+  ],
+  "hossein-vafaei__stephen-maguire": [
+   1,
+   1,
+   12,
+   10
+  ],
+  "david-gilbert__hossein-vafaei": [
+   1,
+   1,
+   7,
+   6
+  ],
+  "hossein-vafaei__yuan-sijun": [
+   2,
+   0,
+   9,
+   6
+  ],
+  "hossein-vafaei__tom-ford": [
+   1,
+   2,
+   13,
+   14
+  ],
+  "hossein-vafaei__jackson-page": [
+   1,
+   3,
+   14,
+   18
+  ],
+  "aaron-hill__hossein-vafaei": [
+   0,
+   2,
+   5,
+   8
+  ],
+  "hossein-vafaei__xu-si": [
+   1,
+   1,
+   7,
+   8
+  ],
+  "anthony-mcgill__hossein-vafaei": [
+   4,
+   2,
+   33,
+   18
+  ],
+  "hossein-vafaei__luca-brecel": [
+   1,
+   3,
+   7,
+   16
+  ],
+  "hossein-vafaei__ryan-day": [
+   5,
+   3,
+   29,
+   23
+  ],
+  "hossein-vafaei__zak-surety": [
+   2,
+   0,
+   9,
+   5
+  ],
+  "he-guoqiang__hossein-vafaei": [
+   1,
+   1,
+   6,
+   8
+  ],
+  "hossein-vafaei__michael-holt": [
+   2,
+   0,
+   11,
+   5
+  ],
+  "ben-woollaston__hossein-vafaei": [
+   2,
+   4,
+   18,
+   24
+  ],
+  "daniel-wells__hossein-vafaei": [
+   2,
+   0,
+   14,
+   9
+  ],
+  "hossein-vafaei__matthew-stevens": [
+   2,
+   0,
+   9,
+   4
+  ],
+  "hossein-vafaei__long-zehuang": [
+   0,
+   1,
+   0,
+   3
+  ],
+  "hossein-vafaei__robbie-williams": [
+   2,
+   0,
+   10,
+   7
+  ],
+  "fan-zhengyi__hossein-vafaei": [
+   0,
+   2,
+   4,
+   8
+  ],
+  "hossein-vafaei__martin-odonnell": [
+   1,
+   1,
+   9,
+   5
+  ],
+  "david-lilley__hossein-vafaei": [
+   0,
+   1,
+   1,
+   6
+  ],
+  "ben-mertens__hossein-vafaei": [
+   0,
+   2,
+   4,
+   10
+  ],
+  "hossein-vafaei__jamie-jones": [
+   2,
+   1,
+   7,
+   4
+  ],
+  "hossein-vafaei__lyu-haotian": [
+   2,
+   1,
+   9,
+   6
+  ],
+  "hossein-vafaei__ishpreet-singh-chadha": [
+   1,
+   1,
+   6,
+   5
+  ],
+  "hossein-vafaei__jiang-jun": [
+   1,
+   1,
+   10,
+   10
+  ],
+  "hossein-vafaei__jordan-brown": [
+   1,
+   1,
+   10,
+   9
+  ],
+  "jak-jones__joe-oconnor": [
+   3,
+   4,
+   14,
+   20
+  ],
+  "jak-jones__stephen-maguire": [
+   0,
+   1,
+   0,
+   6
+  ],
+  "david-gilbert__jak-jones": [
+   4,
+   2,
+   20,
+   16
+  ],
+  "jak-jones__tom-ford": [
+   3,
+   0,
+   10,
+   4
+  ],
+  "jackson-page__jak-jones": [
+   2,
+   0,
+   6,
+   2
+  ],
+  "aaron-hill__jak-jones": [
+   0,
+   2,
+   4,
+   11
+  ],
+  "jak-jones__xu-si": [
+   2,
+   1,
+   8,
+   6
+  ],
+  "anthony-mcgill__jak-jones": [
+   3,
+   2,
+   17,
+   12
+  ],
+  "jak-jones__stan-moody": [
+   0,
+   1,
+   0,
+   4
+  ],
+  "jak-jones__luca-brecel": [
+   4,
+   1,
+   24,
+   20
+  ],
+  "jak-jones__ryan-day": [
+   3,
+   4,
+   18,
+   24
+  ],
+  "jak-jones__jimmy-robertson": [
+   2,
+   6,
+   20,
+   30
+  ],
+  "jak-jones__michael-holt": [
+   1,
+   2,
+   11,
+   13
+  ],
+  "ben-woollaston__jak-jones": [
+   2,
+   2,
+   14,
+   14
+  ],
+  "jak-jones__matthew-selt": [
+   6,
+   4,
+   27,
+   28
+  ],
+  "daniel-wells__jak-jones": [
+   1,
+   0,
+   2,
+   1
+  ],
+  "jak-jones__matthew-stevens": [
+   2,
+   2,
+   10,
+   11
+  ],
+  "jak-jones__robbie-williams": [
+   2,
+   1,
+   22,
+   22
+  ],
+  "jak-jones__oliver-lines": [
+   2,
+   2,
+   14,
+   14
+  ],
+  "jak-jones__martin-odonnell": [
+   1,
+   2,
+   10,
+   10
+  ],
+  "jak-jones__liu-hongyu": [
+   1,
+   0,
+   4,
+   3
+  ],
+  "jak-jones__ricky-walden": [
+   2,
+   3,
+   13,
+   19
+  ],
+  "david-lilley__jak-jones": [
+   0,
+   1,
+   3,
+   5
+  ],
+  "ben-mertens__jak-jones": [
+   1,
+   0,
+   3,
+   0
+  ],
+  "jak-jones__jamie-jones": [
+   3,
+   4,
+   15,
+   23
+  ],
+  "jak-jones__lyu-haotian": [
+   3,
+   0,
+   12,
+   8
+  ],
+  "jak-jones__jiang-jun": [
+   0,
+   1,
+   3,
+   6
+  ],
+  "jak-jones__jordan-brown": [
+   5,
+   0,
+   16,
+   3
+  ],
+  "joe-oconnor__stephen-maguire": [
+   3,
+   4,
+   25,
+   25
+  ],
+  "david-gilbert__joe-oconnor": [
+   1,
+   2,
+   5,
+   7
+  ],
+  "joe-oconnor__yuan-sijun": [
+   1,
+   2,
+   7,
+   8
+  ],
+  "joe-oconnor__tom-ford": [
+   3,
+   5,
+   19,
+   24
+  ],
+  "jackson-page__joe-oconnor": [
+   0,
+   4,
+   9,
+   19
+  ],
+  "aaron-hill__joe-oconnor": [
+   1,
+   1,
+   5,
+   8
+  ],
+  "joe-oconnor__xu-si": [
+   2,
+   1,
+   8,
+   9
+  ],
+  "anthony-mcgill__joe-oconnor": [
+   3,
+   2,
+   19,
+   18
+  ],
+  "joe-oconnor__stan-moody": [
+   1,
+   1,
+   6,
+   7
+  ],
+  "joe-oconnor__luca-brecel": [
+   1,
+   3,
+   7,
+   18
+  ],
+  "joe-oconnor__ryan-day": [
+   1,
+   3,
+   14,
+   15
+  ],
+  "joe-oconnor__zak-surety": [
+   5,
+   1,
+   20,
+   10
+  ],
+  "jimmy-robertson__joe-oconnor": [
+   1,
+   2,
+   15,
+   14
+  ],
+  "joe-oconnor__michael-holt": [
+   1,
+   2,
+   11,
+   15
+  ],
+  "ben-woollaston__joe-oconnor": [
+   1,
+   3,
+   13,
+   21
+  ],
+  "joe-oconnor__matthew-selt": [
+   3,
+   6,
+   30,
+   36
+  ],
+  "daniel-wells__joe-oconnor": [
+   1,
+   1,
+   7,
+   7
+  ],
+  "joe-oconnor__matthew-stevens": [
+   1,
+   1,
+   5,
+   5
+  ],
+  "joe-oconnor__long-zehuang": [
+   0,
+   1,
+   3,
+   4
+  ],
+  "joe-oconnor__robbie-williams": [
+   1,
+   1,
+   5,
+   3
+  ],
+  "joe-oconnor__oliver-lines": [
+   2,
+   1,
+   12,
+   10
+  ],
+  "fan-zhengyi__joe-oconnor": [
+   0,
+   1,
+   1,
+   3
+  ],
+  "joe-oconnor__martin-odonnell": [
+   0,
+   1,
+   3,
+   4
+  ],
+  "joe-oconnor__liu-hongyu": [
+   0,
+   2,
+   2,
+   7
+  ],
+  "joe-oconnor__ricky-walden": [
+   4,
+   3,
+   21,
+   15
+  ],
+  "david-lilley__joe-oconnor": [
+   2,
+   0,
+   6,
+   0
+  ],
+  "jamie-jones__joe-oconnor": [
+   1,
+   0,
+   4,
+   2
+  ],
+  "joe-oconnor__lyu-haotian": [
+   4,
+   1,
+   18,
+   10
+  ],
+  "jiang-jun__joe-oconnor": [
+   0,
+   1,
+   4,
+   5
+  ],
+  "joe-oconnor__jordan-brown": [
+   1,
+   1,
+   6,
+   4
+  ],
+  "stephen-maguire__yuan-sijun": [
+   5,
+   2,
+   33,
+   21
+  ],
+  "stephen-maguire__tom-ford": [
+   6,
+   7,
+   37,
+   38
+  ],
+  "jackson-page__stephen-maguire": [
+   0,
+   1,
+   0,
+   3
+  ],
+  "aaron-hill__stephen-maguire": [
+   1,
+   1,
+   4,
+   5
+  ],
+  "stephen-maguire__xu-si": [
+   4,
+   0,
+   20,
+   8
+  ],
+  "anthony-mcgill__stephen-maguire": [
+   8,
+   5,
+   45,
+   47
+  ],
+  "stan-moody__stephen-maguire": [
+   0,
+   1,
+   2,
+   5
+  ],
+  "luca-brecel__stephen-maguire": [
+   2,
+   6,
+   30,
+   40
+  ],
+  "ryan-day__stephen-maguire": [
+   5,
+   18,
+   66,
+   95
+  ],
+  "stephen-maguire__zak-surety": [
+   2,
+   1,
+   11,
+   8
+  ],
+  "he-guoqiang__stephen-maguire": [
+   1,
+   0,
+   4,
+   1
+  ],
+  "michael-holt__stephen-maguire": [
+   5,
+   7,
+   40,
+   44
+  ],
+  "ben-woollaston__stephen-maguire": [
+   0,
+   4,
+   7,
+   18
+  ],
+  "matthew-selt__stephen-maguire": [
+   2,
+   6,
+   12,
+   22
+  ],
+  "daniel-wells__stephen-maguire": [
+   1,
+   6,
+   14,
+   28
+  ],
+  "matthew-stevens__stephen-maguire": [
+   3,
+   9,
+   31,
+   45
+  ],
+  "robbie-williams__stephen-maguire": [
+   1,
+   2,
+   6,
+   11
+  ],
+  "oliver-lines__stephen-maguire": [
+   0,
+   2,
+   5,
+   9
+  ],
+  "fan-zhengyi__stephen-maguire": [
+   1,
+   0,
+   10,
+   6
+  ],
+  "martin-odonnell__stephen-maguire": [
+   2,
+   1,
+   10,
+   7
+  ],
+  "ricky-walden__stephen-maguire": [
+   3,
+   14,
+   40,
+   66
+  ],
+  "ben-mertens__stephen-maguire": [
+   0,
+   2,
+   0,
+   7
+  ],
+  "jamie-jones__stephen-maguire": [
+   2,
+   0,
+   15,
+   4
+  ],
+  "lyu-haotian__stephen-maguire": [
+   1,
+   1,
+   4,
+   3
+  ],
+  "jiang-jun__stephen-maguire": [
+   0,
+   2,
+   5,
+   10
+  ],
+  "jordan-brown__stephen-maguire": [
+   2,
+   3,
+   16,
+   19
+  ],
+  "david-gilbert__yuan-sijun": [
+   1,
+   2,
+   6,
+   10
+  ],
+  "david-gilbert__tom-ford": [
+   4,
+   3,
+   31,
+   28
+  ],
+  "david-gilbert__jackson-page": [
+   2,
+   1,
+   10,
+   7
+  ],
+  "aaron-hill__david-gilbert": [
+   0,
+   4,
+   16,
+   27
+  ],
+  "david-gilbert__xu-si": [
+   1,
+   2,
+   9,
+   10
+  ],
+  "anthony-mcgill__david-gilbert": [
+   8,
+   8,
+   40,
+   46
+  ],
+  "david-gilbert__luca-brecel": [
+   2,
+   1,
+   18,
+   18
+  ],
+  "david-gilbert__ryan-day": [
+   7,
+   5,
+   37,
+   30
+  ],
+  "david-gilbert__zak-surety": [
+   3,
+   0,
+   13,
+   4
+  ],
+  "david-gilbert__jimmy-robertson": [
+   5,
+   2,
+   37,
+   30
+  ],
+  "david-gilbert__michael-holt": [
+   3,
+   2,
+   17,
+   16
+  ],
+  "ben-woollaston__david-gilbert": [
+   5,
+   6,
+   28,
+   30
+  ],
+  "david-gilbert__matthew-selt": [
+   3,
+   3,
+   17,
+   21
+  ],
+  "daniel-wells__david-gilbert": [
+   2,
+   3,
+   16,
+   16
+  ],
+  "david-gilbert__matthew-stevens": [
+   8,
+   7,
+   55,
+   48
+  ],
+  "david-gilbert__robbie-williams": [
+   5,
+   3,
+   28,
+   24
+  ],
+  "david-gilbert__oliver-lines": [
+   3,
+   1,
+   16,
+   11
+  ],
+  "david-gilbert__fan-zhengyi": [
+   1,
+   3,
+   13,
+   15
+  ],
+  "david-gilbert__martin-odonnell": [
+   4,
+   3,
+   23,
+   19
+  ],
+  "david-gilbert__liu-hongyu": [
+   0,
+   1,
+   1,
+   3
+  ],
+  "david-gilbert__ricky-walden": [
+   8,
+   7,
+   38,
+   38
+  ],
+  "david-gilbert__david-lilley": [
+   3,
+   0,
+   17,
+   6
+  ],
+  "ben-mertens__david-gilbert": [
+   1,
+   1,
+   8,
+   8
+  ],
+  "david-gilbert__jamie-jones": [
+   0,
+   1,
+   2,
+   6
+  ],
+  "david-gilbert__lyu-haotian": [
+   4,
+   2,
+   19,
+   17
+  ],
+  "david-gilbert__ishpreet-singh-chadha": [
+   1,
+   0,
+   4,
+   1
+  ],
+  "david-gilbert__jiang-jun": [
+   0,
+   1,
+   3,
+   4
+  ],
+  "david-gilbert__jordan-brown": [
+   3,
+   5,
+   27,
+   32
+  ],
+  "tom-ford__yuan-sijun": [
+   4,
+   3,
+   24,
+   16
+  ],
+  "jackson-page__yuan-sijun": [
+   2,
+   0,
+   11,
+   4
+  ],
+  "aaron-hill__yuan-sijun": [
+   0,
+   2,
+   1,
+   9
+  ],
+  "xu-si__yuan-sijun": [
+   0,
+   1,
+   4,
+   5
+  ],
+  "anthony-mcgill__yuan-sijun": [
+   1,
+   1,
+   5,
+   4
+  ],
+  "stan-moody__yuan-sijun": [
+   0,
+   2,
+   2,
+   9
+  ],
+  "luca-brecel__yuan-sijun": [
+   2,
+   0,
+   11,
+   6
+  ],
+  "jimmy-robertson__yuan-sijun": [
+   2,
+   1,
+   11,
+   7
+  ],
+  "michael-holt__yuan-sijun": [
+   2,
+   1,
+   15,
+   11
+  ],
+  "ben-woollaston__yuan-sijun": [
+   0,
+   3,
+   7,
+   12
+  ],
+  "matthew-selt__yuan-sijun": [
+   2,
+   1,
+   10,
+   6
+  ],
+  "daniel-wells__yuan-sijun": [
+   0,
+   1,
+   1,
+   4
+  ],
+  "matthew-stevens__yuan-sijun": [
+   2,
+   0,
+   11,
+   9
+  ],
+  "robbie-williams__yuan-sijun": [
+   1,
+   2,
+   9,
+   14
+  ],
+  "oliver-lines__yuan-sijun": [
+   1,
+   0,
+   4,
+   3
+  ],
+  "fan-zhengyi__yuan-sijun": [
+   0,
+   1,
+   0,
+   2
+  ],
+  "ricky-walden__yuan-sijun": [
+   0,
+   4,
+   9,
+   20
+  ],
+  "david-lilley__yuan-sijun": [
+   1,
+   0,
+   3,
+   1
+  ],
+  "ben-mertens__yuan-sijun": [
+   1,
+   2,
+   10,
+   18
+  ],
+  "jamie-jones__yuan-sijun": [
+   2,
+   2,
+   14,
+   13
+  ],
+  "lyu-haotian__yuan-sijun": [
+   2,
+   0,
+   8,
+   3
+  ],
+  "ishpreet-singh-chadha__yuan-sijun": [
+   0,
+   3,
+   7,
+   14
+  ],
+  "jiang-jun__yuan-sijun": [
+   2,
+   0,
+   10,
+   4
+  ],
+  "jordan-brown__yuan-sijun": [
+   0,
+   2,
+   2,
+   5
+  ],
+  "jackson-page__tom-ford": [
+   2,
+   2,
+   10,
+   11
+  ],
+  "aaron-hill__tom-ford": [
+   2,
+   1,
+   10,
+   8
+  ],
+  "tom-ford__xu-si": [
+   3,
+   1,
+   15,
+   13
+  ],
+  "anthony-mcgill__tom-ford": [
+   3,
+   2,
+   15,
+   11
+  ],
+  "stan-moody__tom-ford": [
+   1,
+   2,
+   13,
+   13
+  ],
+  "luca-brecel__tom-ford": [
+   3,
+   3,
+   21,
+   28
+  ],
+  "ryan-day__tom-ford": [
+   5,
+   5,
+   34,
+   23
+  ],
+  "tom-ford__zak-surety": [
+   3,
+   1,
+   15,
+   10
+  ],
+  "jimmy-robertson__tom-ford": [
+   3,
+   7,
+   23,
+   32
+  ],
+  "michael-holt__tom-ford": [
+   1,
+   3,
+   11,
+   18
+  ],
+  "ben-woollaston__tom-ford": [
+   7,
+   7,
+   43,
+   42
+  ],
+  "matthew-selt__tom-ford": [
+   7,
+   5,
+   36,
+   31
+  ],
+  "daniel-wells__tom-ford": [
+   3,
+   4,
+   19,
+   26
+  ],
+  "matthew-stevens__tom-ford": [
+   3,
+   3,
+   22,
+   27
+  ],
+  "long-zehuang__tom-ford": [
+   1,
+   1,
+   2,
+   4
+  ],
+  "robbie-williams__tom-ford": [
+   2,
+   0,
+   9,
+   6
+  ],
+  "oliver-lines__tom-ford": [
+   2,
+   1,
+   14,
+   10
+  ],
+  "fan-zhengyi__tom-ford": [
+   1,
+   0,
+   5,
+   3
+  ],
+  "martin-odonnell__tom-ford": [
+   5,
+   5,
+   29,
+   25
+  ],
+  "ricky-walden__tom-ford": [
+   5,
+   5,
+   39,
+   40
+  ],
+  "david-lilley__tom-ford": [
+   3,
+   1,
+   13,
+   10
+  ],
+  "jamie-jones__tom-ford": [
+   1,
+   5,
+   22,
+   26
+  ],
+  "lyu-haotian__tom-ford": [
+   3,
+   4,
+   21,
+   25
+  ],
+  "jiang-jun__tom-ford": [
+   1,
+   0,
+   4,
+   2
+  ],
+  "jordan-brown__tom-ford": [
+   0,
+   3,
+   10,
+   17
+  ],
+  "aaron-hill__jackson-page": [
+   1,
+   2,
+   6,
+   8
+  ],
+  "jackson-page__xu-si": [
+   0,
+   1,
+   1,
+   3
+  ],
+  "anthony-mcgill__jackson-page": [
+   1,
+   0,
+   5,
+   2
+  ],
+  "jackson-page__luca-brecel": [
+   2,
+   3,
+   15,
+   15
+  ],
+  "jackson-page__ryan-day": [
+   0,
+   3,
+   9,
+   14
+  ],
+  "jackson-page__zak-surety": [
+   1,
+   0,
+   2,
+   1
+  ],
+  "jackson-page__jimmy-robertson": [
+   2,
+   3,
+   9,
+   16
+  ],
+  "jackson-page__michael-holt": [
+   1,
+   2,
+   4,
+   10
+  ],
+  "ben-woollaston__jackson-page": [
+   1,
+   0,
+   4,
+   0
+  ],
+  "jackson-page__matthew-selt": [
+   0,
+   2,
+   4,
+   7
+  ],
+  "jackson-page__long-zehuang": [
+   0,
+   1,
+   0,
+   5
+  ],
+  "jackson-page__robbie-williams": [
+   1,
+   2,
+   8,
+   11
+  ],
+  "jackson-page__oliver-lines": [
+   1,
+   1,
+   7,
+   6
+  ],
+  "fan-zhengyi__jackson-page": [
+   0,
+   1,
+   0,
+   1
+  ],
+  "jackson-page__liu-hongyu": [
+   1,
+   0,
+   5,
+   3
+  ],
+  "jackson-page__ricky-walden": [
+   0,
+   5,
+   9,
+   20
+  ],
+  "david-lilley__jackson-page": [
+   2,
+   1,
+   8,
+   4
+  ],
+  "ben-mertens__jackson-page": [
+   1,
+   1,
+   8,
+   8
+  ],
+  "jackson-page__lyu-haotian": [
+   0,
+   1,
+   0,
+   4
+  ],
+  "ishpreet-singh-chadha__jackson-page": [
+   0,
+   1,
+   2,
+   4
+  ],
+  "jackson-page__jiang-jun": [
+   0,
+   1,
+   4,
+   6
+  ],
+  "jackson-page__jordan-brown": [
+   1,
+   0,
+   3,
+   1
+  ],
+  "aaron-hill__xu-si": [
+   1,
+   0,
+   3,
+   1
+  ],
+  "aaron-hill__anthony-mcgill": [
+   1,
+   0,
+   10,
+   5
+  ],
+  "aaron-hill__stan-moody": [
+   1,
+   0,
+   5,
+   4
+  ],
+  "aaron-hill__luca-brecel": [
+   0,
+   1,
+   1,
+   3
+  ],
+  "aaron-hill__zak-surety": [
+   1,
+   1,
+   9,
+   7
+  ],
+  "aaron-hill__he-guoqiang": [
+   1,
+   0,
+   5,
+   3
+  ],
+  "aaron-hill__jimmy-robertson": [
+   1,
+   2,
+   12,
+   12
+  ],
+  "aaron-hill__ben-woollaston": [
+   1,
+   0,
+   5,
+   1
+  ],
+  "aaron-hill__matthew-selt": [
+   0,
+   2,
+   6,
+   16
+  ],
+  "aaron-hill__matthew-stevens": [
+   1,
+   0,
+   5,
+   3
+  ],
+  "aaron-hill__long-zehuang": [
+   0,
+   1,
+   1,
+   6
+  ],
+  "aaron-hill__robbie-williams": [
+   0,
+   1,
+   2,
+   4
+  ],
+  "aaron-hill__oliver-lines": [
+   1,
+   0,
+   3,
+   1
+  ],
+  "aaron-hill__fan-zhengyi": [
+   2,
+   2,
+   14,
+   14
+  ],
+  "aaron-hill__martin-odonnell": [
+   1,
+   1,
+   5,
+   4
+  ],
+  "aaron-hill__david-lilley": [
+   1,
+   0,
+   4,
+   1
+  ],
+  "aaron-hill__lyu-haotian": [
+   0,
+   1,
+   4,
+   5
+  ],
+  "stan-moody__xu-si": [
+   0,
+   2,
+   8,
+   11
+  ],
+  "luca-brecel__xu-si": [
+   1,
+   0,
+   6,
+   2
+  ],
+  "ryan-day__xu-si": [
+   2,
+   2,
+   12,
+   11
+  ],
+  "xu-si__zak-surety": [
+   1,
+   0,
+   10,
+   4
+  ],
+  "jimmy-robertson__xu-si": [
+   1,
+   4,
+   11,
+   17
+  ],
+  "michael-holt__xu-si": [
+   2,
+   1,
+   10,
+   3
+  ],
+  "ben-woollaston__xu-si": [
+   2,
+   0,
+   9,
+   1
+  ],
+  "matthew-selt__xu-si": [
+   1,
+   3,
+   10,
+   12
+  ],
+  "daniel-wells__xu-si": [
+   1,
+   0,
+   5,
+   3
+  ],
+  "matthew-stevens__xu-si": [
+   0,
+   1,
+   2,
+   4
+  ],
+  "long-zehuang__xu-si": [
+   1,
+   0,
+   4,
+   0
+  ],
+  "robbie-williams__xu-si": [
+   1,
+   0,
+   4,
+   2
+  ],
+  "oliver-lines__xu-si": [
+   2,
+   1,
+   6,
+   9
+  ],
+  "fan-zhengyi__xu-si": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "martin-odonnell__xu-si": [
+   2,
+   0,
+   10,
+   7
+  ],
+  "liu-hongyu__xu-si": [
+   0,
+   1,
+   8,
+   10
+  ],
+  "ricky-walden__xu-si": [
+   4,
+   2,
+   22,
+   15
+  ],
+  "david-lilley__xu-si": [
+   0,
+   1,
+   0,
+   3
+  ],
+  "ben-mertens__xu-si": [
+   1,
+   0,
+   3,
+   1
+  ],
+  "jamie-jones__xu-si": [
+   1,
+   4,
+   24,
+   33
+  ],
+  "lyu-haotian__xu-si": [
+   3,
+   0,
+   13,
+   6
+  ],
+  "jiang-jun__xu-si": [
+   0,
+   1,
+   4,
+   5
+  ],
+  "anthony-mcgill__stan-moody": [
+   1,
+   0,
+   5,
+   3
+  ],
+  "anthony-mcgill__luca-brecel": [
+   1,
+   6,
+   21,
+   33
+  ],
+  "anthony-mcgill__ryan-day": [
+   7,
+   7,
+   47,
+   40
+  ],
+  "anthony-mcgill__he-guoqiang": [
+   1,
+   2,
+   16,
+   19
+  ],
+  "anthony-mcgill__jimmy-robertson": [
+   2,
+   4,
+   27,
+   30
+  ],
+  "anthony-mcgill__michael-holt": [
+   7,
+   1,
+   32,
+   19
+  ],
+  "anthony-mcgill__ben-woollaston": [
+   2,
+   3,
+   11,
+   15
+  ],
+  "anthony-mcgill__matthew-selt": [
+   7,
+   1,
+   30,
+   17
+  ],
+  "anthony-mcgill__daniel-wells": [
+   1,
+   1,
+   4,
+   5
+  ],
+  "anthony-mcgill__long-zehuang": [
+   1,
+   0,
+   4,
+   1
+  ],
+  "anthony-mcgill__robbie-williams": [
+   0,
+   3,
+   2,
+   12
+  ],
+  "anthony-mcgill__oliver-lines": [
+   5,
+   0,
+   18,
+   3
+  ],
+  "anthony-mcgill__martin-odonnell": [
+   2,
+   0,
+   16,
+   13
+  ],
+  "anthony-mcgill__ricky-walden": [
+   4,
+   1,
+   26,
+   16
+  ],
+  "anthony-mcgill__david-lilley": [
+   1,
+   0,
+   4,
+   0
+  ],
+  "anthony-mcgill__jamie-jones": [
+   1,
+   1,
+   5,
+   8
+  ],
+  "anthony-mcgill__lyu-haotian": [
+   3,
+   2,
+   15,
+   15
+  ],
+  "anthony-mcgill__ishpreet-singh-chadha": [
+   1,
+   1,
+   10,
+   7
+  ],
+  "anthony-mcgill__jordan-brown": [
+   2,
+   1,
+   15,
+   12
+  ],
+  "luca-brecel__stan-moody": [
+   1,
+   0,
+   4,
+   3
+  ],
+  "ryan-day__stan-moody": [
+   3,
+   3,
+   23,
+   20
+  ],
+  "he-guoqiang__stan-moody": [
+   2,
+   0,
+   12,
+   8
+  ],
+  "jimmy-robertson__stan-moody": [
+   2,
+   1,
+   15,
+   15
+  ],
+  "michael-holt__stan-moody": [
+   0,
+   1,
+   0,
+   4
+  ],
+  "ben-woollaston__stan-moody": [
+   0,
+   1,
+   3,
+   4
+  ],
+  "daniel-wells__stan-moody": [
+   0,
+   1,
+   1,
+   3
+  ],
+  "matthew-stevens__stan-moody": [
+   0,
+   1,
+   2,
+   5
+  ],
+  "robbie-williams__stan-moody": [
+   0,
+   1,
+   5,
+   10
+  ],
+  "oliver-lines__stan-moody": [
+   2,
+   0,
+   5,
+   1
+  ],
+  "fan-zhengyi__stan-moody": [
+   1,
+   0,
+   6,
+   3
+  ],
+  "jiang-jun__stan-moody": [
+   0,
+   2,
+   13,
+   15
+  ],
+  "jordan-brown__stan-moody": [
+   0,
+   1,
+   3,
+   4
+  ],
+  "luca-brecel__ryan-day": [
+   4,
+   5,
+   37,
+   34
+  ],
+  "luca-brecel__zak-surety": [
+   1,
+   0,
+   2,
+   0
+  ],
+  "he-guoqiang__luca-brecel": [
+   0,
+   1,
+   3,
+   4
+  ],
+  "jimmy-robertson__luca-brecel": [
+   6,
+   6,
+   33,
+   33
+  ],
+  "luca-brecel__michael-holt": [
+   3,
+   1,
+   22,
+   21
+  ],
+  "ben-woollaston__luca-brecel": [
+   1,
+   1,
+   1,
+   1
+  ],
+  "luca-brecel__matthew-selt": [
+   3,
+   2,
+   20,
+   17
+  ],
+  "daniel-wells__luca-brecel": [
+   0,
+   5,
+   10,
+   24
+  ],
+  "luca-brecel__matthew-stevens": [
+   2,
+   2,
+   16,
+   12
+  ],
+  "long-zehuang__luca-brecel": [
+   0,
+   1,
+   0,
+   1
+  ],
+  "luca-brecel__robbie-williams": [
+   3,
+   1,
+   17,
+   13
+  ],
+  "luca-brecel__oliver-lines": [
+   2,
+   0,
+   7,
+   2
+  ],
+  "fan-zhengyi__luca-brecel": [
+   1,
+   1,
+   5,
+   6
+  ],
+  "luca-brecel__martin-odonnell": [
+   0,
+   4,
+   9,
+   18
+  ],
+  "luca-brecel__ricky-walden": [
+   7,
+   3,
+   43,
+   41
+  ],
+  "david-lilley__luca-brecel": [
+   0,
+   1,
+   1,
+   4
+  ],
+  "jamie-jones__luca-brecel": [
+   1,
+   4,
+   7,
+   21
+  ],
+  "luca-brecel__lyu-haotian": [
+   2,
+   2,
+   10,
+   12
+  ],
+  "ishpreet-singh-chadha__luca-brecel": [
+   1,
+   1,
+   8,
+   7
+  ],
+  "jiang-jun__luca-brecel": [
+   1,
+   2,
+   11,
+   12
+  ],
+  "jordan-brown__luca-brecel": [
+   1,
+   1,
+   7,
+   9
+  ],
+  "ryan-day__zak-surety": [
+   1,
+   1,
+   7,
+   6
+  ],
+  "he-guoqiang__ryan-day": [
+   1,
+   0,
+   4,
+   3
+  ],
+  "jimmy-robertson__ryan-day": [
+   2,
+   4,
+   9,
+   16
+  ],
+  "michael-holt__ryan-day": [
+   6,
+   3,
+   17,
+   12
+  ],
+  "ben-woollaston__ryan-day": [
+   4,
+   2,
+   25,
+   22
+  ],
+  "matthew-selt__ryan-day": [
+   9,
+   11,
+   48,
+   60
+  ],
+  "daniel-wells__ryan-day": [
+   1,
+   3,
+   13,
+   19
+  ],
+  "matthew-stevens__ryan-day": [
+   11,
+   8,
+   75,
+   65
+  ],
+  "long-zehuang__ryan-day": [
+   0,
+   1,
+   3,
+   5
+  ],
+  "robbie-williams__ryan-day": [
+   0,
+   3,
+   10,
+   15
+  ],
+  "oliver-lines__ryan-day": [
+   2,
+   2,
+   14,
+   17
+  ],
+  "fan-zhengyi__ryan-day": [
+   2,
+   1,
+   12,
+   10
+  ],
+  "martin-odonnell__ryan-day": [
+   0,
+   1,
+   1,
+   4
+  ],
+  "liu-hongyu__ryan-day": [
+   0,
+   1,
+   3,
+   5
+  ],
+  "ricky-walden__ryan-day": [
+   10,
+   9,
+   63,
+   50
+  ],
+  "david-lilley__ryan-day": [
+   3,
+   1,
+   16,
+   9
+  ],
+  "ben-mertens__ryan-day": [
+   0,
+   2,
+   4,
+   9
+  ],
+  "jamie-jones__ryan-day": [
+   0,
+   4,
+   2,
+   12
+  ],
+  "lyu-haotian__ryan-day": [
+   1,
+   3,
+   16,
+   17
+  ],
+  "ishpreet-singh-chadha__ryan-day": [
+   0,
+   1,
+   8,
+   10
+  ],
+  "jiang-jun__ryan-day": [
+   0,
+   1,
+   2,
+   4
+  ],
+  "jordan-brown__ryan-day": [
+   2,
+   3,
+   20,
+   19
+  ],
+  "jimmy-robertson__zak-surety": [
+   0,
+   1,
+   1,
+   3
+  ],
+  "michael-holt__zak-surety": [
+   2,
+   0,
+   12,
+   5
+  ],
+  "ben-woollaston__zak-surety": [
+   2,
+   0,
+   9,
+   2
+  ],
+  "matthew-selt__zak-surety": [
+   2,
+   1,
+   9,
+   4
+  ],
+  "matthew-stevens__zak-surety": [
+   2,
+   0,
+   10,
+   3
+  ],
+  "robbie-williams__zak-surety": [
+   1,
+   0,
+   4,
+   2
+  ],
+  "oliver-lines__zak-surety": [
+   0,
+   1,
+   2,
+   4
+  ],
+  "fan-zhengyi__zak-surety": [
+   2,
+   0,
+   7,
+   4
+  ],
+  "martin-odonnell__zak-surety": [
+   0,
+   1,
+   5,
+   6
+  ],
+  "liu-hongyu__zak-surety": [
+   2,
+   1,
+   9,
+   5
+  ],
+  "ricky-walden__zak-surety": [
+   2,
+   2,
+   11,
+   14
+  ],
+  "ben-mertens__zak-surety": [
+   2,
+   1,
+   7,
+   5
+  ],
+  "jamie-jones__zak-surety": [
+   2,
+   0,
+   11,
+   6
+  ],
+  "lyu-haotian__zak-surety": [
+   1,
+   0,
+   4,
+   1
+  ],
+  "jiang-jun__zak-surety": [
+   0,
+   1,
+   4,
+   5
+  ],
+  "jordan-brown__zak-surety": [
+   1,
+   1,
+   10,
+   8
+  ],
+  "he-guoqiang__jimmy-robertson": [
+   1,
+   0,
+   5,
+   2
+  ],
+  "he-guoqiang__matthew-selt": [
+   0,
+   1,
+   0,
+   4
+  ],
+  "daniel-wells__he-guoqiang": [
+   2,
+   0,
+   8,
+   4
+  ],
+  "he-guoqiang__long-zehuang": [
+   2,
+   0,
+   16,
+   9
+  ],
+  "he-guoqiang__robbie-williams": [
+   1,
+   0,
+   4,
+   0
+  ],
+  "he-guoqiang__oliver-lines": [
+   1,
+   0,
+   4,
+   1
+  ],
+  "he-guoqiang__martin-odonnell": [
+   0,
+   1,
+   2,
+   4
+  ],
+  "he-guoqiang__lyu-haotian": [
+   1,
+   0,
+   5,
+   3
+  ],
+  "he-guoqiang__ishpreet-singh-chadha": [
+   0,
+   1,
+   3,
+   4
+  ],
+  "he-guoqiang__jiang-jun": [
+   0,
+   1,
+   5,
+   6
+  ],
+  "jimmy-robertson__michael-holt": [
+   4,
+   2,
+   20,
+   10
+  ],
+  "ben-woollaston__jimmy-robertson": [
+   2,
+   2,
+   15,
+   12
+  ],
+  "jimmy-robertson__matthew-selt": [
+   4,
+   3,
+   24,
+   20
+  ],
+  "daniel-wells__jimmy-robertson": [
+   2,
+   2,
+   15,
+   14
+  ],
+  "jimmy-robertson__matthew-stevens": [
+   1,
+   4,
+   17,
+   26
+  ],
+  "jimmy-robertson__robbie-williams": [
+   3,
+   0,
+   13,
+   8
+  ],
+  "jimmy-robertson__oliver-lines": [
+   3,
+   2,
+   23,
+   20
+  ],
+  "fan-zhengyi__jimmy-robertson": [
+   1,
+   1,
+   13,
+   8
+  ],
+  "jimmy-robertson__martin-odonnell": [
+   5,
+   2,
+   23,
+   19
+  ],
+  "jimmy-robertson__ricky-walden": [
+   3,
+   7,
+   18,
+   24
+  ],
+  "david-lilley__jimmy-robertson": [
+   1,
+   1,
+   8,
+   5
+  ],
+  "ben-mertens__jimmy-robertson": [
+   0,
+   2,
+   8,
+   14
+  ],
+  "jamie-jones__jimmy-robertson": [
+   2,
+   4,
+   18,
+   18
+  ],
+  "jimmy-robertson__lyu-haotian": [
+   1,
+   0,
+   5,
+   4
+  ],
+  "jiang-jun__jimmy-robertson": [
+   1,
+   0,
+   6,
+   4
+  ],
+  "jimmy-robertson__jordan-brown": [
+   2,
+   2,
+   17,
+   15
+  ],
+  "ben-woollaston__michael-holt": [
+   5,
+   3,
+   24,
+   17
+  ],
+  "matthew-selt__michael-holt": [
+   4,
+   4,
+   23,
+   23
+  ],
+  "daniel-wells__michael-holt": [
+   3,
+   5,
+   29,
+   34
+  ],
+  "matthew-stevens__michael-holt": [
+   2,
+   2,
+   7,
+   11
+  ],
+  "michael-holt__robbie-williams": [
+   2,
+   2,
+   13,
+   12
+  ],
+  "michael-holt__oliver-lines": [
+   1,
+   1,
+   19,
+   18
+  ],
+  "fan-zhengyi__michael-holt": [
+   1,
+   1,
+   10,
+   5
+  ],
+  "martin-odonnell__michael-holt": [
+   1,
+   2,
+   8,
+   10
+  ],
+  "liu-hongyu__michael-holt": [
+   1,
+   1,
+   6,
+   8
+  ],
+  "michael-holt__ricky-walden": [
+   6,
+   7,
+   49,
+   63
+  ],
+  "david-lilley__michael-holt": [
+   0,
+   1,
+   1,
+   5
+  ],
+  "jamie-jones__michael-holt": [
+   2,
+   4,
+   20,
+   25
+  ],
+  "lyu-haotian__michael-holt": [
+   0,
+   2,
+   6,
+   9
+  ],
+  "ishpreet-singh-chadha__michael-holt": [
+   0,
+   1,
+   5,
+   6
+  ],
+  "jiang-jun__michael-holt": [
+   1,
+   0,
+   5,
+   2
+  ],
+  "ben-woollaston__matthew-selt": [
+   4,
+   7,
+   28,
+   36
+  ],
+  "ben-woollaston__daniel-wells": [
+   2,
+   2,
+   23,
+   15
+  ],
+  "ben-woollaston__matthew-stevens": [
+   2,
+   0,
+   8,
+   1
+  ],
+  "ben-woollaston__long-zehuang": [
+   0,
+   1,
+   3,
+   5
+  ],
+  "ben-woollaston__robbie-williams": [
+   3,
+   1,
+   15,
+   10
+  ],
+  "ben-woollaston__oliver-lines": [
+   2,
+   2,
+   17,
+   17
+  ],
+  "ben-woollaston__fan-zhengyi": [
+   2,
+   1,
+   10,
+   9
+  ],
+  "ben-woollaston__martin-odonnell": [
+   0,
+   2,
+   1,
+   4
+  ],
+  "ben-woollaston__liu-hongyu": [
+   1,
+   1,
+   8,
+   8
+  ],
+  "ben-woollaston__ricky-walden": [
+   5,
+   9,
+   42,
+   51
+  ],
+  "ben-woollaston__david-lilley": [
+   1,
+   1,
+   9,
+   8
+  ],
+  "ben-mertens__ben-woollaston": [
+   1,
+   1,
+   5,
+   5
+  ],
+  "ben-woollaston__jamie-jones": [
+   1,
+   5,
+   13,
+   24
+  ],
+  "ben-woollaston__lyu-haotian": [
+   3,
+   1,
+   18,
+   12
+  ],
+  "ben-woollaston__jordan-brown": [
+   2,
+   1,
+   7,
+   5
+  ],
+  "daniel-wells__matthew-selt": [
+   2,
+   2,
+   12,
+   12
+  ],
+  "matthew-selt__matthew-stevens": [
+   1,
+   1,
+   8,
+   6
+  ],
+  "matthew-selt__robbie-williams": [
+   2,
+   2,
+   15,
+   14
+  ],
+  "matthew-selt__oliver-lines": [
+   3,
+   3,
+   20,
+   16
+  ],
+  "martin-odonnell__matthew-selt": [
+   1,
+   2,
+   7,
+   10
+  ],
+  "matthew-selt__ricky-walden": [
+   6,
+   5,
+   35,
+   29
+  ],
+  "david-lilley__matthew-selt": [
+   0,
+   1,
+   1,
+   6
+  ],
+  "ben-mertens__matthew-selt": [
+   1,
+   0,
+   6,
+   3
+  ],
+  "jamie-jones__matthew-selt": [
+   4,
+   3,
+   25,
+   22
+  ],
+  "lyu-haotian__matthew-selt": [
+   1,
+   3,
+   10,
+   15
+  ],
+  "jiang-jun__matthew-selt": [
+   0,
+   1,
+   2,
+   5
+  ],
+  "jordan-brown__matthew-selt": [
+   2,
+   4,
+   12,
+   16
+  ],
+  "daniel-wells__matthew-stevens": [
+   3,
+   2,
+   16,
+   9
+  ],
+  "daniel-wells__robbie-williams": [
+   2,
+   1,
+   13,
+   11
+  ],
+  "daniel-wells__ricky-walden": [
+   1,
+   1,
+   4,
+   5
+  ],
+  "daniel-wells__jamie-jones": [
+   0,
+   1,
+   2,
+   4
+  ],
+  "daniel-wells__lyu-haotian": [
+   0,
+   2,
+   11,
+   14
+  ],
+  "daniel-wells__jiang-jun": [
+   1,
+   0,
+   4,
+   2
+  ],
+  "daniel-wells__jordan-brown": [
+   2,
+   0,
+   8,
+   5
+  ],
+  "matthew-stevens__robbie-williams": [
+   2,
+   2,
+   15,
+   13
+  ],
+  "matthew-stevens__oliver-lines": [
+   1,
+   0,
+   4,
+   3
+  ],
+  "fan-zhengyi__matthew-stevens": [
+   0,
+   2,
+   3,
+   10
+  ],
+  "martin-odonnell__matthew-stevens": [
+   1,
+   5,
+   18,
+   28
+  ],
+  "liu-hongyu__matthew-stevens": [
+   0,
+   1,
+   4,
+   6
+  ],
+  "matthew-stevens__ricky-walden": [
+   4,
+   9,
+   34,
+   51
+  ],
+  "david-lilley__matthew-stevens": [
+   0,
+   1,
+   0,
+   1
+  ],
+  "ben-mertens__matthew-stevens": [
+   1,
+   0,
+   5,
+   1
+  ],
+  "jamie-jones__matthew-stevens": [
+   3,
+   1,
+   13,
+   12
+  ],
+  "lyu-haotian__matthew-stevens": [
+   3,
+   0,
+   15,
+   10
+  ],
+  "jordan-brown__matthew-stevens": [
+   0,
+   1,
+   4,
+   6
+  ],
+  "long-zehuang__oliver-lines": [
+   0,
+   1,
+   3,
+   6
+  ],
+  "fan-zhengyi__long-zehuang": [
+   1,
+   0,
+   6,
+   3
+  ],
+  "liu-hongyu__long-zehuang": [
+   0,
+   1,
+   2,
+   4
+  ],
+  "ben-mertens__long-zehuang": [
+   1,
+   0,
+   4,
+   0
+  ],
+  "jamie-jones__long-zehuang": [
+   0,
+   1,
+   0,
+   3
+  ],
+  "jiang-jun__long-zehuang": [
+   2,
+   0,
+   10,
+   5
+  ],
+  "jordan-brown__long-zehuang": [
+   1,
+   0,
+   5,
+   4
+  ],
+  "oliver-lines__robbie-williams": [
+   2,
+   3,
+   12,
+   11
+  ],
+  "fan-zhengyi__robbie-williams": [
+   1,
+   1,
+   10,
+   7
+  ],
+  "martin-odonnell__robbie-williams": [
+   0,
+   6,
+   19,
+   28
+  ],
+  "ricky-walden__robbie-williams": [
+   4,
+   1,
+   26,
+   19
+  ],
+  "david-lilley__robbie-williams": [
+   1,
+   1,
+   7,
+   8
+  ],
+  "ben-mertens__robbie-williams": [
+   0,
+   1,
+   3,
+   6
+  ],
+  "jamie-jones__robbie-williams": [
+   3,
+   1,
+   15,
+   6
+  ],
+  "lyu-haotian__robbie-williams": [
+   0,
+   2,
+   9,
+   15
+  ],
+  "jiang-jun__robbie-williams": [
+   2,
+   0,
+   9,
+   1
+  ],
+  "jordan-brown__robbie-williams": [
+   0,
+   1,
+   1,
+   5
+  ],
+  "fan-zhengyi__oliver-lines": [
+   1,
+   0,
+   4,
+   2
+  ],
+  "martin-odonnell__oliver-lines": [
+   0,
+   1,
+   5,
+   6
+  ],
+  "oliver-lines__ricky-walden": [
+   1,
+   2,
+   8,
+   8
+  ],
+  "jamie-jones__oliver-lines": [
+   3,
+   0,
+   13,
+   8
+  ],
+  "lyu-haotian__oliver-lines": [
+   2,
+   1,
+   14,
+   10
+  ],
+  "jiang-jun__oliver-lines": [
+   1,
+   0,
+   4,
+   3
+  ],
+  "jordan-brown__oliver-lines": [
+   1,
+   1,
+   7,
+   9
+  ],
+  "fan-zhengyi__liu-hongyu": [
+   1,
+   0,
+   4,
+   2
+  ],
+  "fan-zhengyi__ricky-walden": [
+   2,
+   0,
+   6,
+   2
+  ],
+  "david-lilley__fan-zhengyi": [
+   0,
+   2,
+   2,
+   7
+  ],
+  "ben-mertens__fan-zhengyi": [
+   1,
+   5,
+   15,
+   28
+  ],
+  "fan-zhengyi__jamie-jones": [
+   0,
+   1,
+   3,
+   4
+  ],
+  "fan-zhengyi__ishpreet-singh-chadha": [
+   1,
+   0,
+   5,
+   2
+  ],
+  "liu-hongyu__martin-odonnell": [
+   0,
+   3,
+   11,
+   14
+  ],
+  "martin-odonnell__ricky-walden": [
+   4,
+   2,
+   19,
+   12
+  ],
+  "ben-mertens__martin-odonnell": [
+   0,
+   1,
+   4,
+   6
+  ],
+  "jamie-jones__martin-odonnell": [
+   3,
+   2,
+   16,
+   11
+  ],
+  "lyu-haotian__martin-odonnell": [
+   2,
+   2,
+   18,
+   16
+  ],
+  "jordan-brown__martin-odonnell": [
+   1,
+   1,
+   12,
+   10
+  ],
+  "liu-hongyu__ricky-walden": [
+   2,
+   2,
+   11,
+   9
+  ],
+  "david-lilley__liu-hongyu": [
+   0,
+   1,
+   0,
+   3
+  ],
+  "ben-mertens__liu-hongyu": [
+   0,
+   1,
+   3,
+   4
+  ],
+  "liu-hongyu__lyu-haotian": [
+   1,
+   1,
+   8,
+   7
+  ],
+  "ishpreet-singh-chadha__liu-hongyu": [
+   2,
+   0,
+   8,
+   4
+  ],
+  "ben-mertens__ricky-walden": [
+   1,
+   0,
+   4,
+   1
+  ],
+  "jamie-jones__ricky-walden": [
+   4,
+   8,
+   41,
+   45
+  ],
+  "lyu-haotian__ricky-walden": [
+   1,
+   1,
+   4,
+   4
+  ],
+  "jiang-jun__ricky-walden": [
+   0,
+   1,
+   1,
+   6
+  ],
+  "david-lilley__jamie-jones": [
+   0,
+   2,
+   4,
+   9
+  ],
+  "david-lilley__lyu-haotian": [
+   0,
+   4,
+   7,
+   13
+  ],
+  "david-lilley__jiang-jun": [
+   0,
+   1,
+   3,
+   4
+  ],
+  "david-lilley__jordan-brown": [
+   0,
+   1,
+   0,
+   3
+  ],
+  "ben-mertens__jamie-jones": [
+   1,
+   0,
+   6,
+   5
+  ],
+  "ben-mertens__lyu-haotian": [
+   0,
+   1,
+   1,
+   5
+  ],
+  "ben-mertens__ishpreet-singh-chadha": [
+   0,
+   1,
+   1,
+   4
+  ],
+  "ben-mertens__jiang-jun": [
+   0,
+   1,
+   5,
+   6
+  ],
+  "ben-mertens__jordan-brown": [
+   1,
+   0,
+   6,
+   2
+  ],
+  "ishpreet-singh-chadha__jamie-jones": [
+   0,
+   1,
+   0,
+   1
+  ],
+  "jamie-jones__jiang-jun": [
+   1,
+   0,
+   6,
+   4
+  ],
+  "jamie-jones__jordan-brown": [
+   4,
+   3,
+   19,
+   17
+  ],
+  "jordan-brown__lyu-haotian": [
+   1,
+   2,
+   4,
+   14
   ]
  }
 }

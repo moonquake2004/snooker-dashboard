@@ -299,6 +299,21 @@ HISTORIC_EVENTS = {
     "world matchplay": "世界对抗赛", "humo masters": "Humo 大师赛",
     "world snooker league": "世界斯诺克联赛",
     "top rank classic": "Top Rank 经典赛",
+    # --- 1990s–2010s 排名赛 / 巡回赛分站（生涯交手记录高频） ---
+    "thailand open": "泰国公开赛", "china international": "中国国际赛",
+    "millennium cup": "千禧杯",
+    "euro-asia masters challenge": "欧亚大师挑战赛",
+    "world champions v asia stars challenge": "世界冠军对亚洲明星挑战赛",
+    "bahrain championship": "巴林锦标赛", "jiangsu classic": "江苏经典赛",
+    "hainan classic": "海南经典赛",
+    "6-reds world grand prix": "6红球世界大奖赛",
+    "6-reds international": "6红球国际赛",
+    "australian open": "澳大利亚公开赛", "brazil masters": "巴西大师赛",
+    "asian open": "亚洲公开赛", "hong kong challenge": "香港挑战赛",
+    "indian challenge": "印度挑战赛",
+    "ptc grand final": "PTC 总决赛",
+    "players championship grand final": "球员锦标赛总决赛",
+    "wst classic": "WST 经典赛",
     # --- 1970–1990 年代的职业锦标赛 / 电视邀请赛（历史冠军榜高频） ---
     "pontins professional": "庞廷斯职业赛",
     "pontins star championship": "庞廷斯明星锦标赛",
@@ -326,14 +341,21 @@ HISTORIC_EVENTS = {
     "state express world challenge": "国快世界挑战赛",
 }
 
-# 次级排名赛分站：PTC - Event 1 / European Tour - Event 4 / Asian Tour - Event 2
+# 次级排名赛 / 资格巡回赛分站：PTC - Event 1 / European Tour - Event 4 / Asian Tour - Event 2
+# 以及 CueTracker 生涯交手数据里出现的 EPTC / APTC / PIOS / Challenge Tour / Q School 等
 _TOUR_EVENT_RE = re.compile(
-    r"^(players tour championship|ptc|european tour|asian tour|uk tour)"
+    r"^(players tour championship|challenge tour|pro challenge series|wsa open tour|"
+    r"european tour|asian tour|uk tour|eptc|aptc|pios|ptc|q school)"
     r"\s*-\s*event\s*(\d+)$", re.I)
 _TOUR_EVENT_ZH = {
     "players tour championship": "球员巡回锦标赛",
-    "ptc": "PTC", "european tour": "欧洲巡回赛",
+    "challenge tour": "挑战巡回赛",
+    "pro challenge series": "职业挑战系列赛",
+    "wsa open tour": "WSA 公开巡回赛",
+    "european tour": "欧洲巡回赛",
     "asian tour": "亚洲巡回赛", "uk tour": "英国巡回赛",
+    "eptc": "EPTC", "aptc": "APTC", "pios": "PIOS",
+    "ptc": "PTC", "q school": "Q School",
 }
 
 # 三大赛（生涯冠军榜专用，按赛事全名精确匹配）
@@ -394,6 +416,7 @@ COUNTRIES = {
     "Netherlands": "荷兰", "France": "法国", "Spain": "西班牙",
     "Cyprus": "塞浦路斯", "Pakistan": "巴基斯坦", "Malaysia": "马来西亚",
     "Singapore": "新加坡", "Qatar": "卡塔尔", "Turkey": "土耳其",
+    "South Africa": "南非",
 }
 
 # 三字母国家代码 → 中文
@@ -406,7 +429,7 @@ COUNTRY_CODES = {
     "MLT": "马耳他", "NOR": "挪威", "FIN": "芬兰", "NLD": "荷兰",
     "FRA": "法国", "ESP": "西班牙", "CYP": "塞浦路斯", "PAK": "巴基斯坦",
     "MYS": "马来西亚", "SGP": "新加坡", "QAT": "卡塔尔", "TUR": "土耳其",
-    "GER": "德国", "DEU": "德国",
+    "GER": "德国", "DEU": "德国", "ZAF": "南非",
 }
 
 # 三字母国家代码 → 英文全称（用于国家列的英文对照）
@@ -439,7 +462,8 @@ ROUNDS = {
     "round 7": "第七轮", "round 8": "第八轮",
     "last 16": "16强", "last 32": "32强", "last 64": "64强",
     "last 128": "128强", "last 8": "8强", "last 4": "4强",
-    "wildcard round": "外卡轮", "pre-qualifier round": "预选资格轮",
+    "wildcard round": "外卡轮", "wildcard": "外卡轮",
+    "pre-qualifier round": "预选资格轮", "pre-qualifying": "预选赛",
     "league phase": "小组循环赛", "round robin": "循环赛",
     "stage one": "第一阶段", "stage two": "第二阶段", "stage three": "第三阶段",
     # CueTracker 的冠军联赛/小组赛轮次
@@ -621,6 +645,11 @@ def round_zh(round_en):
                         suffix = sub
     s = re.sub(r"\s+", " ", s).strip()
 
+    # 剥掉巡回赛分站前缀 "Event 5 - Final" → "Final"（赛事列已含分站号，避免重复）
+    m_evt = re.match(r"^event\s+\d+\s*-\s*(.+)$", s, re.I)
+    if m_evt:
+        s = m_evt.group(1).strip()
+
     # 连字符与空格等价：CueTracker 写 "Quarter-final"、WST 写 "Quarter Final"
     key = s.lower()
     key2 = re.sub(r"\s+", " ", key.replace("-", " ")).strip()
@@ -635,6 +664,10 @@ def round_zh(round_en):
         if m:
             head = ROUNDS.get(m.group(1), m.group(1))
             core = f"第{m.group(2)}组{head}"
+    if core is None:
+        m = re.match(r"^pre-qualifying\s+(\d+)$", key)  # Pre-qualifying 3
+        if m:
+            core = f"预选赛 {m.group(1)}"
     if core is None:
         m = _GROUP_RE.match(key2)           # Group 3 / Group 4 - Semi-final …
         if m:
