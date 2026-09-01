@@ -772,6 +772,12 @@ tbody tr.top1:hover{background:rgba(217,180,74,.17)}
 .footer-bar{position:relative;z-index:1;text-align:center;padding:12px 20px;font-size:11px;
   color:rgba(243,236,220,.55);border-top:1px solid rgba(0,0,0,.4)}
 .footer-bar .en{font-family:var(--font-en);font-size:10px;opacity:.8;margin-left:6px}
+.footer-bar .cn{margin-left:5px}
+.footer-gh{display:inline-flex;align-items:center;gap:4px;margin-left:14px;
+  color:rgba(243,236,220,.7);text-decoration:none;transition:color .18s}
+.footer-gh:hover{color:#f0c060}
+.footer-gh svg{flex:0 0 auto}
+.footer-gh .en{display:inline;font-family:var(--font-en);font-size:10px;opacity:.8}
 
 /* ---------------------------------------------------------------- 滚动条 */
 ::-webkit-scrollbar{width:10px;height:10px}
