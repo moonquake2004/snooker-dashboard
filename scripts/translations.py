@@ -416,7 +416,7 @@ COUNTRIES = {
     "Netherlands": "荷兰", "France": "法国", "Spain": "西班牙",
     "Cyprus": "塞浦路斯", "Pakistan": "巴基斯坦", "Malaysia": "马来西亚",
     "Singapore": "新加坡", "Qatar": "卡塔尔", "Turkey": "土耳其",
-    "South Africa": "南非",
+    "South Africa": "南非", "Moldova": "摩尔多瓦",
 }
 
 # 三字母国家代码 → 中文
@@ -429,7 +429,7 @@ COUNTRY_CODES = {
     "MLT": "马耳他", "NOR": "挪威", "FIN": "芬兰", "NLD": "荷兰",
     "FRA": "法国", "ESP": "西班牙", "CYP": "塞浦路斯", "PAK": "巴基斯坦",
     "MYS": "马来西亚", "SGP": "新加坡", "QAT": "卡塔尔", "TUR": "土耳其",
-    "GER": "德国", "DEU": "德国", "ZAF": "南非",
+    "GER": "德国", "DEU": "德国", "ZAF": "南非", "MDA": "摩尔多瓦",
 }
 
 # 三字母国家代码 → 英文全称（用于国家列的英文对照）

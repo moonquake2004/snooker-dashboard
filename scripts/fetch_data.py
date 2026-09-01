@@ -177,27 +177,38 @@ def fetch_collection(name, verbose=True, concurrency=1):
     size = PAGE_SIZE.get(name)
 
     def merge(rows):
+        """合并一批抓取结果。
+
+        - 新 ID：追加（记新增数，用于多轮补抓的终止判定）
+        - 已存在 ID：用最新数据替换（进行中赛事比分/状态会随进程变化，
+          种子缓存必须刷新存量，否则轻量更新永远冻结在首次抓取的状态）
+        """
         cnt = 0
         for it in rows:
             key = it.get("id")
-            if key not in seen:
-                seen.add(key)
+            idx = pos.get(key)
+            if idx is None:
+                pos[key] = len(items)
                 items.append(it)
+                seen.add(key)
                 cnt += 1
+            else:
+                items[idx] = it
         return cnt
 
     # 种子：若已有缓存文件，加载为初始集合（多轮重跑累积，抗随机截断）
     seed_path = os.path.join(RAW_DIR, f"{name}.json")
-    items, seen = [], set()
+    items, seen, pos = [], set(), {}
     if os.path.exists(seed_path):
         try:
             seed = json.load(open(seed_path, encoding="utf-8"))
             items = list(seed)
             seen = {it.get("id") for it in seed}
+            pos = {it.get("id"): i for i, it in enumerate(items)}
             if verbose and seed:
                 print(f"  [{name}] 种子缓存: {len(items)} 条")
         except Exception:  # noqa: BLE001
-            items, seen = [], set()
+            items, seen, pos = [], set(), {}
     first_url = url
     if size and "size=" not in first_url:
         first_url += ("&" if "?" in first_url else "?") + f"size={size}"
