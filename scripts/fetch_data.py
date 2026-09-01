@@ -166,6 +166,10 @@ def fetch_collection(name, verbose=True, concurrency=1):
     concurrency>1 时，第一页顺序抓取以确定总量，其余页用线程池并发抓取，
     可把 8833 场这种大集合的抓取从 ~8 分钟降到 ~1 分钟（WST 接口每页硬限 100、
     且 filter 不生效，只能整集合拉回）。
+
+    并发会诱发服务端截断（IncompleteRead），导致某些页丢掉末尾若干对象。
+    因此主抓取后追加一轮「缺页补抓」：凡返回条数 < 每页上限的页视为被截断，
+    顺序（concurrency=1）重新抓取并合并未见过的数据，最大化完整度。
     """
     url = ENDPOINTS[name]
     size = PAGE_SIZE.get(name)
@@ -196,20 +200,26 @@ def fetch_collection(name, verbose=True, concurrency=1):
         return get_json(u)
 
     pages = list(range(2, total_pages + 1))
+    deficient = []
     if concurrency > 1:
         with concurrent.futures.ThreadPoolExecutor(max_workers=concurrency) as ex:
             futs = {ex.submit(fetch_page, k): k for k in pages}
             done_cnt = 1
             for fut in concurrent.futures.as_completed(futs):
+                k = futs[fut]
                 try:
                     payload = fut.result()
+                    cnt = 0
                     for it in payload.get("data", []):
                         key = it.get("id")
                         if key not in seen:
                             seen.add(key)
                             items.append(it)
+                            cnt += 1
+                    if cnt < per_page:
+                        deficient.append(k)
                 except Exception as exc:  # noqa: BLE001
-                    print(f"  ⚠ {name} page {futs[fut]} 抓取失败: {exc}",
+                    print(f"  ⚠ {name} page {k} 抓取失败: {exc}",
                           file=sys.stderr)
                 done_cnt += 1
                 if verbose and done_cnt % 10 == 0:
@@ -218,14 +228,42 @@ def fetch_collection(name, verbose=True, concurrency=1):
         for k in pages:
             try:
                 payload = fetch_page(k)
+                cnt = 0
                 for it in payload.get("data", []):
                     key = it.get("id")
                     if key not in seen:
                         seen.add(key)
                         items.append(it)
+                        cnt += 1
+                if cnt < per_page:
+                    deficient.append(k)
             except Exception as exc:  # noqa: BLE001
                 print(f"  ⚠ {name} page {k} 抓取失败: {exc}", file=sys.stderr)
             time.sleep(0.35)
+
+    # 缺页补抓：被截断的页顺序重抓（并发低 → 截断少 → 救回页尾对象）
+    if deficient:
+        if verbose:
+            print(f"  [{name}] 补抓缺页 {len(deficient)} 个（顺序自愈）")
+        for k in deficient:
+            u = url + ("&" if "?" in url else "?") + f"page.number={k}"
+            for attempt in range(4):
+                try:
+                    payload = get_json(u, retries=4)
+                    cnt = 0
+                    for it in payload.get("data", []):
+                        key = it.get("id")
+                        if key not in seen:
+                            seen.add(key)
+                            items.append(it)
+                            cnt += 1
+                    if verbose:
+                        print(f"    page {k}: +{cnt}")
+                    break
+                except Exception as exc:  # noqa: BLE001
+                    if verbose:
+                        print(f"    ⚠ page {k} 补抓失败: {exc}", file=sys.stderr)
+                    time.sleep(1.5 * (attempt + 1))
 
     if verbose:
         print(f"  [{name}] 完成: 累计 {len(items)} / 共 {total}")
