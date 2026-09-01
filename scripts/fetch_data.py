@@ -58,8 +58,12 @@ def get_json(url, retries=4, timeout=60):
         try:
             req = urllib.request.Request(url, headers=HEADERS)
             with urllib.request.urlopen(req, timeout=timeout) as resp:
-                raw = resp.read().decode("utf-8", errors="replace")
-            return json.loads(raw)
+                try:
+                    raw = resp.read()
+                except http.client.IncompleteRead as exc:  # noqa: BLE001
+                    # 服务端多报 Content-Length、实际已发完整 JSON：用已收到的字节恢复
+                    raw = exc.partial
+            return json.loads(raw.decode("utf-8", errors="replace"))
         except (urllib.error.URLError, urllib.error.HTTPError,
                 json.JSONDecodeError, TimeoutError, OSError,
                 http.client.IncompleteRead) as exc:
