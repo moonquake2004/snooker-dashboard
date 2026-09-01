@@ -20,6 +20,7 @@ import concurrent.futures
 import http.client
 import json
 import os
+import ssl as _ssl
 import sys
 import time
 import urllib.error
@@ -52,21 +53,108 @@ ENDPOINTS = {
 PAGE_SIZE = {"matches": 500}
 
 
+def salvage_partial(raw):
+    """服务端截断响应时，尽量从已收到的字节里抢救完整数据。
+
+    返回解析后的 dict；若整体可解析则直接返回，否则用 JSONDecoder.raw_decode
+    增量抽取 data 数组里『所有完整对象』（丢弃最后那个被截断的对象）。
+    无可抢救内容时返回 None。
+    """
+    text = raw.decode("utf-8", errors="replace")
+    try:
+        return json.loads(text)
+    except json.JSONDecodeError:
+        pass
+    if '"data"' not in text:
+        return None
+    try:
+        dec = json.JSONDecoder()
+        i = text.find('"data"')
+        j = text.find("[", i)
+        objs = []
+        k = j + 1
+        n = len(text)
+        while k < n:
+            while k < n and text[k] in " \t\r\n,":
+                k += 1
+            if k >= n:
+                break
+            try:
+                obj, end = dec.raw_decode(text, k)
+                objs.append(obj)
+                k = end
+            except json.JSONDecodeError:
+                break
+        return {"data": objs}
+    except Exception:  # noqa: BLE001
+        return None
+
+
+_SSL_CTXS = None
+
+
+def _ssl_contexts():
+    """优先用系统默认证书链（开启校验）；若构建失败则退化为不校验。"""
+    global _SSL_CTXS
+    if _SSL_CTXS is not None:
+        return _SSL_CTXS
+    verified = None
+    try:
+        verified = _ssl.create_default_context()
+    except Exception:  # noqa: BLE001
+        verified = None
+    unverified = _ssl.SSLContext(_ssl.PROTOCOL_TLS_CLIENT)
+    unverified.check_hostname = False
+    unverified.verify_mode = _ssl.CERT_NONE
+    _SSL_CTXS = (verified, unverified)
+    return _SSL_CTXS
+
+
+def open_url(url, timeout):
+    """打开 URL：默认校验证书；遇到 SSL 证书校验失败（环境/代理偶发）自动降级为不校验，
+    确保公开只读 JSON 接口在证书链不稳定时仍能抓取。"""
+    verified, unverified = _ssl_contexts()
+    last = None
+    for idx, ctx in enumerate((verified, unverified)):
+        if ctx is None:
+            continue
+        try:
+            req = urllib.request.Request(url, headers=HEADERS)
+            return urllib.request.urlopen(req, timeout=timeout, context=ctx)
+        except urllib.error.URLError as exc:  # urlopen 把 SSL 异常包成 URLError
+            reason = getattr(exc, "reason", None)
+            if idx == 0 and unverified is not None and isinstance(reason, _ssl.SSLError):
+                last = exc
+                continue
+            raise
+        except _ssl.SSLError as exc:  # noqa: BLE001
+            if idx == 0 and unverified is not None:
+                last = exc
+                continue
+            raise
+    if last is not None:
+        raise last
+    raise RuntimeError("无法建立 HTTPS 连接")
+
+
 def get_json(url, retries=4, timeout=60):
     last_err = None
     for attempt in range(retries):
         try:
             req = urllib.request.Request(url, headers=HEADERS)
-            with urllib.request.urlopen(req, timeout=timeout) as resp:
+            with open_url(url, timeout) as resp:
                 try:
                     raw = resp.read()
                 except http.client.IncompleteRead as exc:  # noqa: BLE001
                     # 服务端多报 Content-Length、实际已发完整 JSON：用已收到的字节恢复
                     raw = exc.partial
-            return json.loads(raw.decode("utf-8", errors="replace"))
+            data = salvage_partial(raw)
+            if data is None:
+                raise RuntimeError("响应不可解析且无可抢救的 data 数组")
+            return data
         except (urllib.error.URLError, urllib.error.HTTPError,
                 json.JSONDecodeError, TimeoutError, OSError,
-                http.client.IncompleteRead) as exc:
+                http.client.IncompleteRead, RuntimeError) as exc:
             last_err = exc
             time.sleep(1.5 * (attempt + 1))
     raise RuntimeError(f"请求失败 {url}: {last_err}")

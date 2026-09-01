@@ -7,8 +7,8 @@ set -e
 cd "$(dirname "$0")"
 # 可用环境变量 PYTHON 覆盖；默认取 PATH 中的 python3（GitHub Actions / Linux 兼容）
 PYTHON="${PYTHON:-python3}"
-echo "▶ 轻量更新：抓取 matches + tournaments（进行中赛事，分页并发 8 加速）"
-$PYTHON scripts/fetch_data.py --only matches,tournaments --concurrency 8
+echo "▶ 轻量更新：抓取 matches + tournaments（进行中赛事，分页并发 2，降低服务端截断丢页尾）"
+$PYTHON scripts/fetch_data.py --only matches,tournaments --concurrency 2
 echo "▶ 重建看板数据"
 $PYTHON scripts/build_dashboard.py
 echo ""
