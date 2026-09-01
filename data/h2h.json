@@ -1,13 +1,13 @@
 {
  "meta": {
   "source": "cuetracker.net",
-  "fetched": "2026-09-01 23:28:54",
+  "fetched": "2026-09-02 07:23:12",
   "top": 64,
   "pairs": 1758,
-  "meetings": 10958,
+  "meetings": 10961,
   "meetingsPerPair": "all",
   "http": {
-   "ok": 5,
+   "ok": 12,
    "err": 0,
    "skip": 0
   }
@@ -1844,10 +1844,10 @@
    34
   ],
   "kyren-wilson__wu-yize": [
-   3,
+   4,
    1,
-   20,
-   17
+   24,
+   18
   ],
   "mark-williams__wu-yize": [
    1,
@@ -3944,10 +3944,10 @@
    7
   ],
   "lyu-haotian__xiao-guodong": [
-   1,
+   2,
    4,
-   9,
-   17
+   13,
+   19
   ],
   "ishpreet-singh-chadha__xiao-guodong": [
    0,
@@ -4005,9 +4005,9 @@
   ],
   "chris-wakelin__zhang-anda": [
    2,
-   2,
-   15,
-   13
+   3,
+   18,
+   17
   ],
   "chris-wakelin__si-jiahui": [
    1,

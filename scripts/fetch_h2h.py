@@ -71,6 +71,8 @@ SLUGS_CACHE = os.path.join(RAW, "titles_cache", "_slugs.json")
 _lock = __import__("threading").Lock()
 _last = [0.0]
 _stats = {"ok": 0, "err": 0, "skip": 0}
+# 请求最小间隔（main 里由 --delay 覆盖）。给默认值，避免被 import 直接调用时 NameError
+DELAY = 0.8
 
 # ---------------------------------------------------------------- 正则
 TOUR_HEAD_RE = re.compile(r'<p class="topMargin bottomMargin red"[^>]*>')
@@ -259,12 +261,39 @@ def parse_h2h(html, slug_a, slug_b):
     return a_wins, b_wins, a_frames, b_frames, meetings
 
 
+def recent_pairs(since, players):
+    """增量刷新用：dashboard 中 since（含）之后完赛场次涉及、且双方都在 players 里的球员对。
+
+    CueTracker 的 H2H 页面在赛后数小时才更新，全量重抓 2016 对既慢又容易触发 429，
+    日常追更只需重抓「最近打过的那几对」。
+    """
+    if not os.path.exists(HERE_DASH):
+        return []
+    slug_by_name = {p["name_en"]: p["slug"] for p in players}
+    by_slug = {p["slug"]: p for p in players}
+    d = json.load(open(HERE_DASH, encoding="utf-8"))
+    found = {}
+    for m in d.get("matches", []):
+        if m.get("status") != "Completed":
+            continue
+        if (m.get("date") or "") < since:
+            continue
+        h, a = m.get("home") or {}, m.get("away") or {}
+        hs = slug_by_name.get(h.get("name_en"))
+        asg = slug_by_name.get(a.get("name_en"))
+        if hs and asg and hs != asg:
+            found["__".join(sorted([hs, asg]))] = (by_slug[hs], by_slug[asg])
+    out = list(found.values())
+    out.sort(key=lambda t: "__".join(sorted([t[0]["slug"], t[1]["slug"]])))
+    return out
+
+
 # ---------------------------------------------------------------- 抓取单对
-def fetch_pair(a, b):
-    """抓一对交手；命中缓存直接返回，抓取失败返回 None（不落盘，留给下次重跑）。"""
+def fetch_pair(a, b, force=False):
+    """抓一对交手；命中缓存直接返回（force=True 时忽略缓存重抓），失败返回 None（不落盘）。"""
     key = "__".join(sorted([a["slug"], b["slug"]]))
     cf = os.path.join(CACHE, key + ".json")
-    if os.path.exists(cf):
+    if os.path.exists(cf) and not force:
         return json.load(open(cf, encoding="utf-8"))
     ok, html = get(f"{BASE}/head-to-head/{a['slug']}/{b['slug']}")
     if not ok:
@@ -308,6 +337,9 @@ def main():
                     help="每对保留的逐场明细条数（默认 0=保留全部，不限条数；>0 则截断到该值）")
     ap.add_argument("--no-fetch", action="store_true",
                     help="仅用 data/raw/h2h_raw 缓存组装输出，不发起网络抓取（断网/先发布已完成部分时用）")
+    ap.add_argument("--refresh-since", metavar="YYYY-MM-DD",
+                    help="增量刷新：只重抓该日期（含）之后完赛场次涉及的球员对，其余沿用缓存。"
+                         "日常追更用这个，避免全量重抓 2016 对触发 CueTracker 429")
     args = ap.parse_args()
 
     global DELAY
@@ -325,21 +357,28 @@ def main():
 
     t0 = time.time()
     failed = []
-    if not args.no_fetch:
-        with ThreadPoolExecutor(max_workers=args.workers) as ex:
-            for n, rec in enumerate(ex.map(fetch_pair,
-                                           [p[0] for p in pairs],
-                                           [p[1] for p in pairs]), 1):
-                if rec is None:
-                    a, b = pairs[n - 1]
-                    failed.append("__".join(sorted([a["slug"], b["slug"]])))
-                if n % 100 == 0 or n == len(pairs):
-                    el = time.time() - t0
-                    print(f"  {n}/{len(pairs)}  ({el:.0f}s, 预计还剩 "
-                          f"{el/n*(len(pairs)-n):.0f}s) http={_stats} "
-                          f"失败={len(failed)}", flush=True)
-    else:
+    if args.no_fetch:
         print("（--no-fetch：仅用本地缓存组装，跳过网络抓取）", flush=True)
+    else:
+        if args.refresh_since:
+            todo = recent_pairs(args.refresh_since, players)
+            force = True
+            print(f"增量刷新：{args.refresh_since} 之后完赛场次涉及 {len(todo)} 对（强制重抓）",
+                  flush=True)
+        else:
+            todo = pairs
+            force = False
+        with ThreadPoolExecutor(max_workers=args.workers) as ex:
+            for n, rec in enumerate(ex.map(lambda ab: fetch_pair(ab[0], ab[1], force=force),
+                                           todo), 1):
+                if rec is None:
+                    a, b = todo[n - 1]
+                    failed.append("__".join(sorted([a["slug"], b["slug"]])))
+                if n % 100 == 0 or n == len(todo):
+                    el = time.time() - t0
+                    print(f"  {n}/{len(todo)}  ({el:.0f}s, 预计还剩 "
+                          f"{el/n*(len(todo)-n):.0f}s) http={_stats} "
+                          f"失败={len(failed)}", flush=True)
 
     # 组装：跳过从未交手的组合（0 场），前端会提示「暂无交手记录」
     out_pairs, out_meet = {}, {}
