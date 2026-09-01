@@ -173,7 +173,7 @@
       var hw = m.homeScore > m.awayScore;
       return '<div class="recent-row">' +
         '<div class="rr-player">' +
-          '<span class="rr-name"><span class="cn">' + esc(m.home ? m.home.name_zh : 'TBD') + '</span>' +
+          '<span class="rr-name"><span class="cn">' + esc(m.home ? m.home.name_zh : '待定 TBD') + '</span>' +
           '<span class="en">' + esc(m.home ? m.home.name_en : 'TBD') + '</span></span>' +
           '<span class="rr-flag">' + esc(m.home ? m.home.country : '') + '</span>' +
         '</div>' +
@@ -183,7 +183,7 @@
           '<span class="' + (hw ? 'l' : 'w') + '">' + m.awayScore + '</span>' +
         '</div>' +
         '<div class="rr-player right">' +
-          '<span class="rr-name"><span class="cn">' + esc(m.away ? m.away.name_zh : 'TBD') + '</span>' +
+          '<span class="rr-name"><span class="cn">' + esc(m.away ? m.away.name_zh : '待定 TBD') + '</span>' +
           '<span class="en">' + esc(m.away ? m.away.name_en : 'TBD') + '</span></span>' +
           '<span class="rr-flag">' + esc(m.away ? m.away.country : '') + '</span>' +
         '</div>' +
