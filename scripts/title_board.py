@@ -88,11 +88,18 @@ def load_slug_names():
     return out
 
 
-def build(titles_path=TITLES_PATH):
+def build(titles_path=TITLES_PATH, country_fb=None):
+    """整理历史冠军榜。
+
+    country_fb：可选的「英文名小写 → 三字母国家代码」兜底表。
+    少数只出现在 matches.json、没进 players.json 的球员（如 Robert Milkins、
+    Peter Lines），fetch_titles.py 拿不到 countryCode，这里用现役名单补上。
+    """
     if not os.path.exists(titles_path):
         print("  ! 未找到 titles.json，跳过历史冠军榜")
         return {"meta": {}, "rows": []}
 
+    country_fb = country_fb or {}
     with open(titles_path, encoding="utf-8") as f:
         data = json.load(f)
     names = load_slug_names()
@@ -127,6 +134,8 @@ def build(titles_path=TITLES_PATH):
 
         name_en = names.get(slug) or slug.replace("-", " ").title()
         code, zh, en = norm_country(p.get("countryCode", ""))
+        if not code:
+            code, zh, en = norm_country(country_fb.get(name_en.strip().lower(), ""))
         rows.append({
             "slug": slug,
             "name_en": name_en,

@@ -235,8 +235,19 @@ EVENTS = {
     "world championship": "世界锦标赛",
     "xi'an grand prix": "西安大奖赛",
     "saudi arabia snooker masters": "沙特阿拉伯大师赛",
+    "saudi arabia masters": "沙特阿拉伯大师赛",
     "riyadh season championship": "利雅得赛季锦标赛",
     "world mixed doubles": "世界混双赛",
+    # CueTracker 用的写法（与 WST 官方名不同，单独收录）
+    "championship league": "冠军联赛",
+    "snooker shoot out": "单局限时赛",
+    "european masters": "欧洲大师赛",
+    "wst pro series": "WST Pro 系列赛",
+    "wst classic": "WST 经典赛",
+    "china championship": "中国锦标赛",
+    "turkish masters": "土耳其大师赛",
+    "hong kong masters": "香港大师赛",
+    "world open": "世界公开赛",
 }
 
 # ---------------------------------------------------------------- 历史赛事
@@ -288,6 +299,31 @@ HISTORIC_EVENTS = {
     "world matchplay": "世界对抗赛", "humo masters": "Humo 大师赛",
     "world snooker league": "世界斯诺克联赛",
     "top rank classic": "Top Rank 经典赛",
+    # --- 1970–1990 年代的职业锦标赛 / 电视邀请赛（历史冠军榜高频） ---
+    "pontins professional": "庞廷斯职业赛",
+    "pontins star championship": "庞廷斯明星锦标赛",
+    "pot black": "黑球挑战赛",
+    "irish professional championship": "爱尔兰职业锦标赛",
+    "australian professional championship": "澳大利亚职业锦标赛",
+    "welsh professional championship": "威尔士职业锦标赛",
+    "english professional championship": "英格兰职业锦标赛",
+    "canadian professional championship": "加拿大职业锦标赛",
+    "south african professional championship": "南非职业锦标赛",
+    "indian professional championship": "印度职业锦标赛",
+    "news of the world tournament": "世界新闻报锦标赛",
+    "merseyside professional": "默西塞德职业赛",
+    "tolly cobbold classic": "托利·科博尔德经典赛",
+    "coral uk championship": "珊瑚英锦赛",
+    "jameson international": "詹姆森国际赛",
+    "goya matchroom trophy": "戈雅 Matchroom 奖杯赛",
+    "world professional match-play championship": "世界职业对抗锦标赛",
+    "golden masters": "黄金大师赛",
+    "norwich union grand prix": "诺威治联合大奖赛",
+    "dry blackthorn cup": "黑刺李杯",
+    "langs supreme professional": "朗至尊职业赛",
+    "winfield masters": "温菲尔德大师赛",
+    "padmore super crystalate": "帕德摩尔水晶赛",
+    "state express world challenge": "国快世界挑战赛",
 }
 
 # 次级排名赛分站：PTC - Event 1 / European Tour - Event 4 / Asian Tour - Event 2
@@ -400,13 +436,29 @@ ROUNDS = {
     "quarter finals": "1/4决赛", "quarter final": "1/4决赛",
     "round 1": "第一轮", "round 2": "第二轮", "round 3": "第三轮",
     "round 4": "第四轮", "round 5": "第五轮", "round 6": "第六轮",
+    "round 7": "第七轮", "round 8": "第八轮",
     "last 16": "16强", "last 32": "32强", "last 64": "64强",
     "last 128": "128强", "last 8": "8强", "last 4": "4强",
     "wildcard round": "外卡轮", "pre-qualifier round": "预选资格轮",
     "league phase": "小组循环赛", "round robin": "循环赛",
     "stage one": "第一阶段", "stage two": "第二阶段", "stage three": "第三阶段",
+    # CueTracker 的冠军联赛/小组赛轮次
+    "group": "小组赛", "winners group": "胜者组", "final group": "决赛组",
+    "qualifying group": "资格小组",
 }
 HELD_OVER = "延期进行"
+
+# 小组轮次的头部：Group / Winners Group / Final Group（后可跟组号与阶段）
+_GROUP_HEADS = ("winners group", "final group", "qualifying group", "group")
+_GROUP_HEAD_ZH = {"group": "小组", "winners group": "胜者组",
+                  "final group": "决赛组", "qualifying group": "资格小组"}
+_GROUP_RE = re.compile(
+    r"^(winners group|final group|qualifying group|group)\s*(\d*)\s*(.*)$", re.I)
+# 反向写法：Semi-final Group 2 / Final Group 1
+_ROUND_GROUP_RE = re.compile(
+    r"^(final|semi final|quarter final|semi finals|quarter finals)\s+group\s*(\d+)$",
+    re.I)
+_LAST_N_RE = re.compile(r"^last\s+(\d+)$", re.I)
 
 STATUS = {
     "Completed": "已结束", "Scheduled": "未开始", "In Progress": "进行中",
@@ -556,9 +608,49 @@ def round_zh(round_en):
                 suffix = STAGE_MAP.get(inner_key, STAGE_MAP.get(
                     re.sub(r"\s+", " ", inner_key), inner))
             else:
-                suffix = inner
+                # 其余括号内容（如 "Round 2 (Group 3)"）：主体与括号都要截开，
+                # 否则主体会带着 "(Group 3)" 一起去查表，导致整串翻译失败。
+                s = base
+                inner_key = re.sub(r"\s*/\s*", "/", inner_key)
+                suffix = STAGE_MAP.get(inner_key, STAGE_MAP.get(
+                    re.sub(r"\s+", " ", inner_key), inner))
+                # 括号里是小组/轮次时（Group 3、Last 32）递归成中文
+                if suffix == inner:
+                    sub = round_zh(inner)
+                    if sub and sub != inner:
+                        suffix = sub
     s = re.sub(r"\s+", " ", s).strip()
-    core = ROUNDS.get(s.lower(), s)
+
+    # 连字符与空格等价：CueTracker 写 "Quarter-final"、WST 写 "Quarter Final"
+    key = s.lower()
+    key2 = re.sub(r"\s+", " ", key.replace("-", " ")).strip()
+
+    core = ROUNDS.get(key) or ROUNDS.get(key2)
+    if core is None:
+        m = _LAST_N_RE.match(key2)          # Last 48 / Last 96 / Last 144 …
+        if m:
+            core = f"{m.group(1)}强"
+    if core is None:
+        m = _ROUND_GROUP_RE.match(key2)     # Semi-final Group 2
+        if m:
+            head = ROUNDS.get(m.group(1), m.group(1))
+            core = f"第{m.group(2)}组{head}"
+    if core is None:
+        m = _GROUP_RE.match(key2)           # Group 3 / Group 4 - Semi-final …
+        if m:
+            head = _GROUP_HEAD_ZH[m.group(1).lower()]
+            num, rest = m.group(2), m.group(3).strip()
+            rest_key = re.sub(r"\s+", " ", rest.replace("-", " ")).strip()
+            rest_zh = ROUNDS.get(rest, ROUNDS.get(rest_key)) if rest else ""
+            if not rest_zh and rest:
+                n2 = _LAST_N_RE.match(rest_key)
+                rest_zh = f"{n2.group(1)}强" if n2 else rest
+            if m.group(1).lower() == "final group":
+                core = f"第{num}组决赛" if num else head
+            else:
+                core = (f"第{num}组" if num else head) + rest_zh
+    if core is None:
+        core = s
     return f"{core}（{suffix}）" if suffix else core
 
 

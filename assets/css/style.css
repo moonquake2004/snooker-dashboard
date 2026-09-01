@@ -881,15 +881,29 @@ tbody tr.top1:hover{background:rgba(217,180,74,.17)}
   gap:9px;margin:20px 0 4px}
 
 .h2h-list{margin-top:14px}
+.h2h-list-head{font-family:var(--font-cn);font-size:12px;color:var(--brass-300);
+  letter-spacing:.04em;padding:0 6px 8px;border-bottom:1px solid rgba(217,180,74,.22);
+  margin-bottom:4px}
+.h2h-list-head .en{font-family:var(--font-en);font-size:10px;letter-spacing:.1em;
+  opacity:.65;margin-left:6px}
 .h2h-row{display:grid;grid-template-columns:88px 1fr 78px;align-items:center;gap:10px;
   padding:8px 6px;border-radius:7px;font-size:13px;transition:background .15s}
 .h2h-row+.h2h-row{border-top:1px dashed rgba(255,255,255,.08)}
 .h2h-row:hover{background:rgba(255,255,255,.05)}
 .h2h-date{font-family:var(--font-en);font-size:11px;color:var(--ivory-dim);opacity:.8}
+/* 赛事名 + 轮次可能较长（如「2026 武汉公开赛 · 1/4决赛」），允许折行而不是截断 */
 .h2h-tour .cn{display:block;font-family:var(--font-cn);font-size:13px;color:var(--ivory);
-  white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-.h2h-tour .en{display:block;font-family:var(--font-en);font-size:10px;opacity:.6;color:var(--brass-300);
-  white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  line-height:1.4}
+.h2h-tour .en{display:block;font-family:var(--font-en);font-size:10px;opacity:.6;
+  color:var(--brass-300);line-height:1.4;margin-top:1px}
+/* 冠军明细里的「排名赛 / ★ 三大赛」标记（现役球员弹窗 + 名宿弹窗共用） */
+.tag-rank,.tag-crown{font-style:normal;font-size:11px;padding:1px 6px;border-radius:4px;
+  margin-left:4px;white-space:nowrap;letter-spacing:.02em}
+.tag-rank{background:rgba(15,122,69,.26);border:1px solid rgba(15,122,69,.62);
+  color:#9be8bd}
+.tag-crown{background:linear-gradient(135deg,rgba(217,180,74,.3),rgba(217,180,74,.08));
+  border:1px solid var(--brass-400);color:var(--brass-300);font-weight:700}
+
 .h2h-sc{font-family:var(--font-en);font-weight:700;font-size:16px;text-align:center;
   padding:3px 0;border-radius:6px;background:rgba(0,0,0,.34);border:1px solid rgba(217,180,74,.22)}
 .h2h-sc .w{color:var(--brass-300)}
