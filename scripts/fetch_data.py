@@ -17,6 +17,7 @@
 
 import argparse
 import concurrent.futures
+import http.client
 import json
 import os
 import sys
@@ -51,7 +52,7 @@ ENDPOINTS = {
 PAGE_SIZE = {"matches": 500}
 
 
-def get_json(url, retries=3, timeout=60):
+def get_json(url, retries=4, timeout=60):
     last_err = None
     for attempt in range(retries):
         try:
@@ -60,7 +61,8 @@ def get_json(url, retries=3, timeout=60):
                 raw = resp.read().decode("utf-8", errors="replace")
             return json.loads(raw)
         except (urllib.error.URLError, urllib.error.HTTPError,
-                json.JSONDecodeError, TimeoutError, OSError) as exc:
+                json.JSONDecodeError, TimeoutError, OSError,
+                http.client.IncompleteRead) as exc:
             last_err = exc
             time.sleep(1.5 * (attempt + 1))
     raise RuntimeError(f"请求失败 {url}: {last_err}")
