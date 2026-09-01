@@ -68,6 +68,7 @@
         <a href="#rankings"  class="nav-link" data-tab="rankings" data-page-node-id="7oN3nraCnoVU0WGwQ0Qy2w">          <span class="cn" data-page-node-id="DCwnL1gbZZ9RGUUG887gjk">排名</span><span class="en" data-page-node-id="ZqOjDo5BVj343YQIroeRZR">Rankings</span></a>
         <a href="#players"   class="nav-link" data-tab="players" data-page-node-id="c5HyADByUrVOjUd2RgSkJw">           <span class="cn" data-page-node-id="wGdwWzTykeJAD5MCHwZeSm">球员</span><span class="en" data-page-node-id="NIyIs4CU1kEDt66lVDuigy">Players</span></a>
         <a href="#stats"     class="nav-link" data-tab="stats" data-page-node-id="EaJQfRUhI30jMTQHEKIrtE">             <span class="cn" data-page-node-id="TbFgaHYTyZ9Dgd2HO8MpbB">数据中心</span><span class="en" data-page-node-id="LHKaZNXzn8xch3koPwJZAV">Stats</span></a>
+        <a href="#h2h"       class="nav-link" data-tab="h2h" data-page-node-id="Hk2aQpX7mWn8vYcZ4LdR1s">              <span class="cn" data-page-node-id="Zp3bRyT9nVc4wXeA1MfQ2u">交手记录</span><span class="en" data-page-node-id="Wq6dYhL2kTz8cBnR5VgS3x">H2H</span></a>
       </nav>
     </div>
   </div>
@@ -331,6 +332,36 @@
   </div>
 </section>
 
+<!-- ============================================================ 交手记录 -->
+<section id="h2h" class="tab-panel" data-page-node-id="Jd4cKyP8nWm9vYbZ5LeR2t">
+  <div class="wrap" data-page-node-id="Kf5dLzR9oXn8wYcA6MfS3u">
+    <h2 class="sec-title" data-page-node-id="Lg6eMxS0pYo9vZdA7NgT4v">
+      <span class="cn" data-page-node-id="Mh7fNyT1qZp0vAeB8OhU5w">交手记录</span><span class="en" data-page-node-id="Ni8gOzU2rAq1wBfC9PiV6x">Head-to-Head</span>
+    </h2>
+    <p class="sec-desc" data-page-node-id="Oj9hPaV3sBr2wCgD0QjW7y">
+      <span class="cn" data-page-node-id="Pk0iQbW4tCs3xDbE1RkX8z">世界排名前 24 名球员之间的生涯交手（数据源 CueTracker）。选择两位球员查看胜负与逐场记录。</span>
+      <span class="en" data-page-node-id="Ql1jRcX5uDt4yEcF2SlY9a">Career head-to-head among the world's top 24 (source: CueTracker). Pick two players to see the record.</span>
+    </p>
+
+    <div class="panel h2h-panel" data-page-node-id="Rm2kSdY6vEu5zFdG3TmZ0b">
+      <div class="h2h-selectors" data-page-node-id="Sn3lTeZ7wFv6aGeH4UnA1c">
+        <div class="h2h-pick" data-page-node-id="To4mUfA8xGw7bHfI5VoB2d">
+          <label data-page-node-id="Up5nVgB9yHx8cIgJ6WpC3e"><span class="cn" data-page-node-id="Vq6oWhC0zIy9dJhK7XqD4f">球员 A</span><span class="en" data-page-node-id="Wr7pXiD1aJz0eKiL8YrE5g">Player A</span></label>
+          <select id="h2hA" class="h2h-select" data-page-node-id="Xs8qYjE2bKa1fLjM9ZsF6h"></select>
+        </div>
+        <div class="h2h-vs" data-page-node-id="Yt9rZkF3cLb2gMkN0AtG7i">VS</div>
+        <div class="h2h-pick" data-page-node-id="Zu0sAlG4dMc3hNoL1BuH8j">
+          <label data-page-node-id="Av1tBmH5eNd4iOpM2CvI9k"><span class="cn" data-page-node-id="Bw2uCnI6fOe5jPqN3DwJ0l">球员 B</span><span class="en" data-page-node-id="Cx3vDoJ7gPf6kQrO4ExK1m">Player B</span></label>
+          <select id="h2hB" class="h2h-select" data-page-node-id="Dy4wEpK8hQg7lRsP5FyL2n"></select>
+        </div>
+      </div>
+
+      <div id="h2hSummary" class="h2h-summary" data-page-node-id="Ez5xFqL9iRh8mStQ6GzM3o"></div>
+      <div id="h2hList" class="h2h-list" data-page-node-id="Fa6yGrM0jSi9nTuR7HaN4p"></div>
+    </div>
+  </div>
+</section>
+
 </main>
 
 <!-- ============================================================ 页脚 -->
@@ -379,6 +410,7 @@
 </div>
 
 <script src="data/dashboard.js"></script>
+<script src="data/h2h.js"></script>
 <script src="assets/js/app.js"></script>
 </body>
 </html>

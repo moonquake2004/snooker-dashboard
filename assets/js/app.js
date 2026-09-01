@@ -6,6 +6,7 @@
   'use strict';
 
   var D = window.SNOOKER_DATA;
+  var H = window.H2H_DATA || null;   // 交手记录（CueTracker），由 data/h2h.js 提供
   var $ = function (s, r) { return (r || document).querySelector(s); };
   var $$ = function (s, r) { return Array.prototype.slice.call((r || document).querySelectorAll(s)); };
 
@@ -698,6 +699,106 @@
     document.body.style.overflow = 'hidden';
   }
 
+  /* ------------------------------------------------------------ 交手记录 H2H */
+  var h2hA = '', h2hB = '';
+
+  function initH2H() {
+    if (!H || !H.players || !H.players.length) {
+      var sec = $('#h2h');
+      if (sec) sec.innerHTML =
+        '<div class="wrap"><div class="empty-state">' +
+        '<span class="cn">交手数据暂未生成（运行 scripts/fetch_h2h.py 后生效）</span>' +
+        '<span class="en">H2H data not generated yet</span></div></div>';
+      return;
+    }
+    var sel = H.players.slice().sort(function (a, b) {
+      return a.name_en.localeCompare(b.name_en);
+    });
+    var opts = sel.map(function (p) {
+      return '<option value="' + esc(p.slug) + '">' + esc(p.name_zh || p.name_en) +
+        ' · ' + esc(p.name_en) + '</option>';
+    }).join('');
+    $('#h2hA').innerHTML = opts;
+    $('#h2hB').innerHTML = opts;
+    // 默认取前两名（按世界排名顺序）
+    h2hA = (H.players[0] || {}).slug || '';
+    h2hB = (H.players[1] || {}).slug || '';
+    $('#h2hA').value = h2hA;
+    $('#h2hB').value = h2hB;
+    updateH2H();
+  }
+
+  function updateH2H() {
+    h2hA = $('#h2hA').value;
+    h2hB = $('#h2hB').value;
+    var sum = $('#h2hSummary'), list = $('#h2hList');
+    if (h2hA === h2hB) {
+      sum.innerHTML = '<div class="empty-state"><span class="cn">请选择两位不同的球员</span>' +
+        '<span class="en">Pick two different players</span></div>';
+      list.innerHTML = '';
+      return;
+    }
+    var key = [h2hA, h2hB].sort().join('__');
+    var rec = H.pairs[key];
+    if (!rec) {
+      sum.innerHTML = '<div class="empty-state"><span class="cn">暂无这两位球员的交手记录</span>' +
+        '<span class="en">No head-to-head record found</span></div>';
+      list.innerHTML = '';
+      return;
+    }
+    // 方向：选中 A 是否为排序后的第一个（stored a）
+    var flip = (rec.slug_a !== h2hA);
+    var nameA = flip ? rec.name_b : rec.name_a;
+    var nameB = flip ? rec.name_a : rec.name_b;
+    var wA = flip ? rec.b_wins : rec.a_wins;
+    var wB = flip ? rec.a_wins : rec.b_wins;
+    var fA = flip ? rec.b_frames : rec.a_frames;
+    var fB = flip ? rec.a_frames : rec.b_frames;
+    var total = wA + wB;
+
+    var condA = wA > wB ? 'lead' : (wA < wB ? 'behind' : 'tie');
+    var condB = wB > wA ? 'lead' : (wB < wA ? 'behind' : 'tie');
+
+    sum.innerHTML =
+      '<div class="h2h-duel">' +
+        '<div class="h2h-side ' + condA + '"><span class="cn">' + esc(nameA) +
+        '</span><span class="en">' + esc(nameA) + '</span></div>' +
+        '<div class="h2h-score">' +
+          '<span class="ws">' + wA + '</span><span class="sep">–</span><span class="ws">' + wB + '</span>' +
+          '<small><span class="cn">生涯胜场</span><span class="en">Wins</span></small>' +
+        '</div>' +
+        '<div class="h2h-side b ' + condB + '"><span class="cn">' + esc(nameB) +
+        '</span><span class="en">' + esc(nameB) + '</span></div>' +
+      '</div>' +
+      '<div class="h2h-meta">' +
+        stat(total, '总交手', 'Meetings') +
+        stat(fA, nameA + ' 局数', 'Frames ' + (flip ? 'B' : 'A')) +
+        stat(fB, nameB + ' 局数', 'Frames ' + (flip ? 'A' : 'B')) +
+        stat((wA + wB) ? Math.round(wA / (wA + wB) * 100) + '%' : '—', nameA + ' 胜率', 'Win %') +
+      '</div>';
+
+    var rows = rec.meetings.map(function (m) {
+      var aSc = flip ? m.b_score : m.a_score;
+      var bSc = flip ? m.a_score : m.b_score;
+      var aWin = flip ? !m.a_win : m.a_win;
+      return '<div class="h2h-row">' +
+        '<div class="h2h-date">' + esc(m.date || '—') + '</div>' +
+        '<div class="h2h-tour">' +
+          '<span class="cn">' + esc(m.tournament) + '</span>' +
+          '<span class="en">' + esc(m.round || '') + '</span>' +
+        '</div>' +
+        '<div class="h2h-sc">' +
+          '<span class="' + (aWin ? 'w' : 'l') + '">' + aSc + '</span>' +
+          '<span class="ds">-</span>' +
+          '<span class="' + (aWin ? 'l' : 'w') + '">' + bSc + '</span>' +
+        '</div>' +
+      '</div>';
+    }).join('');
+    list.innerHTML = rows ||
+      '<div class="empty-state"><span class="cn">暂无逐场明细</span>' +
+      '<span class="en">No match detail</span></div>';
+  }
+
   /* ------------------------------------------------------------ 弹层 */
   function openPlayer(pid) {
     var p = D.allPlayers.filter(function (x) { return x.id === pid; })[0];
@@ -1028,6 +1129,10 @@
       renderPlayers();
     });
 
+    // 交手记录选择器
+    if ($('#h2hA')) $('#h2hA').addEventListener('change', updateH2H);
+    if ($('#h2hB')) $('#h2hB').addEventListener('change', updateH2H);
+
     // 破百筛选
     $('#centuryFilter').addEventListener('click', function (e) {
       var b = e.target.closest('.seg');
@@ -1097,6 +1202,7 @@
       if (p.career && p.career.slug) careerSlug2pid[p.career.slug] = p.id;
     });
     renderTitleBoard();
+    initH2H();
     initNav();
     initEvents();
     $('#loader').hidden = true;
