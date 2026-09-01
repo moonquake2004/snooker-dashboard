@@ -280,14 +280,18 @@ def fetch_pair(a, b):
 
 # ---------------------------------------------------------------- 缓存版本号
 def _bump_index_cache():
-    """写盘后刷新 index.html 里 data 脚本的 ?v= 版本号，避免分享站点/CDN 缓存旧数据。"""
+    """写盘后刷新 index.html 里静态资源的 ?v= 版本号，避免分享站点/CDN 缓存旧数据。"""
     ts = time.strftime("%Y%m%d%H%M%S")
     idx = os.path.join(ROOT, "index.html")
     if not os.path.exists(idx):
         return
     s = open(idx, encoding="utf-8").read()
+    # data 脚本
     s2 = re.sub(r'(src="data/(?:h2h|dashboard)\.js)(?:\?v=\d+)?',
                 lambda m: m.group(1) + "?v=" + ts, s)
+    # app.js / style.css
+    s2 = re.sub(r'((?:src|href)="(?:assets/js/app\.js|assets/css/style\.css))(?:\?v=\d+)?"',
+                lambda m: m.group(1) + "?v=" + ts + "\"", s2)
     if s2 != s:
         open(idx, "w", encoding="utf-8").write(s2)
         print(f"已刷新 index.html 缓存版本号 ?v={ts}")
