@@ -418,6 +418,27 @@ def main():
         pl["tournaments"].sort(key=lambda x: -x["bestRank"])
         pl.pop("bestRoundRank", None)
 
+    # 决赛结果：区分冠军 / 亚军，否则 Event By Event 里所有决赛都只显示"决赛"
+    for pl in players.values():
+        has_winner = has_runner = False
+        for tentry in pl["tournaments"]:
+            tt = tmap.get(tentry["id"])
+            if not tt:
+                continue
+            wid = tt.get("winner", {}).get("id") if tt.get("winner") else None
+            rid = tt.get("runnerUp", {}).get("id") if tt.get("runnerUp") else None
+            if tentry.get("bestRound_en") == "Final":
+                if wid == pl["id"]:
+                    tentry["finalResult"] = "winner"
+                    has_winner = True
+                elif rid == pl["id"]:
+                    tentry["finalResult"] = "runner-up"
+                    has_runner = True
+        if has_winner:
+            pl["bestFinalResult"] = "winner"
+        elif has_runner:
+            pl["bestFinalResult"] = "runner-up"
+
     # ---------------------------------------------------------- 排名榜
     RANK_ZH = {
         "World Rankings": "世界排名",
@@ -508,7 +529,13 @@ def main():
     }
 
     # ---------------------------------------------------------- 历史冠军榜
-    title_board = TB.build()
+    # 少数球员只在 matches.json 里出现过，fetch_titles.py 拿不到国家代码，
+    # 这里用现役名单兜底补上（否则冠军榜会出现空白的「国家/地区」）。
+    country_fb = {}
+    for _p in players.values():
+        if _p.get("name_en") and _p.get("country"):
+            country_fb[_p["name_en"].strip().lower()] = _p["country"]
+    title_board = TB.build(country_fb=country_fb)
     tb_meta = title_board.get("meta", {})
     if title_board.get("rows"):
         print(f"  历史冠军榜：{tb_meta.get('rows')} 人上榜，"

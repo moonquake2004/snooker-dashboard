@@ -665,11 +665,15 @@
   function openLegacy(slug) {
     var r = tbBySlug[slug];
     if (!r) return;
+    // 注意：title_board.py 输出的字段是 z(中文赛事名) / e(英文赛事名) / y(年份) /
+    // r(是否排名赛) / c(是否三大赛)，与现役球员弹窗里的 p.career.items 完全一致。
+    // 这里早期误写成 it.zh / it.en / it.year，导致名宿弹窗明细全空。
     var items = (r.items || []).map(function (it) {
-      return '<div class="md-row"><b><span class="cn">' + esc(it.zh) +
-        '</span><span class="en">' + esc(it.en) + '</span></b>' +
-        '<i><span class="cn">' + esc(it.year) + '</span>' +
-        '<span class="en">' + esc(it.year) + '</span></i></div>';
+      return '<div class="md-row"><b><span class="cn">' + esc(it.z || it.e) +
+        '</span><span class="en">' + esc(it.e) + '</span></b>' +
+        '<i>' + (it.y || '') +
+        (it.r ? ' · <span class="tag-rank">排名赛</span>' : '') +
+        (it.c ? ' · <span class="tag-crown">★ 三大赛</span>' : '') + '</i></div>';
     }).join('');
     var crown = r.crown ? '<span class="tbadge crown">★ ' + r.crown + '</span>' : '';
     var html =
@@ -700,7 +704,29 @@
   }
 
   /* ------------------------------------------------------------ 交手记录 H2H */
+  // H = window.H2H_DATA（摘要，随页面加载）：players[] + pairs{key:[a胜,b胜,a局,b局]}
+  // 逐场明细体积较大（前 64 名约 1MB），放 data/h2h_meetings.js 按需加载。
   var h2hA = '', h2hB = '';
+  var h2hPI = {};       // slug → {zh, en, c, rk}
+  var h2hMeet = null;   // window.H2H_MEETINGS
+  var h2hMeetState = 0; // 0 未加载 / 1 加载中 / 2 就绪 / 3 失败
+
+  function ensureMeetings() {
+    if (h2hMeetState !== 0) return;
+    h2hMeetState = 1;
+    var s = document.createElement('script');
+    s.src = 'data/h2h_meetings.js';
+    s.onload = function () {
+      h2hMeet = window.H2H_MEETINGS || {};
+      h2hMeetState = 2;
+      updateH2H();
+    };
+    s.onerror = function () {
+      h2hMeetState = 3;
+      updateH2H();
+    };
+    document.head.appendChild(s);
+  }
 
   function initH2H() {
     if (!H || !H.players || !H.players.length) {
@@ -711,20 +737,31 @@
         '<span class="en">H2H data not generated yet</span></div></div>';
       return;
     }
-    var sel = H.players.slice().sort(function (a, b) {
-      return a.name_en.localeCompare(b.name_en);
+    var players = H.players.slice().sort(function (a, b) {
+      return (a.rk || 999) - (b.rk || 999);
     });
-    var opts = sel.map(function (p) {
-      return '<option value="' + esc(p.slug) + '">' + esc(p.name_zh || p.name_en) +
-        ' · ' + esc(p.name_en) + '</option>';
+    h2hPI = {};
+    var opts = players.map(function (p) {
+      h2hPI[p.slug] = p;
+      return '<option value="' + esc(p.slug) + '">' +
+        esc((p.zh ? p.zh + ' · ' : '') + p.en) + '</option>';
     }).join('');
     $('#h2hA').innerHTML = opts;
     $('#h2hB').innerHTML = opts;
-    // 默认取前两名（按世界排名顺序）
-    h2hA = (H.players[0] || {}).slug || '';
-    h2hB = (H.players[1] || {}).slug || '';
+    h2hA = (players[0] || {}).slug || '';
+    h2hB = (players[1] || {}).slug || '';
     $('#h2hA').value = h2hA;
     $('#h2hB').value = h2hB;
+
+    var m = H.meta || {};
+    $$('.h2h-top').forEach(function (b) { b.textContent = m.top || players.length; });
+    $('#h2hNote').innerHTML =
+      '<span class="cn">数据来源 ' + esc(m.source || 'CueTracker') + '，截至 ' +
+      esc((m.fetched || '').slice(0, 10)) + '。覆盖 ' + (m.pairs || 0) +
+      ' 组有过交手的组合，每组最多显示最近 ' + (m.meetingsPerPair || 6) + ' 场。</span>' +
+      '<span class="en">Source ' + esc(m.source || 'CueTracker') + ', as of ' +
+      esc((m.fetched || '').slice(0, 10)) + '. ' + (m.pairs || 0) +
+      ' pairs with meetings, latest ' + (m.meetingsPerPair || 6) + ' shown each.</span>';
     updateH2H();
   }
 
@@ -738,54 +775,90 @@
       list.innerHTML = '';
       return;
     }
-    var key = [h2hA, h2hB].sort().join('__');
+    var parts = [h2hA, h2hB].sort();       // 与数据里的 key 一致
+    var key = parts.join('__');
     var rec = H.pairs[key];
     if (!rec) {
-      sum.innerHTML = '<div class="empty-state"><span class="cn">暂无这两位球员的交手记录</span>' +
-        '<span class="en">No head-to-head record found</span></div>';
+      sum.innerHTML = '<div class="empty-state"><span class="cn">这两位球员生涯暂无交手记录</span>' +
+        '<span class="en">No career meetings between them</span></div>';
       list.innerHTML = '';
       return;
     }
-    // 方向：选中 A 是否为排序后的第一个（stored a）
-    var flip = (rec.slug_a !== h2hA);
-    var nameA = flip ? rec.name_b : rec.name_a;
-    var nameB = flip ? rec.name_a : rec.name_b;
-    var wA = flip ? rec.b_wins : rec.a_wins;
-    var wB = flip ? rec.a_wins : rec.b_wins;
-    var fA = flip ? rec.b_frames : rec.a_frames;
-    var fB = flip ? rec.a_frames : rec.b_frames;
+    // 用户选的 A 是否是 key 里的第一个（否则战绩/局分要左右互换）
+    var flip = (parts[0] !== h2hA);
+    var pa = h2hPI[parts[0]] || { en: parts[0] };
+    var pb = h2hPI[parts[1]] || { en: parts[1] };
+    var uA = flip ? pb : pa;               // 用户选的 A
+    var uB = flip ? pa : pb;
+    var wA = flip ? rec[1] : rec[0];
+    var wB = flip ? rec[0] : rec[1];
+    var fA = flip ? rec[3] : rec[2];
+    var fB = flip ? rec[2] : rec[3];
     var total = wA + wB;
 
     var condA = wA > wB ? 'lead' : (wA < wB ? 'behind' : 'tie');
     var condB = wB > wA ? 'lead' : (wB < wA ? 'behind' : 'tie');
+    function side(p, cond) {
+      return '<div class="h2h-side ' + cond + '">' +
+        '<span class="cn">' + esc(p.zh || p.en) + '</span>' +
+        '<span class="en">' + esc(p.en) + '</span></div>';
+    }
 
     sum.innerHTML =
       '<div class="h2h-duel">' +
-        '<div class="h2h-side ' + condA + '"><span class="cn">' + esc(nameA) +
-        '</span><span class="en">' + esc(nameA) + '</span></div>' +
+        side(uA, condA) +
         '<div class="h2h-score">' +
           '<span class="ws">' + wA + '</span><span class="sep">–</span><span class="ws">' + wB + '</span>' +
           '<small><span class="cn">生涯胜场</span><span class="en">Wins</span></small>' +
         '</div>' +
-        '<div class="h2h-side b ' + condB + '"><span class="cn">' + esc(nameB) +
-        '</span><span class="en">' + esc(nameB) + '</span></div>' +
+        side(uB, condB) +
       '</div>' +
       '<div class="h2h-meta">' +
         stat(total, '总交手', 'Meetings') +
-        stat(fA, nameA + ' 局数', 'Frames ' + (flip ? 'B' : 'A')) +
-        stat(fB, nameB + ' 局数', 'Frames ' + (flip ? 'A' : 'B')) +
-        stat((wA + wB) ? Math.round(wA / (wA + wB) * 100) + '%' : '—', nameA + ' 胜率', 'Win %') +
+        stat(fA, (uA.zh || uA.en) + ' 局数', 'Frames A') +
+        stat(fB, (uB.zh || uB.en) + ' 局数', 'Frames B') +
+        stat(total ? Math.round(wA / total * 100) + '%' : '—',
+             (uA.zh || uA.en) + ' 胜率', 'Win % A') +
       '</div>';
 
-    var rows = rec.meetings.map(function (m) {
-      var aSc = flip ? m.b_score : m.a_score;
-      var bSc = flip ? m.a_score : m.b_score;
-      var aWin = flip ? !m.a_win : m.a_win;
+    // ---- 逐场明细（按需加载）
+    ensureMeetings();
+    var ms = (h2hMeet && h2hMeet[key]) || [];
+    if (!ms.length) {
+      if (h2hMeetState === 1) {
+        list.innerHTML = '<div class="empty-state">' +
+          '<span class="cn">正在载入逐场明细…</span>' +
+          '<span class="en">Loading match detail…</span></div>';
+      } else if (h2hMeetState === 3) {
+        list.innerHTML = '<div class="empty-state">' +
+          '<span class="cn">逐场明细加载失败（需通过 HTTP 访问，直接双击打开文件时浏览器会拦截）</span>' +
+          '<span class="en">Failed to load match detail</span></div>';
+      } else {
+        list.innerHTML = '<div class="empty-state">' +
+          '<span class="cn">暂无逐场明细</span>' +
+          '<span class="en">No match detail</span></div>';
+      }
+      return;
+    }
+    var isAll = ms.length === total;
+    var head = '<div class="h2h-list-head">' +
+      '<span class="cn">' + (isAll
+        ? '全部 ' + ms.length + ' 场逐场记录（生涯共 ' + total + ' 次交手）'
+        : '最近 ' + ms.length + ' 场（生涯共 ' + total + ' 次交手）') + '</span>' +
+      '<span class="en">' + (isAll
+        ? 'All ' + ms.length + ' match records (' + total + ' career meetings)'
+        : 'Last ' + ms.length + ' of ' + total + ' meetings') + '</span></div>';
+    var rows = ms.map(function (m) {
+      var aSc = flip ? m.bs : m.as;
+      var bSc = flip ? m.as : m.bs;
+      var aWin = flip ? !m.aw : m.aw;
+      var zh = (m.z || m.e || '') + (m.rz ? ' · ' + m.rz : '');
+      var en = (m.e || '') + (m.r ? ' · ' + m.r : '');
       return '<div class="h2h-row">' +
         '<div class="h2h-date">' + esc(m.date || '—') + '</div>' +
         '<div class="h2h-tour">' +
-          '<span class="cn">' + esc(m.tournament) + '</span>' +
-          '<span class="en">' + esc(m.round || '') + '</span>' +
+          '<span class="cn">' + esc(zh) + '</span>' +
+          '<span class="en">' + esc(en) + '</span>' +
         '</div>' +
         '<div class="h2h-sc">' +
           '<span class="' + (aWin ? 'w' : 'l') + '">' + aSc + '</span>' +
@@ -794,9 +867,7 @@
         '</div>' +
       '</div>';
     }).join('');
-    list.innerHTML = rows ||
-      '<div class="empty-state"><span class="cn">暂无逐场明细</span>' +
-      '<span class="en">No match detail</span></div>';
+    list.innerHTML = head + rows;
   }
 
   /* ------------------------------------------------------------ 弹层 */
@@ -816,6 +887,12 @@
 
     var tot = p.wins + p.losses;
     var wp = tot ? Math.round(p.wins / tot * 100) : 0;
+
+    function eventResult(t) {
+      if (t.finalResult === 'winner') return ['冠军', 'Champion'];
+      if (t.finalResult === 'runner-up') return ['亚军', 'Runner-up'];
+      return [t.bestRound, t.bestRound_en];
+    }
 
     var html =
       '<div class="md-head">' +
@@ -852,7 +929,10 @@
         stat(p.centuryRate != null ? p.centuryRate + '%' : '—', '破百率', 'Century %') +
         stat(p.fiftyRate != null ? p.fiftyRate + '%' : '—', '50+ 率', '50+ %') +
         stat(p.titles, '冠军', 'Titles') +
-        stat(p.bestRound || '—', '最好成绩', 'Best') +
+        stat(p.bestFinalResult
+               ? (p.bestFinalResult === 'winner' ? '冠军' : '亚军')
+               : (p.bestRound || '—'),
+             '最好成绩', 'Best') +
       '</div>' +
 
       (p.career
@@ -882,10 +962,11 @@
       '<div class="md-list">' +
         (p.tournaments.length
           ? p.tournaments.map(function (t) {
+              var er = eventResult(t);
               return '<div class="md-row"><b><span class="cn">' + esc(t.name_zh) + '</span>' +
                 '<span class="en">' + esc(t.name_en) + '</span></b>' +
-                '<i><span class="cn">' + esc(t.bestRound) + '</span>' +
-                '<span class="en">' + esc(t.bestRound_en) + '</span></i></div>';
+                '<i><span class="cn">' + esc(er[0]) + '</span>' +
+                '<span class="en">' + esc(er[1]) + '</span></i></div>';
             }).join('')
           : '<div class="md-row"><b><span class="cn">暂无出场记录</span>' +
             '<span class="en">No appearances</span></b></div>') +
