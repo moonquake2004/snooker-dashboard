@@ -278,6 +278,21 @@ def fetch_pair(a, b):
     return rec
 
 
+# ---------------------------------------------------------------- 缓存版本号
+def _bump_index_cache():
+    """写盘后刷新 index.html 里 data 脚本的 ?v= 版本号，避免分享站点/CDN 缓存旧数据。"""
+    ts = time.strftime("%Y%m%d%H%M%S")
+    idx = os.path.join(ROOT, "index.html")
+    if not os.path.exists(idx):
+        return
+    s = open(idx, encoding="utf-8").read()
+    s2 = re.sub(r'(src="data/(?:h2h|dashboard)\.js)(?:\?v=\d+)?',
+                lambda m: m.group(1) + "?v=" + ts, s)
+    if s2 != s:
+        open(idx, "w", encoding="utf-8").write(s2)
+        print(f"已刷新 index.html 缓存版本号 ?v={ts}")
+
+
 # ---------------------------------------------------------------- 主流程
 def main():
     ap = argparse.ArgumentParser(description="抓取 CueTracker 生涯交手记录 H2H")
@@ -385,6 +400,8 @@ def main():
         f.write("window.H2H_MEETINGS=")
         json.dump(out_meet, f, ensure_ascii=False, separators=(",", ":"))
         f.write(";\n")
+
+    _bump_index_cache()
 
     print(f"\n完成：{len(out_pairs)} 对有过交手（跳过未交手 "
           f"{len(pairs)-len(out_pairs)} 对），逐场明细 {n_meet} 条，http={_stats}")
