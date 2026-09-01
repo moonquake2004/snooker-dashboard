@@ -5,6 +5,13 @@
 🔗 **在线看板**：https://moonquake2004.github.io/snooker-dashboard/
 （镜像：https://62bc7128a2ae4219b3efe717d76505db.app.workbuddy.link ）
 
+[![Stars](https://img.shields.io/github/stars/moonquake2004/snooker-dashboard?style=flat-square)](https://github.com/moonquake2004/snooker-dashboard/stargazers)
+[![License](https://img.shields.io/github/license/moonquake2004/snooker-dashboard?style=flat-square)](LICENSE)
+[![Daily Update](https://img.shields.io/badge/daily%20update-22%3A00%20BJT-f0c060?style=flat-square)](.github/workflows/refresh.yml)
+
+![总览](docs/screenshots/desktop-overview.png)
+![排名榜](docs/screenshots/desktop-rankings.png)
+
 ---
 
 ## 它能看什么

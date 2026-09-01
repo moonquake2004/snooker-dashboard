@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /data/raw/
+Disallow: /tmp/
+
+Sitemap: https://moonquake2004.github.io/snooker-dashboard/sitemap.xml
