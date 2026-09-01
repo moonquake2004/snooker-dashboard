@@ -1,0 +1,24 @@
+# 抓取缓存：体积大且每次刷新都会变，不入库
+# （titles.json / prize_pages.json 例外，见下方，作为基线保留）
+data/raw/*.json
+!data/raw/titles.json
+!data/raw/prize_pages.json
+data/raw/titles_cache/
+
+# 本地调试/验证产物
+tmp/
+scripts/_*.png
+scripts/*.png
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# 编辑器与系统
+.DS_Store
+.idea/
+.vscode/
+*.swp

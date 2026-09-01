@@ -1,0 +1,2784 @@
+{
+ "meta": {
+  "source": "cuetracker.net",
+  "fetched": "2026-09-01 10:46:16",
+  "candidates": 323,
+  "players_with_titles": 130,
+  "unresolved_names": [
+   "Zhen Guan",
+   "Linhao Liu",
+   "Onyee Ng",
+   "Michael Larkov",
+   "Florian Nuessle",
+   "Lei Peifan",
+   "Fergal Quinn",
+   "China Wildcard #3",
+   "China Wildcard #4",
+   "Thanawat Tirapongpaiboon",
+   "Bai Yulu",
+   "Jiarui Xu",
+   "Ruifu Chen",
+   "Yichen Zhou",
+   "George Pragnell",
+   "Yuhang Wang",
+   "Sunny Akani",
+   "Muhammad Asif",
+   "Xu Yi Chen",
+   "Zhao Jianbo",
+   "Peng Yisong",
+   "Ali Ghareghouzlo",
+   "Rory Thor",
+   "Moh Keen Hoo",
+   "Ka Wai Cheung",
+   "Robbie Foldvari",
+   "Jimmy van Rensburg",
+   "Bernard Mapp"
+  ],
+  "http": {
+   "ok": 1,
+   "404": 0,
+   "err": 0
+  }
+ },
+ "players": {
+  "mark-allen": {
+   "slug": "mark-allen",
+   "countryCode": "gb-nir",
+   "match": "slugify",
+   "total": [
+    "2025 English Open",
+    "2024 Riyadh Season Championship",
+    "2024 Players Championship",
+    "2023 Snooker Shoot Out",
+    "2023 Champion of Champions",
+    "2023 World Grand Prix",
+    "2022 UK Championship",
+    "2022 Northern Ireland Open",
+    "2021 Northern Ireland Open",
+    "2020 Champion of Champions",
+    "2018 Scottish Open",
+    "2018 International Championship",
+    "2018 Masters",
+    "2016 Players Championship Grand Final",
+    "2015 European Tour - Event 4",
+    "2014 European Tour - Event 2",
+    "2013 European Tour - Event 6",
+    "2013 European Tour - Event 5",
+    "2013 World Open",
+    "2012 European Tour - Event 3",
+    "2012 World Open",
+    "2009 Jiangsu Classic"
+   ],
+   "ranking": [
+    "2025 English Open",
+    "2024 Players Championship",
+    "2023 Snooker Shoot Out",
+    "2023 World Grand Prix",
+    "2022 UK Championship",
+    "2022 Northern Ireland Open",
+    "2021 Northern Ireland Open",
+    "2018 Scottish Open",
+    "2018 International Championship",
+    "2016 Players Championship Grand Final",
+    "2013 World Open",
+    "2012 World Open"
+   ]
+  },
+  "zhang-anda": {
+   "slug": "zhang-anda",
+   "countryCode": "CN",
+   "match": "slugify",
+   "total": [
+    "2023 International Championship"
+   ],
+   "ranking": [
+    "2023 International Championship"
+   ]
+  },
+  "stuart-bingham": {
+   "slug": "stuart-bingham",
+   "countryCode": "gb-eng",
+   "match": "slugify",
+   "total": [
+    "2020 Masters",
+    "2019 Gibraltar Open",
+    "2018 English Open",
+    "2017 Welsh Open",
+    "2015 World Championship",
+    "2015 Championship League",
+    "2014 Asian Tour - Event 2",
+    "2014 Shanghai Masters",
+    "2014 Asian Tour - Event 4",
+    "2012 Premier League",
+    "2012 APTC - Event 3",
+    "2012 APTC - Event 1",
+    "2011 Australian Open",
+    "2006 Masters Qualifying Event",
+    "2005 Masters Qualifying Event",
+    "2002 WSA Open Tour - Event 6",
+    "1999 Merseyside Professional",
+    "1999 UK Tour - Event 3"
+   ],
+   "ranking": [
+    "2019 Gibraltar Open",
+    "2018 English Open",
+    "2017 Welsh Open",
+    "2015 World Championship",
+    "2014 Shanghai Masters",
+    "2011 Australian Open"
+   ]
+  },
+  "chang-bingyu": {
+   "slug": "chang-bingyu",
+   "countryCode": "CN",
+   "match": "slugify",
+   "total": [
+    "2026 Wuhan Open"
+   ],
+   "ranking": [
+    "2026 Wuhan Open"
+   ]
+  },
+  "luca-brecel": {
+   "slug": "luca-brecel",
+   "countryCode": "BE",
+   "match": "slugify",
+   "total": [
+    "2023 World Championship",
+    "2022 Championship League",
+    "2021 Scottish Open",
+    "2020 Championship League",
+    "2017 China Championship"
+   ],
+   "ranking": [
+    "2023 World Championship",
+    "2022 Championship League",
+    "2021 Scottish Open",
+    "2017 China Championship"
+   ]
+  },
+  "jordan-brown": {
+   "slug": "jordan-brown",
+   "countryCode": "gb-nir",
+   "match": "slugify",
+   "total": [
+    "2021 Welsh Open"
+   ],
+   "ranking": [
+    "2021 Welsh Open"
+   ]
+  },
+  "alfie-burden": {
+   "slug": "alfie-burden",
+   "countryCode": "gb-eng",
+   "match": "slugify",
+   "total": [
+    "2025 Snooker Shoot Out",
+    "1998 UK Tour - Event 1"
+   ],
+   "ranking": [
+    "2025 Snooker Shoot Out"
+   ]
+  },
+  "ali-carter": {
+   "slug": "ali-carter",
+   "countryCode": "gb-eng",
+   "match": "slugify",
+   "total": [
+    "2024 Championship League",
+    "2023 German Masters",
+    "2016 World Open",
+    "2015 European Tour - Event 2",
+    "2013 German Masters",
+    "2010 Shanghai Masters",
+    "2009 Welsh Open",
+    "1999 Benson and Hedges Championship"
+   ],
+   "ranking": [
+    "2024 Championship League",
+    "2023 German Masters",
+    "2016 World Open",
+    "2013 German Masters",
+    "2010 Shanghai Masters",
+    "2009 Welsh Open"
+   ]
+  },
+  "ryan-day": {
+   "slug": "ryan-day",
+   "countryCode": "gb-wls",
+   "match": "slugify",
+   "total": [
+    "2022 British Open",
+    "2021 Snooker Shoot Out",
+    "2018 Romanian Masters",
+    "2018 Gibraltar Open",
+    "2017 Riga Masters",
+    "2001 Benson and Hedges Championship"
+   ],
+   "ranking": [
+    "2022 British Open",
+    "2021 Snooker Shoot Out",
+    "2018 Gibraltar Open",
+    "2017 Riga Masters"
+   ]
+  },
+  "scott-donaldson": {
+   "slug": "scott-donaldson",
+   "countryCode": "gb-sct",
+   "match": "slugify",
+   "total": [
+    "2020 Championship League"
+   ],
+   "ranking": []
+  },
+  "tom-ford": {
+   "slug": "tom-ford",
+   "countryCode": "gb-eng",
+   "match": "slugify",
+   "total": [
+    "2024 Snooker Shoot Out",
+    "2011 PTC - Event 11",
+    "2010 PTC - Event 3"
+   ],
+   "ranking": [
+    "2024 Snooker Shoot Out"
+   ]
+  },
+  "marco-fu": {
+   "slug": "marco-fu",
+   "countryCode": "HK",
+   "match": "slugify",
+   "total": [
+    "2016 Scottish Open",
+    "2015 European Tour - Event 5",
+    "2013 Australian Open",
+    "2010 Championship League",
+    "2007 Grand Prix",
+    "2004 World Champions v Asia Stars Challenge",
+    "2003 Premier League",
+    "1998 Asian Tour Qualifier - Event 1"
+   ],
+   "ranking": [
+    "2016 Scottish Open",
+    "2013 Australian Open",
+    "2007 Grand Prix"
+   ]
+  },
+  "david-gilbert": {
+   "slug": "david-gilbert",
+   "countryCode": "gb-eng",
+   "match": "slugify",
+   "total": [
+    "2021 Championship League",
+    "2002 Challenge Tour - Event 4"
+   ],
+   "ranking": [
+    "2021 Championship League"
+   ]
+  },
+  "xiao-guodong": {
+   "slug": "xiao-guodong",
+   "countryCode": "CN",
+   "match": "slugify",
+   "total": [
+    "2025 Wuhan Open",
+    "2024 Wuhan Open",
+    "2009 PIOS - Event 6",
+    "2008 PIOS - Event 2"
+   ],
+   "ranking": [
+    "2025 Wuhan Open",
+    "2024 Wuhan Open"
+   ]
+  },
+  "barry-hawkins": {
+   "slug": "barry-hawkins",
+   "countryCode": "gb-eng",
+   "match": "slugify",
+   "total": [
+    "2026 Welsh Open",
+    "2023 European Masters",
+    "2019 Paul Hunter Classic",
+    "2017 World Grand Prix",
+    "2015 European Tour - Event 1",
+    "2014 Players Championship Grand Final",
+    "2012 Australian Open",
+    "2012 Snooker Shoot Out",
+    "2010 Pro Challenge Series - Event 5",
+    "2007 Masters Qualifying Event",
+    "2000 UK Tour - Event 4"
+   ],
+   "ranking": [
+    "2026 Welsh Open",
+    "2023 European Masters",
+    "2017 World Grand Prix",
+    "2014 Players Championship Grand Final",
+    "2012 Australian Open"
+   ]
+  },
+  "john-higgins": {
+   "slug": "john-higgins",
+   "countryCode": "gb-sct",
+   "match": "slugify",
+   "total": [
+    "2025 Tour Championship",
+    "2025 World Open",
+    "2023 Championship League",
+    "2022 Championship League",
+    "2021 Players Championship",
+    "2018 Championship League",
+    "2018 Welsh Open",
+    "2017 Indian Open",
+    "2017 Championship League",
+    "2016 Champion of Champions",
+    "2016 China Championship",
+    "2015 International Championship",
+    "2015 Australian Open",
+    "2015 Welsh Open",
+    "2013 European Tour - Event 1",
+    "2012 PTC - Event 4",
+    "2012 Shanghai Masters",
+    "2011 World Championship",
+    "2011 Scottish Professional Championship",
+    "2011 Hainan Classic",
+    "2011 Welsh Open",
+    "2010 UK Championship",
+    "2010 EPTC - Event 5",
+    "2010 Welsh Open",
+    "2009 World Championship",
+    "2008 Grand Prix",
+    "2007 World Championship",
+    "2006 Masters",
+    "2005 Grand Prix",
+    "2004 British Open",
+    "2002 Irish Masters",
+    "2001 British Open",
+    "2001 Scottish Masters",
+    "2001 Champions Cup",
+    "2000 UK Championship",
+    "2000 Irish Masters",
+    "2000 Welsh Open",
+    "1999 Grand Prix",
+    "1999 Premier League",
+    "1999 China International",
+    "1999 Charity Challenge",
+    "1999 Masters",
+    "1998 UK Championship",
+    "1998 World Championship",
+    "1998 British Open",
+    "1998 Charity Challenge",
+    "1997 German Open",
+    "1997 European Open",
+    "1996 International Open",
+    "1995 German Open",
+    "1995 British Open",
+    "1995 International Open",
+    "1994 Grand Prix"
+   ],
+   "ranking": [
+    "2025 Tour Championship",
+    "2025 World Open",
+    "2021 Players Championship",
+    "2018 Welsh Open",
+    "2017 Indian Open",
+    "2015 International Championship",
+    "2015 Australian Open",
+    "2015 Welsh Open",
+    "2012 Shanghai Masters",
+    "2011 World Championship",
+    "2011 Welsh Open",
+    "2010 UK Championship",
+    "2010 Welsh Open",
+    "2009 World Championship",
+    "2008 Grand Prix",
+    "2007 World Championship",
+    "2005 Grand Prix",
+    "2004 British Open",
+    "2001 British Open",
+    "2000 UK Championship",
+    "2000 Welsh Open",
+    "1999 Grand Prix",
+    "1999 China International",
+    "1998 UK Championship",
+    "1998 World Championship",
+    "1998 British Open",
+    "1997 German Open",
+    "1997 European Open",
+    "1996 International Open",
+    "1995 German Open",
+    "1995 British Open",
+    "1995 International Open",
+    "1994 Grand Prix"
+   ]
+  },
+  "andrew-higginson": {
+   "slug": "andrew-higginson",
+   "countryCode": "gb-eng",
+   "match": "slugify",
+   "total": [
+    "2011 PTC - Event 5",
+    "2006 PIOS - Event 8",
+    "2000 UK Tour - Event 2"
+   ],
+   "ranking": []
+  },
+  "liam-highfield": {
+   "slug": "liam-highfield",
+   "countryCode": "gb-eng",
+   "match": "slugify",
+   "total": [
+    "2009 PIOS - Event 2",
+    "2008 PIOS - Event 8"
+   ],
+   "ranking": []
+  },
+  "michael-holt": {
+   "slug": "michael-holt",
+   "countryCode": "gb-eng",
+   "match": "slugify",
+   "total": [
+    "2020 Snooker Shoot Out",
+    "2011 PTC - Event 10",
+    "2010 EPTC - Event 6",
+    "2000 Merseyside Professional"
+   ],
+   "ranking": [
+    "2020 Snooker Shoot Out"
+   ]
+  },
+  "jamie-jones": {
+   "slug": "jamie-jones",
+   "countryCode": "gb-wls",
+   "match": "slugify",
+   "total": [
+    "2009 PIOS - Event 4",
+    "2008 PIOS - Event 7"
+   ],
+   "ranking": []
+  },
+  "jak-jones": {
+   "slug": "jak-jones",
+   "countryCode": "gb-wls",
+   "match": "slugify",
+   "total": [
+    "2026 Championship League"
+   ],
+   "ranking": [
+    "2026 Championship League"
+   ]
+  },
+  "ding-junhui": {
+   "slug": "ding-junhui",
+   "countryCode": "CN",
+   "match": "slugify",
+   "total": [
+    "2024 International Championship",
+    "2023 6-Reds World Championship",
+    "2019 UK Championship",
+    "2017 World Open",
+    "2016 Shanghai Masters",
+    "2016 6-Reds World Championship",
+    "2015 Asian Tour - Event 1",
+    "2014 Asian Tour - Event 1",
+    "2014 China Open",
+    "2014 German Masters",
+    "2013 International Championship",
+    "2013 Indian Open",
+    "2013 Shanghai Masters",
+    "2013 PTC Grand Final",
+    "2012 European Tour - Event 5",
+    "2012 Championship League",
+    "2012 Welsh Open",
+    "2011 Masters",
+    "2010 PTC - Event 5",
+    "2009 UK Championship",
+    "2008 Jiangsu Classic",
+    "2006 Northern Ireland Trophy",
+    "2005 UK Championship",
+    "2005 China Open"
+   ],
+   "ranking": [
+    "2024 International Championship",
+    "2019 UK Championship",
+    "2017 World Open",
+    "2016 Shanghai Masters",
+    "2014 China Open",
+    "2014 German Masters",
+    "2013 International Championship",
+    "2013 Indian Open",
+    "2013 Shanghai Masters",
+    "2013 PTC Grand Final",
+    "2012 Welsh Open",
+    "2009 UK Championship",
+    "2006 Northern Ireland Trophy",
+    "2005 UK Championship",
+    "2005 China Open"
+   ]
+  },
+  "jack-lisowski": {
+   "slug": "jack-lisowski",
+   "countryCode": "gb-eng",
+   "match": "slugify",
+   "total": [
+    "2025 Northern Ireland Open",
+    "2010 PIOS - Event 8",
+    "2009 PIOS - Event 1"
+   ],
+   "ranking": [
+    "2025 Northern Ireland Open"
+   ]
+  },
+  "stephen-maguire": {
+   "slug": "stephen-maguire",
+   "countryCode": "gb-sct",
+   "match": "slugify",
+   "total": [
+    "2025 Championship League",
+    "2020 Tour Championship",
+    "2019 6-Reds World Championship",
+    "2014 European Tour - Event 5",
+    "2014 6-Reds World Championship",
+    "2013 Welsh Open",
+    "2012 PTC - Event 1",
+    "2012 PTC - Event 12",
+    "2009 Pro Challenge Series - Event 1",
+    "2008 China Open",
+    "2007 Northern Ireland Trophy",
+    "2004 UK Championship",
+    "2004 European Open",
+    "2003 Merseyside Professional"
+   ],
+   "ranking": [
+    "2025 Championship League",
+    "2020 Tour Championship",
+    "2013 Welsh Open",
+    "2008 China Open",
+    "2007 Northern Ireland Trophy",
+    "2004 UK Championship",
+    "2004 European Open"
+   ]
+  },
+  "anthony-mcgill": {
+   "slug": "anthony-mcgill",
+   "countryCode": "gb-sct",
+   "match": "slugify",
+   "total": [
+    "2017 Snooker Shoot Out",
+    "2016 Indian Open",
+    "2009 PIOS - Event 5"
+   ],
+   "ranking": [
+    "2017 Snooker Shoot Out",
+    "2016 Indian Open"
+   ]
+  },
+  "shaun-murphy": {
+   "slug": "shaun-murphy",
+   "countryCode": "gb-eng",
+   "match": "slugify",
+   "total": [
+    "2025 British Open",
+    "2025 Masters",
+    "2023 Championship League",
+    "2023 Tour Championship",
+    "2023 Players Championship",
+    "2020 Welsh Open",
+    "2019 China Championship",
+    "2017 Champion of Champions",
+    "2017 Gibraltar Open",
+    "2016 World Grand Prix",
+    "2015 Masters",
+    "2014 European Tour - Event 4",
+    "2014 European Tour - Event 3",
+    "2014 World Open",
+    "2014 European Tour - Event 8",
+    "2011 Brazil Masters",
+    "2011 PTC Grand Final",
+    "2010 EPTC - Event 2",
+    "2010 Wuxi Classic",
+    "2009 Premier League",
+    "2008 UK Championship",
+    "2008 Malta Cup",
+    "2007 Malta Cup",
+    "2005 World Championship",
+    "2001 Challenge Tour - Event 4",
+    "2001 Challenge Tour - Event 3",
+    "2000 Benson and Hedges Championship"
+   ],
+   "ranking": [
+    "2025 British Open",
+    "2023 Championship League",
+    "2023 Tour Championship",
+    "2023 Players Championship",
+    "2020 Welsh Open",
+    "2019 China Championship",
+    "2017 Gibraltar Open",
+    "2016 World Grand Prix",
+    "2014 World Open",
+    "2011 PTC Grand Final",
+    "2008 UK Championship",
+    "2007 Malta Cup",
+    "2005 World Championship"
+   ]
+  },
+  "ronnie-osullivan": {
+   "slug": "ronnie-osullivan",
+   "countryCode": "gb-eng",
+   "match": "slugify",
+   "total": [
+    "2024 World Masters",
+    "2024 World Grand Prix",
+    "2024 Masters",
+    "2023 UK Championship",
+    "2023 Shanghai Masters",
+    "2022 Champion of Champions",
+    "2022 Hong Kong Masters",
+    "2022 World Championship",
+    "2021 World Grand Prix",
+    "2020 World Championship",
+    "2019 Shanghai Masters",
+    "2019 Tour Championship",
+    "2019 Players Championship",
+    "2018 UK Championship",
+    "2018 Champion of Champions",
+    "2018 Shanghai Masters",
+    "2018 Players Championship",
+    "2018 World Grand Prix",
+    "2017 UK Championship",
+    "2017 Shanghai Masters",
+    "2017 English Open",
+    "2017 Masters",
+    "2016 Welsh Open",
+    "2016 Masters",
+    "2014 UK Championship",
+    "2014 Champion of Champions",
+    "2014 Welsh Open",
+    "2014 Masters",
+    "2013 Champion of Champions",
+    "2013 European Tour - Event 4",
+    "2013 World Championship",
+    "2012 World Championship",
+    "2012 German Masters",
+    "2011 Premier League",
+    "2011 PTC - Event 7",
+    "2011 PTC - Event 1",
+    "2010 Premier League",
+    "2009 Shanghai Masters",
+    "2009 Masters",
+    "2008 Premier League",
+    "2008 Northern Ireland Trophy",
+    "2008 World Championship",
+    "2007 UK Championship",
+    "2007 Premier League",
+    "2007 Masters",
+    "2006 Premier League",
+    "2005 Premier League",
+    "2005 Premier League",
+    "2005 Irish Masters",
+    "2005 Masters",
+    "2005 Welsh Open",
+    "2004 Grand Prix",
+    "2004 World Championship",
+    "2004 Welsh Open",
+    "2003 Irish Masters",
+    "2003 European Open",
+    "2002 Scottish Masters",
+    "2002 Premier League",
+    "2001 UK Championship",
+    "2001 Premier League",
+    "2001 World Championship",
+    "2001 Irish Masters",
+    "2000 China Open",
+    "2000 Scottish Masters",
+    "2000 Champions Cup",
+    "2000 Scottish Open",
+    "1999 China Open",
+    "1998 Scottish Masters",
+    "1998 Scottish Open",
+    "1997 UK Championship",
+    "1997 Superstar International",
+    "1997 European League",
+    "1996 German Open",
+    "1996 Asian Classic",
+    "1996 Charity Challenge",
+    "1995 Masters",
+    "1994 British Open",
+    "1993 UK Championship",
+    "1993 Benson and Hedges Championship",
+    "1993 Extra Challenge"
+   ],
+   "ranking": [
+    "2024 World Grand Prix",
+    "2023 UK Championship",
+    "2022 World Championship",
+    "2021 World Grand Prix",
+    "2020 World Championship",
+    "2019 Tour Championship",
+    "2019 Players Championship",
+    "2018 UK Championship",
+    "2018 Players Championship",
+    "2018 World Grand Prix",
+    "2017 UK Championship",
+    "2017 Shanghai Masters",
+    "2017 English Open",
+    "2016 Welsh Open",
+    "2014 UK Championship",
+    "2014 Welsh Open",
+    "2013 World Championship",
+    "2012 World Championship",
+    "2012 German Masters",
+    "2009 Shanghai Masters",
+    "2008 Northern Ireland Trophy",
+    "2008 World Championship",
+    "2007 UK Championship",
+    "2005 Irish Masters",
+    "2005 Welsh Open",
+    "2004 Grand Prix",
+    "2004 World Championship",
+    "2004 Welsh Open",
+    "2003 Irish Masters",
+    "2003 European Open",
+    "2001 UK Championship",
+    "2001 World Championship",
+    "2000 China Open",
+    "2000 Scottish Open",
+    "1999 China Open",
+    "1998 Scottish Open",
+    "1997 UK Championship",
+    "1996 German Open",
+    "1996 Asian Classic",
+    "1994 British Open",
+    "1993 UK Championship"
+   ]
+  },
+  "neil-robertson": {
+   "slug": "neil-robertson",
+   "countryCode": "AU",
+   "match": "slugify",
+   "total": [
+    "2025 Saudi Arabia Masters",
+    "2025 World Grand Prix",
+    "2024 English Open",
+    "2022 Tour Championship",
+    "2022 Players Championship",
+    "2022 Masters",
+    "2021 English Open",
+    "2021 Tour Championship",
+    "2020 UK Championship",
+    "2020 World Grand Prix",
+    "2020 European Masters",
+    "2019 Champion of Champions",
+    "2019 China Open",
+    "2019 Welsh Open",
+    "2018 Riga Masters",
+    "2017 Scottish Open",
+    "2017 Hong Kong Masters",
+    "2016 Riga Masters",
+    "2015 UK Championship",
+    "2015 Champion of Champions",
+    "2015 European Tour - Event 6",
+    "2014 Wuxi Classic",
+    "2013 UK Championship",
+    "2013 Wuxi Classic",
+    "2013 China Open",
+    "2012 European Tour - Event 2",
+    "2012 Masters",
+    "2011 PTC - Event 8",
+    "2011 PTC - Event 6",
+    "2010 World Open",
+    "2010 World Championship",
+    "2009 Grand Prix",
+    "2008 Bahrain Championship",
+    "2007 Welsh Open",
+    "2006 Grand Prix",
+    "2003 Masters Qualifying Event"
+   ],
+   "ranking": [
+    "2025 Saudi Arabia Masters",
+    "2025 World Grand Prix",
+    "2024 English Open",
+    "2022 Tour Championship",
+    "2022 Players Championship",
+    "2021 English Open",
+    "2021 Tour Championship",
+    "2020 UK Championship",
+    "2020 World Grand Prix",
+    "2020 European Masters",
+    "2019 China Open",
+    "2019 Welsh Open",
+    "2018 Riga Masters",
+    "2017 Scottish Open",
+    "2016 Riga Masters",
+    "2015 UK Championship",
+    "2014 Wuxi Classic",
+    "2013 UK Championship",
+    "2013 Wuxi Classic",
+    "2013 China Open",
+    "2010 World Open",
+    "2010 World Championship",
+    "2009 Grand Prix",
+    "2008 Bahrain Championship",
+    "2007 Welsh Open",
+    "2006 Grand Prix"
+   ]
+  },
+  "jimmy-robertson": {
+   "slug": "jimmy-robertson",
+   "countryCode": "gb-eng",
+   "match": "slugify",
+   "total": [
+    "2018 European Masters"
+   ],
+   "ranking": [
+    "2018 European Masters"
+   ]
+  },
+  "mark-selby": {
+   "slug": "mark-selby",
+   "countryCode": "gb-eng",
+   "match": "slugify",
+   "total": [
+    "2026 China Open",
+    "2026 Championship League",
+    "2025 UK Championship",
+    "2025 Champion of Champions",
+    "2025 Welsh Open",
+    "2025 Championship League",
+    "2024 British Open",
+    "2024 Championship League",
+    "2023 WST Classic",
+    "2022 English Open",
+    "2021 World Championship",
+    "2020 Scottish Open",
+    "2020 European Masters",
+    "2019 Scottish Open",
+    "2019 English Open",
+    "2018 China Championship",
+    "2018 China Open",
+    "2017 International Championship",
+    "2017 World Championship",
+    "2017 China Open",
+    "2016 UK Championship",
+    "2016 International Championship",
+    "2016 Paul Hunter Classic",
+    "2016 World Championship",
+    "2016 European Tour - Event 6",
+    "2015 China Open",
+    "2015 German Masters",
+    "2014 European Tour - Event 1",
+    "2014 World Championship",
+    "2013 European Tour - Event 7",
+    "2013 Masters",
+    "2013 European Tour - Event 6",
+    "2012 UK Championship",
+    "2012 European Tour - Event 1",
+    "2011 Shanghai Masters",
+    "2011 PTC - Event 4",
+    "2011 Wuxi Classic",
+    "2010 6-Reds World Championship",
+    "2010 PTC - Event 2",
+    "2010 Masters",
+    "2008 Welsh Open",
+    "2008 Masters"
+   ],
+   "ranking": [
+    "2026 China Open",
+    "2025 UK Championship",
+    "2025 Welsh Open",
+    "2024 British Open",
+    "2023 WST Classic",
+    "2022 English Open",
+    "2021 World Championship",
+    "2020 Scottish Open",
+    "2020 European Masters",
+    "2019 Scottish Open",
+    "2019 English Open",
+    "2018 China Championship",
+    "2018 China Open",
+    "2017 International Championship",
+    "2017 World Championship",
+    "2017 China Open",
+    "2016 UK Championship",
+    "2016 International Championship",
+    "2016 Paul Hunter Classic",
+    "2016 World Championship",
+    "2015 China Open",
+    "2015 German Masters",
+    "2014 World Championship",
+    "2012 UK Championship",
+    "2011 Shanghai Masters",
+    "2008 Welsh Open"
+   ]
+  },
+  "matthew-selt": {
+   "slug": "matthew-selt",
+   "countryCode": "gb-eng",
+   "match": "slugify",
+   "total": [
+    "2019 Indian Open"
+   ],
+   "ranking": [
+    "2019 Indian Open"
+   ]
+  },
+  "craig-steadman": {
+   "slug": "craig-steadman",
+   "countryCode": "gb-eng",
+   "match": "slugify",
+   "total": [
+    "2008 PIOS - Event 4"
+   ],
+   "ranking": []
+  },
+  "matthew-stevens": {
+   "slug": "matthew-stevens",
+   "countryCode": "gb-wls",
+   "match": "slugify",
+   "total": [
+    "2011 Championship League",
+    "2005 Pot Black",
+    "2005 Northern Ireland Trophy",
+    "2003 UK Championship",
+    "2000 Masters",
+    "1999 Scottish Masters",
+    "1995 Benson and Hedges Championship"
+   ],
+   "ranking": [
+    "2003 UK Championship"
+   ]
+  },
+  "judd-trump": {
+   "slug": "judd-trump",
+   "countryCode": "gb-eng",
+   "match": "slugify",
+   "total": [
+    "2026 Shanghai Masters",
+    "2026 German Masters",
+    "2024 UK Championship",
+    "2024 Saudi Arabia Masters",
+    "2024 Shanghai Masters",
+    "2024 World Open",
+    "2024 German Masters",
+    "2023 Northern Ireland Open",
+    "2023 Wuhan Open",
+    "2023 English Open",
+    "2023 Masters",
+    "2022 Turkish Masters",
+    "2021 Champion of Champions",
+    "2021 Gibraltar Open",
+    "2021 German Masters",
+    "2020 World Grand Prix",
+    "2020 Northern Ireland Open",
+    "2020 English Open",
+    "2020 Gibraltar Open",
+    "2020 Players Championship",
+    "2020 German Masters",
+    "2019 Northern Ireland Open",
+    "2019 World Open",
+    "2019 International Championship",
+    "2019 World Championship",
+    "2019 World Grand Prix",
+    "2019 Masters",
+    "2018 Northern Ireland Open",
+    "2017 European Masters",
+    "2017 Players Championship",
+    "2016 European Masters",
+    "2016 China Open",
+    "2016 Championship League",
+    "2015 World Grand Prix",
+    "2014 Australian Open",
+    "2014 Championship League",
+    "2012 European Tour - Event 4",
+    "2012 International Championship",
+    "2011 UK Championship",
+    "2011 PTC - Event 9",
+    "2011 PTC - Event 2",
+    "2011 China Open",
+    "2010 EPTC - Event 1",
+    "2009 Championship League",
+    "2008 Masters Qualifying Event"
+   ],
+   "ranking": [
+    "2026 German Masters",
+    "2024 UK Championship",
+    "2024 Saudi Arabia Masters",
+    "2024 World Open",
+    "2024 German Masters",
+    "2023 Northern Ireland Open",
+    "2023 Wuhan Open",
+    "2023 English Open",
+    "2022 Turkish Masters",
+    "2021 Gibraltar Open",
+    "2021 German Masters",
+    "2020 World Grand Prix",
+    "2020 Northern Ireland Open",
+    "2020 English Open",
+    "2020 Gibraltar Open",
+    "2020 Players Championship",
+    "2020 German Masters",
+    "2019 Northern Ireland Open",
+    "2019 World Open",
+    "2019 International Championship",
+    "2019 World Championship",
+    "2019 World Grand Prix",
+    "2018 Northern Ireland Open",
+    "2017 European Masters",
+    "2017 Players Championship",
+    "2016 European Masters",
+    "2016 China Open",
+    "2014 Australian Open",
+    "2012 International Championship",
+    "2011 UK Championship",
+    "2011 China Open"
+   ]
+  },
+  "thepchaiya-un-nooh": {
+   "slug": "thepchaiya-un-nooh",
+   "countryCode": "TH",
+   "match": "slugify",
+   "total": [
+    "2026 World Open",
+    "2019 Snooker Shoot Out",
+    "2015 6-Reds World Championship",
+    "2009 PIOS - Event 7"
+   ],
+   "ranking": [
+    "2026 World Open",
+    "2019 Snooker Shoot Out"
+   ]
+  },
+  "hossein-vafaei": {
+   "slug": "hossein-vafaei",
+   "countryCode": "IR",
+   "match": "slugify",
+   "total": [
+    "2022 Snooker Shoot Out"
+   ],
+   "ranking": [
+    "2022 Snooker Shoot Out"
+   ]
+  },
+  "chris-wakelin": {
+   "slug": "chris-wakelin",
+   "countryCode": "gb-eng",
+   "match": "slugify",
+   "total": [
+    "2025 Scottish Open",
+    "2023 Snooker Shoot Out"
+   ],
+   "ranking": [
+    "2025 Scottish Open",
+    "2023 Snooker Shoot Out"
+   ]
+  },
+  "ricky-walden": {
+   "slug": "ricky-walden",
+   "countryCode": "gb-eng",
+   "match": "slugify",
+   "total": [
+    "2014 International Championship",
+    "2013 European Tour - Event 3",
+    "2012 Wuxi Classic",
+    "2008 Shanghai Masters",
+    "2008 6-Reds International"
+   ],
+   "ranking": [
+    "2014 International Championship",
+    "2012 Wuxi Classic",
+    "2008 Shanghai Masters"
+   ]
+  },
+  "jimmy-white": {
+   "slug": "jimmy-white",
+   "countryCode": "gb-eng",
+   "match": "slugify",
+   "total": [
+    "2010 World Seniors Championship",
+    "2009 6-Reds World Grand Prix",
+    "2004 Players Championship",
+    "1999 Pontins Professional",
+    "1993 European League",
+    "1992 UK Championship",
+    "1992 Grand Prix",
+    "1992 European Open",
+    "1992 British Open",
+    "1991 European Challenge",
+    "1991 World Masters - Mens Singles",
+    "1991 Classic",
+    "1990 World Matchplay",
+    "1989 World Matchplay",
+    "1988 Canadian Masters",
+    "1988 Hong Kong Masters",
+    "1987 British Open",
+    "1986 Grand Prix",
+    "1986 Malaysian Masters",
+    "1986 Irish Masters",
+    "1986 Pot Black",
+    "1986 Classic",
+    "1985 Carlsberg Challenge",
+    "1985 Irish Masters",
+    "1984 Carlsberg Challenge",
+    "1984 Thailand Masters",
+    "1984 New Zealand Masters",
+    "1984 Masters",
+    "1981 Northern Ireland Classic",
+    "1981 Scottish Masters"
+   ],
+   "ranking": [
+    "2004 Players Championship",
+    "1992 UK Championship",
+    "1992 Grand Prix",
+    "1992 European Open",
+    "1992 British Open",
+    "1991 Classic",
+    "1988 Canadian Masters",
+    "1987 British Open",
+    "1986 Grand Prix",
+    "1986 Classic"
+   ]
+  },
+  "mark-williams": {
+   "slug": "mark-williams",
+   "countryCode": "gb-wls",
+   "match": "slugify",
+   "total": [
+    "2025 Xi'an Grand Prix",
+    "2024 Champion of Champions",
+    "2024 Tour Championship",
+    "2023 British Open",
+    "2021 British Open",
+    "2021 WST Pro Series",
+    "2018 World Open",
+    "2018 World Championship",
+    "2018 German Masters",
+    "2017 Northern Ireland Open",
+    "2017 6-Reds World Championship",
+    "2015 World Seniors Championship",
+    "2013 European Tour - Event 2",
+    "2011 German Masters",
+    "2010 PTC - Event 1",
+    "2010 China Open",
+    "2006 Pot Black",
+    "2006 China Open",
+    "2003 LG Cup",
+    "2003 World Championship",
+    "2003 Masters",
+    "2002 UK Championship",
+    "2002 Thailand Masters",
+    "2002 China Open",
+    "2000 Grand Prix",
+    "2000 World Championship",
+    "2000 Thailand Masters",
+    "1999 UK Championship",
+    "1999 Thailand Masters",
+    "1999 Welsh Open",
+    "1998 Irish Open",
+    "1998 Pontins Professional",
+    "1998 Masters",
+    "1997 British Open",
+    "1996 Grand Prix",
+    "1996 Welsh Open",
+    "1994 Benson and Hedges Championship"
+   ],
+   "ranking": [
+    "2025 Xi'an Grand Prix",
+    "2024 Tour Championship",
+    "2023 British Open",
+    "2021 British Open",
+    "2021 WST Pro Series",
+    "2018 World Open",
+    "2018 World Championship",
+    "2018 German Masters",
+    "2017 Northern Ireland Open",
+    "2011 German Masters",
+    "2010 China Open",
+    "2006 China Open",
+    "2003 LG Cup",
+    "2003 World Championship",
+    "2002 UK Championship",
+    "2002 Thailand Masters",
+    "2002 China Open",
+    "2000 Grand Prix",
+    "2000 World Championship",
+    "2000 Thailand Masters",
+    "1999 UK Championship",
+    "1999 Thailand Masters",
+    "1999 Welsh Open",
+    "1998 Irish Open",
+    "1997 British Open",
+    "1996 Grand Prix",
+    "1996 Welsh Open"
+   ]
+  },
+  "kyren-wilson": {
+   "slug": "kyren-wilson",
+   "countryCode": "gb-eng",
+   "match": "slugify",
+   "total": [
+    "2026 Masters",
+    "2025 Shanghai Masters",
+    "2025 Players Championship",
+    "2025 German Masters",
+    "2024 Northern Ireland Open",
+    "2024 Xi'an Grand Prix",
+    "2024 World Championship",
+    "2022 European Masters",
+    "2021 Championship League",
+    "2020 Championship League",
+    "2019 German Masters",
+    "2018 6-Reds World Championship",
+    "2018 Paul Hunter Classic",
+    "2015 Shanghai Masters",
+    "2010 PIOS - Event 6"
+   ],
+   "ranking": [
+    "2025 Players Championship",
+    "2025 German Masters",
+    "2024 Northern Ireland Open",
+    "2024 Xi'an Grand Prix",
+    "2024 World Championship",
+    "2022 European Masters",
+    "2020 Championship League",
+    "2019 German Masters",
+    "2018 Paul Hunter Classic",
+    "2015 Shanghai Masters"
+   ]
+  },
+  "gary-wilson": {
+   "slug": "gary-wilson",
+   "countryCode": "gb-eng",
+   "match": "slugify",
+   "total": [
+    "2024 Welsh Open",
+    "2023 Scottish Open",
+    "2022 Scottish Open",
+    "2004 Challenge Tour - Event 4"
+   ],
+   "ranking": [
+    "2024 Welsh Open",
+    "2023 Scottish Open",
+    "2022 Scottish Open"
+   ]
+  },
+  "ben-woollaston": {
+   "slug": "ben-woollaston",
+   "countryCode": "gb-eng",
+   "match": "slugify",
+   "total": [
+    "2011 PTC - Event 3"
+   ],
+   "ranking": []
+  },
+  "zhao-xintong": {
+   "slug": "zhao-xintong",
+   "countryCode": "CN",
+   "match": "slugify",
+   "total": [
+    "2026 Tour Championship",
+    "2026 Players Championship",
+    "2026 World Grand Prix",
+    "2025 Riyadh Season Championship",
+    "2025 World Championship",
+    "2022 German Masters",
+    "2021 UK Championship"
+   ],
+   "ranking": [
+    "2026 Tour Championship",
+    "2026 Players Championship",
+    "2026 World Grand Prix",
+    "2025 World Championship",
+    "2022 German Masters",
+    "2021 UK Championship"
+   ]
+  },
+  "wu-yize": {
+   "slug": "wu-yize",
+   "countryCode": "CN",
+   "match": "slugify",
+   "total": [
+    "2026 World Championship",
+    "2025 International Championship"
+   ],
+   "ranking": [
+    "2026 World Championship",
+    "2025 International Championship"
+   ]
+  },
+  "fan-zhengyi": {
+   "slug": "fan-zhengyi",
+   "countryCode": "CN",
+   "match": "slugify",
+   "total": [
+    "2022 European Masters"
+   ],
+   "ranking": [
+    "2022 European Masters"
+   ]
+  },
+  "robert-milkins": {
+   "slug": "robert-milkins",
+   "countryCode": "",
+   "match": "slugify",
+   "total": [
+    "2023 Welsh Open",
+    "2022 Gibraltar Open",
+    "2009 Pro Challenge Series - Event 3"
+   ],
+   "ranking": [
+    "2023 Welsh Open",
+    "2022 Gibraltar Open"
+   ]
+  },
+  "mark-joyce": {
+   "slug": "mark-joyce",
+   "countryCode": "",
+   "match": "slugify",
+   "total": [
+    "2005 PIOS - Event 2"
+   ],
+   "ranking": []
+  },
+  "peter-lines": {
+   "slug": "peter-lines",
+   "countryCode": "",
+   "match": "slugify",
+   "total": [
+    "2007 PIOS - Event 5",
+    "1998 Merseyside Professional",
+    "1993 Pontins Autumn Professional"
+   ],
+   "ranking": []
+  },
+  "jamie-oneill": {
+   "slug": "jamie-oneill",
+   "countryCode": "",
+   "match": "slugify",
+   "total": [
+    "2007 PIOS - Event 6"
+   ],
+   "ranking": []
+  },
+  "ray-reardon": {
+   "slug": "ray-reardon",
+   "countryCode": "Wales",
+   "match": "slugify",
+   "total": [
+    "1983 International Masters",
+    "1983 Welsh Professional Championship",
+    "1982 Professional Players Tournament",
+    "1982 Highland Masters",
+    "1981 Welsh Professional Championship",
+    "1979 Golden Masters",
+    "1979 Forward Chemicals Tournament",
+    "1978 Pot Black",
+    "1978 Champion of Champions",
+    "1978 Pontins Professional",
+    "1978 World Championship",
+    "1977 Welsh Professional Championship",
+    "1976 Pontins Professional",
+    "1976 World Championship",
+    "1976 Masters",
+    "1975 Pontins Professional",
+    "1975 World Championship",
+    "1974 Pontins Professional",
+    "1974 World Championship",
+    "1973 World Championship",
+    "1971 Park Drive 2000 - Autumn",
+    "1971 Park Drive 600",
+    "1970 World Championship",
+    "1969 Pot Black"
+   ],
+   "ranking": [
+    "1982 Professional Players Tournament",
+    "1978 World Championship",
+    "1976 World Championship",
+    "1975 World Championship",
+    "1974 World Championship"
+   ]
+  },
+  "john-spencer": {
+   "slug": "john-spencer",
+   "countryCode": "England",
+   "match": "slugify",
+   "total": [
+    "1980 Classic",
+    "1979 Bombay International",
+    "1979 Holsten Lager International",
+    "1978 Irish Masters",
+    "1977 Pontins Professional",
+    "1977 World Championship",
+    "1976 Canadian Open",
+    "1976 Ireland Tournament",
+    "1976 Pot Black",
+    "1975 Ireland Tournament",
+    "1975 Masters",
+    "1974 Norwich Union Open",
+    "1974 World Championship Plate Event",
+    "1973 Norwich Union Open",
+    "1972 Park Drive 2000 - Autumn",
+    "1972 Park Drive 1000",
+    "1972 Park Drive 2000 - Spring",
+    "1971 Park Drive 2000 - Spring",
+    "1971 Pot Black",
+    "1970 World Championship",
+    "1970 Pot Black",
+    "1969 World Championship"
+   ],
+   "ranking": [
+    "1977 World Championship"
+   ]
+  },
+  "alex-higgins": {
+   "slug": "alex-higgins",
+   "countryCode": "Northern Ireland",
+   "match": "slugify",
+   "total": [
+    "1989 Irish Masters",
+    "1989 Irish Professional Championship",
+    "1983 UK Championship",
+    "1983 Irish Professional Championship",
+    "1982 World Championship",
+    "1981 Masters",
+    "1980 Pontins Camber Sands",
+    "1980 British Gold Cup",
+    "1980 Tolly Cobbold Classic",
+    "1980 Padmore / Super Crystalate International",
+    "1979 Irish Professional Championship",
+    "1979 Tolly Cobbold Classic",
+    "1978 Irish Professional Championship",
+    "1978 Masters",
+    "1978 Irish Professional Championship",
+    "1977 Canadian Open",
+    "1977 Ireland Tournament",
+    "1976 Canadian Club Masters",
+    "1975 Plus Cigarettes International",
+    "1974 Watney Open",
+    "1973 Men of the Midlands",
+    "1972 World Championship",
+    "1972 Irish Professional Championship",
+    "1972 Men of the Midlands"
+   ],
+   "ranking": [
+    "1982 World Championship"
+   ]
+  },
+  "terry-griffiths": {
+   "slug": "terry-griffiths",
+   "countryCode": "Wales",
+   "match": "slugify",
+   "total": [
+    "1988 Welsh Professional Championship",
+    "1986 Pontins Professional",
+    "1986 Welsh Professional Championship",
+    "1986 Belgian Classic",
+    "1985 Hong Kong Masters",
+    "1985 Pontins Professional",
+    "1985 Welsh Professional Championship",
+    "1984 Singapore Masters",
+    "1984 Malaysian Masters",
+    "1984 Pot Black",
+    "1982 UK Championship",
+    "1982 Irish Masters",
+    "1982 Classic",
+    "1981 Pontins Professional",
+    "1981 Irish Masters",
+    "1980 Irish Masters",
+    "1980 Masters",
+    "1979 World Championship"
+   ],
+   "ranking": [
+    "1979 World Championship"
+   ]
+  },
+  "cliff-thorburn": {
+   "slug": "cliff-thorburn",
+   "countryCode": "Canada",
+   "match": "slugify",
+   "total": [
+    "1987 Canadian Professional Championship",
+    "1986 Scottish Masters",
+    "1986 Canadian Professional Championship",
+    "1986 Masters",
+    "1985 Matchroom Trophy",
+    "1985 Scottish Masters",
+    "1985 Canadian Professional Championship",
+    "1985 Masters",
+    "1984 Canadian Professional Championship",
+    "1983 Australian Masters",
+    "1983 Masters",
+    "1981 Classic",
+    "1981 Pot Black",
+    "1980 Canadian Open",
+    "1980 World Championship",
+    "1980 Canadian Professional Championship",
+    "1979 Canadian Open",
+    "1978 Canadian Open",
+    "1974 Canadian Open",
+    "1974 Australian Masters"
+   ],
+   "ranking": [
+    "1985 Matchroom Trophy",
+    "1980 World Championship"
+   ]
+  },
+  "dennis-taylor": {
+   "slug": "dennis-taylor",
+   "countryCode": "Northern Ireland",
+   "match": "slugify",
+   "total": [
+    "1987 Matchroom Trophy",
+    "1987 Canadian Masters",
+    "1987 Carling Championships",
+    "1987 Tokyo Masters",
+    "1987 Masters",
+    "1987 Irish Professional Championship",
+    "1986 Carlsberg Challenge",
+    "1986 Australian Masters",
+    "1986 Irish Professional Championship",
+    "1985 KitKat Break for World Champions",
+    "1985 Canadian Masters",
+    "1985 Thailand Masters",
+    "1985 World Championship",
+    "1985 Irish Professional Championship",
+    "1984 Grand Prix",
+    "1984 Costa Del Sol Classic",
+    "1982 Irish Professional Championship",
+    "1981 Irish Professional Championship",
+    "1980 Irish Professional Championship"
+   ],
+   "ranking": [
+    "1985 World Championship",
+    "1984 Grand Prix"
+   ]
+  },
+  "steve-davis": {
+   "slug": "steve-davis",
+   "countryCode": "England",
+   "match": "slugify",
+   "total": [
+    "2013 World Seniors Championship",
+    "1998 Champions Super League",
+    "1997 China International",
+    "1997 Masters",
+    "1995 Extra Challenge",
+    "1995 Welsh Open",
+    "1994 Irish Masters",
+    "1994 Welsh Open",
+    "1993 Pot Black",
+    "1993 Irish Masters",
+    "1993 British Open",
+    "1993 European Open",
+    "1992 Indian Masters",
+    "1992 Asian Open",
+    "1992 Classic",
+    "1991 Belgian Challenge",
+    "1991 Thailand Masters",
+    "1991 Pot Black",
+    "1991 European Masters League",
+    "1991 London Masters",
+    "1991 Irish Masters",
+    "1990 Matchroom League",
+    "1990 Irish Masters",
+    "1989 Grand Prix",
+    "1989 International Open",
+    "1989 Matchroom League",
+    "1989 World Championship",
+    "1988 Norwich Union Grand Prix",
+    "1988 World Matchplay",
+    "1988 Grand Prix",
+    "1988 Matchroom Professional Championship",
+    "1988 International Open",
+    "1988 Matchroom League",
+    "1988 World Championship",
+    "1988 Irish Masters",
+    "1988 Masters",
+    "1988 Classic",
+    "1987 UK Championship",
+    "1987 International Open",
+    "1987 Hong Kong Masters",
+    "1987 Matchroom League",
+    "1987 World Championship",
+    "1987 Irish Masters",
+    "1987 Classic",
+    "1986 UK Championship",
+    "1986 Canadian Masters",
+    "1986 China Masters",
+    "1986 British Open",
+    "1985 UK Championship",
+    "1985 Grand Prix",
+    "1985 Singapore Masters",
+    "1985 English Professional Championship",
+    "1984 UK Championship",
+    "1984 International Open",
+    "1984 Scottish Masters",
+    "1984 Hong Kong Masters",
+    "1984 World Championship",
+    "1984 Irish Masters",
+    "1984 International Masters",
+    "1984 Tolly Cobbold Classic",
+    "1984 Classic",
+    "1983 International Open",
+    "1983 Scottish Masters",
+    "1983 World Championship",
+    "1983 Irish Masters",
+    "1983 Tolly Cobbold Classic",
+    "1983 Classic",
+    "1983 Pot Black",
+    "1982 Scottish Masters",
+    "1982 Australian Masters",
+    "1982 Pontins Professional",
+    "1982 International Masters",
+    "1982 Tolly Cobbold Classic",
+    "1982 Masters",
+    "1982 Pot Black",
+    "1981 UK Championship",
+    "1981 International Open",
+    "1981 World Championship",
+    "1981 English Professional Championship",
+    "1981 Yamaha Organs Trophy",
+    "1980 Classic",
+    "1980 UK Championship"
+   ],
+   "ranking": [
+    "1995 Welsh Open",
+    "1994 Welsh Open",
+    "1993 British Open",
+    "1993 European Open",
+    "1992 Asian Open",
+    "1992 Classic",
+    "1989 Grand Prix",
+    "1989 International Open",
+    "1989 World Championship",
+    "1988 Grand Prix",
+    "1988 International Open",
+    "1988 World Championship",
+    "1988 Classic",
+    "1987 UK Championship",
+    "1987 International Open",
+    "1987 World Championship",
+    "1987 Classic",
+    "1986 UK Championship",
+    "1986 British Open",
+    "1985 UK Championship",
+    "1985 Grand Prix",
+    "1984 UK Championship",
+    "1984 International Open",
+    "1984 World Championship",
+    "1984 Classic",
+    "1983 International Open",
+    "1983 World Championship",
+    "1981 World Championship"
+   ]
+  },
+  "willie-thorne": {
+   "slug": "willie-thorne",
+   "countryCode": "England",
+   "match": "slugify",
+   "total": [
+    "1989 New Zealand Masters",
+    "1987 Kent Cup",
+    "1986 Matchroom Trophy",
+    "1986 Hong Kong Masters",
+    "1985 Classic",
+    "1984 Pontins Professional"
+   ],
+   "ranking": [
+    "1985 Classic"
+   ]
+  },
+  "tony-knowles": {
+   "slug": "tony-knowles",
+   "countryCode": "England",
+   "match": "slugify",
+   "total": [
+    "1984 Australian Masters",
+    "1983 Professional Players Tournament",
+    "1982 International Open"
+   ],
+   "ranking": [
+    "1983 Professional Players Tournament",
+    "1982 International Open"
+   ]
+  },
+  "tony-meo": {
+   "slug": "tony-meo",
+   "countryCode": "England",
+   "match": "slugify",
+   "total": [
+    "1990 Matchroom International League",
+    "1989 British Open",
+    "1987 English Professional Championship",
+    "1986 English Professional Championship",
+    "1985 Australian Masters",
+    "1983 Thailand Masters",
+    "1983 Pontins Brean Sands",
+    "1981 Australian Masters"
+   ],
+   "ranking": [
+    "1989 British Open"
+   ]
+  },
+  "neal-foulds": {
+   "slug": "neal-foulds",
+   "countryCode": "England",
+   "match": "slugify",
+   "total": [
+    "1992 Scottish Masters",
+    "1991 Pontins Professional",
+    "1988 Dubai Masters",
+    "1987 Pontins Professional",
+    "1986 International Open"
+   ],
+   "ranking": [
+    "1986 International Open"
+   ]
+  },
+  "silvino-francisco": {
+   "slug": "silvino-francisco",
+   "countryCode": "South Africa",
+   "match": "slugify",
+   "total": [
+    "1986 South African Professional Championship",
+    "1985 British Open"
+   ],
+   "ranking": [
+    "1985 British Open"
+   ]
+  },
+  "joe-johnson": {
+   "slug": "joe-johnson",
+   "countryCode": "England",
+   "match": "slugify",
+   "total": [
+    "1997 Seniors Pot Black",
+    "1991 Extra Challenge",
+    "1989 Norwich Union Grand Prix",
+    "1987 Scottish Masters",
+    "1986 World Championship"
+   ],
+   "ranking": [
+    "1986 World Championship"
+   ]
+  },
+  "john-parrott": {
+   "slug": "john-parrott",
+   "countryCode": "England",
+   "match": "slugify",
+   "total": [
+    "1998 German Masters",
+    "1996 European Open",
+    "1995 Thailand Classic",
+    "1994 Malta Grand Prix",
+    "1994 International Open",
+    "1992 Dubai Classic",
+    "1992 Kent Classic",
+    "1991 UK Championship",
+    "1991 Dubai Classic",
+    "1991 World Championship",
+    "1990 Norwich Union Grand Prix",
+    "1990 Humo Masters",
+    "1990 European Open",
+    "1989 European Open",
+    "1988 Pontins Professional",
+    "1988 Kent Cup"
+   ],
+   "ranking": [
+    "1996 European Open",
+    "1995 Thailand Classic",
+    "1994 International Open",
+    "1992 Dubai Classic",
+    "1991 UK Championship",
+    "1991 Dubai Classic",
+    "1991 World Championship",
+    "1990 European Open",
+    "1989 European Open"
+   ]
+  },
+  "mike-hallett": {
+   "slug": "mike-hallett",
+   "countryCode": "England",
+   "match": "slugify",
+   "total": [
+    "1991 Humo Masters",
+    "1991 Scottish Masters",
+    "1989 Hong Kong Open",
+    "1989 English Professional Championship",
+    "1988 Fosters Professional"
+   ],
+   "ranking": [
+    "1989 Hong Kong Open"
+   ]
+  },
+  "stephen-hendry": {
+   "slug": "stephen-hendry",
+   "countryCode": "Scotland",
+   "match": "slugify",
+   "total": [
+    "2005 Malta Cup",
+    "2004 Premier League",
+    "2003 British Open",
+    "2003 Welsh Open",
+    "2001 European Open",
+    "2001 Malta Grand Prix",
+    "2000 Premier League",
+    "1999 British Open",
+    "1999 Champions Cup",
+    "1999 World Championship",
+    "1999 Irish Masters",
+    "1999 Scottish Open",
+    "1998 Malta Grand Prix",
+    "1998 Champions Super Challenge",
+    "1998 Thailand Masters",
+    "1997 Irish Masters",
+    "1997 International Open",
+    "1997 Welsh Open",
+    "1997 Charity Challenge",
+    "1996 UK Championship",
+    "1996 World Championship",
+    "1996 Masters",
+    "1995 UK Championship",
+    "1995 Grand Prix",
+    "1995 Scottish Masters",
+    "1995 European League",
+    "1995 World Championship",
+    "1995 Charity Challenge",
+    "1994 European Open",
+    "1994 UK Championship",
+    "1994 Top Rank Classic",
+    "1994 Matchroom League",
+    "1994 World Championship",
+    "1993 European Open",
+    "1993 Dubai Classic",
+    "1993 World Championship",
+    "1993 International Open",
+    "1993 Masters",
+    "1993 European Challenge",
+    "1992 Matchroom League",
+    "1992 World Championship",
+    "1992 Irish Masters",
+    "1992 European Challenge",
+    "1992 Welsh Open",
+    "1992 Masters",
+    "1991 Grand Prix",
+    "1991 Indian Challenge",
+    "1991 Hong Kong Challenge",
+    "1991 Matchroom League",
+    "1991 British Open",
+    "1991 Masters",
+    "1990 UK Championship",
+    "1990 Dubai Classic",
+    "1990 Asian Open",
+    "1990 Grand Prix",
+    "1990 Scottish Masters",
+    "1990 London Masters",
+    "1990 Pontins Professional",
+    "1990 World Championship",
+    "1990 Masters",
+    "1989 UK Championship",
+    "1989 Dubai Classic",
+    "1989 Scottish Masters",
+    "1989 Asian Open",
+    "1989 London Masters",
+    "1989 Masters",
+    "1988 New Zealand Masters",
+    "1988 British Open",
+    "1988 Scottish Professional Championship",
+    "1987 Grand Prix",
+    "1987 Australian Masters",
+    "1987 Scottish Professional Championship",
+    "1986 Scottish Professional Championship"
+   ],
+   "ranking": [
+    "2005 Malta Cup",
+    "2003 British Open",
+    "2003 Welsh Open",
+    "2001 European Open",
+    "1999 British Open",
+    "1999 World Championship",
+    "1999 Scottish Open",
+    "1998 Thailand Masters",
+    "1997 International Open",
+    "1997 Welsh Open",
+    "1996 UK Championship",
+    "1996 World Championship",
+    "1995 UK Championship",
+    "1995 Grand Prix",
+    "1995 World Championship",
+    "1994 European Open",
+    "1994 UK Championship",
+    "1994 World Championship",
+    "1993 European Open",
+    "1993 Dubai Classic",
+    "1993 World Championship",
+    "1993 International Open",
+    "1992 World Championship",
+    "1992 Welsh Open",
+    "1991 Grand Prix",
+    "1991 British Open",
+    "1990 UK Championship",
+    "1990 Dubai Classic",
+    "1990 Asian Open",
+    "1990 Grand Prix",
+    "1990 World Championship",
+    "1989 UK Championship",
+    "1989 Dubai Classic",
+    "1989 Asian Open",
+    "1988 British Open",
+    "1987 Grand Prix"
+   ]
+  },
+  "james-wattana": {
+   "slug": "james-wattana",
+   "countryCode": "Thailand",
+   "match": "slugify",
+   "total": [
+    "2003 Euro-Asia Masters Challenge",
+    "1995 Thailand Open",
+    "1994 Thailand Open",
+    "1992 World Matchplay",
+    "1992 Humo Masters",
+    "1992 Super League",
+    "1992 Strachan Open",
+    "1990 Hong Kong Challenge",
+    "1988 WPBSA Pro Ticket Series 89/90 - Event 2",
+    "1986 Thailand Masters"
+   ],
+   "ranking": [
+    "1995 Thailand Open",
+    "1994 Thailand Open",
+    "1992 Strachan Open"
+   ]
+  },
+  "peter-ebdon": {
+   "slug": "peter-ebdon",
+   "countryCode": "England",
+   "match": "slugify",
+   "total": [
+    "2012 China Open",
+    "2009 China Open",
+    "2006 UK Championship",
+    "2004 Irish Masters",
+    "2002 World Championship",
+    "2001 Scottish Open",
+    "2000 British Open",
+    "1997 Thailand Open",
+    "1996 Scottish Masters",
+    "1995 Malta Grand Prix",
+    "1995 Pontins Professional",
+    "1995 Irish Masters",
+    "1993 Grand Prix"
+   ],
+   "ranking": [
+    "2012 China Open",
+    "2009 China Open",
+    "2006 UK Championship",
+    "2004 Irish Masters",
+    "2002 World Championship",
+    "2001 Scottish Open",
+    "2000 British Open",
+    "1997 Thailand Open",
+    "1993 Grand Prix"
+   ]
+  },
+  "ken-doherty": {
+   "slug": "ken-doherty",
+   "countryCode": "Ireland",
+   "match": "slugify",
+   "total": [
+    "2009 Pro Challenge Series - Event 2",
+    "2007 Pot Black",
+    "2007 Irish Professional Championship",
+    "2006 Irish Professional Championship",
+    "2006 Malta Cup",
+    "2003 Euro-Asia Masters Challenge",
+    "2001 Thailand Masters",
+    "2001 Welsh Open",
+    "2000 Malta Grand Prix",
+    "1998 Premier League",
+    "1998 Irish Masters",
+    "1997 Malta Grand Prix",
+    "1997 World Championship",
+    "1996 Pontins Professional",
+    "1996 European League",
+    "1994 Scottish Masters",
+    "1994 Pontins Professional",
+    "1993 Scottish Masters",
+    "1993 Pontins Professional",
+    "1993 Welsh Open",
+    "1993 Irish Professional Championship",
+    "1991 Benson and Hedges Satellite Championship",
+    "1989 WPBSA Pro Ticket Series 90/91 - Event 2"
+   ],
+   "ranking": [
+    "2006 Malta Cup",
+    "2001 Thailand Masters",
+    "2001 Welsh Open",
+    "2000 Malta Grand Prix",
+    "1997 World Championship",
+    "1993 Welsh Open"
+   ]
+  },
+  "paul-hunter": {
+   "slug": "paul-hunter",
+   "countryCode": "England",
+   "match": "slugify",
+   "total": [
+    "2004 Masters",
+    "2002 British Open",
+    "2002 Masters",
+    "2002 Welsh Open",
+    "2001 Masters",
+    "1998 Welsh Open"
+   ],
+   "ranking": [
+    "2002 British Open",
+    "2002 Welsh Open",
+    "1998 Welsh Open"
+   ]
+  },
+  "alan-mcmanus": {
+   "slug": "alan-mcmanus",
+   "countryCode": "Scotland",
+   "match": "slugify",
+   "total": [
+    "1996 Thailand Open",
+    "1994 Dubai Classic",
+    "1994 Masters",
+    "1990 Benson and Hedges Satellite Championship"
+   ],
+   "ranking": [
+    "1996 Thailand Open",
+    "1994 Dubai Classic"
+   ]
+  },
+  "darren-morgan": {
+   "slug": "darren-morgan",
+   "countryCode": "Wales",
+   "match": "slugify",
+   "total": [
+    "2011 World Seniors Championship",
+    "2000 Pontins Professional",
+    "1996 Irish Masters",
+    "1991 Welsh Professional Championship",
+    "1990 International One Frame Shoot-out",
+    "1990 Welsh Professional Championship",
+    "1989 Pontins Professional"
+   ],
+   "ranking": []
+  },
+  "nigel-bond": {
+   "slug": "nigel-bond",
+   "countryCode": "England",
+   "match": "slugify",
+   "total": [
+    "2012 World Seniors Championship",
+    "2011 Snooker Shoot Out",
+    "1997 Scottish Masters",
+    "1996 Malta Grand Prix",
+    "1996 British Open",
+    "1995 Red and White Challenge"
+   ],
+   "ranking": [
+    "1996 British Open"
+   ]
+  },
+  "dave-harold": {
+   "slug": "dave-harold",
+   "countryCode": "England",
+   "match": "slugify",
+   "total": [
+    "1993 Merseyside Professional",
+    "1993 Asian Open"
+   ],
+   "ranking": [
+    "1993 Asian Open"
+   ]
+  },
+  "andy-hicks": {
+   "slug": "andy-hicks",
+   "countryCode": "England",
+   "match": "slugify",
+   "total": [
+    "1997 Benson and Hedges Championship"
+   ],
+   "ranking": []
+  },
+  "dominic-dale": {
+   "slug": "dominic-dale",
+   "countryCode": "Wales",
+   "match": "slugify",
+   "total": [
+    "2014 Snooker Shoot Out",
+    "2010 PTC - Event 6",
+    "2007 Shanghai Masters",
+    "1997 Grand Prix"
+   ],
+   "ranking": [
+    "2007 Shanghai Masters",
+    "1997 Grand Prix"
+   ]
+  },
+  "anthony-hamilton": {
+   "slug": "anthony-hamilton",
+   "countryCode": "England",
+   "match": "slugify",
+   "total": [
+    "2017 German Masters",
+    "1995 Australian Open Championship",
+    "1994 Strachan Challenge - Event 2",
+    "1994 Strachan Challenge - Event 1"
+   ],
+   "ranking": [
+    "2017 German Masters"
+   ]
+  },
+  "fergal-obrien": {
+   "slug": "fergal-obrien",
+   "countryCode": "Ireland",
+   "match": "slugify",
+   "total": [
+    "1999 British Open"
+   ],
+   "ranking": [
+    "1999 British Open"
+   ]
+  },
+  "mark-king": {
+   "slug": "mark-king",
+   "countryCode": "England",
+   "match": "slugify",
+   "total": [
+    "2016 Northern Ireland Open"
+   ],
+   "ranking": [
+    "2016 Northern Ireland Open"
+   ]
+  },
+  "marcus-campbell": {
+   "slug": "marcus-campbell",
+   "countryCode": "Scotland",
+   "match": "slugify",
+   "total": [
+    "2010 EPTC - Event 3",
+    "1990 Kent Cup"
+   ],
+   "ranking": []
+  },
+  "rory-mcleod": {
+   "slug": "rory-mcleod",
+   "countryCode": "England",
+   "match": "slugify",
+   "total": [
+    "2015 European Tour - Event 3",
+    "2009 Masters Qualifying Event"
+   ],
+   "ranking": []
+  },
+  "barry-pinches": {
+   "slug": "barry-pinches",
+   "countryCode": "England",
+   "match": "slugify",
+   "total": [
+    "2010 PTC - Event 4"
+   ],
+   "ranking": []
+  },
+  "joe-swail": {
+   "slug": "joe-swail",
+   "countryCode": "Northern Ireland",
+   "match": "slugify",
+   "total": [
+    "2005 Irish Professional Championship",
+    "1998 UK Tour - Event 2",
+    "1992 Strachan Challenge - Event 1",
+    "1992 Irish Professional Championship",
+    "1991 Kent Cup"
+   ],
+   "ranking": []
+  },
+  "rod-lawler": {
+   "slug": "rod-lawler",
+   "countryCode": "England",
+   "match": "slugify",
+   "total": [
+    "2012 PTC - Event 3",
+    "1995 Merseyside Professional"
+   ],
+   "ranking": []
+  },
+  "tony-drago": {
+   "slug": "tony-drago",
+   "countryCode": "Malta",
+   "match": "slugify",
+   "total": [
+    "1996 Guangzhou Masters",
+    "1993 Strachan Challenge - Event 3"
+   ],
+   "ranking": []
+  },
+  "troy-shaw": {
+   "slug": "troy-shaw",
+   "countryCode": "England",
+   "match": "slugify",
+   "total": [
+    "1993 Strachan Challenge - Event 2"
+   ],
+   "ranking": []
+  },
+  "ju-reti": {
+   "slug": "ju-reti",
+   "countryCode": "Finland",
+   "match": "slugify",
+   "total": [
+    "2013 Asian Tour - Event 2"
+   ],
+   "ranking": []
+  },
+  "stephen-lee": {
+   "slug": "stephen-lee",
+   "countryCode": "England",
+   "match": "slugify",
+   "total": [
+    "2012 APTC - Event 2",
+    "2012 PTC Grand Final",
+    "2010 EPTC - Event 4",
+    "2006 Welsh Open",
+    "2002 Scottish Open",
+    "2001 LG Cup",
+    "1999 Millennium Cup",
+    "1998 Grand Prix"
+   ],
+   "ranking": [
+    "2012 PTC Grand Final",
+    "2006 Welsh Open",
+    "2002 Scottish Open",
+    "2001 LG Cup",
+    "1998 Grand Prix"
+   ]
+  },
+  "graeme-dott": {
+   "slug": "graeme-dott",
+   "countryCode": "Scotland",
+   "match": "slugify",
+   "total": [
+    "2007 China Open",
+    "2006 World Championship"
+   ],
+   "ranking": [
+    "2007 China Open",
+    "2006 World Championship"
+   ]
+  },
+  "michael-white": {
+   "slug": "michael-white",
+   "countryCode": "Wales",
+   "match": "slugify",
+   "total": [
+    "2017 Paul Hunter Classic",
+    "2015 Indian Open",
+    "2015 Snooker Shoot Out"
+   ],
+   "ranking": [
+    "2017 Paul Hunter Classic",
+    "2015 Indian Open"
+   ]
+  },
+  "mark-davis": {
+   "slug": "mark-davis",
+   "countryCode": "England",
+   "match": "slugify",
+   "total": [
+    "2016 World Seniors Championship",
+    "2013 6-Reds World Championship",
+    "2012 6-Reds World Championship",
+    "2002 Merseyside Professional",
+    "2002 Benson and Hedges Championship",
+    "1996 Malta Masters"
+   ],
+   "ranking": []
+  },
+  "david-gray": {
+   "slug": "david-gray",
+   "countryCode": "England",
+   "match": "slugify",
+   "total": [
+    "2003 Scottish Open",
+    "1998 Benson and Hedges Championship",
+    "1996 Merseyside Professional"
+   ],
+   "ranking": [
+    "2003 Scottish Open"
+   ]
+  },
+  "liang-wenbo": {
+   "slug": "liang-wenbo",
+   "countryCode": "China",
+   "match": "slugify",
+   "total": [
+    "2016 English Open",
+    "2013 Asian Tour - Event 3"
+   ],
+   "ranking": [
+    "2016 English Open"
+   ]
+  },
+  "yan-bingtao": {
+   "slug": "yan-bingtao",
+   "countryCode": "China",
+   "match": "slugify",
+   "total": [
+    "2021 Masters",
+    "2019 Riga Masters"
+   ],
+   "ranking": [
+    "2019 Riga Masters"
+   ]
+  },
+  "tian-pengfei": {
+   "slug": "tian-pengfei",
+   "countryCode": "China",
+   "match": "slugify",
+   "total": [
+    "2006 PIOS - Event 7",
+    "2005 PIOS - Event 1"
+   ],
+   "ranking": []
+  },
+  "kurt-maflin": {
+   "slug": "kurt-maflin",
+   "countryCode": "Norway",
+   "match": "slugify",
+   "total": [
+    "2007 PIOS - Event 5",
+    "2003 Challenge Tour - Event 4"
+   ],
+   "ranking": []
+  },
+  "joe-perry": {
+   "slug": "joe-perry",
+   "countryCode": "England",
+   "match": "slugify",
+   "total": [
+    "2022 Welsh Open",
+    "2015 Players Championship Grand Final",
+    "2015 Asian Tour - Event 3",
+    "2013 Asian Tour - Event 1",
+    "2008 Championship League",
+    "2004 Merseyside Professional"
+   ],
+   "ranking": [
+    "2022 Welsh Open",
+    "2015 Players Championship Grand Final"
+   ]
+  },
+  "martin-gould": {
+   "slug": "martin-gould",
+   "countryCode": "England",
+   "match": "slugify",
+   "total": [
+    "2019 Championship League",
+    "2016 German Masters",
+    "2013 Championship League",
+    "2013 Snooker Shoot Out",
+    "2012 PTC - Event 2"
+   ],
+   "ranking": [
+    "2016 German Masters"
+   ]
+  },
+  "jamie-cope": {
+   "slug": "jamie-cope",
+   "countryCode": "England",
+   "match": "slugify",
+   "total": [
+    "2005 Challenge Tour - Event 4",
+    "2004 Challenge Tour - Event 1"
+   ],
+   "ranking": []
+  },
+  "michael-georgiou": {
+   "slug": "michael-georgiou",
+   "countryCode": "Cyprus",
+   "match": "slugify",
+   "total": [
+    "2018 Snooker Shoot Out"
+   ],
+   "ranking": [
+    "2018 Snooker Shoot Out"
+   ]
+  },
+  "chris-norbury": {
+   "slug": "chris-norbury",
+   "countryCode": "England",
+   "match": "slugify",
+   "total": [
+    "2008 PIOS - Event 5"
+   ],
+   "ranking": []
+  },
+  "warren-king": {
+   "slug": "warren-king",
+   "countryCode": "Australia",
+   "match": "slugify",
+   "total": [
+    "1987 Australian Professional Championship",
+    "1986 Australian Professional Championship"
+   ],
+   "ranking": []
+  },
+  "john-campbell": {
+   "slug": "john-campbell",
+   "countryCode": "Australia",
+   "match": "slugify",
+   "total": [
+    "1988 Australian Professional Championship",
+    "1985 Australian Professional Championship"
+   ],
+   "ranking": []
+  },
+  "eddie-charlton": {
+   "slug": "eddie-charlton",
+   "countryCode": "Australia",
+   "match": "slugify",
+   "total": [
+    "1984 Australian Professional Championship",
+    "1980 Pot Black",
+    "1979 Limosin International",
+    "1979 Kronenbrau 1308 Classic",
+    "1978 Australian Professional Championship",
+    "1977 Australian Professional Championship",
+    "1976 World Professional Matchplay Championship",
+    "1976 Australian Professional Championship",
+    "1975 Australian Professional Championship",
+    "1974 Australian Professional Championship",
+    "1973 Australian Professional Championship",
+    "1973 Pot Black",
+    "1972 Australian Professional Championship",
+    "1972 Pot Black",
+    "1971 Australian Professional Championship",
+    "1970 Australian Professional Championship",
+    "1969 Australasian Professional Championship",
+    "1967 Australian Professional Championship",
+    "1966 Australian Professional Championship",
+    "1965 Australian Professional Championship",
+    "1963 Australian Professional Championship"
+   ],
+   "ranking": []
+  },
+  "horace-lindrum": {
+   "slug": "horace-lindrum",
+   "countryCode": "Australia",
+   "match": "slugify",
+   "total": [
+    "1952 World Championship"
+   ],
+   "ranking": []
+  },
+  "fred-davis": {
+   "slug": "fred-davis",
+   "countryCode": "England",
+   "match": "slugify",
+   "total": [
+    "1970 Canadian Professional Championship",
+    "1958 News of the World Tournament",
+    "1958 News of the World Tournament",
+    "1956 World Championship",
+    "1955 World Championship",
+    "1954 World Championship",
+    "1953 World Championship",
+    "1952 World Championship",
+    "1951 World Championship",
+    "1949 World Championship",
+    "1948 World Championship"
+   ],
+   "ranking": []
+  },
+  "joe-davis": {
+   "slug": "joe-davis",
+   "countryCode": "England",
+   "match": "slugify",
+   "total": [
+    "1959 News of the World Tournament",
+    "1956 News of the World Tournament",
+    "1953 News of the World Tournament",
+    "1950 Sporting Record Masters",
+    "1950 News of the World Tournament",
+    "1948 Sunday Empire News Tournament",
+    "1946 World Championship",
+    "1940 World Championship",
+    "1939 World Championship",
+    "1938 World Championship",
+    "1938 Gold Cup",
+    "1937 World Championship",
+    "1936 Gold Cup",
+    "1936 World Championship",
+    "1935 World Championship",
+    "1934 World Championship",
+    "1933 World Championship",
+    "1932 World Championship",
+    "1931 World Championship",
+    "1930 World Championship",
+    "1929 World Championship",
+    "1928 World Championship",
+    "1927 World Championship"
+   ],
+   "ranking": []
+  },
+  "john-pulman": {
+   "slug": "john-pulman",
+   "countryCode": "England",
+   "match": "slugify",
+   "total": [
+    "1973 World Championship Plate Event",
+    "1968 World Championship",
+    "1966 World Championship",
+    "1966 World Championship",
+    "1965 World Championship",
+    "1965 World Championship",
+    "1964 World Championship",
+    "1964 World Championship",
+    "1957 World Championship",
+    "1957 News of the World Tournament",
+    "1954 News of the World Tournament"
+   ],
+   "ranking": []
+  },
+  "rex-williams": {
+   "slug": "rex-williams",
+   "countryCode": "England",
+   "match": "slugify",
+   "total": [
+    "1982 Bass and Golden Leisure Classic"
+   ],
+   "ranking": []
+  },
+  "jackie-rea": {
+   "slug": "jackie-rea",
+   "countryCode": "Northern Ireland",
+   "match": "slugify",
+   "total": [
+    "1956 Irish Professional Championship",
+    "1955 News of the World Tournament"
+   ],
+   "ranking": []
+  },
+  "alec-brown": {
+   "slug": "alec-brown",
+   "countryCode": "England",
+   "match": "slugify",
+   "total": [
+    "1951 News of the World Tournament",
+    "1940 Gold Cup",
+    "1939 Gold Cup"
+   ],
+   "ranking": []
+  },
+  "harry-stokes": {
+   "slug": "harry-stokes",
+   "countryCode": "Scotland",
+   "match": "slugify",
+   "total": [
+    "1954 Scottish Professional Championship",
+    "1953 Scottish Professional Championship",
+    "1952 Scottish Professional Championship",
+    "1949 Scottish Professional Championship"
+   ],
+   "ranking": []
+  },
+  "david-taylor": {
+   "slug": "david-taylor",
+   "countryCode": "England",
+   "match": "slugify",
+   "total": [
+    "1988 WPBSA Non-Ranking - Event 3"
+   ],
+   "ranking": []
+  },
+  "murdo-macleod": {
+   "slug": "murdo-macleod",
+   "countryCode": "Scotland",
+   "match": "slugify",
+   "total": [
+    "1985 Scottish Professional Championship",
+    "1984 Scottish Professional Championship",
+    "1983 Scottish Professional Championship"
+   ],
+   "ranking": []
+  },
+  "eddie-sinclair": {
+   "slug": "eddie-sinclair",
+   "countryCode": "Scotland",
+   "match": "slugify",
+   "total": [
+    "1982 Scottish Professional Championship",
+    "1980 Scottish Professional Championship"
+   ],
+   "ranking": []
+  },
+  "kirk-stevens": {
+   "slug": "kirk-stevens",
+   "countryCode": "Canada",
+   "match": "slugify",
+   "total": [
+    "1983 Canadian Professional Championship"
+   ],
+   "ranking": []
+  },
+  "alain-robidoux": {
+   "slug": "alain-robidoux",
+   "countryCode": "Canada",
+   "match": "slugify",
+   "total": [
+    "1988 Canadian Professional Championship"
+   ],
+   "ranking": []
+  },
+  "bob-chaperon": {
+   "slug": "bob-chaperon",
+   "countryCode": "Canada",
+   "match": "slugify",
+   "total": [
+    "1990 British Open"
+   ],
+   "ranking": [
+    "1990 British Open"
+   ]
+  },
+  "paddy-browne": {
+   "slug": "paddy-browne",
+   "countryCode": "Ireland",
+   "match": "slugify",
+   "total": [
+    "1988 WPBSA Non-Ranking - Event 2"
+   ],
+   "ranking": []
+  },
+  "jimmy-van-rensberg": {
+   "slug": "jimmy-van-rensberg",
+   "countryCode": "South Africa",
+   "match": "slugify",
+   "total": [
+    "1984 South African Professional Championship"
+   ],
+   "ranking": []
+  },
+  "perrie-mans": {
+   "slug": "perrie-mans",
+   "countryCode": "South Africa",
+   "match": "slugify",
+   "total": [
+    "1989 South African Professional Championship",
+    "1979 Masters",
+    "1978 South African Professional Championship",
+    "1977 Pot Black"
+   ],
+   "ranking": []
+  },
+  "francois-ellis": {
+   "slug": "francois-ellis",
+   "countryCode": "South Africa",
+   "match": "slugify",
+   "total": [
+    "1987 South African Professional Championship"
+   ],
+   "ranking": []
+  },
+  "graham-miles": {
+   "slug": "graham-miles",
+   "countryCode": "England",
+   "match": "slugify",
+   "total": [
+    "1981 Tolly Cobbold Classic",
+    "1975 Pot Black",
+    "1974 Pot Black"
+   ],
+   "ranking": []
+  },
+  "john-virgo": {
+   "slug": "john-virgo",
+   "countryCode": "England",
+   "match": "slugify",
+   "total": [
+    "1984 Professional Snooker League",
+    "1980 Pontins Professional",
+    "1979 Bombay International",
+    "1979 UK Championship"
+   ],
+   "ranking": []
+  },
+  "doug-mountjoy": {
+   "slug": "doug-mountjoy",
+   "countryCode": "Wales",
+   "match": "slugify",
+   "total": [
+    "1989 Welsh Professional Championship",
+    "1989 Classic",
+    "1988 UK Championship",
+    "1987 Welsh Professional Championship",
+    "1985 Pot Black",
+    "1984 Welsh Professional Championship",
+    "1983 Hong Kong Masters",
+    "1983 Pontins Professional",
+    "1982 Welsh Professional Championship",
+    "1980 Champion of Champions",
+    "1980 Welsh Professional Championship",
+    "1979 Pontins Professional",
+    "1979 Irish Masters",
+    "1978 UK Championship",
+    "1978 Golden Masters",
+    "1978 Pot Black",
+    "1977 Masters"
+   ],
+   "ranking": [
+    "1989 Classic",
+    "1988 UK Championship"
+   ]
+  },
+  "patsy-fagan": {
+   "slug": "patsy-fagan",
+   "countryCode": "Ireland",
+   "match": "slugify",
+   "total": [
+    "1977 Dry Blackthorn Cup",
+    "1977 UK Championship"
+   ],
+   "ranking": []
+  },
+  "jon-wright": {
+   "slug": "jon-wright",
+   "countryCode": "England",
+   "match": "slugify",
+   "total": [
+    "1985 WPBSA Pro Ticket Series 86/87 - Event 2"
+   ],
+   "ranking": []
+  },
+  "steve-ventham": {
+   "slug": "steve-ventham",
+   "countryCode": "England",
+   "match": "slugify",
+   "total": [
+    "1987 WPBSA Pro Ticket Series 88/89 - Event 3"
+   ],
+   "ranking": []
+  },
+  "jack-mclaughlin": {
+   "slug": "jack-mclaughlin",
+   "countryCode": "Northern Ireland",
+   "match": "slugify",
+   "total": [
+    "1988 Irish Professional Championship"
+   ],
+   "ranking": []
+  },
+  "dave-martin": {
+   "slug": "dave-martin",
+   "countryCode": "England",
+   "match": "slugify",
+   "total": [
+    "1980 Professional Ticket Event"
+   ],
+   "ranking": []
+  }
+ }
+}

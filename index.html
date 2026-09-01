@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-page-node-id="XMnG7l9An6mE0CkHWFv2BF">
+<head data-page-node-id="JT9EhIzol6R4ROSJHBh0Br">
+<meta charset="UTF-8" data-page-node-id="xZmYNTwrvFPUpQ0e94J1Bu">
+<meta name="viewport" content="width=device-width, initial-scale=1.0" data-page-node-id="vI1bcARYuwFiGSlzq8nvyX">
+<title>2026/27 世界斯诺克巡回赛 · 成绩看板 | World Snooker Tour Dashboard</title>
+<meta name="description" content="2026/27 赛季世界斯诺克巡回赛赛程、赛果、世界排名与球员数据看板，中英双语显示。数据源 wst.tv。" data-page-node-id="yOFos83eUFrMjL8hiLBZy8">
+<link rel="preconnect" href="https://fonts.googleapis.com" data-page-node-id="WbrjxRCCANDNkc0ikjIdEe">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin data-page-node-id="RBnHZAi22VXDSCjSFTJAdH">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@500;700;900&family=Oswald:wght@400;500;600;700&family=Barlow+Condensed:wght@400;500;600;700&display=swap" rel="stylesheet" data-page-node-id="EDVY7KfkIL8ZsE6LlxaI2R">
+<link rel="stylesheet" href="assets/css/style.css" data-page-node-id="AMim3NKixRU5p7yqgfKGl0">
+</head>
+<body data-page-node-id="vklvL37fRrzCGuqPUMdoTd">
+
+<!-- ============================================================ 页头 -->
+<header class="site-header" data-page-node-id="i8OBam1WEk5qK7hi3tM0I4">
+  <div class="frame-wood" data-page-node-id="sLfIRYqAYth4T3ror348Fg">
+    <div class="header-inner" data-page-node-id="GyoSFiqT7XtG1V9L6c3TMz">
+      <a class="brand" href="#overview" data-page-node-id="I0COgyJfzKmYR5tB2P4j9o">
+        <span class="brand-balls" aria-hidden="true" data-page-node-id="Fxire0J0hpWQw3dfn121kO">
+          <i class="b b-red" data-page-node-id="rxojOZYOWKh5pKhkEbdMD0"></i><i class="b b-yellow" data-page-node-id="LEUeH4CFTPcAAHUIGunWuU"></i><i class="b b-green" data-page-node-id="DID1OwzopnEK3Oum6anwAx"></i>
+          <i class="b b-brown" data-page-node-id="1ObnzPHcGSsVbomrVk3nWa"></i><i class="b b-blue" data-page-node-id="uX2G6fhVNPm398GkFFVdl0"></i><i class="b b-pink" data-page-node-id="2bWF7GLoByXm6RkSqo06Ga"></i><i class="b b-black" data-page-node-id="5aQQjnUFWiCGc6R9CuNi6v"></i>
+        </span>
+        <span class="brand-text" data-page-node-id="TbqVDo3tZzEtLAIOGYgwUR">
+          <strong class="brand-cn" data-page-node-id="MBrC3dEAph2sWpd94DBlXk">世界斯诺克巡回赛 · 成绩看板</strong>
+          <span class="brand-en" data-page-node-id="liuMwNOVl7hs199ObxyYCL">WORLD SNOOKER TOUR · RESULTS DASHBOARD</span>
+        </span>
+      </a>
+
+      <div class="season-chip" data-page-node-id="E6pcJCS9GkAyl5YNsTZABz">
+        <span class="season-label" data-page-node-id="mVf26fHpmq5CU5dBEQWyD9">SEASON 赛季</span>
+        <span class="season-value" id="seasonValue" data-page-node-id="xERxOnGRSku8zKRTinVqEw">2026/27</span>
+      </div>
+
+      <div class="lang-switch" id="langSwitch" title="显示语言 / Display language" data-page-node-id="hQykZ5G7Y6zqMIHPmYPesZ">
+        <button class="lang-btn active" data-l="both" data-page-node-id="8hpwuLcqHFeLwGvf8LjvrL">
+          <span class="cn" data-page-node-id="GDqaGWhm6LdTRgFs3DxGAZ">双语</span><span class="en" data-page-node-id="6ZMfCpDvInBWmYtDF3Tni8">BOTH</span></button>
+        <button class="lang-btn" data-l="cn" data-page-node-id="zpjQRoMLRSb0HbFzbH4Bmg">
+          <span class="cn" data-page-node-id="whfGqe2SksMUEtlxFjj0sd">中文</span><span class="en" data-page-node-id="ERCdFgATsZL24KQeFOF2M2">CN</span></button>
+        <button class="lang-btn" data-l="en" data-page-node-id="82hzTbjzbt4nDDVbMimgSI">
+          <span class="cn" data-page-node-id="OoFiHCmpvkCDg5oMPENIh1">英文</span><span class="en" data-page-node-id="aPmWuzecqrqzKm0tRzXAuv">EN</span></button>
+      </div>
+
+      <button class="nav-toggle" id="navToggle" aria-label="切换导航" data-page-node-id="tDkaN0R7aGZ5vrL1v3YnMW">
+        <span data-page-node-id="3CpdzSarnTvBfsGXeGnGZ3"></span><span data-page-node-id="wqtROdyLGuvWDPgRKGwqVD"></span><span data-page-node-id="WHMyj90PaynA4UYDbBmH34"></span>
+      </button>
+
+      <nav class="main-nav" id="mainNav" data-page-node-id="yc27y2x8rBnUudDpGZZFgM">
+        <a href="#overview"  class="nav-link active" data-tab="overview" data-page-node-id="IZSgNfq1mtL1rA83i65cNj">  <span class="cn" data-page-node-id="PNl7chugJQitneGjGhF2lS">总览</span><span class="en" data-page-node-id="xsy7TDMY1HXOuZV6OBGTN5">Overview</span></a>
+        <a href="#schedule"  class="nav-link" data-tab="schedule" data-page-node-id="PJSRsxZpYHHImXUv04CkCa">          <span class="cn" data-page-node-id="P1kqwgy1MpLNyQUonI5Aaj">赛程</span><span class="en" data-page-node-id="HwZjuOMwilN16O7ouMUVI0">Calendar</span></a>
+        <a href="#results"   class="nav-link" data-tab="results" data-page-node-id="zlJlgUAigQ5EHZk7uvsHZ4">           <span class="cn" data-page-node-id="Q9BXQO72AKNBVL5KvMGXkJ">赛果</span><span class="en" data-page-node-id="EbfB7mw3WdiHd7hyelaH2f">Results</span></a>
+        <a href="#rankings"  class="nav-link" data-tab="rankings" data-page-node-id="7oN3nraCnoVU0WGwQ0Qy2w">          <span class="cn" data-page-node-id="DCwnL1gbZZ9RGUUG887gjk">排名</span><span class="en" data-page-node-id="ZqOjDo5BVj343YQIroeRZR">Rankings</span></a>
+        <a href="#players"   class="nav-link" data-tab="players" data-page-node-id="c5HyADByUrVOjUd2RgSkJw">           <span class="cn" data-page-node-id="wGdwWzTykeJAD5MCHwZeSm">球员</span><span class="en" data-page-node-id="NIyIs4CU1kEDt66lVDuigy">Players</span></a>
+        <a href="#stats"     class="nav-link" data-tab="stats" data-page-node-id="EaJQfRUhI30jMTQHEKIrtE">             <span class="cn" data-page-node-id="TbFgaHYTyZ9Dgd2HO8MpbB">数据中心</span><span class="en" data-page-node-id="LHKaZNXzn8xch3koPwJZAV">Stats</span></a>
+      </nav>
+    </div>
+  </div>
+</header>
+
+<main data-page-node-id="nE2QjKZbpblNqQVzx98wbH">
+
+<!-- ============================================================ 总览 -->
+<section id="overview" class="tab-panel active" data-page-node-id="5Q2Ek79AWFFZmMPL0h1pEy">
+  <div class="hero" data-page-node-id="JLcr7FBfZ1YTNfvnEPW6kk">
+    <div class="hero-baize" data-page-node-id="sLoCNdg0rIHt6BCr0SREIh">
+      <div class="hero-content" data-page-node-id="dNxmk8I2cLaBEJg8VyQeSu">
+        <div class="hero-eyebrow" data-page-node-id="rXGs93I76Ve8cmVBLfEmkZ">
+          <span class="dot-live" data-page-node-id="oxws2WLMml1OZBbjIf1bRA"></span>
+          <span class="cn" data-page-node-id="JzdP5dgvCHVhAfEjDGJ1tc">赛季进行中</span><span class="en" data-page-node-id="mCXQ3cnC10rcquOxFupDco">SEASON IN PROGRESS</span>
+        </div>
+        <h1 class="hero-title" data-page-node-id="jfii9vidCEoy3yAt5RdY2O">
+          <span class="cn" data-page-node-id="cBepHcOiatSFABwkuuiCLr">2026/27 赛季</span>
+          <span class="en" data-page-node-id="m1SAVlB38NgHMStu4c7sBu">2026/27 SEASON</span>
+        </h1>
+        <p class="hero-sub" data-page-node-id="WqApyYlax5kiDUcHlms4tf">
+          <span class="cn" data-page-node-id="BS1a276YXXsRkymMpetV1n">数据来源：世界斯诺克巡回赛官网 wst.tv ｜ 涵盖赛程、逐站赛果、世界排名、单杆数据</span>
+          <span class="en" data-page-node-id="iZA4LnEACMBt9lAkHpRaFC">Live data from wst.tv — calendar, results, rankings &amp; break statistics</span>
+        </p>
+        <div class="hero-meta" data-page-node-id="0o4cUezWnzjwIX3v347NuL">
+          <span data-page-node-id="qPbV6UpbNaDwUKB76bqH2n"><i class="cn" data-page-node-id="yuGUwDiSzRH7lseD4cS80F">更新时间</i><i class="en" data-page-node-id="efeshdOiOuQss1qdv08RR1">Updated</i><b id="heroUpdated" data-page-node-id="qT3hDVsKdAb3JfmaWH8tde">—</b></span>
+          <span data-page-node-id="yVIG46IUm9yzmtuOHedGoV"><i class="cn" data-page-node-id="xSGUgadaswcqYzY80VgREp">赛季区间</i><i class="en" data-page-node-id="6YTL1jVVl85fyOo8QdgCb5">Window</i><b id="heroWindow" data-page-node-id="Yi1ubu5NgSTuLaWx2q7qv0">—</b></span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="wrap" data-page-node-id="i9YL0FT69HnKiFbGnTEiuI">
+    <h2 class="sec-title" data-page-node-id="g3pytO1WMpuPFrZNXSV1bm">
+      <span class="cn" data-page-node-id="fUntghczS06ymEZ8nMv4ee">赛季概览</span><span class="en" data-page-node-id="H5JqIcMPOxMk3oRG3is6Zs">Season At A Glance</span>
+    </h2>
+    <div class="kpi-grid" id="kpiGrid" data-page-node-id="lM6GJSnWhL8Av2EBkxSZxo"></div>
+
+    <div class="two-col" data-page-node-id="Z9PoBj5uXBGjxSYvrkH1zI">
+      <div class="panel" data-page-node-id="BlJDf953OwICHPMA84VXhX">
+        <div class="panel-head" data-page-node-id="ig5RcfvRuM0xzlQVAv3OlH">
+          <h3 data-page-node-id="qsWgI0NfJmHisu8byWX9mS"><span class="cn" data-page-node-id="EmOZ3fIpagD3Er3aBuYFHU">冠军墙</span><span class="en" data-page-node-id="ci8EL3VsNB3gv6W9FNQqEp">Champions</span></h3>
+          <span class="panel-note" id="champCount" data-page-node-id="BKA9ETqYviqtC9QlQDW7nL"></span>
+        </div>
+        <div class="champion-wall" id="championWall" data-page-node-id="HV98HmBNSPr0aCFtQGLmMZ"></div>
+      </div>
+
+      <div class="panel" data-page-node-id="pOoVrRDhxsu40qgU83zHGB">
+        <div class="panel-head" data-page-node-id="y5RncMghJJTNgE4W8kf0AV">
+          <h3 data-page-node-id="pIuZvIFHRFnxzkN5u3NpuY"><span class="cn" data-page-node-id="btMhkc58Bl0VuSuUloYZDh">最新赛果</span><span class="en" data-page-node-id="IP53BVBGYfcfObh2Qmj9cD">Latest Results</span></h3>
+          <span class="panel-note" data-page-node-id="8ekSI2XdunerjkEEI3yZlq"><span class="cn" data-page-node-id="BEgL96070QJ1mXjOiohlcJ">最近 12 场</span><span class="en" data-page-node-id="1MW7anGCqCwKJosHRCJxYZ">Last 12</span></span>
+        </div>
+        <div class="recent-list" id="recentList" data-page-node-id="3EGhnAoIgm7ZHbXMalY7Rb"></div>
+      </div>
+    </div>
+
+    <div class="panel" data-page-node-id="287Um4LK1HajJZcYF4eNtB">
+      <div class="panel-head" data-page-node-id="661BD16xoXC6JncDEcP39y">
+        <h3 data-page-node-id="a89qLEeM14cVGR02whMNLG"><span class="cn" data-page-node-id="CwmcEG05G2pOp0FmDhI0Ja">破百榜 · 赛季最佳单杆</span><span class="en" data-page-node-id="YcJxqDigbun0twd7NhMhqE">Century Breaks · Season Best</span></h3>
+        <a class="panel-link" href="#stats" data-goto="stats" data-page-node-id="Fw77iIoZCVdJFOTnKMsN0s">
+          <span class="cn" data-page-node-id="C81Kj4RotZARiHxEHgh3lI">查看全部</span><span class="en" data-page-node-id="Anx561nzxIlHLhafo9yfVU">View all</span> →
+        </a>
+      </div>
+      <div class="century-strip" id="centuryStrip" data-page-node-id="IfGONKs8XGx3VoeE6nKPMQ"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================ 赛程 -->
+<section id="schedule" class="tab-panel" data-page-node-id="Wza319XFguBEq32idDs3Uw">
+  <div class="wrap" data-page-node-id="EDWz4YJ1QujB5Nsd3X6F00">
+    <h2 class="sec-title" data-page-node-id="0UeaLjDU2MRrv6GxEFCL45">
+      <span class="cn" data-page-node-id="r9tZUyNzMl3uAVwEZSZ42k">赛程日历</span><span class="en" data-page-node-id="Q0Zg94s1Obxe8m78GpaNRE">Tournament Calendar</span>
+    </h2>
+    <p class="sec-desc" data-page-node-id="B1GGMWdmfaaWlfK54xDiTT">
+      <span class="cn" data-page-node-id="S3qQdG8qX8EdWWGcA9c78E">2026/27 赛季共 39 站赛事，含资格赛。点击卡片查看该站完整对阵。</span>
+      <span class="en" data-page-node-id="csJ6CsqaGabS9AfvjW6Uzx">39 events across the 2026/27 season, qualifiers included. Click a card for the full draw.</span>
+    </p>
+
+    <div class="filter-bar" data-page-node-id="t6F8xjxZK6nFwdaxMKIJ3L">
+      <div class="seg-group" id="scheduleFilter" data-page-node-id="rQJUenVCutKVlo2EAWOm3k">
+        <button class="seg active" data-f="all" data-page-node-id="Ouf40ihvHU84AvwOKD6fnj"><span class="cn" data-page-node-id="lx6bkgtbm9UFGLAWoo1hRZ">全部</span><span class="en" data-page-node-id="YOypPTikMUS6Zo9xls9JBX">All</span></button>
+        <button class="seg" data-f="completed" data-page-node-id="Ol3yE8V5dx7diwZHvXCty2"><span class="cn" data-page-node-id="mJcOVkf7qGhQD90AhNzemg">已结束</span><span class="en" data-page-node-id="atA7RIC2PpsjI17xVdf2DL">Done</span></button>
+        <button class="seg" data-f="ongoing" data-page-node-id="MSncLptlUoNCrOjUTRw1Fo"><span class="cn" data-page-node-id="XxHnZAEuRlJlaVRKQAI3bY">进行中</span><span class="en" data-page-node-id="LXhNgVvJOsrN5JcGzLyUnR">Live</span></button>
+        <button class="seg" data-f="upcoming" data-page-node-id="cVnCxJhN0Z5mK0xE0plOtb"><span class="cn" data-page-node-id="KvK5uBT9C3v3PZPpkSVRF6">未开始</span><span class="en" data-page-node-id="sQy9WisyjTAiBkw0NjAUND">Upcoming</span></button>
+        <button class="seg" data-f="main" data-page-node-id="m7Adt26XEip0KSF7wA1NBF"><span class="cn" data-page-node-id="gBgz9aPMGqpTB2mgSPi0a6">仅正赛</span><span class="en" data-page-node-id="7g9LvzdHKLSnBGNHDhll43">Main Only</span></button>
+        <button class="seg" data-f="ranking" data-page-node-id="PDHCsWtsYmk1J0oHAInsDJ"><span class="cn" data-page-node-id="Enz4AEQGAP1aFn8LU968SG">排名赛</span><span class="en" data-page-node-id="KvZ0rm766dtR61073syAmy">Ranking</span></button>
+        <button class="seg" data-f="invitational" data-page-node-id="vFzMLKLuby1a05CiptKD5d"><span class="cn" data-page-node-id="ZimceY2Ofm0uvbaKcv8CAb">邀请赛</span><span class="en" data-page-node-id="HEfHtCQ6QOCqfgtnA4MPHa">Invitational</span></button>
+      </div>
+      <div class="search-box" data-page-node-id="If8CESDcdVr6Wu3JLkyvHd">
+        <input type="search" id="scheduleSearch" placeholder="搜索赛事 / 城市…" autocomplete="off" data-page-node-id="X4WhRHlEQtxAL0PeUKPONM">
+      </div>
+    </div>
+
+    <div class="timeline" id="scheduleTimeline" data-page-node-id="3Cj6pVTNwzJ8Lvem0Tp87L"></div>
+    <div class="empty-state" id="scheduleEmpty" hidden data-page-node-id="hMz2wgYRCVS8qGXZ1AYygU">
+      <span class="cn" data-page-node-id="YaCQBAUhVXyMkNQBYdYpkj">没有符合条件的赛事</span><span class="en" data-page-node-id="irQWH6HaPBvlMHjnGxkyvs">No tournaments match your filter</span>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================ 赛果 -->
+<section id="results" class="tab-panel" data-page-node-id="GIJYGcRfaHPEFk1A4uxVbO">
+  <div class="wrap" data-page-node-id="155hvmVXK3NusUiX8rhYWd">
+    <h2 class="sec-title" data-page-node-id="5lFKxHx85XVag9KiL3FJQF">
+      <span class="cn" data-page-node-id="RW8zx0UPh9KFbDTukSqaZJ">逐站赛果</span><span class="en" data-page-node-id="zjaH1PxUXLpcBvZYpoeEXU">Results By Event</span>
+    </h2>
+    <p class="sec-desc" data-page-node-id="3AY6dNEtd2wCScw3cbxhT1">
+      <span class="cn" data-page-node-id="oH5MAZlYu45smPLItKW6WK">展开任意一站，查看该站全部轮次的完整比分。</span>
+      <span class="en" data-page-node-id="v3c1HKBtz2uWnL8SaoLzbH">Expand any event to see the full round-by-round scorelines.</span>
+    </p>
+    <div class="results-list" id="resultsList" data-page-node-id="s3iGUsEzgvVfyedE4ZPws7"></div>
+  </div>
+</section>
+
+<!-- ============================================================ 排名 -->
+<section id="rankings" class="tab-panel" data-page-node-id="oKf8BI88GRNnB6MwMTWAEw">
+  <div class="wrap" data-page-node-id="hoQqzYC4UUEPXxlQeeLNZJ">
+    <h2 class="sec-title" data-page-node-id="YUTMcT5PTOpqUW4JBxxlpt">
+      <span class="cn" data-page-node-id="f72ZHaNcP1Ce8KAWQsctSj">排名榜单</span><span class="en" data-page-node-id="D5wB50BvRN7e3wDTOitGtq">Rankings</span>
+    </h2>
+
+    <div class="filter-bar" data-page-node-id="vOO6Pef3mcH8wFkda0LJ0T">
+      <div class="seg-group" id="rankTabs" data-page-node-id="g99JybWDuRhh6SA0Z4zvLl"></div>
+      <div class="seg-group" id="rankVariant" data-page-node-id="VDgcHbyQ5WRFioyF6uD4cQ"></div>
+    </div>
+
+    <div class="panel rank-panel" data-page-node-id="gQD59G25FvxTYm0abZNAAo">
+      <div class="rank-head" data-page-node-id="7yH3m1npjIlGuztHVPzaql">
+        <div data-page-node-id="M0v0hr5dGefz85FeTQj3LJ">
+          <h3 id="rankTitle" data-page-node-id="voRJJbQ4hGBlFoz0DrxXwR">—</h3>
+          <p class="rank-desc" id="rankDesc" data-page-node-id="y3xMHlUw84RROImtAoYp5F"></p>
+        </div>
+        <div class="rank-updated" id="rankUpdated" data-page-node-id="naez2XZxg9CcqGoSFZ6f6M"></div>
+      </div>
+      <div class="rank-podium" id="rankPodium" data-page-node-id="0ESJ2ViBZbl5FMDXfvv9ZD"></div>
+      <div class="table-scroll" data-page-node-id="bDM2ZqHfNPZTFwbFurnDaN">
+        <table class="rank-table" data-page-node-id="GpH41zJdpw7HGAY3j660ZO">
+          <thead data-page-node-id="jgh1h4prli0PYY6w8l83JF">
+            <tr data-page-node-id="2qCvYs9D6StNbAah9NgI9B">
+              <th class="c-pos" data-page-node-id="GCD82BO4bGkAbMZH9KQS95"><span class="cn" data-page-node-id="erBgtkJwqMzD4O5Leud5z8">名次</span><span class="en" data-page-node-id="CFYYzU3K09R1H81i3nE6HH">#</span></th>
+              <th class="c-player" data-page-node-id="PQU7qQ7TGcTim0HrNJilI8"><span class="cn" data-page-node-id="2JuIddxeieeh3g5jCuTzC0">球员</span><span class="en" data-page-node-id="YQwVJoExYuyFFFRFk0vrwi">Player</span></th>
+              <th class="c-country" data-page-node-id="6jIFJhTfDm958zpXk0am7c"><span class="cn" data-page-node-id="eIKt9fg8tQM5wiMeV7LlIK">国家/地区</span><span class="en" data-page-node-id="dcaUUosupYcKCCDHZ0oiHY">Nat.</span></th>
+              <th class="c-titles" data-page-node-id="nVhCE9e82GkeZxdtmxcv0I"><span class="cn" data-page-node-id="BwTmW4iAoOME8mJMDDFkSV">冠军</span><span class="en" data-page-node-id="kHmv5Wb5dJQiiR5hArlEYx">Titles</span></th>
+              <th class="c-metric" id="rankMetricTh" data-page-node-id="JgkF5yxPojxpc5818eSjDd">—</th>
+            </tr>
+          </thead>
+          <tbody id="rankBody" data-page-node-id="HFvpWmGDE0EFd44pLNCyW2"></tbody>
+        </table>
+      </div>
+      <div class="rank-more" data-page-node-id="FEfOBMP4doxPqOoBHPt9O5">
+        <button class="btn-ghost" id="rankMore" data-page-node-id="q4BPyShE6Yp2YK6nbg4fsz"><span class="cn" data-page-node-id="vrjYoBmL5TMEFp5vydWIA4">显示更多</span><span class="en" data-page-node-id="EKm0UgKBCLeO1P4fY4EqDo">Show more</span></button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================ 球员 -->
+<section id="players" class="tab-panel" data-page-node-id="OlCtI0Wzp5xXjbYQNtkkFY">
+  <div class="wrap" data-page-node-id="idQGYddFEi3XWFfAV0YGv2">
+    <h2 class="sec-title" data-page-node-id="q1VcoLsqr52ylgWFrINt4p">
+      <span class="cn" data-page-node-id="CiK7id5LdX1uG1DLBtN6ka">球员数据</span><span class="en" data-page-node-id="pfGR6U98wnZnuqMLRH38nh">Players</span>
+    </h2>
+
+    <div class="filter-bar" data-page-node-id="lUYFcglzaiIfWJ6cLWG9Ks">
+      <div class="seg-group" id="countryFilter" data-page-node-id="Ma9CCPsEvnkvwuwVUi8plH"></div>
+      <div class="search-box" data-page-node-id="0nu3PkjQzfDwylJgYks2yw">
+        <input type="search" id="playerSearch" placeholder="搜索球员（中文 / English）…" autocomplete="off" data-page-node-id="hz2oACOIU1Iy3AfEmlNVEU">
+      </div>
+    </div>
+
+    <div class="sort-bar" data-page-node-id="2JZihFvdmP4S51RmJX9KyM">
+      <span class="sort-label" data-page-node-id="EBGmFDAZDsjYmXRh5qhDjF"><span class="cn" data-page-node-id="q66NdIrIinjXdRWFOwotAf">排序</span><span class="en" data-page-node-id="77N04KFkmqhBXlv3X55v9B">Sort</span></span>
+      <div class="seg-group sm" id="playerSort" data-page-node-id="kcONjDdH7F4lLF4XkSZB4K">
+        <button class="seg active" data-s="wins" data-page-node-id="LSJNWyfC4Cj7RW8PfIFEXG"><span class="cn" data-page-node-id="kA1rhqycAeKty7HHgEPRjB">胜场</span><span class="en" data-page-node-id="CIXYjm7rZvLqPHEd96xd4G">Wins</span></button>
+        <button class="seg" data-s="centuries" data-page-node-id="jQvwVF8F2OlhOFyU3TMsK4"><span class="cn" data-page-node-id="fyZZhXs9QPVLBUf3gCsFHR">破百</span><span class="en" data-page-node-id="rxHCQEdEas8bexQ3k1WDEM">100+</span></button>
+        <button class="seg" data-s="fiftyPlus" data-page-node-id="FmuzrVRyzRm62bqSWRSUmc"><span class="cn" data-page-node-id="Bt8CkY2U47xRlnXQrrCnYi">50+</span><span class="en" data-page-node-id="T2LaIfstCCghb65rsb3E33">50+</span></button>
+        <button class="seg" data-s="highestBreak" data-page-node-id="D698mBoowtgEVhqOvBEe2e"><span class="cn" data-page-node-id="bigo6N1zFfxtKwQHByOR6w">最高单杆</span><span class="en" data-page-node-id="jXwQbKTY7L5fPTACjCdyyJ">Hi-Break</span></button>
+        <button class="seg" data-s="titles" data-page-node-id="8ty8nNlvD1TKUwAEPQfEly"><span class="cn" data-page-node-id="g7vQRHWk5UoQdOnoPH5ywx">冠军</span><span class="en" data-page-node-id="OVG2fu1zonCFHmqMMP6Drn">Titles</span></button>
+        <button class="seg" data-s="name" data-page-node-id="MlxatGD0gIXvZO1OvdFDaA"><span class="cn" data-page-node-id="hrf31ppQdjzoGd0N3c5TJC">姓名</span><span class="en" data-page-node-id="frfr4vXIIQG1jN55E1Nk8H">Name</span></button>
+      </div>
+      <span class="player-count" id="playerCount" data-page-node-id="tZbv5ex4rzzRZHFEuETr1k"></span>
+    </div>
+
+    <div class="player-grid" id="playerGrid" data-page-node-id="SB7A4EBJd9HsmBTHMVj7kJ"></div>
+    <div class="empty-state" id="playerEmpty" hidden data-page-node-id="IFYEJZCqvMlUxBYKG4ctvi">
+      <span class="cn" data-page-node-id="Nz6OEUdzaGURo0GF0J5oxV">没有找到匹配的球员</span><span class="en" data-page-node-id="jOElFNilmpor7EtYCKdN8J">No players found</span>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================ 数据中心 -->
+<section id="stats" class="tab-panel" data-page-node-id="2pew6GRKAh76LPn02SZiPT">
+  <div class="wrap" data-page-node-id="IyF4ipOYvWiditFdwGp111">
+    <h2 class="sec-title" data-page-node-id="kUt8uzLHrhS38PGuu81hRi">
+      <span class="cn" data-page-node-id="zRrFItxwJH0v5cIH4KpP5r">数据中心</span><span class="en" data-page-node-id="2E08eyC2l0IO0jKVESBFXJ">Statistics Centre</span>
+    </h2>
+
+    <div class="leader-grid" id="leaderGrid" data-page-node-id="sYbxAMXPpNPn0Gf7EM6Ii2"></div>
+
+    <!-- 历史生涯冠军榜 -->
+    <div class="panel" data-page-node-id="gjvPNAv1Uu7G47Gy068gmF">
+      <div class="panel-head" data-page-node-id="4IIBx1bbrJTrITu8NCURYX">
+        <h3 data-page-node-id="fK3arco5NklLC78D0GOsed"><span class="cn" data-page-node-id="FQe89wMWZa9s2YwRdr0JvW">历史冠军榜</span><span class="en" data-page-node-id="oAotRmlFCcBWCpvSYVzk4g">All-Time Title Leaders</span></h3>
+        <div class="seg-group sm" id="titleSort" data-page-node-id="FR8UKLM89qfypzqFbjBJ2y">
+          <button class="seg active" data-s="ranking" data-page-node-id="jp0rlrBw8HhEdGA2A4aNqP"><span class="cn" data-page-node-id="tIZoEEgIX4J4rVomhCE8WT">排名赛</span><span class="en" data-page-node-id="niVAEs40wQN2yEaNbDKr3D">Ranking</span></button>
+          <button class="seg" data-s="total" data-page-node-id="ZR9TdyJEPFNHM2h3Op6WQY"><span class="cn" data-page-node-id="BZvYHA9TUN7LlnBh4zBjrh">全部冠军</span><span class="en" data-page-node-id="eJcVPWc1sooOdEnWsFdaVD">All Titles</span></button>
+          <button class="seg" data-s="crown" data-page-node-id="gVDbuflIVNcNNbXGBmQsuD"><span class="cn" data-page-node-id="yIR6i8yTjY4aDv5xLPXIzb">三大赛</span><span class="en" data-page-node-id="WoPT34oNKH7Ae1Gdr6Vqf9">Triple Crown</span></button>
+        </div>
+      </div>
+      <p class="src-note" id="titleNote" data-page-node-id="2sR9m554z8F5MgVmeiEEZi"></p>
+      <div class="table-scroll tall" data-page-node-id="yewP8inabMH6OHpt1hWgie">
+        <table class="data-table title-board" data-page-node-id="KyudT9AZYfg6H5Nr9sTcHB">
+          <thead data-page-node-id="wgC7xt01I1eDvw2NZTthzA">
+            <tr data-page-node-id="s4HOoCtaobHuT1t9pzGNdm">
+              <th class="c-rank" data-page-node-id="dJroqE6LMuURgvHQ3FzpyQ"><span class="cn" data-page-node-id="WOWme5YayvroY95fXWluwm">名次</span><span class="en" data-page-node-id="aOUkJjQVkjqG0hdpTWLofw">#</span></th>
+              <th data-page-node-id="vQCr0wOqTCeotBew4J1CkU"><span class="cn" data-page-node-id="pHtz6XrHCeB173xChX3xEO">球员</span><span class="en" data-page-node-id="eQvdGNcV1E1kbEPN7DpHWz">Player</span></th>
+              <th class="hide-sm" data-page-node-id="wsTCYdHqoMzIYBBeexA3MU"><span class="cn" data-page-node-id="zQKL1SFVE4P3yVfLVxrUH0">国家/地区</span><span class="en" data-page-node-id="xJi174D788nodRnRaIF0yo">Nat.</span></th>
+              <th class="c-num" data-page-node-id="oHDRpYlUyrNBaC0ZYP7WAp"><span class="cn" data-page-node-id="CLBRCM8YCf7zTBMD8cBKZl">排名赛</span><span class="en" data-page-node-id="TnDVwsLCKaBVvWEdhSyZ7o">Ranking</span></th>
+              <th class="c-num hide-sm" data-page-node-id="lcOGee5AiEIeMPq1Etsq4r"><span class="cn" data-page-node-id="BpE9uoDHQGP6Nv9D5Rkk0K">非排名赛</span><span class="en" data-page-node-id="n0zcbpPr0S8jwTiJHHkAxG">Non-Rank</span></th>
+              <th class="c-num" data-page-node-id="EDDrPEqzBNSMzCz1qqO9Of"><span class="cn" data-page-node-id="QAveW3DqLdzISuOVGUq6bH">全部</span><span class="en" data-page-node-id="vmKYH1AkEka8LUTDLE0d0y">All</span></th>
+              <th class="c-num" data-page-node-id="xmbKmHOowZXaWlhxzmaEip"><span class="cn" data-page-node-id="idwYJhXVeCrRNyeCCCt3GG">三大赛</span><span class="en" data-page-node-id="1Pfnx4l8RRq0Ex0nqxuhRg">Triple Crown</span></th>
+              <th class="c-yr hide-md" data-page-node-id="oJ2nHf0PlgJqfw8ZMNs7H5"><span class="cn" data-page-node-id="H31CwQEhoVUns1uop8S6YR">首冠</span><span class="en" data-page-node-id="4aykFFAy70bhOk2jFGEYDv">First</span></th>
+              <th class="c-yr hide-md" data-page-node-id="kHnyvn4h2HwAFHPWo6NQFL"><span class="cn" data-page-node-id="1sABzrjjrs3gMDlaXzHqX5">末冠</span><span class="en" data-page-node-id="Te6sXwukpqFYDv4yRYjVfd">Latest</span></th>
+            </tr>
+          </thead>
+          <tbody id="titleBody" data-page-node-id="nvEwq041s6PBjOSr5mOENB"></tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="panel" data-page-node-id="KSHylGuWGhnC7LPAF35EKM">
+      <div class="panel-head" data-page-node-id="kvCxuV3B8JcsO0oBCTDPjs">
+        <h3 data-page-node-id="Iy0JMPCz2Z8HAFGdhKviBF"><span class="cn" data-page-node-id="hGOA8b56FhU9saUfJ4ORtn">赛季破百全记录</span><span class="en" data-page-node-id="D3LDABcNfA4a7AA5yobxBK">All Century Breaks</span></h3>
+        <div class="seg-group sm" id="centuryFilter" data-page-node-id="AEqKBTl9v4syaDaXIVddhi">
+          <button class="seg active" data-c="all" data-page-node-id="IrPZqhUwIyArmjNcjwYWkG"><span class="cn" data-page-node-id="jpX8DPW0ASe64nuJT0c5cA">全部</span><span class="en" data-page-node-id="hxvkmHE3GtP8SajJ4oNiXr">All</span></button>
+          <button class="seg" data-c="147" data-page-node-id="6NeyLW0ZGxQnZJFIv0fNHb">147</button>
+          <button class="seg" data-c="140" data-page-node-id="dDcP0IHKHBGG5DO6Yf4tAn">140+</button>
+          <button class="seg" data-c="130" data-page-node-id="02jRwYRkE6yWqhizv77MJs">130+</button>
+        </div>
+      </div>
+      <div class="table-scroll tall" data-page-node-id="3LmRhC1j4RJFX2czXgcy6H">
+        <table class="data-table" data-page-node-id="02WhrWp7HiBVbqvQub0tBA">
+          <thead data-page-node-id="ZVObYILuyZlLThmlCalVbX">
+            <tr data-page-node-id="rASsR5iDNjVR9WaKX4IToW">
+              <th class="c-brk" data-page-node-id="BfhCjF3GB6w82s3bF5UFuF"><span class="cn" data-page-node-id="28MayDCgwoco5MtsJZ9xrJ">单杆</span><span class="en" data-page-node-id="y2ScDZi8MIE8OUH11FHaGR">Break</span></th>
+              <th data-page-node-id="BndtQrBwDhtNtOWCYdHX9X"><span class="cn" data-page-node-id="obtBiRzEwFHTG4UlFXWNBK">球员</span><span class="en" data-page-node-id="0S9ctHZ0irlQHVevzjerJk">Player</span></th>
+              <th class="hide-sm" data-page-node-id="s7FEiCD3qmBVtOEV0HDk2d"><span class="cn" data-page-node-id="QW3AfRmXsWhaHVjNl0GfyM">国家/地区</span><span class="en" data-page-node-id="xnBc8eFsVuCgSOid947ZsH">Nat.</span></th>
+              <th class="hide-sm" data-page-node-id="ilfY5AD552AWyCDJhclrJ4"><span class="cn" data-page-node-id="mY9z9GFwae51guUotPvdAw">赛事</span><span class="en" data-page-node-id="paUcpVuWJfztnSu4uoazE6">Event</span></th>
+              <th class="hide-md" data-page-node-id="JYUWMynOozQZPHHLqrs90n"><span class="cn" data-page-node-id="8o1CztmNBPYPJEW83I0tJL">轮次</span><span class="en" data-page-node-id="FmZ7EmgP2ox9aYzUTbTf8O">Round</span></th>
+              <th class="hide-sm" data-page-node-id="mCzJhcFeHnMN1Sh2zUA4NE"><span class="cn" data-page-node-id="eaE3hgzHxPHcUN4a0OZ5VF">对手</span><span class="en" data-page-node-id="orxEX5t20HDCgktZ6O1gfG">Opponent</span></th>
+              <th class="c-date" data-page-node-id="FpQ3zLB1xnZNBuCaBnJ8Ju"><span class="cn" data-page-node-id="7cBl3zmKlC4nmfbGiUwiGB">日期</span><span class="en" data-page-node-id="xaGG825DAuX5NWaFtlNaOK">Date</span></th>
+            </tr>
+          </thead>
+          <tbody id="centuryBody" data-page-node-id="KisS3BMDYDT7txNuazIsaB"></tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ============================================================ 页脚 -->
+<footer class="site-footer" data-page-node-id="ts3DvbiOHz4qDNEef7P2E7">
+  <div class="frame-wood" data-page-node-id="je4wAQkLpv3N46BZfdd2Om">
+    <div class="footer-inner" data-page-node-id="93App4uf3yvtLrPaP9pzRj">
+      <div class="footer-row" data-page-node-id="iMlhC7C0BryHhdyTZXFKOg">
+        <div class="footer-col" data-page-node-id="LBgrBROOmuyyNkZIPbknL7">
+          <h4 data-page-node-id="V97zX09A83Jj6CfvK1VnC0"><span class="cn" data-page-node-id="fLGOgzZgDAg94VX31fzfOR">数据来源</span><span class="en" data-page-node-id="PZH54fKfZSIWDYxtR2Ftcp">Data Source</span></h4>
+          <p data-page-node-id="Ld5At5bLFUncB7XiuQZAIz">
+            <a href="https://www.wst.tv/" target="_blank" rel="noopener" data-page-node-id="E8S8ixeUdfdhCC3Lqblmz7">wst.tv</a>
+            <span class="cn" data-page-node-id="P7OQDCSRjiBS0YeVTqplqw">世界斯诺克巡回赛官方网站公开数据接口</span>
+            <span class="en" data-page-node-id="68NfR7SPf14BVimauULTYJ">Official World Snooker Tour public data API</span>
+          </p>
+        </div>
+        <div class="footer-col" data-page-node-id="5fCaOVk2XsWzgvcmMtCZaD">
+          <h4 data-page-node-id="PlEkPZbGCYFen6mYwUNqHQ"><span class="cn" data-page-node-id="mQKfZiHiZZHvwAOq0JOF1L">数据范围</span><span class="en" data-page-node-id="AaEYMs4oOdUg5ODRwRP6sf">Coverage</span></h4>
+          <p id="footerStats" data-page-node-id="lEtwhDTDZNfSZ4wKz7bbmp">—</p>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bar" data-page-node-id="pAfCJ1CqPy2ugxDpVjA6Ux">
+      <span data-page-node-id="Ao02DFePMGla3AKeCAN5xN">© 2026 Snooker Results Dashboard · <span class="cn" data-page-node-id="5iCLRFRYWVUPNLinjVZGTm">非官方数据看板，仅供学习交流</span><span class="en" data-page-node-id="oYRdjU3K7N26BGILKTdn6t">Unofficial fan project</span></span>
+    </div>
+  </div>
+</footer>
+
+<!-- ============================================================ 弹层 -->
+<div class="modal" id="modal" hidden data-page-node-id="0CocpV3KTBHIlCDJ0q2SWU">
+  <div class="modal-backdrop" data-close data-page-node-id="qdyEu4ggr0dso8iMvdkUC8"></div>
+  <div class="modal-card" data-page-node-id="Z3Xx3gua7OGIf4NVbgDCob">
+    <button class="modal-close" data-close aria-label="关闭" data-page-node-id="F0a0iN8ebZZlrvLN1L6uoU">×</button>
+    <div class="modal-body" id="modalBody" data-page-node-id="7ZW6W1E56JdXaklPjVv1N4"></div>
+  </div>
+</div>
+
+<div class="loader" id="loader" data-page-node-id="GpaoHleWgfBQ0RNQGC1LCO">
+  <div class="loader-inner" data-page-node-id="iWK6WCKfKziVgZIIFFivPV">
+    <span class="cue" data-page-node-id="omuJBLQFHVR6opGfdi4yV8"></span>
+    <p data-page-node-id="lL9PNd6DJBVAigk0RDBCh8"><span class="cn" data-page-node-id="5NzBG0ywKlbVmLoyOszTw5">正在载入赛季数据…</span><span class="en" data-page-node-id="uso1TkixwKxr4gQr9BrhQu">Loading season data…</span></p>
+  </div>
+</div>
+
+<script src="data/dashboard.js"></script>
+<script src="assets/js/app.js"></script>
+</body>
+</html>

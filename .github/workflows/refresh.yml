@@ -1,0 +1,53 @@
+name: Refresh WST data
+
+on:
+  # 每天 UTC 14:00 = 北京时间 22:00（赛季进行期间）
+  schedule:
+    - cron: "0 14 * * *"
+  # 允许手动触发（Actions 页面点 Run workflow）
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Fetch latest from WST
+        run: python3 scripts/fetch_data.py --concurrency 8
+
+      - name: Build dashboard data
+        run: python3 scripts/build_dashboard.py
+
+      - name: Sanity check
+        run: |
+          python3 - <<'PY'
+          import json, sys
+          d = json.load(open("data/dashboard.json", encoding="utf-8"))
+          m = len(d.get("matches", []))
+          print("season:", d["meta"]["season"], "| matches:", m)
+          if m < 200:
+              print("!! 比赛数异常偏低，疑似抓取失败，放弃提交")
+              sys.exit(1)
+          PY
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/dashboard.json
+          if git diff --quiet --cached; then
+            echo "数据无变化，跳过提交"
+          else
+            git commit -m "chore(data): auto refresh $(date -u +'%Y-%m-%d %H:%M UTC')"
+            git push
+          fi
