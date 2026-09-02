@@ -70,7 +70,11 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           # 页面实际加载的是 data/dashboard.js（window.SNOOKER_DATA）+ index.html 的缓存版本号，
           # 只提交 dashboard.json 的话线上页面不会有任何变化（曾经踩过的坑）。
-          git add data/dashboard.json data/dashboard.js index.html
+          # 用 git add -A 暂存全部「已追踪」改动：fetch_prize_money.py 会改写追踪文件
+          # data/raw/prize_money.json（以及 titles.json / prize_pages.json），若不一起暂存，
+          # 后续 git pull --rebase 会因「存在未暂存改动」直接失败（曾导致 CI 一直报错、数据推不上）。
+          # git add -A 遵守 .gitignore，不会把 36MB 的 data/raw/matches.json 误入库。
+          git add -A
           if git diff --quiet --cached; then
             echo "数据无变化，跳过提交"
           else
