@@ -716,14 +716,14 @@ tbody tr.top1:hover{background:rgba(217,180,74,.17)}
 .md-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(96px,1fr));gap:9px;margin-bottom:18px}
 .md-stat{padding:11px 8px;border-radius:9px;text-align:center;
   background:rgba(0,0,0,.3);border:1px solid rgba(217,180,74,.2)}
-.md-stat b{display:block;font-family:var(--font-en);font-weight:700;font-size:22px;line-height:1;color:#fff}
+.md-stat b{display:block;font-family:var(--font-en);font-weight:700;font-size:22px;line-height:1.1;color:#fff;word-break:break-word;overflow-wrap:anywhere}
 .md-stat span{display:block;font-size:11px;color:var(--ivory-dim);margin-top:4px;font-family:var(--font-cn)}
 .md-stat span.en{font-family:var(--font-en);font-size:9px;opacity:.7}
 .md-stat.md-stat-best b{font-size:13px;line-height:1.35;font-weight:500;font-family:var(--font-cn);white-space:normal;word-break:break-word;min-height:auto;padding:2px 0}
 .md-stat.md-stat-best span{margin-top:3px}
 .md-stat.md-stat-prize{background:linear-gradient(150deg,rgba(217,180,74,.18),rgba(201,153,31,.1));
   border:1px solid rgba(217,180,74,.3)}
-.md-stat.md-stat-prize b{color:var(--brass-300)}
+.md-stat.md-stat-prize b{color:var(--brass-300);font-size:16px;line-height:1.15}
 
 .md-sec-title{font-family:var(--font-cn);font-weight:700;font-size:15px;margin:18px 0 9px;
   padding-left:11px;border-left:3px solid var(--brass-500)}
@@ -950,5 +950,6 @@ tbody tr.top1:hover{background:rgba(217,180,74,.17)}
   .h2h-vs{padding:0}
   .h2h-score .ws{font-size:38px}
   .h2h-row{grid-template-columns:74px 1fr 64px;gap:7px}
+  .md-stat.md-stat-prize b{font-size:14px}
 }
 
