@@ -17,6 +17,24 @@ for a in "$@"; do
   [ "$a" = "--full" ] && FULL=1
 done
 
+# 基础资源自检：build_dashboard.py 需要 seasons / rankings / players / titles / prize_pages。
+# 后两者已入库，前三个在 .gitignore 里不入库 —— 全新环境（如 GitHub Actions 首次运行）
+# 必须先补齐，否则 build 会 FileNotFoundError。本地有缓存则整段跳过，零开销。
+NEED=""
+for f in seasons rankings players; do
+  [ -s "data/raw/$f.json" ] || NEED="${NEED:+$NEED,}$f"
+done
+if [ -n "$NEED" ]; then
+  echo "▶ 补齐缺失的基础资源: $NEED"
+  $PYTHON scripts/fetch_data.py --only "$NEED" --concurrency 4
+fi
+
+# 没有 matches 基线时（本地首次 / CI 无缓存）必须全量，否则定向追更无从下手
+if [ ! -s "data/raw/matches.json" ]; then
+  echo "  （未找到 matches 基线，本次自动切换为全量抓取）"
+  FULL=1
+fi
+
 echo "▶ 抓取 tournaments（赛事状态 / 名称 / 日期）"
 $PYTHON scripts/fetch_data.py --only tournaments --concurrency 4
 

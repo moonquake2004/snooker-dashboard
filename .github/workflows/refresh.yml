@@ -29,22 +29,21 @@ jobs:
       - name: Restore raw matches cache
         uses: actions/cache/restore@v4
         with:
-          path: data/raw/matches.json
+          path: data/raw
           key: wst-raw-matches-
           restore-keys: |
             wst-raw-matches-
 
+      # 注：脚本内部会自检 —— 缺 seasons/rankings/players 会先补齐，
+      # 没有 matches 基线时自动降级为全量抓取，因此这里不需要再判断文件是否存在。
       - name: Fetch latest from WST
         run: |
           if [ "${{ github.event.schedule }}" = "0 3 * * 1" ]; then
             echo "== 每周全量刷新 =="
             bash refresh_live.sh --full
-          elif [ -f data/raw/matches.json ]; then
-            echo "== 命中缓存基线，快速追更 =="
-            bash refresh_live.sh
           else
-            echo "== 无缓存基线（首次运行 / 缓存被淘汰），全量抓取 =="
-            bash refresh_live.sh --full
+            echo "== 常规刷新（有缓存基线则快速追更）=="
+            bash refresh_live.sh
           fi
 
       # 注：refresh_live.sh 内部已调用 build_dashboard.py 重建看板
@@ -79,5 +78,5 @@ jobs:
         if: always()
         uses: actions/cache/save@v4
         with:
-          path: data/raw/matches.json
+          path: data/raw
           key: wst-raw-matches-${{ github.run_id }}
