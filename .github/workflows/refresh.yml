@@ -24,17 +24,30 @@ jobs:
         with:
           python-version: "3.12"
 
+      # data/raw/matches.json 有 36MB 且每次刷新都变，不入库（见 .gitignore）。
+      # 快速追更需要它做基线，所以这里用 Actions 缓存跨运行传递上一次的抓取结果。
+      - name: Restore raw matches cache
+        uses: actions/cache/restore@v4
+        with:
+          path: data/raw/matches.json
+          key: wst-raw-matches-
+          restore-keys: |
+            wst-raw-matches-
+
       - name: Fetch latest from WST
         run: |
           if [ "${{ github.event.schedule }}" = "0 3 * * 1" ]; then
             echo "== 每周全量刷新 =="
             bash refresh_live.sh --full
-          else
-            echo "== 快速追更（仅进行中赛事）=="
+          elif [ -f data/raw/matches.json ]; then
+            echo "== 命中缓存基线，快速追更 =="
             bash refresh_live.sh
+          else
+            echo "== 无缓存基线（首次运行 / 缓存被淘汰），全量抓取 =="
+            bash refresh_live.sh --full
           fi
 
-      # 注：refresh_live.sh 内部已调用 build_dashboard.py 重建看板，此处无需再跑一次
+      # 注：refresh_live.sh 内部已调用 build_dashboard.py 重建看板
       - name: Sanity check
         run: |
           python3 - <<'PY'
@@ -61,3 +74,10 @@ jobs:
             git pull --rebase origin main
             git push
           fi
+
+      - name: Save raw matches cache
+        if: always()
+        uses: actions/cache/save@v4
+        with:
+          path: data/raw/matches.json
+          key: wst-raw-matches-${{ github.run_id }}
