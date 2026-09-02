@@ -1,9 +1,11 @@
 name: Refresh WST data
 
 on:
-  # 每天 UTC 14:00 = 北京时间 22:00（赛季进行期间）
+  # 每 2 小时快速追更一次（赛季进行期间，覆盖比赛时段）
   schedule:
-    - cron: "0 14 * * *"
+    - cron: "0 */2 * * *"
+    # 每周一 UTC 03:00 = 北京时间 11:00：跑一次全量（补抓 WST 新排定、之前从未抓过的场次）
+    - cron: "0 3 * * 1"
   # 允许手动触发（Actions 页面点 Run workflow）
   workflow_dispatch:
 
@@ -23,11 +25,16 @@ jobs:
           python-version: "3.12"
 
       - name: Fetch latest from WST
-        run: python3 scripts/fetch_data.py --concurrency 8
+        run: |
+          if [ "${{ github.event.schedule }}" = "0 3 * * 1" ]; then
+            echo "== 每周全量刷新 =="
+            bash refresh_live.sh --full
+          else
+            echo "== 快速追更（仅进行中赛事）=="
+            bash refresh_live.sh
+          fi
 
-      - name: Build dashboard data
-        run: python3 scripts/build_dashboard.py
-
+      # 注：refresh_live.sh 内部已调用 build_dashboard.py 重建看板，此处无需再跑一次
       - name: Sanity check
         run: |
           python3 - <<'PY'
@@ -44,10 +51,13 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/dashboard.json
+          # 页面实际加载的是 data/dashboard.js（window.SNOOKER_DATA）+ index.html 的缓存版本号，
+          # 只提交 dashboard.json 的话线上页面不会有任何变化（曾经踩过的坑）。
+          git add data/dashboard.json data/dashboard.js index.html
           if git diff --quiet --cached; then
             echo "数据无变化，跳过提交"
           else
             git commit -m "chore(data): auto refresh $(date -u +'%Y-%m-%d %H:%M UTC')"
+            git pull --rebase origin main
             git push
           fi
