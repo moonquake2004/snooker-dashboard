@@ -382,10 +382,29 @@
           <h4 data-page-node-id="PlEkPZbGCYFen6mYwUNqHQ"><span class="cn" data-page-node-id="mQKfZiHiZZHvwAOq0JOF1L">数据范围</span><span class="en" data-page-node-id="AaEYMs4oOdUg5ODRwRP6sf">Coverage</span></h4>
           <p id="footerStats" data-page-node-id="lEtwhDTDZNfSZ4wKz7bbmp">—</p>
         </div>
+        <div class="footer-col" data-page-node-id="Qx7vNbr2Kd9mLpTs4YhWc1">
+          <h4 data-page-node-id="Rt3wKpL7mZb2NqVe9SdXa4"><span class="cn" data-page-node-id="Wm8nJc5QvLx2RtYu6BfHg3">访问统计</span><span class="en" data-page-node-id="Zp4kDy6HsNv3WmQx8CjKe5">Visitors</span></h4>
+          <div class="visit-stats" data-page-node-id="Nh5qLr9TkXb4YpWm2VdUf6">
+            <div class="visit-item" data-page-node-id="Cj7mBv2NxRk5ZqLt3WsYa8">
+              <span class="visit-num" id="visitUv" data-page-node-id="Kd4nSw8PmYb6RtVx5ZfHg9">—</span>
+              <span class="visit-label" data-page-node-id="Lx9pTq3WvNm7SyUz6BhJc0"><span class="cn" data-page-node-id="My2rVb5XzPk8TqWa7CjLd1">独立访客</span><span class="en" data-page-node-id="Nz3sWc6YaQl9UrXb8DkMe2">Unique IPs</span></span>
+            </div>
+            <div class="visit-item" data-page-node-id="Pa4tXd7ZbRm0VsYc9ElNf3">
+              <span class="visit-num" id="visitPv" data-page-node-id="Qb5uYe8AcSn1WtZd0FmOg4">—</span>
+              <span class="visit-label" data-page-node-id="Rc6vZf9BdTo2XuAe1GnPh5"><span class="cn" data-page-node-id="Sd7wAg0CeUp3YvBf2HoQi6">页面浏览</span><span class="en" data-page-node-id="Te8xBh1DfVq4ZwCg3IpRj7">Page Views</span></span>
+            </div>
+          </div>
+          <p class="visit-note" id="visitNote" data-page-node-id="Uf9yCi2EgWr5AxDh4JqSk8"><span class="cn" data-page-node-id="Vg0zDj3FhXs6ByEi5KrTl9">按独立 IP 地址去重统计</span><span class="en" data-page-node-id="Wh1aEk4GiYt7CzFj6LsUm0">Counted by unique IP · 24h window</span></p>
+        </div>
       </div>
     </div>
     <div class="footer-bar" data-page-node-id="pAfCJ1CqPy2ugxDpVjA6Ux">
       <span data-page-node-id="Ao02DFePMGla3AKeCAN5xN">© 2026 Snooker Results Dashboard · <span class="cn" data-page-node-id="5iCLRFRYWVUPNLinjVZGTm">非官方数据看板，仅供学习交流</span><span class="en" data-page-node-id="oYRdjU3K7N26BGILKTdn6t">Unofficial fan project</span></span>
+      <span class="footer-credit" data-page-node-id="Xi2bFl5HjZu8DaGk7MtVn1">
+        <span class="cn" data-page-node-id="Yj3cGm6IkaV9EbHl8NuWo2">制作</span>
+        <span class="en" data-page-node-id="Zk4dHn7JlbW0FcIm9OvXp3">BY</span>
+        <b data-page-node-id="Al5eIo8KmcX1GdJn0PwYq4">WATERFLY</b>
+      </span>
       <a class="footer-gh" href="https://github.com/moonquake2004/snooker-dashboard" target="_blank" rel="noopener" title="View source on GitHub">
         <svg viewBox="0 0 16 16" width="13" height="13" aria-hidden="true" fill="currentColor"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82a7.4 7.4 0 0 1 2-.27c.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A7.99 7.99 0 0 0 16 8c0-4.42-3.58-8-8-8Z"/></svg>
         <span>GitHub</span><span class="cn">开源源码</span>
@@ -413,5 +432,12 @@
 <script src="data/dashboard.js?v=20260902072312"></script>
 <script src="data/h2h.js?v=20260902072312"></script>
 <script src="assets/js/app.js?v=20260902072312"></script>
+<script>
+  /* 访问统计：留空 = 用不蒜子（零配置，按访客 IP 去重）；
+     若已部署 tools/visit-counter-worker.js（Cloudflare Worker），把地址填到这里，
+     即可按真实 IP 精确去重、并在 GitHub Pages 与分享站之间共享同一份计数。 */
+  window.VISIT_API = '';
+</script>
+<script src="assets/js/visit.js?v=20260902073000"></script>
 </body>
 </html>

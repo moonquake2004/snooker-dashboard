@@ -67,6 +67,9 @@ python3 -m http.server 8848
 index.html                 单页看板（结构 + 文案）
 assets/css/style.css        样式（含三档响应式）
 assets/js/app.js            渲染逻辑，读取 data/dashboard.json
+assets/js/visit.js          页脚访问统计（自建接口 / 不蒜子 / 本地预览三模式）
+tools/
+  visit-counter-worker.js   可选：自建按 IP 统计后端（Cloudflare Worker + KV）
 data/dashboard.json         构建产物：看板所需的全部聚合数据
 data/raw/                   抓取缓存（大文件已 gitignore）
 scripts/
@@ -79,6 +82,23 @@ scripts/
   title_board.py            历史冠军榜聚合
 .github/workflows/refresh.yml  每日自动刷新
 ```
+
+## 访问统计（页脚 Visitors）
+
+页脚显示 **独立访客 UV / 页面浏览 PV**，脚本为 `assets/js/visit.js`，按环境自动切换三种模式：
+
+| 模式 | 触发条件 | 说明 |
+| --- | --- | --- |
+| 自建接口 | `window.VISIT_API` 填了地址 | 服务端读 `CF-Connecting-IP` 真按 IP 去重，24 小时滚动窗口，可跨部署域名共享、可导出明细 |
+| 不蒜子 | `VISIT_API` 留空（默认） | 零配置，UV 按访客去重、PV 计累计浏览；**按域名统计**，GitHub Pages 与分享站各算一份 |
+| 本地预览 | localhost / 内网 IP / `file://` | 只记本机打开次数并注明"不计入线上统计"，不污染线上数据 |
+
+启用自建接口：把 `tools/visit-counter-worker.js` 部署成 Cloudflare Worker 并绑定 KV（变量名 `VISITS`），
+再把地址填进 `index.html` 里的 `window.VISIT_API` 即可，无需改动其它代码。
+导出明细：`GET https://<worker>/?stats&token=<ADMIN_TOKEN>`。
+
+> 不蒜子以 host 为统计单位，若 `moonquake2004.github.io` 下还挂了别的 Pages 站点，UV 会合并计算；
+> 出现这种情况时切到自建接口即可精确隔离。
 
 ## 已知口径说明
 
