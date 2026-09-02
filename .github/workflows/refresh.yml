@@ -34,6 +34,11 @@ jobs:
           restore-keys: |
             wst-raw-matches-
 
+      # 生涯奖金榜：单次请求、稳定无 429，放在 refresh_live.sh 之前跑，
+      # 这样 refresh_live.sh 内部 build_dashboard.py 就能写入最新奖金。
+      - name: Fetch all-time prize money from CueTracker
+        run: python3 scripts/fetch_prize_money.py
+
       # 注：脚本内部会自检 —— 缺 seasons/rankings/players 会先补齐，
       # 没有 matches 基线时自动降级为全量抓取，因此这里不需要再判断文件是否存在。
       - name: Fetch latest from WST

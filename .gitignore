@@ -1,8 +1,9 @@
 # 抓取缓存：体积大且每次刷新都会变，不入库
-# （titles.json / prize_pages.json 例外，见下方，作为基线保留）
+# （titles.json / prize_pages.json / prize_money.json 例外，见下方，作为基线保留）
 data/raw/*.json
 !data/raw/titles.json
 !data/raw/prize_pages.json
+!data/raw/prize_money.json
 data/raw/titles_cache/
 data/raw/h2h_raw/
 
