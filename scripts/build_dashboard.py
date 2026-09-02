@@ -541,9 +541,36 @@ def main():
         print(f"  历史冠军榜：{tb_meta.get('rows')} 人上榜，"
               f"排名赛冠军合计 {tb_meta.get('rankingTitles')}")
 
+    # ---------------------------------------------------------- 生涯奖金
+    # CueTracker 全时段奖金榜（单次请求拿全量，1623 人），按 slug 精确匹配。
+    # 生涯累计值变化慢，只在全量刷新（refresh.sh / fetch_prize_money.py）时更新。
+    prize_path = os.path.join(RAW_DIR, "prize_money.json")
+    prize_raw = {}
+    if os.path.exists(prize_path):
+        with open(prize_path, encoding="utf-8") as fh:
+            prize_raw = json.load(fh).get("players", {})
+        _hits = 0
+        for _r in title_board.get("rows", []):
+            _pm = prize_raw.get(_r.get("slug"))
+            if _pm:
+                _r["prize"] = _pm["amount"]
+                _r["prizeRank"] = _pm["rank"]
+                _hits += 1
+        print(f"  生涯奖金：榜单 {len(prize_raw)} 人，冠军榜命中 {_hits} 人")
+    else:
+        print("  生涯奖金：未找到 data/raw/prize_money.json，跳过"
+              "（运行 python3 scripts/fetch_prize_money.py 生成）")
+
+    # 冠军榜已按权威 slug 匹配过，这里复用其结果按姓名反查，避免 slugify 差异
+    prize_by_name = {}
+    for _r in title_board.get("rows", []):
+        if _r.get("prize") is not None and _r.get("name_en"):
+            prize_by_name[_r["name_en"].strip().lower()] = _r["prize"]
+
     # 给每位球员挂上「转职业以来生涯冠军」（来自 CueTracker）
     slug2career = {r["slug"]: r for r in title_board.get("rows", [])}
     career_hits = 0
+    prize_hits = 0
     for _p in players.values():
         _slug = T.slugify(_p.get("name_en", ""))
         _c = slug2career.get(_slug)
@@ -559,7 +586,18 @@ def main():
                 "items": _c["items"],
             }
             career_hits += 1
-    print(f"  球员生涯数据命中：{career_hits} 人")
+        # 生涯奖金（按权威 slug 命中，其次按姓名反查），用于球员弹窗
+        _pm = prize_raw.get(_slug) or (
+            prize_by_name.get(_p.get("name_en", "").strip().lower())
+            if _p.get("name_en") else None)
+        if _pm:
+            _p["prize"] = _pm["amount"]
+            _p["prizeRank"] = _pm["rank"]
+            if _c:
+                _p["career"]["prize"] = _pm["amount"]
+                _p["career"]["prizeRank"] = _pm["rank"]
+            prize_hits += 1
+    print(f"  球员生涯数据命中：{career_hits} 人（含奖金 {prize_hits} 人）")
 
     # 把「转职业以来生涯冠军」反查挂到排名榜每个位置（用于排名页显示冠军数）
     for _g in rankings:

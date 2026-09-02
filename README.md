@@ -22,7 +22,8 @@
 | 赛程赛果 | 全部赛事的对阵表，进行中赛事实时跟进比分与晋级树 |
 | 世界排名 | 官方排名 + 球员生涯冠军数（排名赛 / 非排名赛拆分，数据源 CueTracker） |
 | 数据榜 | 破百榜、奖金榜、胜场榜、决胜局榜等领跑者 |
-| 历史冠军榜 | 现役球员生涯冠军一览，中英双语，移动端自适应 |
+| 历史冠军榜 | 现役球员生涯冠军一览，并附 CueTracker 生涯奖金（£），可点击表头按奖金排序 |
+| 球员弹窗 | 现役/名宿球员的生涯冠军 + 生涯奖金，中英双语 |
 
 * 中英双语显示（球员名、赛事名、场馆名）
 * 响应式：桌面 / iPad / 手机三档布局均已适配
@@ -31,7 +32,7 @@
 ## 数据来源
 
 * **赛程 / 赛果 / 排名 / 破百**：World Snooker Tour 官方公开 JSON:API（`*.snooker.web.gc.wstservices.co.uk/v2/`），即 wst.tv 官网所使用的数据接口
-* **生涯冠军数**：[CueTracker](https://www.cuetracker.net/)（best-effort 抓取，被限流时沿用上次结果）
+* **生涯冠军数 / 生涯奖金榜**：[CueTracker](https://www.cuetracker.net/)（best-effort 抓取，被限流时沿用上次结果）
 * **球员头像**：WST 官方图片 CDN
 
 数据版权归 World Snooker Tour 及 CueTracker 所有，本项目仅做聚合展示，为非商业性质的爱好者作品。

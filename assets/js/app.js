@@ -618,7 +618,7 @@
   function renderTitleBoard() {
     var tb = D.titleBoard;
     if (!tb || !tb.rows || !tb.rows.length) {
-      $('#titleBody').innerHTML = '<tr><td colspan="9"><div class="empty-state">' +
+      $('#titleBody').innerHTML = '<tr><td colspan="10"><div class="empty-state">' +
         '<span class="cn">暂无生涯冠军数据</span>' +
         '<span class="en">No career title data</span></div></td></tr>';
       $('#titleNote').innerHTML = '';
@@ -641,6 +641,7 @@
         '<td class="c-num">' + r.ranking + '</td>' +
         '<td class="c-num hide-sm">' + r.nonRanking + '</td>' +
         '<td class="c-num"><b>' + r.total + '</b></td>' +
+        '<td class="c-num prize-col"><span class="prize-val">' + gbp(r.prize) + '</span></td>' +
         '<td class="c-num">' + crown + '</td>' +
         '<td class="c-yr hide-md">' + (r.first || '—') + '</td>' +
         '<td class="c-yr hide-md">' + (r.last || '—') + '</td>' +
@@ -690,6 +691,7 @@
         stat(r.total, '全部冠军', 'Total') +
         stat(r.crown, '三大赛', 'Triple Crown') +
         stat((r.first || '—') + '–' + (r.last || '—'), '首冠–末冠', 'First–Last') +
+        stat(gbp(r.prize), '生涯奖金', 'Prize £', 'md-stat-prize') +
       '</div>' +
       '<div class="md-sec-title"><span class="cn">生涯冠军全记录（' +
         (r.items ? r.items.length : 0) + ' 冠）</span>' +
@@ -949,6 +951,7 @@
             stat(p.career.crown, '三大赛', 'Triple Crown') +
             stat((p.career.first || '—') + '–' + (p.career.last || '—'),
                  '首冠–末冠', 'First–Last') +
+            stat(gbp(p.prize != null ? p.prize : p.career.prize), '生涯奖金', 'Prize £', 'md-stat-prize') +
           '</div>' +
           '<div class="md-list">' +
             p.career.items.map(function (it) {

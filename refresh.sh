@@ -9,6 +9,8 @@ $PYTHON scripts/fetch_data.py --concurrency 8
 $PYTHON scripts/fetch_prize.py || echo "⚠ 奖金页抓取失败，将使用手工兜底值"
 # 生涯冠军（来自 CueTracker，best-effort：被限流时跳过，保留上次结果）
 $PYTHON scripts/fetch_titles.py || echo "⚠ 生涯冠军抓取失败（可能限流），沿用已有 titles.json"
+# 生涯奖金榜（来自 CueTracker，一次性全量，不触发限流）
+$PYTHON scripts/fetch_prize_money.py || echo "⚠ 生涯奖金榜抓取失败，沿用已有 prize_money.json"
 # 交手记录 H2H（来自 CueTracker，best-effort：限流敏感，失败则沿用已有 h2h.json）
 $PYTHON scripts/fetch_h2h.py || echo "⚠ 交手记录抓取失败（可能限流），沿用已有 h2h.json"
 $PYTHON scripts/build_dashboard.py

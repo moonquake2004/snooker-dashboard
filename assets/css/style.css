@@ -635,6 +635,10 @@ tbody tr.top1:hover{background:rgba(217,180,74,.17)}
 .title-board .c-rank,.title-board .c-num{text-align:center}
 .title-board .c-rank{width:52px}
 .title-board .c-num{width:76px}
+.title-board .prize-col{width:104px}
+.title-board .prize-val{font-family:var(--font-en);font-weight:700;font-size:13px;
+  color:var(--brass-300);white-space:nowrap}
+.title-board .prize-val:not([data-null]){letter-spacing:.2px}
 .title-board .c-yr{width:62px;text-align:center}
 
 .tb-rank{display:inline-grid;place-items:center;min-width:24px;height:24px;padding:0 6px;
@@ -717,6 +721,9 @@ tbody tr.top1:hover{background:rgba(217,180,74,.17)}
 .md-stat span.en{font-family:var(--font-en);font-size:9px;opacity:.7}
 .md-stat.md-stat-best b{font-size:13px;line-height:1.35;font-weight:500;font-family:var(--font-cn);white-space:normal;word-break:break-word;min-height:auto;padding:2px 0}
 .md-stat.md-stat-best span{margin-top:3px}
+.md-stat.md-stat-prize{background:linear-gradient(150deg,rgba(217,180,74,.18),rgba(201,153,31,.1));
+  border:1px solid rgba(217,180,74,.3)}
+.md-stat.md-stat-prize b{color:var(--brass-300)}
 
 .md-sec-title{font-family:var(--font-cn);font-weight:700;font-size:15px;margin:18px 0 9px;
   padding-left:11px;border-left:3px solid var(--brass-500)}
@@ -858,6 +865,8 @@ tbody tr.top1:hover{background:rgba(217,180,74,.17)}
   .title-board td{padding:8px 2px;vertical-align:middle}
   .title-board .c-rank{width:32px}
   .title-board .c-num{width:44px}
+  .title-board .prize-col{width:60px}
+  .title-board .prize-val{font-size:10px;letter-spacing:0}
   .title-board .pl-name{font-size:13px}
   .title-board .pl-name .en{display:none}
   .title-board .crown-n{font-size:12px}
