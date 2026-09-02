@@ -1,14 +1,33 @@
 #!/bin/bash
 # 轻量更新：只刷新「进行中赛事」的比赛结果与赛程进度。
-# 与 ./refresh.sh 的区别：不重抓奖金页(fetch_prize) 与生涯冠军(fetch_titles)，
-# 也不重抓 rankings / players / seasons —— 这些在赛事进行中基本不变。
-# 因此从 ~10 分钟降到约 30 秒，专用于「赛事进行中追更比分」。
+# 与 ./refresh.sh 的区别：不做 matches 全量翻页（8800+ 场 / 89 页 / 多轮校验，10-20 分钟），
+# 改为 scripts/refresh_live_matches.py 按 /v2/{id} 只重抓进行中赛事的场次（约 15 秒）。
+# 也不重抓奖金页(fetch_prize)、生涯冠军(fetch_titles)、rankings / players / seasons。
+#
+# 用法：
+#   ./refresh_live.sh           # 快速追更（默认，约 20 秒）
+#   ./refresh_live.sh --full    # 连 matches 也全量重抓（换赛季、怀疑历史数据有缺口时用）
 set -e
 cd "$(dirname "$0")"
 # 可用环境变量 PYTHON 覆盖；默认取 PATH 中的 python3（GitHub Actions / Linux 兼容）
 PYTHON="${PYTHON:-python3}"
-echo "▶ 轻量更新：抓取 matches + tournaments（进行中赛事，分页并发 2，降低服务端截断丢页尾）"
-$PYTHON scripts/fetch_data.py --only matches,tournaments --concurrency 2
+
+FULL=0
+for a in "$@"; do
+  [ "$a" = "--full" ] && FULL=1
+done
+
+echo "▶ 抓取 tournaments（赛事状态 / 名称 / 日期）"
+$PYTHON scripts/fetch_data.py --only tournaments --concurrency 4
+
+if [ "$FULL" = "1" ]; then
+  echo "▶ 全量重抓 matches（8800+ 场，较慢，请耐心等待）"
+  $PYTHON scripts/fetch_data.py --only matches --concurrency 8
+else
+  echo "▶ 定向追更：只重抓进行中 / 临近开赛赛事的场次"
+  $PYTHON scripts/refresh_live_matches.py --concurrency 8
+fi
+
 echo "▶ 重建看板数据"
 $PYTHON scripts/build_dashboard.py
 echo ""
