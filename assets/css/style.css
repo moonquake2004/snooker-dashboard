@@ -319,6 +319,10 @@ main{position:relative;z-index:1}
 .rr-player.right{flex-direction:row-reverse;text-align:right}
 .rr-name{font-family:var(--font-cn);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .rr-name .en{font-family:var(--font-en);font-size:10px;color:var(--ivory-dim);opacity:.7}
+.recent-row .rr-player.win .rr-name{font-weight:700;color:var(--brass-300)}
+.recent-row .rr-player.win .rr-name .en{opacity:.95;color:var(--brass-200)}
+.recent-row .rr-player.lose .rr-name{opacity:.55}
+.recent-row .rr-player.lose .rr-name .en{opacity:.5}
 .rr-flag{font-size:10px;font-family:var(--font-en);letter-spacing:.06em;color:var(--brass-300);
   background:rgba(0,0,0,.3);border:1px solid rgba(217,180,74,.28);border-radius:4px;padding:1px 5px;flex:0 0 auto}
 .rr-score{

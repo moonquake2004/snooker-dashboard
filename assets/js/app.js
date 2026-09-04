@@ -171,8 +171,9 @@
     var list = done.slice(0, 12);
     $('#recentList').innerHTML = list.map(function (m) {
       var hw = m.homeScore > m.awayScore;
+      var aw = m.awayScore > m.homeScore;
       return '<div class="recent-row">' +
-        '<div class="rr-player">' +
+        '<div class="rr-player' + (hw ? ' win' : ' lose') + '">' +
           '<span class="rr-name"><span class="cn">' + esc(m.home ? m.home.name_zh : '待定 TBD') + '</span>' +
           '<span class="en">' + esc(m.home ? m.home.name_en : 'TBD') + '</span></span>' +
           '<span class="rr-flag">' + esc(m.home ? m.home.country : '') + '</span>' +
@@ -182,7 +183,7 @@
           '<span style="opacity:.5;margin:0 5px">-</span>' +
           '<span class="' + (hw ? 'l' : 'w') + '">' + m.awayScore + '</span>' +
         '</div>' +
-        '<div class="rr-player right">' +
+        '<div class="rr-player right' + (aw ? ' win' : ' lose') + '">' +
           '<span class="rr-name"><span class="cn">' + esc(m.away ? m.away.name_zh : '待定 TBD') + '</span>' +
           '<span class="en">' + esc(m.away ? m.away.name_en : 'TBD') + '</span></span>' +
           '<span class="rr-flag">' + esc(m.away ? m.away.country : '') + '</span>' +
