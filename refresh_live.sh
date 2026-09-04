@@ -1,7 +1,10 @@
 #!/bin/bash
 # 轻量更新：只刷新「进行中赛事」的比赛结果与赛程进度。
 # 与 ./refresh.sh 的区别：不做 matches 全量翻页（8800+ 场 / 89 页 / 多轮校验，10-20 分钟），
-# 改为 scripts/refresh_live_matches.py 按 /v2/{id} 只重抓进行中赛事的场次（约 15 秒）。
+# 改为 scripts/refresh_live_matches.py 做两件事（约 30 秒）：
+#   1) 分页扫描 matches 接口前若干页，发现 WST 新生成的场次（后续轮次对象）
+#   2) 按 /v2/{id} 定向重抓进行中赛事的场次，刷新比分与逐局数据
+# 第 1 步不能省：只按本地已有 ID 重抓，会永远漏掉新轮次，看板会静默停在上一轮。
 # 也不重抓奖金页(fetch_prize)、生涯冠军(fetch_titles)、rankings / players / seasons。
 #
 # 用法：
