@@ -27,4 +27,4 @@ env/
 
 # 本地记忆与临时备份
 .workbuddy/
-*.bak
+*.bak*
