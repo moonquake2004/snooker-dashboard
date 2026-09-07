@@ -2,7 +2,7 @@
  "meta": {
   "source": "cuetracker.net",
   "url": "https://cuetracker.net/statistics/prize-money/won/all-time",
-  "fetched": "2026-09-06 08:24:31",
+  "fetched": "2026-09-07 07:59:20",
   "count": 1623,
   "currency": "GBP",
   "note": "Career prize money (all-time)，单位英镑"
@@ -15,17 +15,17 @@
   },
   "john-higgins": {
    "name": "John Higgins",
-   "amount": 11222119,
+   "amount": 11231119,
    "rank": 2
   },
   "judd-trump": {
    "name": "Judd Trump",
-   "amount": 10241871,
+   "amount": 10261871,
    "rank": 3
   },
   "mark-selby": {
    "name": "Mark Selby",
-   "amount": 9530629,
+   "amount": 9575629,
    "rank": 4
   },
   "mark-williams": {
@@ -45,7 +45,7 @@
   },
   "shaun-murphy": {
    "name": "Shaun Murphy",
-   "amount": 7239712,
+   "amount": 7242712,
    "rank": 8
   },
   "mark-allen": {
@@ -60,12 +60,12 @@
   },
   "ding-junhui": {
    "name": "Ding Junhui",
-   "amount": 5522244,
+   "amount": 5528244,
    "rank": 11
   },
   "kyren-wilson": {
    "name": "Kyren Wilson",
-   "amount": 5332536,
+   "amount": 5338536,
    "rank": 12
   },
   "jimmy-white": {
@@ -75,7 +75,7 @@
   },
   "barry-hawkins": {
    "name": "Barry Hawkins",
-   "amount": 4440072,
+   "amount": 4443072,
    "rank": 14
   },
   "stuart-bingham": {
@@ -85,7 +85,7 @@
   },
   "ali-carter": {
    "name": "Ali Carter",
-   "amount": 4050806,
+   "amount": 4053806,
    "rank": 16
   },
   "ken-doherty": {
@@ -110,7 +110,7 @@
   },
   "matthew-stevens": {
    "name": "Matthew Stevens",
-   "amount": 3009245,
+   "amount": 3012245,
    "rank": 21
   },
   "marco-fu": {
@@ -140,7 +140,7 @@
   },
   "zhao-xintong": {
    "name": "Zhao Xintong",
-   "amount": 2537979,
+   "amount": 2549979,
    "rank": 27
   },
   "ryan-day": {
@@ -150,12 +150,12 @@
   },
   "ricky-walden": {
    "name": "Ricky Walden",
-   "amount": 2120841,
+   "amount": 2123841,
    "rank": 29
   },
   "jack-lisowski": {
    "name": "Jack Lisowski",
-   "amount": 2099796,
+   "amount": 2111796,
    "rank": 30
   },
   "stephen-lee": {
@@ -165,12 +165,12 @@
   },
   "david-gilbert": {
    "name": "David Gilbert",
-   "amount": 2020664,
+   "amount": 2029664,
    "rank": 32
   },
   "xiao-guodong": {
    "name": "Xiao Guodong",
-   "amount": 1931686,
+   "amount": 1934686,
    "rank": 33
   },
   "james-wattana": {
@@ -215,22 +215,22 @@
   },
   "anthony-mcgill": {
    "name": "Anthony McGill",
-   "amount": 1549925,
+   "amount": 1552925,
    "rank": 42
+  },
+  "michael-holt": {
+   "name": "Michael Holt",
+   "amount": 1538833,
+   "rank": 43
+  },
+  "wu-yize": {
+   "name": "Wu Yize",
+   "amount": 1535743,
+   "rank": 44
   },
   "paul-hunter": {
    "name": "Paul Hunter",
    "amount": 1535730,
-   "rank": 43
-  },
-  "michael-holt": {
-   "name": "Michael Holt",
-   "amount": 1532833,
-   "rank": 44
-  },
-  "wu-yize": {
-   "name": "Wu Yize",
-   "amount": 1532743,
    "rank": 45
   },
   "dominic-dale": {
@@ -253,14 +253,14 @@
    "amount": 1403029,
    "rank": 49
   },
+  "chris-wakelin": {
+   "name": "Chris Wakelin",
+   "amount": 1372490,
+   "rank": 50
+  },
   "zhou-yuelong": {
    "name": "Zhou Yuelong",
    "amount": 1370862,
-   "rank": 50
-  },
-  "chris-wakelin": {
-   "name": "Chris Wakelin",
-   "amount": 1369490,
    "rank": 51
   },
   "terry-griffiths": {
@@ -280,7 +280,7 @@
   },
   "zhang-anda": {
    "name": "Zhang Anda",
-   "amount": 1301720,
+   "amount": 1307720,
    "rank": 55
   },
   "joe-swail": {
@@ -320,7 +320,7 @@
   },
   "noppon-saengkham": {
    "name": "Noppon Saengkham",
-   "amount": 1103396,
+   "amount": 1106396,
    "rank": 63
   },
   "dave-harold": {
@@ -330,7 +330,7 @@
   },
   "jimmy-robertson": {
    "name": "Jimmy Robertson",
-   "amount": 1089362,
+   "amount": 1092362,
    "rank": 65
   },
   "darren-morgan": {
@@ -338,24 +338,24 @@
    "amount": 1073497,
    "rank": 66
   },
+  "jak-jones": {
+   "name": "Jak Jones",
+   "amount": 1056392,
+   "rank": 67
+  },
   "ben-woollaston": {
    "name": "Ben Woollaston",
    "amount": 1052207,
-   "rank": 67
+   "rank": 68
   },
   "cliff-thorburn": {
    "name": "Cliff Thorburn",
    "amount": 1000792,
-   "rank": 68
+   "rank": 69
   },
   "si-jiahui": {
    "name": "Si Jiahui",
    "amount": 987100,
-   "rank": 69
-  },
-  "jak-jones": {
-   "name": "Jak Jones",
-   "amount": 956392,
    "rank": 70
   },
   "gary-wilkinson": {
@@ -380,7 +380,7 @@
   },
   "jamie-jones": {
    "name": "Jamie Jones",
-   "amount": 835780,
+   "amount": 838780,
    "rank": 75
   },
   "andy-hicks": {
@@ -390,7 +390,7 @@
   },
   "elliot-slessor": {
    "name": "Elliot Slessor",
-   "amount": 813170,
+   "amount": 819170,
    "rank": 77
   },
   "gerard-greene": {
@@ -435,7 +435,7 @@
   },
   "lyu-haotian": {
    "name": "Lyu Haotian",
-   "amount": 719589,
+   "amount": 728589,
    "rank": 86
   },
   "joe-oconnor": {
@@ -455,22 +455,22 @@
   },
   "pang-junxu": {
    "name": "Pang Junxu",
-   "amount": 678900,
+   "amount": 684900,
    "rank": 90
+  },
+  "mark-joyce": {
+   "name": "Mark Joyce",
+   "amount": 661766,
+   "rank": 91
   },
   "yuan-sijun": {
    "name": "Yuan Sijun",
    "amount": 656412,
-   "rank": 91
+   "rank": 92
   },
   "jamie-burnett": {
    "name": "Jamie Burnett",
    "amount": 654749,
-   "rank": 92
-  },
-  "mark-joyce": {
-   "name": "Mark Joyce",
-   "amount": 652766,
    "rank": 93
   },
   "david-gray": {
@@ -530,7 +530,7 @@
   },
   "daniel-wells": {
    "name": "Daniel Wells",
-   "amount": 580559,
+   "amount": 583559,
    "rank": 105
   },
   "chris-small": {
@@ -545,27 +545,27 @@
   },
   "jordan-brown": {
    "name": "Jordan Brown",
-   "amount": 539381,
+   "amount": 542381,
    "rank": 108
+  },
+  "liam-highfield": {
+   "name": "Liam Highfield",
+   "amount": 540949,
+   "rank": 109
   },
   "david-roe": {
    "name": "David Roe",
    "amount": 538182,
-   "rank": 109
+   "rank": 110
   },
   "barry-pinches": {
    "name": "Barry Pinches",
    "amount": 532638,
-   "rank": 110
+   "rank": 111
   },
   "li-hang": {
    "name": "Li Hang",
    "amount": 523119,
-   "rank": 111
-  },
-  "liam-highfield": {
-   "name": "Liam Highfield",
-   "amount": 515949,
    "rank": 112
   },
   "cao-yupeng": {
@@ -573,19 +573,19 @@
    "amount": 512024,
    "rank": 113
   },
+  "jackson-page": {
+   "name": "Jackson Page",
+   "amount": 511175,
+   "rank": 114
+  },
   "drew-henry": {
    "name": "Drew Henry",
    "amount": 509040,
-   "rank": 114
+   "rank": 115
   },
   "peter-lines": {
    "name": "Peter Lines",
    "amount": 506179,
-   "rank": 115
-  },
-  "jackson-page": {
-   "name": "Jackson Page",
-   "amount": 505175,
    "rank": 116
   },
   "stuart-carrington": {
@@ -593,14 +593,14 @@
    "amount": 502877,
    "rank": 117
   },
+  "fan-zhengyi": {
+   "name": "Fan Zhengyi",
+   "amount": 502550,
+   "rank": 118
+  },
   "martin-clark": {
    "name": "Martin Clark",
    "amount": 502511,
-   "rank": 118
-  },
-  "fan-zhengyi": {
-   "name": "Fan Zhengyi",
-   "amount": 493550,
    "rank": 119
   },
   "xu-si": {
@@ -613,14 +613,14 @@
    "amount": 491133,
    "rank": 121
   },
+  "david-grace": {
+   "name": "David Grace",
+   "amount": 482148,
+   "rank": 122
+  },
   "brian-morgan": {
    "name": "Brian Morgan",
    "amount": 478633,
-   "rank": 122
-  },
-  "david-grace": {
-   "name": "David Grace",
-   "amount": 476148,
    "rank": 123
   },
   "oliver-lines": {
@@ -638,19 +638,19 @@
    "amount": 432600,
    "rank": 126
   },
-  "ian-burns": {
-   "name": "Ian Burns",
-   "amount": 421801,
+  "chang-bingyu": {
+   "name": "Chang Bingyu",
+   "amount": 424500,
    "rank": 127
   },
   "peifan-lei": {
    "name": "Peifan Lei",
-   "amount": 419850,
+   "amount": 422850,
    "rank": 128
   },
-  "chang-bingyu": {
-   "name": "Chang Bingyu",
-   "amount": 418500,
+  "ian-burns": {
+   "name": "Ian Burns",
+   "amount": 421801,
    "rank": 129
   },
   "lee-walker": {
@@ -693,39 +693,39 @@
    "amount": 350090,
    "rank": 137
   },
+  "aaron-hill": {
+   "name": "Aaron Hill",
+   "amount": 333367,
+   "rank": 138
+  },
   "eddie-charlton": {
    "name": "Eddie Charlton",
    "amount": 331238,
-   "rank": 138
+   "rank": 139
   },
   "paul-davies": {
    "name": "Paul Davies",
    "amount": 330910,
-   "rank": 139
+   "rank": 140
   },
   "david-lilley": {
    "name": "David Lilley",
    "amount": 326100,
-   "rank": 140
+   "rank": 141
+  },
+  "jamie-clarke": {
+   "name": "Jamie Clarke",
+   "amount": 322591,
+   "rank": 142
   },
   "anthony-davies": {
    "name": "Anthony Davies",
    "amount": 321390,
-   "rank": 141
-  },
-  "aaron-hill": {
-   "name": "Aaron Hill",
-   "amount": 321367,
-   "rank": 142
+   "rank": 143
   },
   "lu-ning": {
    "name": "Lu Ning",
    "amount": 320667,
-   "rank": 143
-  },
-  "jamie-clarke": {
-   "name": "Jamie Clarke",
-   "amount": 319591,
    "rank": 144
   },
   "stuart-pettman": {
@@ -743,14 +743,14 @@
    "amount": 299134,
    "rank": 147
   },
+  "zak-surety": {
+   "name": "Zak Surety",
+   "amount": 295818,
+   "rank": 148
+  },
   "john-virgo": {
    "name": "John Virgo",
    "amount": 295272,
-   "rank": 148
-  },
-  "zak-surety": {
-   "name": "Zak Surety",
-   "amount": 292818,
    "rank": 149
   },
   "jonathan-birch": {
@@ -823,19 +823,19 @@
    "amount": 262739,
    "rank": 163
   },
+  "he-guoqiang": {
+   "name": "He Guoqiang",
+   "amount": 262650,
+   "rank": 164
+  },
   "adrian-gunnell": {
    "name": "Adrian Gunnell",
    "amount": 261446,
-   "rank": 164
+   "rank": 165
   },
   "terry-murphy": {
    "name": "Terry Murphy",
    "amount": 261010,
-   "rank": 165
-  },
-  "he-guoqiang": {
-   "name": "He Guoqiang",
-   "amount": 256650,
    "rank": 166
   },
   "allan-taylor": {
@@ -843,34 +843,34 @@
    "amount": 253529,
    "rank": 167
   },
+  "mitchell-mann": {
+   "name": "Mitchell Mann",
+   "amount": 252838,
+   "rank": 168
+  },
   "craig-steadman": {
    "name": "Craig Steadman",
    "amount": 251938,
-   "rank": 168
-  },
-  "mitchell-mann": {
-   "name": "Mitchell Mann",
-   "amount": 249838,
    "rank": 169
+  },
+  "ross-muir": {
+   "name": "Ross Muir",
+   "amount": 248935,
+   "rank": 170
+  },
+  "duane-jones": {
+   "name": "Duane Jones",
+   "amount": 246245,
+   "rank": 171
   },
   "cliff-wilson": {
    "name": "Cliff Wilson",
    "amount": 243465,
-   "rank": 170
-  },
-  "ross-muir": {
-   "name": "Ross Muir",
-   "amount": 242935,
-   "rank": 171
+   "rank": 172
   },
   "shokat-ali": {
    "name": "Shokat Ali",
    "amount": 240265,
-   "rank": 172
-  },
-  "duane-jones": {
-   "name": "Duane Jones",
-   "amount": 240245,
    "rank": 173
   },
   "john-astley": {
@@ -893,54 +893,54 @@
    "amount": 224532,
    "rank": 177
   },
+  "stan-moody": {
+   "name": "Stan Moody",
+   "amount": 223825,
+   "rank": 178
+  },
   "danny-fowler": {
    "name": "Danny Fowler",
    "amount": 222161,
-   "rank": 178
+   "rank": 179
   },
   "sanderson-lam": {
    "name": "Sanderson Lam",
    "amount": 221316,
-   "rank": 179
+   "rank": 180
+  },
+  "ashley-carty": {
+   "name": "Ashley Carty",
+   "amount": 220761,
+   "rank": 181
   },
   "hammad-miah": {
    "name": "Hammad Miah",
    "amount": 219072,
-   "rank": 180
+   "rank": 182
   },
   "bob-chaperon": {
    "name": "Bob Chaperon",
    "amount": 217946,
-   "rank": 181
-  },
-  "ashley-carty": {
-   "name": "Ashley Carty",
-   "amount": 217761,
-   "rank": 182
+   "rank": 183
   },
   "jason-prince": {
    "name": "Jason Prince",
    "amount": 216965,
-   "rank": 183
+   "rank": 184
   },
   "david-taylor": {
    "name": "David Taylor",
    "amount": 216730,
-   "rank": 184
+   "rank": 185
   },
   "nick-dyson": {
    "name": "Nick Dyson",
    "amount": 216033,
-   "rank": 185
+   "rank": 186
   },
   "euan-henderson": {
    "name": "Euan Henderson",
    "amount": 215070,
-   "rank": 186
-  },
-  "stan-moody": {
-   "name": "Stan Moody",
-   "amount": 211825,
    "rank": 187
   },
   "john-spencer": {
@@ -953,49 +953,49 @@
    "amount": 204700,
    "rank": 189
   },
+  "long-zehuang": {
+   "name": "Long Zehuang",
+   "amount": 200300,
+   "rank": 190
+  },
   "matthew-couch": {
    "name": "Matthew Couch",
    "amount": 199437,
-   "rank": 190
+   "rank": 191
   },
   "james-cahill": {
    "name": "James Cahill",
    "amount": 199107,
-   "rank": 191
+   "rank": 192
   },
   "mark-johnston-allen": {
    "name": "Mark Johnston-Allen",
    "amount": 192549,
-   "rank": 192
+   "rank": 193
   },
   "bradley-jones": {
    "name": "Bradley Jones",
    "amount": 192085,
-   "rank": 193
-  },
-  "long-zehuang": {
-   "name": "Long Zehuang",
-   "amount": 191300,
    "rank": 194
+  },
+  "ben-mertens": {
+   "name": "Ben Mertens",
+   "amount": 189550,
+   "rank": 195
   },
   "ashley-hugill": {
    "name": "Ashley Hugill",
    "amount": 189087,
-   "rank": 195
+   "rank": 196
   },
   "nick-walker": {
    "name": "Nick Walker",
    "amount": 188695,
-   "rank": 196
+   "rank": 197
   },
   "dechawat-poomjaeng": {
    "name": "Dechawat Poomjaeng",
    "amount": 187559,
-   "rank": 197
-  },
-  "ben-mertens": {
-   "name": "Ben Mertens",
-   "amount": 186550,
    "rank": 198
   },
   "dylan-emery": {
@@ -1043,34 +1043,34 @@
    "amount": 161217,
    "rank": 207
   },
+  "ishpreet-singh-chadha": {
+   "name": "Ishpreet Singh Chadha",
+   "amount": 154725,
+   "rank": 208
+  },
   "jim-wych": {
    "name": "Jim Wych",
    "amount": 153528,
-   "rank": 208
+   "rank": 209
   },
   "les-dodd": {
    "name": "Les Dodd",
    "amount": 152535,
-   "rank": 209
+   "rank": 210
   },
   "bjorn-haneveer": {
    "name": "Bjorn Haneveer",
    "amount": 149300,
-   "rank": 210
+   "rank": 211
   },
   "barry-west": {
    "name": "Barry West",
    "amount": 149157,
-   "rank": 211
+   "rank": 212
   },
   "john-campbell": {
    "name": "John Campbell",
    "amount": 148991,
-   "rank": 212
-  },
-  "ishpreet-singh-chadha": {
-   "name": "Ishpreet Singh Chadha",
-   "amount": 148725,
    "rank": 213
   },
   "david-morris": {
@@ -1088,34 +1088,34 @@
    "amount": 144150,
    "rank": 216
   },
+  "steven-hallworth": {
+   "name": "Steven Hallworth",
+   "amount": 143916,
+   "rank": 217
+  },
   "leo-fernandez": {
    "name": "Leo Fernandez",
    "amount": 143750,
-   "rank": 217
+   "rank": 218
+  },
+  "iulian-boiko": {
+   "name": "Iulian Boiko",
+   "amount": 142750,
+   "rank": 219
   },
   "john-read": {
    "name": "John Read",
    "amount": 142005,
-   "rank": 218
-  },
-  "steven-hallworth": {
-   "name": "Steven Hallworth",
-   "amount": 140916,
-   "rank": 219
+   "rank": 220
   },
   "simon-bedford": {
    "name": "Simon Bedford",
    "amount": 138944,
-   "rank": 220
+   "rank": 221
   },
   "nigel-gilbert": {
    "name": "Nigel Gilbert",
    "amount": 133897,
-   "rank": 221
-  },
-  "iulian-boiko": {
-   "name": "Iulian Boiko",
-   "amount": 133750,
    "rank": 222
   },
   "adam-duffy": {
@@ -1193,19 +1193,19 @@
    "amount": 113902,
    "rank": 237
   },
+  "liam-davies": {
+   "name": "Liam Davies",
+   "amount": 113700,
+   "rank": 238
+  },
   "igor-figueiredo": {
    "name": "Igor Figueiredo",
    "amount": 112900,
-   "rank": 238
+   "rank": 239
   },
   "wang-yuchen": {
    "name": "Wang Yuchen",
    "amount": 111250,
-   "rank": 239
-  },
-  "liam-davies": {
-   "name": "Liam Davies",
-   "amount": 107700,
    "rank": 240
   },
   "joe-delaney": {
@@ -1248,69 +1248,69 @@
    "amount": 99593,
    "rank": 248
   },
+  "gong-chenzhi": {
+   "name": "Gong Chenzhi",
+   "amount": 98350,
+   "rank": 249
+  },
   "ian-preece": {
    "name": "Ian Preece",
    "amount": 98336,
-   "rank": 249
+   "rank": 250
   },
   "jack-mclaughlin": {
    "name": "Jack McLaughlin",
    "amount": 96933,
-   "rank": 250
+   "rank": 251
   },
   "stephen-murphy": {
    "name": "Stephen Murphy",
    "amount": 95574,
-   "rank": 251
+   "rank": 252
   },
   "chen-zifan": {
    "name": "Chen Zifan",
    "amount": 95400,
-   "rank": 252
-  },
-  "gong-chenzhi": {
-   "name": "Gong Chenzhi",
-   "amount": 95350,
    "rank": 253
+  },
+  "artemijs-zizins": {
+   "name": "Artemijs Zizins",
+   "amount": 95250,
+   "rank": 254
   },
   "jamie-oneill": {
    "name": "Jamie O'Neill",
    "amount": 90919,
-   "rank": 254
+   "rank": 255
+  },
+  "sean-osullivan": {
+   "name": "Sean O'Sullivan",
+   "amount": 90542,
+   "rank": 256
   },
   "kristjan-helgason": {
    "name": "Kristjan Helgason",
    "amount": 88790,
-   "rank": 255
+   "rank": 257
   },
   "troy-shaw": {
    "name": "Troy Shaw",
    "amount": 88260,
-   "rank": 256
-  },
-  "sean-osullivan": {
-   "name": "Sean O'Sullivan",
-   "amount": 87542,
-   "rank": 257
+   "rank": 258
   },
   "steve-duggan": {
    "name": "Steve Duggan",
    "amount": 86973,
-   "rank": 258
+   "rank": 259
   },
   "paul-mcphillips": {
    "name": "Paul McPhillips",
    "amount": 86470,
-   "rank": 259
+   "rank": 260
   },
   "liu-song": {
    "name": "Liu Song",
    "amount": 86438,
-   "rank": 260
-  },
-  "artemijs-zizins": {
-   "name": "Artemijs Zizins",
-   "amount": 86250,
    "rank": 261
   },
   "farakh-ajaib": {
@@ -1428,24 +1428,24 @@
    "amount": 69335,
    "rank": 284
   },
+  "liam-graham": {
+   "name": "Liam Graham",
+   "amount": 69100,
+   "rank": 285
+  },
   "robert-marshall": {
    "name": "Robert Marshall",
    "amount": 67055,
-   "rank": 285
+   "rank": 286
   },
   "leigh-griffin": {
    "name": "Leigh Griffin",
    "amount": 66750,
-   "rank": 286
+   "rank": 287
   },
   "lee-spick": {
    "name": "Lee Spick",
    "amount": 66610,
-   "rank": 287
-  },
-  "liam-graham": {
-   "name": "Liam Graham",
-   "amount": 66100,
    "rank": 288
   },
   "karl-burrows": {
@@ -1468,194 +1468,194 @@
    "amount": 64230,
    "rank": 292
   },
+  "yulu-bai": {
+   "name": "Yulu Bai",
+   "amount": 64000,
+   "rank": 293
+  },
   "scott-mackenzie": {
    "name": "Scott MacKenzie",
    "amount": 63972,
-   "rank": 293
+   "rank": 294
   },
   "amir-sarkhosh": {
    "name": "Amir Sarkhosh",
    "amount": 63400,
-   "rank": 294
+   "rank": 295
   },
   "jeff-cundy": {
    "name": "Jeff Cundy",
    "amount": 63238,
-   "rank": 295
+   "rank": 296
+  },
+  "wang-xinbo": {
+   "name": "Wang Xinbo",
+   "amount": 63000,
+   "rank": 297
   },
   "soheil-vahedi": {
    "name": "Soheil Vahedi",
    "amount": 62712,
-   "rank": 296
+   "rank": 298
   },
   "simon-lichtenberg": {
    "name": "Simon Lichtenberg",
    "amount": 62600,
-   "rank": 297
+   "rank": 299
   },
   "craig-macgillivray": {
    "name": "Craig MacGillivray",
    "amount": 62582,
-   "rank": 298
+   "rank": 300
   },
   "ray-edmonds": {
    "name": "Ray Edmonds",
    "amount": 62164,
-   "rank": 299
+   "rank": 301
   },
   "bulcsu-revesz": {
    "name": "Bulcsú Révész",
    "amount": 61700,
-   "rank": 300
+   "rank": 302
   },
   "jason-weston": {
    "name": "Jason Weston",
    "amount": 61560,
-   "rank": 301
+   "rank": 303
   },
   "munraj-pal": {
    "name": "Munraj Pal",
    "amount": 61165,
-   "rank": 302
-  },
-  "yulu-bai": {
-   "name": "Yulu Bai",
-   "amount": 61000,
-   "rank": 303
+   "rank": 304
   },
   "michael-wasley": {
    "name": "Michael Wasley",
    "amount": 60706,
-   "rank": 304
+   "rank": 305
   },
   "adrian-rosa": {
    "name": "Adrian Rosa",
    "amount": 60225,
-   "rank": 305
+   "rank": 306
   },
   "noppadon-noppachorn": {
    "name": "Noppadon Noppachorn",
    "amount": 60042,
-   "rank": 306
+   "rank": 307
   },
   "alex-borg": {
    "name": "Alex Borg",
    "amount": 59619,
-   "rank": 307
+   "rank": 308
   },
   "brian-rowswell": {
    "name": "Brian Rowswell",
    "amount": 59284,
-   "rank": 308
+   "rank": 309
   },
   "tommy-murphy": {
    "name": "Tommy Murphy",
    "amount": 59258,
-   "rank": 309
+   "rank": 310
   },
   "reanne-evans": {
    "name": "Reanne Evans",
    "amount": 58950,
-   "rank": 310
+   "rank": 311
   },
   "robby-foldvari": {
    "name": "Robby Foldvari",
    "amount": 58659,
-   "rank": 311
+   "rank": 312
   },
   "craig-butler": {
    "name": "Craig Butler",
    "amount": 58520,
-   "rank": 312
+   "rank": 313
   },
   "joel-walker": {
    "name": "Joel Walker",
    "amount": 58477,
-   "rank": 313
+   "rank": 314
   },
   "phaitoon-phonbun": {
    "name": "Phaitoon Phonbun",
    "amount": 58422,
-   "rank": 314
+   "rank": 315
   },
   "mark-rowing": {
    "name": "Mark Rowing",
    "amount": 57852,
-   "rank": 315
+   "rank": 316
+  },
+  "thanawat-thirapongpaiboon": {
+   "name": "Thanawat Thirapongpaiboon",
+   "amount": 57663,
+   "rank": 317
   },
   "chris-totten": {
    "name": "Chris Totten",
    "amount": 57500,
-   "rank": 316
-  },
-  "wang-xinbo": {
-   "name": "Wang Xinbo",
-   "amount": 57000,
-   "rank": 317
+   "rank": 318
   },
   "dean-young": {
    "name": "Dean Young",
    "amount": 55500,
-   "rank": 318
+   "rank": 319
   },
   "ken-owers": {
    "name": "Ken Owers",
    "amount": 55492,
-   "rank": 319
+   "rank": 320
   },
   "jim-chambers": {
    "name": "Jim Chambers",
    "amount": 55432,
-   "rank": 320
+   "rank": 321
   },
   "zhang-jiankang": {
    "name": "Zhang Jiankang",
    "amount": 55350,
-   "rank": 321
+   "rank": 322
   },
   "cheung-ka-wai": {
    "name": "Cheung Ka Wai",
    "amount": 54800,
-   "rank": 322
+   "rank": 323
   },
   "mark-flowerdew": {
    "name": "Mark Flowerdew",
    "amount": 54790,
-   "rank": 323
+   "rank": 324
+  },
+  "yao-pengcheng": {
+   "name": "Yao Pengcheng",
+   "amount": 54500,
+   "rank": 325
   },
   "john-rea": {
    "name": "John Rea",
    "amount": 54415,
-   "rank": 324
+   "rank": 326
   },
   "jianbo-zhao": {
    "name": "Jianbo Zhao",
    "amount": 54250,
-   "rank": 325
+   "rank": 327
   },
   "jamie-woodman": {
    "name": "Jamie Woodman",
    "amount": 52720,
-   "rank": 326
+   "rank": 328
   },
   "lee-richardson": {
    "name": "Lee Richardson",
    "amount": 52560,
-   "rank": 327
+   "rank": 329
   },
   "rhys-clark": {
    "name": "Rhys Clark",
    "amount": 51750,
-   "rank": 328
-  },
-  "thanawat-thirapongpaiboon": {
-   "name": "Thanawat Thirapongpaiboon",
-   "amount": 51663,
-   "rank": 329
-  },
-  "yao-pengcheng": {
-   "name": "Yao Pengcheng",
-   "amount": 51500,
    "rank": 330
   },
   "andrew-cairns": {
@@ -1888,59 +1888,59 @@
    "amount": 35740,
    "rank": 376
   },
+  "xu-yichen": {
+   "name": "Xu Yichen",
+   "amount": 35350,
+   "rank": 377
+  },
   "zhou-jinhao": {
    "name": "Zhou Jinhao",
    "amount": 35000,
-   "rank": 377
+   "rank": 378
   },
   "niu-zhuang": {
    "name": "Niu Zhuang",
    "amount": 34850,
-   "rank": 378
+   "rank": 379
   },
   "jason-wallace": {
    "name": "Jason Wallace",
    "amount": 34610,
-   "rank": 379
+   "rank": 380
   },
   "bai-langning": {
    "name": "Bai Langning",
    "amount": 34500,
-   "rank": 380
+   "rank": 381
   },
   "tony-wilson": {
    "name": "Tony Wilson",
    "amount": 34480,
-   "rank": 381
+   "rank": 382
   },
   "alex-davies": {
    "name": "Alex Davies",
    "amount": 34461,
-   "rank": 382
+   "rank": 383
   },
   "daniel-womersley": {
    "name": "Daniel Womersley",
    "amount": 33375,
-   "rank": 383
+   "rank": 384
   },
   "steve-campbell": {
    "name": "Steve Campbell",
    "amount": 33314,
-   "rank": 384
+   "rank": 385
   },
   "chen-feilong": {
    "name": "Chen Feilong",
    "amount": 33300,
-   "rank": 385
+   "rank": 386
   },
   "jenson-kendrick": {
    "name": "Jenson Kendrick",
    "amount": 32750,
-   "rank": 386
-  },
-  "xu-yichen": {
-   "name": "Xu Yichen",
-   "amount": 32350,
    "rank": 387
   },
   "malcolm-bradley": {
@@ -2453,573 +2453,573 @@
    "amount": 13855,
    "rank": 489
   },
+  "chatchapong-nasa": {
+   "name": "Chatchapong Nasa",
+   "amount": 13750,
+   "rank": 490
+  },
   "ryan-thomerson": {
    "name": "Ryan Thomerson",
    "amount": 13562,
-   "rank": 490
+   "rank": 491
   },
   "steve-mifsud": {
    "name": "Steve Mifsud",
    "amount": 13480,
-   "rank": 491
+   "rank": 492
   },
   "geoff-foulds": {
    "name": "Geoff Foulds",
    "amount": 13356,
-   "rank": 492
+   "rank": 493
   },
   "ian-martin": {
    "name": "Ian Martin",
    "amount": 13300,
-   "rank": 493
+   "rank": 494
   },
   "john-whitty": {
    "name": "John Whitty",
    "amount": 13295,
-   "rank": 494
+   "rank": 495
   },
   "nick-fruin": {
    "name": "Nick Fruin",
    "amount": 13240,
-   "rank": 495
+   "rank": 496
   },
   "mike-watterson": {
    "name": "Mike Watterson",
    "amount": 13189,
-   "rank": 496
+   "rank": 497
   },
   "boonyarit-keattikun": {
    "name": "Boonyarit Keattikun",
    "amount": 13125,
-   "rank": 497
+   "rank": 498
   },
   "josh-boileau": {
    "name": "Josh Boileau",
    "amount": 13062,
-   "rank": 498
+   "rank": 499
   },
   "bernie-mikkelsen": {
    "name": "Bernie Mikkelsen",
    "amount": 12896,
-   "rank": 499
+   "rank": 500
   },
   "kurt-dunham": {
    "name": "Kurt Dunham",
    "amount": 12779,
-   "rank": 500
+   "rank": 501
   },
   "mohamed-ibrahim": {
    "name": "Mohamed Ibrahim",
    "amount": 12750,
-   "rank": 501
+   "rank": 502
   },
   "john-pulman": {
    "name": "John Pulman",
    "amount": 12726,
-   "rank": 502
+   "rank": 503
   },
   "asjad-iqbal": {
    "name": "Asjad Iqbal",
    "amount": 12625,
-   "rank": 503
+   "rank": 504
   },
   "deng-haohui": {
    "name": "Deng Haohui",
    "amount": 12500,
-   "rank": 504
+   "rank": 505
   },
   "paul-tanner": {
    "name": "Paul Tanner",
    "amount": 12495,
-   "rank": 505
+   "rank": 506
   },
   "gareth-chilcott": {
    "name": "Gareth Chilcott",
    "amount": 12490,
-   "rank": 506
+   "rank": 507
   },
   "allison-fisher": {
    "name": "Allison Fisher",
    "amount": 12482,
-   "rank": 507
+   "rank": 508
   },
   "jack-fitzmaurice": {
    "name": "Jack Fitzmaurice",
    "amount": 12468,
-   "rank": 508
+   "rank": 509
   },
   "adam-wicheard": {
    "name": "Adam Wicheard",
    "amount": 12408,
-   "rank": 509
+   "rank": 510
   },
   "mitchell-travis": {
    "name": "Mitchell Travis",
    "amount": 12305,
-   "rank": 510
+   "rank": 511
   },
   "david-john": {
    "name": "David John",
    "amount": 12257,
-   "rank": 511
+   "rank": 512
   },
   "alfie-davies": {
    "name": "Alfie Davies",
    "amount": 12250,
-   "rank": 512
+   "rank": 513
   },
   "pang-weiguo": {
    "name": "Pang Weiguo",
    "amount": 12250,
-   "rank": 513
+   "rank": 514
   },
   "lee-page": {
    "name": "Lee Page",
    "amount": 11901,
-   "rank": 514
+   "rank": 515
   },
   "jamie-barrett": {
    "name": "Jamie Barrett",
    "amount": 11752,
-   "rank": 515
+   "rank": 516
   },
   "gino-rigitano": {
    "name": "Gino Rigitano",
    "amount": 11616,
-   "rank": 516
+   "rank": 517
   },
   "tang-hewen": {
    "name": "Tang Hewen",
    "amount": 11500,
-   "rank": 517
+   "rank": 518
   },
   "vinnie-calabrese": {
    "name": "Vinnie Calabrese",
    "amount": 11403,
-   "rank": 518
+   "rank": 519
   },
   "james-tatton": {
    "name": "James Tatton",
    "amount": 11285,
-   "rank": 519
+   "rank": 520
   },
   "glen-wilkinson": {
    "name": "Glen Wilkinson",
    "amount": 11152,
-   "rank": 520
+   "rank": 521
+  },
+  "mahmoud-el-hareedy": {
+   "name": "Mahmoud El-Hareedy",
+   "amount": 11125,
+   "rank": 522
   },
   "paul-watchorn": {
    "name": "Paul Watchorn",
    "amount": 11107,
-   "rank": 521
+   "rank": 523
   },
   "scott-macfarlane": {
    "name": "Scott MacFarlane",
    "amount": 11070,
-   "rank": 522
+   "rank": 524
   },
   "richard-king-ii": {
    "name": "Richard King (II)",
    "amount": 11040,
-   "rank": 523
+   "rank": 525
   },
   "fergal-quinn-ii": {
    "name": "Fergal Quinn (II)",
    "amount": 11000,
-   "rank": 524
+   "rank": 526
   },
   "leigh-robinson": {
    "name": "Leigh Robinson",
    "amount": 10895,
-   "rank": 525
+   "rank": 527
   },
   "robert-foxall": {
    "name": "Robert Foxall",
    "amount": 10875,
-   "rank": 526
+   "rank": 528
   },
   "francois-ellis": {
    "name": "François Ellis",
    "amount": 10807,
-   "rank": 527
+   "rank": 529
   },
   "robbie-grace": {
    "name": "Robbie Grace",
    "amount": 10757,
-   "rank": 528
-  },
-  "chatchapong-nasa": {
-   "name": "Chatchapong Nasa",
-   "amount": 10750,
-   "rank": 529
+   "rank": 530
   },
   "hatem-yassen": {
    "name": "Hatem Yassen",
    "amount": 10750,
-   "rank": 530
+   "rank": 531
   },
   "billy-kelly": {
    "name": "Billy Kelly",
    "amount": 10618,
-   "rank": 531
+   "rank": 532
   },
   "sahil-nayyar": {
    "name": "Sahil Nayyar",
    "amount": 10500,
-   "rank": 532
+   "rank": 533
   },
   "noppadon-sangnil": {
    "name": "Noppadon Sangnil",
    "amount": 10400,
-   "rank": 533
+   "rank": 534
   },
   "ian-anderson": {
    "name": "Ian Anderson",
    "amount": 10339,
-   "rank": 534
+   "rank": 535
   },
   "guan-zhen": {
    "name": "Guan Zhen",
    "amount": 10300,
-   "rank": 535
+   "rank": 536
   },
   "dermot-mcglinchey": {
    "name": "Dermot McGlinchey",
    "amount": 10275,
-   "rank": 536
+   "rank": 537
   },
   "mike-darrington": {
    "name": "Mike Darrington",
    "amount": 10262,
-   "rank": 537
+   "rank": 538
   },
   "chen-ruifu": {
    "name": "Chen Ruifu",
    "amount": 10100,
-   "rank": 538
+   "rank": 539
   },
   "yao-dongcheng": {
    "name": "Yao Dongcheng",
    "amount": 10000,
-   "rank": 539
+   "rank": 540
   },
   "han-fuyuan": {
    "name": "Han Fuyuan",
    "amount": 10000,
-   "rank": 540
+   "rank": 541
   },
   "xu-jiarui": {
    "name": "Xu Jiarui",
    "amount": 10000,
-   "rank": 541
+   "rank": 542
   },
   "liu-linhao": {
    "name": "Liu Linhao",
    "amount": 10000,
-   "rank": 542
+   "rank": 543
   },
   "dong-zihao": {
    "name": "Dong Zihao",
    "amount": 10000,
-   "rank": 543
+   "rank": 544
   },
   "zhang-yang": {
    "name": "Zhang Yang",
    "amount": 9900,
-   "rank": 544
+   "rank": 545
   },
   "gary-natale": {
    "name": "Gary Natale",
    "amount": 9860,
-   "rank": 545
+   "rank": 546
   },
   "kreishh-gurbaxani": {
    "name": "Kreishh Gurbaxani",
    "amount": 9750,
-   "rank": 546
+   "rank": 547
+  },
+  "joshua-thomond": {
+   "name": "Joshua Thomond",
+   "amount": 9750,
+   "rank": 548
   },
   "roger-garrett": {
    "name": "Roger Garrett",
    "amount": 9745,
-   "rank": 547
+   "rank": 549
   },
   "jonas-luz": {
    "name": "Jonas Luz",
    "amount": 9500,
-   "rank": 548
+   "rank": 550
   },
   "suriya-suwannasingh": {
    "name": "Suriya Suwannasingh",
    "amount": 9487,
-   "rank": 549
+   "rank": 551
   },
   "martin-oneill": {
    "name": "Martin O'Neill",
    "amount": 9460,
-   "rank": 550
+   "rank": 552
   },
   "zack-richardson": {
    "name": "Zack Richardson",
    "amount": 9308,
-   "rank": 551
+   "rank": 553
   },
   "ian-hurdman": {
    "name": "Ian Hurdman",
    "amount": 9235,
-   "rank": 552
+   "rank": 554
   },
   "stuart-parnell": {
    "name": "Stuart Parnell",
    "amount": 9220,
-   "rank": 553
+   "rank": 555
   },
   "geoff-dunn": {
    "name": "Geoff Dunn",
    "amount": 9100,
-   "rank": 554
+   "rank": 556
   },
   "spencer-dunn": {
    "name": "Spencer Dunn",
    "amount": 9035,
-   "rank": 555
+   "rank": 557
   },
   "stephen-croft": {
    "name": "Stephen Croft",
    "amount": 9011,
-   "rank": 556
+   "rank": 558
   },
   "ziyad-al-qabbani": {
    "name": "Ziyad Al Qabbani",
    "amount": 9000,
-   "rank": 557
+   "rank": 559
   },
   "omar-alajlani": {
    "name": "Omar Alajlani",
    "amount": 9000,
-   "rank": 558
+   "rank": 560
   },
   "ayman-alamri": {
    "name": "Ayman Alamri",
    "amount": 9000,
-   "rank": 559
+   "rank": 561
   },
   "wang-xinzhong": {
    "name": "Wang Xinzhong",
    "amount": 9000,
-   "rank": 560
+   "rank": 562
   },
   "stephen-rowlings": {
    "name": "Stephen Rowlings",
    "amount": 8920,
-   "rank": 561
+   "rank": 563
   },
   "rodney-goggins": {
    "name": "Rodney Goggins",
    "amount": 8744,
-   "rank": 562
+   "rank": 564
   },
   "jason-barton": {
    "name": "Jason Barton",
    "amount": 8730,
-   "rank": 563
+   "rank": 565
   },
   "matthew-street": {
    "name": "Matthew Street",
    "amount": 8675,
-   "rank": 564
+   "rank": 566
   },
   "wayne-cooper": {
    "name": "Wayne Cooper",
    "amount": 8650,
-   "rank": 565
+   "rank": 567
   },
   "michael-duffy": {
    "name": "Michael Duffy",
    "amount": 8555,
-   "rank": 566
+   "rank": 568
   },
   "richy-mcdonald": {
    "name": "Richy McDonald",
    "amount": 8500,
-   "rank": 567
+   "rank": 569
   },
   "lyu-chenwei": {
    "name": "Lyu Chenwei",
    "amount": 8425,
-   "rank": 568
+   "rank": 570
   },
   "stephen-craigie": {
    "name": "Stephen Craigie",
    "amount": 8395,
-   "rank": 569
+   "rank": 571
   },
   "hu-hao": {
    "name": "Hu Hao",
    "amount": 8300,
-   "rank": 570
+   "rank": 572
   },
   "pascal-burke": {
    "name": "Pascal Burke",
    "amount": 8206,
-   "rank": 571
+   "rank": 573
   },
   "frank-jonik": {
    "name": "Frank Jonik",
    "amount": 8168,
-   "rank": 572
-  },
-  "mahmoud-el-hareedy": {
-   "name": "Mahmoud El-Hareedy",
-   "amount": 8125,
-   "rank": 573
+   "rank": 574
   },
   "dessie-sheehan": {
    "name": "Dessie Sheehan",
    "amount": 7956,
-   "rank": 574
+   "rank": 575
   },
   "rom-surin": {
    "name": "Rom Surin",
    "amount": 7950,
-   "rank": 575
+   "rank": 576
   },
   "terry-whitthread": {
    "name": "Terry Whitthread",
    "amount": 7950,
-   "rank": 576
+   "rank": 577
   },
   "bjorn-lorange": {
    "name": "Bjorn L'Orange",
    "amount": 7935,
-   "rank": 577
+   "rank": 578
   },
   "eddie-mclaughlin": {
    "name": "Eddie McLaughlin",
    "amount": 7879,
-   "rank": 578
+   "rank": 579
   },
   "steve-ventham": {
    "name": "Steve Ventham",
    "amount": 7600,
-   "rank": 579
+   "rank": 580
   },
   "somporn-kanthawung": {
    "name": "Somporn Kanthawung",
    "amount": 7555,
-   "rank": 580
+   "rank": 581
   },
   "steven-bennie": {
    "name": "Steven Bennie",
    "amount": 7545,
-   "rank": 581
+   "rank": 582
   },
   "steve-lemmens": {
    "name": "Steve Lemmens",
    "amount": 7525,
-   "rank": 582
+   "rank": 583
   },
   "ross-bulman": {
    "name": "Ross Bulman",
    "amount": 7500,
-   "rank": 583
+   "rank": 584
   },
   "pu-qingsong": {
    "name": "Pu QingSong",
    "amount": 7500,
-   "rank": 584
+   "rank": 585
   },
   "pat-horne": {
    "name": "Pat Horne",
    "amount": 7495,
-   "rank": 585
+   "rank": 586
   },
   "rouzi-maimaiti": {
    "name": "Rouzi Maimaiti",
    "amount": 7450,
-   "rank": 586
+   "rank": 587
   },
   "manan-chandra": {
    "name": "Manan Chandra",
    "amount": 7400,
-   "rank": 587
+   "rank": 588
   },
   "ma-chunmao": {
    "name": "Ma Chunmao",
    "amount": 7400,
-   "rank": 588
+   "rank": 589
   },
   "eric-lawlor": {
    "name": "Eric Lawlor",
    "amount": 7332,
-   "rank": 589
+   "rank": 590
   },
   "amine-amiri": {
    "name": "Amine Amiri",
    "amount": 7250,
-   "rank": 590
+   "rank": 591
   },
   "vladislav-gradinari": {
    "name": "Vladislav Gradinari",
    "amount": 7250,
-   "rank": 591
+   "rank": 592
   },
   "riley-parsons": {
    "name": "Riley Parsons",
    "amount": 7250,
-   "rank": 592
+   "rank": 593
   },
   "cao-xinlong": {
    "name": "Cao Xinlong",
    "amount": 7250,
-   "rank": 593
+   "rank": 594
   },
   "jamie-bodle": {
    "name": "Jamie Bodle",
    "amount": 7110,
-   "rank": 594
+   "rank": 595
   },
   "ratchayothin-yotharuck": {
    "name": "Ratchayothin Yotharuck",
    "amount": 7058,
-   "rank": 595
+   "rank": 596
   },
   "wayne-rendle": {
    "name": "Wayne Rendle",
    "amount": 7010,
-   "rank": 596
+   "rank": 597
   },
   "ahmed-abdullah-aseeri": {
    "name": "Ahmed Abdullah Aseeri",
    "amount": 7000,
-   "rank": 597
+   "rank": 598
   },
   "ali-al-obaidly": {
    "name": "Ali Al Obaidly",
    "amount": 7000,
-   "rank": 598
+   "rank": 599
   },
   "abdulraouf-sayegh": {
    "name": "Abdulraouf Sayegh",
    "amount": 7000,
-   "rank": 599
+   "rank": 600
   },
   "gary-hardiman": {
    "name": "Gary Hardiman",
    "amount": 6970,
-   "rank": 600
+   "rank": 601
   },
   "gareth-coppack": {
    "name": "Gareth Coppack",
    "amount": 6848,
-   "rank": 601
+   "rank": 602
   },
   "sean-maddocks": {
    "name": "Sean Maddocks",
-   "amount": 6750,
-   "rank": 602
-  },
-  "joshua-thomond": {
-   "name": "Joshua Thomond",
    "amount": 6750,
    "rank": 603
   },
@@ -3223,440 +3223,450 @@
    "amount": 5025,
    "rank": 643
   },
+  "phil-okane": {
+   "name": "Phil O'Kane",
+   "amount": 5000,
+   "rank": 644
+  },
   "prin-ratmukda": {
    "name": "Prin Ratmukda",
    "amount": 5000,
-   "rank": 644
+   "rank": 645
   },
   "tyler-rees": {
    "name": "Tyler Rees",
    "amount": 5000,
-   "rank": 645
+   "rank": 646
+  },
+  "liu-yang": {
+   "name": "Liu Yang",
+   "amount": 5000,
+   "rank": 647
   },
   "steve-prest": {
    "name": "Steve Prest",
    "amount": 4855,
-   "rank": 646
+   "rank": 648
   },
   "anton-bishop": {
    "name": "Anton Bishop",
    "amount": 4805,
-   "rank": 647
+   "rank": 649
   },
   "vincent-muldoon": {
    "name": "Vincent Muldoon",
    "amount": 4805,
-   "rank": 648
+   "rank": 650
   },
   "roy-andrewartha": {
    "name": "Roy Andrewartha",
    "amount": 4700,
-   "rank": 649
+   "rank": 651
   },
   "jason-pegram": {
    "name": "Jason Pegram",
    "amount": 4700,
-   "rank": 650
+   "rank": 652
   },
   "sakchai-sim-ngam": {
    "name": "Sakchai Sim Ngam",
    "amount": 4683,
-   "rank": 651
+   "rank": 653
   },
   "ashley-wright": {
    "name": "Ashley Wright",
    "amount": 4654,
-   "rank": 652
+   "rank": 654
   },
   "micky-roughan": {
    "name": "Micky Roughan",
    "amount": 4650,
-   "rank": 653
+   "rank": 655
   },
   "dennis-hughes": {
    "name": "Dennis Hughes",
    "amount": 4632,
-   "rank": 654
+   "rank": 656
   },
   "carlo-giagnacovo": {
    "name": "Carlo Giagnacovo",
    "amount": 4595,
-   "rank": 655
+   "rank": 657
   },
   "andrew-atkinson": {
    "name": "Andrew Atkinson",
    "amount": 4585,
-   "rank": 656
+   "rank": 658
   },
   "joe-davis": {
    "name": "Joe Davis",
    "amount": 4576,
-   "rank": 657
+   "rank": 659
   },
   "hesham-shawky": {
    "name": "Hesham Shawky",
    "amount": 4562,
-   "rank": 658
+   "rank": 660
   },
   "karl-townsend": {
    "name": "Karl Townsend",
    "amount": 4525,
-   "rank": 659
+   "rank": 661
   },
   "callum-beresford": {
    "name": "Callum Beresford",
    "amount": 4500,
-   "rank": 660
+   "rank": 662
   },
   "udon-khaimuk": {
    "name": "Udon Khaimuk",
    "amount": 4500,
-   "rank": 661
+   "rank": 663
   },
   "chen-qien": {
    "name": "Chen Qien",
    "amount": 4500,
-   "rank": 662
+   "rank": 664
   },
   "adam-davies": {
    "name": "Adam Davies",
    "amount": 4455,
-   "rank": 663
+   "rank": 665
   },
   "justin-buckingham": {
    "name": "Justin Buckingham",
    "amount": 4450,
-   "rank": 664
+   "rank": 666
   },
   "andy-neck": {
    "name": "Andy Neck",
    "amount": 4435,
-   "rank": 665
+   "rank": 667
   },
   "mark-boyd": {
    "name": "Mark Boyd",
    "amount": 4420,
-   "rank": 666
+   "rank": 668
   },
   "daniel-ward": {
    "name": "Daniel Ward",
    "amount": 4388,
-   "rank": 667
+   "rank": 669
   },
   "jim-rempe": {
    "name": "Jim Rempe",
    "amount": 4375,
-   "rank": 668
+   "rank": 670
   },
   "david-grimwood": {
    "name": "David Grimwood",
    "amount": 4370,
-   "rank": 669
+   "rank": 671
   },
   "lasse-munstermann": {
    "name": "Lasse Munstermann",
    "amount": 4345,
-   "rank": 670
+   "rank": 672
   },
   "craig-taylor": {
    "name": "Craig Taylor",
    "amount": 4335,
-   "rank": 671
+   "rank": 673
   },
   "tang-jun": {
    "name": "Tang Jun",
    "amount": 4300,
-   "rank": 672
+   "rank": 674
   },
   "peter-roscoe": {
    "name": "Peter Roscoe",
    "amount": 4300,
-   "rank": 673
+   "rank": 675
   },
   "sean-oneill": {
    "name": "Sean O'Neill",
    "amount": 4275,
-   "rank": 674
+   "rank": 676
   },
   "john-burns": {
    "name": "John Burns",
    "amount": 4250,
-   "rank": 675
+   "rank": 677
   },
   "da-hailin": {
    "name": "Da Hailin",
    "amount": 4250,
-   "rank": 676
+   "rank": 678
   },
   "luke-pinches": {
    "name": "Luke Pinches",
    "amount": 4250,
-   "rank": 677
+   "rank": 679
   },
   "tom-finstad": {
    "name": "Tom Finstad",
    "amount": 4230,
-   "rank": 678
+   "rank": 680
   },
   "greg-jenkins": {
    "name": "Greg Jenkins",
    "amount": 4209,
-   "rank": 679
+   "rank": 681
   },
   "guy-dennis": {
    "name": "Guy Dennis",
    "amount": 4175,
-   "rank": 680
+   "rank": 682
   },
   "ryan-causton": {
    "name": "Ryan Causton",
    "amount": 4167,
-   "rank": 681
+   "rank": 683
   },
   "hasimu-tuerxun": {
    "name": "Hasimu Tuerxun",
    "amount": 4160,
-   "rank": 682
+   "rank": 684
   },
   "david-rippon": {
    "name": "David Rippon",
    "amount": 4100,
-   "rank": 683
+   "rank": 685
   },
   "xu-xlnjian": {
    "name": "Xu Xlnjian",
    "amount": 4100,
-   "rank": 684
+   "rank": 686
   },
   "panompai-powises": {
    "name": "Panompai Powises",
    "amount": 4074,
-   "rank": 685
+   "rank": 687
   },
   "mohamed-khairy": {
    "name": "Mohamed Khairy",
    "amount": 4004,
-   "rank": 686
+   "rank": 688
   },
   "abdullah-alotayyani": {
    "name": "Abdullah Alotayyani",
    "amount": 4000,
-   "rank": 687
+   "rank": 689
   },
   "adeel-aqdus": {
    "name": "Adeel Aqdus",
    "amount": 4000,
-   "rank": 688
+   "rank": 690
   },
   "mohamed-elkhayat": {
    "name": "Mohamed Elkhayat",
    "amount": 4000,
-   "rank": 689
+   "rank": 691
   },
   "habib-subah-humood": {
    "name": "Habib Subah Humood",
    "amount": 4000,
-   "rank": 690
+   "rank": 692
   },
   "james-mcgouran": {
    "name": "James McGouran",
    "amount": 3975,
-   "rank": 691
+   "rank": 693
   },
   "kieran-mcalinden": {
    "name": "Kieran McAlinden",
    "amount": 3900,
-   "rank": 692
+   "rank": 694
   },
   "joshua-cooper": {
    "name": "Joshua Cooper",
    "amount": 3850,
-   "rank": 693
+   "rank": 695
   },
   "david-wilson": {
    "name": "David Wilson",
    "amount": 3835,
-   "rank": 694
+   "rank": 696
   },
   "graham-lee": {
    "name": "Graham Lee",
    "amount": 3800,
-   "rank": 695
+   "rank": 697
   },
   "darren-limburg": {
    "name": "Darren Limburg",
    "amount": 3800,
-   "rank": 696
+   "rank": 698
   },
   "lin-shuai": {
    "name": "Lin Shuai",
    "amount": 3800,
-   "rank": 697
+   "rank": 699
   },
   "mario-wehrmann": {
    "name": "Mario Wehrmann",
    "amount": 3780,
-   "rank": 698
+   "rank": 700
   },
   "tony-rampello": {
    "name": "Tony Rampello",
    "amount": 3725,
-   "rank": 699
+   "rank": 701
   },
   "shachar-ruberg": {
    "name": "Shachar Ruberg",
    "amount": 3679,
-   "rank": 700
+   "rank": 702
   },
   "bobby-cruickshanks": {
    "name": "Bobby Cruickshanks",
    "amount": 3640,
-   "rank": 701
+   "rank": 703
   },
   "david-singh": {
    "name": "David Singh",
    "amount": 3567,
-   "rank": 702
+   "rank": 704
   },
   "garoid-oconnor": {
    "name": "Garoid O'Connor",
    "amount": 3550,
-   "rank": 703
+   "rank": 705
   },
   "stanley-leung": {
    "name": "Stanley Leung",
    "amount": 3525,
-   "rank": 704
+   "rank": 706
   },
   "lewis-ullah": {
    "name": "Lewis Ullah",
    "amount": 3500,
-   "rank": 705
+   "rank": 707
   },
   "luo-zetao": {
    "name": "Luo Zetao",
    "amount": 3500,
-   "rank": 706
+   "rank": 708
   },
   "gavin-lomax": {
    "name": "Gavin Lomax",
    "amount": 3440,
-   "rank": 707
+   "rank": 709
   },
   "tony-putnam": {
    "name": "Tony Putnam",
    "amount": 3400,
-   "rank": 708
+   "rank": 710
   },
   "mohammad-sajjad-ii": {
    "name": "Mohammad Sajjad (II)",
    "amount": 3400,
-   "rank": 709
+   "rank": 711
   },
   "john-bayliss": {
    "name": "John Bayliss",
    "amount": 3395,
-   "rank": 710
+   "rank": 712
   },
   "steve-archer": {
    "name": "Steve Archer",
    "amount": 3370,
-   "rank": 711
+   "rank": 713
   },
   "john-herbert": {
    "name": "John Herbert",
    "amount": 3345,
-   "rank": 712
+   "rank": 714
   },
   "gerry-watson": {
    "name": "Gerry Watson",
    "amount": 3340,
-   "rank": 713
+   "rank": 715
   },
   "bernard-bennett": {
    "name": "Bernard Bennett",
    "amount": 3325,
-   "rank": 714
+   "rank": 716
   },
   "kevin-ashby": {
    "name": "Kevin Ashby",
    "amount": 3250,
-   "rank": 715
+   "rank": 717
   },
   "rodion-judin": {
    "name": "Rodion Judin",
    "amount": 3250,
-   "rank": 716
+   "rank": 718
   },
   "terry-parsons": {
    "name": "Terry Parsons",
    "amount": 3250,
-   "rank": 717
+   "rank": 719
   },
   "gareth-green": {
    "name": "Gareth Green",
    "amount": 3244,
-   "rank": 718
+   "rank": 720
   },
   "zhong-lin": {
    "name": "Zhong Lin",
    "amount": 3200,
-   "rank": 719
+   "rank": 721
   },
   "edward-davies": {
    "name": "Edward Davies",
    "amount": 3175,
-   "rank": 720
+   "rank": 722
   },
   "neal-jones": {
    "name": "Neal Jones",
    "amount": 3175,
-   "rank": 721
+   "rank": 723
   },
   "gavin-pantall": {
    "name": "Gavin Pantall",
    "amount": 3165,
-   "rank": 722
+   "rank": 724
   },
   "tim-english": {
    "name": "Tim English",
    "amount": 3150,
-   "rank": 723
+   "rank": 725
   },
   "lewis-roberts": {
    "name": "Lewis Roberts",
    "amount": 3130,
-   "rank": 724
+   "rank": 726
   },
   "kevin-van-hove": {
    "name": "Kevin van Hove",
    "amount": 3123,
-   "rank": 725
+   "rank": 727
   },
   "michael-tomlinson": {
    "name": "Michael Tomlinson",
    "amount": 3083,
-   "rank": 726
+   "rank": 728
   },
   "clive-everton": {
    "name": "Clive Everton",
    "amount": 3075,
-   "rank": 727
+   "rank": 729
   },
   "antony-parsons": {
    "name": "Antony Parsons",
    "amount": 3072,
-   "rank": 728
+   "rank": 730
   },
   "avtar-sohanpal": {
    "name": "Avtar Sohanpal",
    "amount": 3063,
-   "rank": 729
+   "rank": 731
   },
   "ehsan-heydarinezhad": {
    "name": "Ehsan Heydarinezhad",
    "amount": 3062,
-   "rank": 730
+   "rank": 732
   },
   "au-chi-wai": {
    "name": "Au Chi-Wai",
@@ -3666,500 +3676,490 @@
   "mike-colquitt": {
    "name": "Mike Colquitt",
    "amount": 3000,
-   "rank": 731
+   "rank": 733
   },
   "rene-dikstra": {
    "name": "Rene Dikstra",
    "amount": 3000,
-   "rank": 732
+   "rank": 734
   },
   "mohammed-el-kamah": {
    "name": "Mohammed el Kamah",
    "amount": 3000,
-   "rank": 733
+   "rank": 735
   },
   "hamim-hussain": {
    "name": "Hamim Hussain",
    "amount": 3000,
-   "rank": 734
+   "rank": 736
   },
   "lim-kok-leong": {
    "name": "Lim Kok Leong",
    "amount": 3000,
-   "rank": 735
+   "rank": 737
   },
   "george-loizides": {
    "name": "George Loizides",
    "amount": 3000,
-   "rank": 736
+   "rank": 738
   },
   "bvs-murthy": {
    "name": "BVS Murthy",
    "amount": 3000,
-   "rank": 737
+   "rank": 739
   },
   "claudio-ravagnani": {
    "name": "Claudio Ravagnani",
    "amount": 3000,
-   "rank": 738
+   "rank": 740
   },
   "sim-siak-chong": {
    "name": "Sim Siak Chong",
    "amount": 3000,
-   "rank": 739
+   "rank": 741
   },
   "jyri-virtanen": {
    "name": "Jyri Virtanen",
    "amount": 3000,
-   "rank": 740
+   "rank": 742
   },
   "daniel-murphy": {
    "name": "Daniel Murphy",
    "amount": 2955,
-   "rank": 741
+   "rank": 743
   },
   "gary-owen": {
    "name": "Gary Owen",
    "amount": 2950,
-   "rank": 742
+   "rank": 744
   },
   "lee-farebrother": {
    "name": "Lee Farebrother",
    "amount": 2945,
-   "rank": 743
+   "rank": 745
   },
   "neil-tomkins": {
    "name": "Neil Tomkins",
    "amount": 2890,
-   "rank": 744
+   "rank": 746
   },
   "robert-murphy": {
    "name": "Robert Murphy",
    "amount": 2885,
-   "rank": 745
+   "rank": 747
   },
   "matthew-day": {
    "name": "Matthew Day",
    "amount": 2845,
-   "rank": 746
+   "rank": 748
   },
   "james-giannaros": {
    "name": "James Giannaros",
    "amount": 2833,
-   "rank": 747
+   "rank": 749
   },
   "paul-davison-ii": {
    "name": "Paul Davison (II)",
    "amount": 2820,
-   "rank": 748
+   "rank": 750
   },
   "simon-morris": {
    "name": "Simon Morris",
    "amount": 2800,
-   "rank": 749
+   "rank": 751
   },
   "lou-condo": {
    "name": "Lou Condo",
    "amount": 2794,
-   "rank": 750
+   "rank": 752
   },
   "julian-logue": {
    "name": "Julian Logue",
    "amount": 2775,
-   "rank": 751
+   "rank": 753
   },
   "colin-kelly": {
    "name": "Colin Kelly",
    "amount": 2750,
-   "rank": 752
+   "rank": 754
   },
   "david-greaves": {
    "name": "David Greaves",
    "amount": 2660,
-   "rank": 753
+   "rank": 755
   },
   "ben-judge": {
    "name": "Ben Judge",
    "amount": 2603,
-   "rank": 754
+   "rank": 756
   },
   "marvin-aldridge": {
    "name": "Marvin Aldridge",
    "amount": 2600,
-   "rank": 755
+   "rank": 757
   },
   "shi-hanqing": {
    "name": "Shi Hanqing",
    "amount": 2600,
-   "rank": 756
+   "rank": 758
   },
   "evan-munro": {
    "name": "Evan Munro",
    "amount": 2588,
-   "rank": 757
+   "rank": 759
   },
   "simon-parker": {
    "name": "Simon Parker",
    "amount": 2555,
-   "rank": 758
+   "rank": 760
   },
   "gary-filtness": {
    "name": "Gary Filtness",
    "amount": 2550,
-   "rank": 759
+   "rank": 761
   },
   "mike-hines": {
    "name": "Mike Hines",
    "amount": 2541,
-   "rank": 760
+   "rank": 762
   },
   "nic-barrow": {
    "name": "Nic Barrow",
    "amount": 2540,
-   "rank": 761
+   "rank": 763
   },
   "sobradinho-de-dues": {
    "name": "Sobradinho de Dues",
    "amount": 2532,
-   "rank": 762
+   "rank": 764
   },
   "noel-rodrigues-moreira": {
    "name": "Noel Rodrigues Moreira",
    "amount": 2532,
-   "rank": 763
+   "rank": 765
   },
   "luc-allain": {
    "name": "Luc Allain",
    "amount": 2500,
-   "rank": 764
+   "rank": 766
   },
   "ahmed-aly-elsayed": {
    "name": "Ahmed Aly Elsayed",
    "amount": 2500,
-   "rank": 765
+   "rank": 767
   },
   "wang-yuhang": {
    "name": "Wang Yuhang",
    "amount": 2500,
-   "rank": 766
+   "rank": 768
   },
   "jack-bradford": {
    "name": "Jack Bradford",
    "amount": 2491,
-   "rank": 767
+   "rank": 769
   },
   "ben-harrison": {
    "name": "Ben Harrison",
    "amount": 2440,
-   "rank": 768
+   "rank": 770
   },
   "robert-valiant": {
    "name": "Robert Valiant",
    "amount": 2435,
-   "rank": 769
+   "rank": 771
   },
   "barry-bunn": {
    "name": "Barry Bunn",
    "amount": 2425,
-   "rank": 770
+   "rank": 772
   },
   "derek-mienie": {
    "name": "Derek Mienie",
    "amount": 2410,
-   "rank": 771
+   "rank": 773
   },
   "kamal-chawla": {
    "name": "Kamal Chawla",
    "amount": 2400,
-   "rank": 772
+   "rank": 774
   },
   "richard-tatton": {
    "name": "Richard Tatton",
    "amount": 2400,
-   "rank": 773
+   "rank": 775
   },
   "pan-weixing": {
    "name": "Pan Weixing",
    "amount": 2400,
-   "rank": 774
+   "rank": 776
   },
   "marc-davis": {
    "name": "Marc Davis",
    "amount": 2389,
-   "rank": 775
+   "rank": 777
   },
   "tam-mustafa": {
    "name": "Tam Mustafa",
    "amount": 2380,
-   "rank": 776
+   "rank": 778
   },
   "zhang-kai": {
    "name": "Zhang Kai",
    "amount": 2375,
-   "rank": 777
+   "rank": 779
   },
   "cen-wai-an": {
    "name": "Cen Wai An",
    "amount": 2375,
-   "rank": 778
+   "rank": 780
   },
   "lao-yong-qiang": {
    "name": "Lao Yong Qiang",
    "amount": 2375,
-   "rank": 779
+   "rank": 781
   },
   "john-hargreaves": {
    "name": "John Hargreaves",
    "amount": 2353,
-   "rank": 780
+   "rank": 782
   },
   "declan-lavery": {
    "name": "Declan Lavery",
    "amount": 2350,
-   "rank": 781
+   "rank": 783
   },
   "sefton-payne": {
    "name": "Sefton Payne",
    "amount": 2350,
-   "rank": 782
+   "rank": 784
   },
   "geet-sethi": {
    "name": "Geet Sethi",
    "amount": 2350,
-   "rank": 783
+   "rank": 785
   },
   "stephen-taylor": {
    "name": "Stephen Taylor",
    "amount": 2350,
-   "rank": 784
+   "rank": 786
   },
   "carl-waters": {
    "name": "Carl Waters",
    "amount": 2350,
-   "rank": 785
+   "rank": 787
   },
   "alex-taubman": {
    "name": "Alex Taubman",
    "amount": 2348,
-   "rank": 786
+   "rank": 788
   },
   "nathan-williams": {
    "name": "Nathan Williams",
    "amount": 2315,
-   "rank": 787
+   "rank": 789
   },
   "john-shilton": {
    "name": "John Shilton",
    "amount": 2300,
-   "rank": 788
+   "rank": 790
   },
   "andy-symons": {
    "name": "Andy Symons",
    "amount": 2285,
-   "rank": 789
+   "rank": 791
   },
   "joe-cagianello": {
    "name": "Joe Cagianello",
    "amount": 2275,
-   "rank": 790
+   "rank": 792
   },
   "sean-mcallister": {
    "name": "Sean McAllister",
    "amount": 2250,
-   "rank": 791
+   "rank": 793
   },
   "brendan-odonoghue": {
    "name": "Brendan O'Donoghue",
    "amount": 2220,
-   "rank": 792
+   "rank": 794
   },
   "alistair-fleming": {
    "name": "Alistair Fleming",
    "amount": 2180,
-   "rank": 793
+   "rank": 795
   },
   "sean-lynskey": {
    "name": "Sean Lynskey",
    "amount": 2170,
-   "rank": 794
+   "rank": 796
   },
   "nick-spelman": {
    "name": "Nick Spelman",
    "amount": 2150,
-   "rank": 795
+   "rank": 797
   },
   "sam-harvey": {
    "name": "Sam Harvey",
    "amount": 2144,
-   "rank": 796
+   "rank": 798
   },
   "michael-ferreira": {
    "name": "Michael Ferreira",
    "amount": 2125,
-   "rank": 797
+   "rank": 799
   },
   "mark-pugh": {
    "name": "Mark Pugh",
    "amount": 2075,
-   "rank": 798
+   "rank": 800
   },
   "paul-webb": {
    "name": "Paul Webb",
    "amount": 2075,
-   "rank": 799
+   "rank": 801
   },
   "roger-leighton": {
    "name": "Roger Leighton",
    "amount": 2050,
-   "rank": 800
+   "rank": 802
   },
   "danny-smith": {
    "name": "Danny Smith",
    "amount": 2050,
-   "rank": 801
+   "rank": 803
   },
   "stephen-welsby": {
    "name": "Stephen Welsby",
    "amount": 2043,
-   "rank": 802
+   "rank": 804
   },
   "ahmed-abul": {
    "name": "Ahmed Abul",
    "amount": 2000,
-   "rank": 803
+   "rank": 805
   },
   "mohammed-al-joker": {
    "name": "Mohammed Al Joker",
    "amount": 2000,
-   "rank": 804
+   "rank": 806
   },
   "haitham-al-mahri": {
    "name": "Haitham Al Mahri",
    "amount": 2000,
-   "rank": 805
+   "rank": 807
   },
   "saleh-alamoudi": {
    "name": "Saleh Alamoudi",
    "amount": 2000,
-   "rank": 806
+   "rank": 808
   },
   "saud-albaker": {
    "name": "Saud Albaker",
    "amount": 2000,
-   "rank": 807
+   "rank": 809
   },
   "fahad-alghamdi": {
    "name": "Fahad Alghamdi",
    "amount": 2000,
-   "rank": 808
+   "rank": 810
   },
   "musaad-almisfir": {
    "name": "Musaad Almisfir",
    "amount": 2000,
-   "rank": 809
+   "rank": 811
   },
   "abdullah-alshammari": {
    "name": "Abdullah Alshammari",
    "amount": 2000,
-   "rank": 810
+   "rank": 812
   },
   "faisal-bahashwan": {
    "name": "Faisal Bahashwan",
    "amount": 2000,
-   "rank": 811
+   "rank": 813
   },
   "poramin-danjirakul": {
    "name": "Poramin Danjirakul",
    "amount": 2000,
-   "rank": 812
+   "rank": 814
   },
   "s-dilip-kumar": {
    "name": "S. Dilip Kumar",
    "amount": 2000,
-   "rank": 813
+   "rank": 815
   },
   "kusai-hamed-sharif": {
    "name": "Kusai Hamed Sharif",
    "amount": 2000,
-   "rank": 814
+   "rank": 816
   },
   "halim-hussain": {
    "name": "Halim Hussain",
    "amount": 2000,
-   "rank": 815
+   "rank": 817
   },
   "ali-hussain-ali": {
    "name": "Ali Hussain Ali",
    "amount": 2000,
-   "rank": 816
+   "rank": 818
   },
   "ali-jalil-ali": {
    "name": "Ali Jalil Ali",
    "amount": 2000,
-   "rank": 817
+   "rank": 819
   },
   "digvijay-kadian": {
    "name": "Digvijay Kadian",
    "amount": 2000,
-   "rank": 818
+   "rank": 820
   },
   "khalid-kamali": {
    "name": "Khalid Kamali",
    "amount": 2000,
-   "rank": 819
+   "rank": 821
   },
   "ethan-llewellyn": {
    "name": "Ethan Llewellyn",
    "amount": 2000,
-   "rank": 820
+   "rank": 822
   },
   "mike-massey": {
    "name": "Mike Massey",
    "amount": 2000,
-   "rank": 821
+   "rank": 823
   },
   "asif-mukhtar": {
    "name": "Asif Mukhtar",
    "amount": 2000,
-   "rank": 822
+   "rank": 824
   },
   "josh-mulholland": {
    "name": "Josh Mulholland",
    "amount": 2000,
-   "rank": 823
-  },
-  "phil-okane": {
-   "name": "Phil O'Kane",
-   "amount": 2000,
-   "rank": 824
+   "rank": 825
   },
   "kaylan-patel": {
    "name": "Kaylan Patel",
    "amount": 2000,
-   "rank": 825
+   "rank": 826
   },
   "laxman-rawat": {
    "name": "Laxman Rawat",
    "amount": 2000,
-   "rank": 826
+   "rank": 827
   },
   "abdulraouf-saigh": {
    "name": "Abdulraouf Saigh",
    "amount": 2000,
-   "rank": 827
+   "rank": 828
   },
   "musab-sayegh": {
    "name": "Musab Sayegh",
    "amount": 2000,
-   "rank": 828
+   "rank": 829
   },
   "dharminder-singh-lilly": {
    "name": "Dharminder Singh Lilly",
-   "amount": 2000,
-   "rank": 829
-  },
-  "liu-yang": {
-   "name": "Liu Yang",
    "amount": 2000,
    "rank": 830
   },
