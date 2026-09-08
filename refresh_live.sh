@@ -16,6 +16,7 @@ cd "$(dirname "$0")"
 PYTHON="${PYTHON:-python3}"
 
 FULL=0
+FETCH_RC=0
 for a in "$@"; do
   [ "$a" = "--full" ] && FULL=1
 done
@@ -46,7 +47,14 @@ if [ "$FULL" = "1" ]; then
   $PYTHON scripts/fetch_data.py --only matches --concurrency 8
 else
   echo "▶ 定向追更：只重抓进行中 / 临近开赛赛事的场次"
+  # 即使有场次抓取失败（网络/限流），本次已抓到的内容也已写回 raw，
+  # 必须继续往下 build —— 否则 set -e 会在此中断，看板静默停在旧数据，
+  # 而日志还显示「抓取成功 N / 失败 M」，极具迷惑性。
+  # 真实失败记在 FETCH_RC，末尾再退出，CI 仍能感知。
+  set +e
   $PYTHON scripts/refresh_live_matches.py --concurrency 8
+  FETCH_RC=$?
+  set -e
 fi
 
 echo "▶ 重建看板数据"
@@ -54,3 +62,7 @@ $PYTHON scripts/build_dashboard.py
 echo ""
 echo "✓ 轻量更新完成。已跳过 奖金/生涯冠军/排名/球员 全量抓取。"
 echo "  如需完整刷新（换赛季或修正历史数据），请运行 ./refresh.sh"
+if [ "$FETCH_RC" != "0" ]; then
+  echo "⚠ 注意：有场次抓取失败（退出码 $FETCH_RC），本次数据可能不完整，已照常重建。"
+fi
+exit "$FETCH_RC"

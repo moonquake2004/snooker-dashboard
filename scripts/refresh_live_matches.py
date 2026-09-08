@@ -174,6 +174,15 @@ def fetch_one(mid):
         return mid, None, str(exc)
 
 
+def is_deleted(err):
+    """404 = WST 服务端已删除该场次（跨赛季重排、取消的比赛），属预期内的无害失败。
+    曾经导致：refresh_live.sh 的 set -e 因此中断，build_dashboard 被静默跳过，
+    看板停在旧数据却显示「抓取成功」。这里单独识别，不让它算作真错误。"""
+    if not err:
+        return False
+    return "404" in err or "Not Found" in err
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--concurrency", type=int, default=8, help="并发数（默认 8）")
@@ -212,12 +221,16 @@ def main():
     print(f"  ▸ 定向重抓 {len(ids)} 场（新发现 {max(0, len(ids) - before)} 场）…")
 
     ok = fail = 0
+    gone = 0  # 404：服务端已删除，预期内
     changed = 0
     with concurrent.futures.ThreadPoolExecutor(max_workers=max(1, args.concurrency)) as ex:
         for mid, obj, err in ex.map(fetch_one, ids):
             if err or obj is None:
-                fail += 1
-                print(f"    ⚠ {str(mid)[:8]} 失败: {err}", file=sys.stderr)
+                if is_deleted(err):
+                    gone += 1
+                else:
+                    fail += 1
+                    print(f"    ⚠ {str(mid)[:8]} 失败: {err}", file=sys.stderr)
                 continue
             ok += 1
             idx = index.get(mid)
@@ -233,9 +246,13 @@ def main():
     with open(RAW_MATCHES, "w", encoding="utf-8") as fh:
         json.dump(raw, fh, ensure_ascii=False)
     size_mb = os.path.getsize(RAW_MATCHES) / 1024 / 1024
-    print(f"  ✓ 抓取成功 {ok} / 失败 {fail}；内容有更新 {changed} 场")
+    print(f"  ✓ 抓取成功 {ok} / 失败 {fail}"
+          + (f" / 已删除(404) {gone}" if gone else "")
+          + f"；内容有更新 {changed} 场")
     print(f"  ✓ 已写回 {RAW_MATCHES}（{len(raw)} 条, {size_mb:.1f} MB）")
     print("  下一步：python3 scripts/build_dashboard.py")
+    # 只有真实错误才返回非零。404（已删除场次）不算，否则 refresh_live.sh 的 set -e
+    # 会中断在 build 之前，看板静默停在旧数据。
     return 0 if fail == 0 else 1
 
 
