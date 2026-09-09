@@ -1,7 +1,7 @@
 {
  "meta": {
   "source": "cuetracker.net",
-  "fetched": "2026-09-01 10:46:16",
+  "fetched": "2026-09-09 16:34:59",
   "candidates": 323,
   "players_with_titles": 130,
   "unresolved_names": [
@@ -35,7 +35,7 @@
    "Bernard Mapp"
   ],
   "http": {
-   "ok": 1,
+   "ok": 0,
    "404": 0,
    "err": 0
   }

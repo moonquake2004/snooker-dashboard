@@ -1,13 +1,13 @@
 {
  "meta": {
   "source": "cuetracker.net",
-  "fetched": "2026-09-02 07:23:12",
+  "fetched": "2026-09-09 16:35:37",
   "top": 64,
-  "pairs": 1758,
-  "meetings": 10961,
+  "pairs": 1760,
+  "meetings": 10998,
   "meetingsPerPair": "all",
   "http": {
-   "ok": 12,
+   "ok": 37,
    "err": 0,
    "skip": 0
   }
@@ -476,10 +476,10 @@
    38
   ],
   "judd-trump__zhao-xintong": [
+   4,
    3,
-   3,
-   20,
-   25
+   25,
+   26
   ],
   "wu-yize__zhao-xintong": [
    3,
@@ -723,9 +723,9 @@
   ],
   "michael-holt__zhao-xintong": [
    1,
-   1,
    2,
-   3
+   2,
+   7
   ],
   "ben-woollaston__zhao-xintong": [
    3,
@@ -741,9 +741,9 @@
   ],
   "daniel-wells__zhao-xintong": [
    2,
-   1,
-   12,
-   10
+   2,
+   14,
+   14
   ],
   "matthew-stevens__zhao-xintong": [
    3,
@@ -758,10 +758,10 @@
    21
   ],
   "oliver-lines__zhao-xintong": [
-   0,
+   1,
    3,
-   4,
-   10
+   8,
+   12
   ],
   "fan-zhengyi__zhao-xintong": [
    0,
@@ -1215,9 +1215,9 @@
   ],
   "jack-lisowski__mark-selby": [
    9,
-   10,
+   11,
    64,
-   68
+   73
   ],
   "mark-selby__zhou-yuelong": [
    3,
@@ -1275,9 +1275,9 @@
   ],
   "lei-peifan__mark-selby": [
    0,
-   2,
-   2,
-   10
+   3,
+   5,
+   14
   ],
   "mark-selby__pang-junxu": [
    6,
@@ -1298,10 +1298,10 @@
    47
   ],
   "jak-jones__mark-selby": [
-   1,
+   2,
    7,
-   8,
-   30
+   18,
+   36
   ],
   "joe-oconnor__mark-selby": [
    2,
@@ -1335,9 +1335,9 @@
   ],
   "jackson-page__mark-selby": [
    1,
-   3,
-   13,
-   14
+   4,
+   16,
+   18
   ],
   "aaron-hill__mark-selby": [
    1,
@@ -1454,10 +1454,10 @@
    22
   ],
   "mark-selby__ricky-walden": [
-   21,
+   22,
    8,
-   128,
-   83
+   132,
+   86
   ],
   "david-lilley__mark-selby": [
    0,
@@ -1599,9 +1599,9 @@
   ],
   "elliot-slessor__judd-trump": [
    2,
-   6,
+   7,
    13,
-   31
+   35
   ],
   "judd-trump__thepchaiya-un-nooh": [
    7,
@@ -1646,10 +1646,10 @@
    86
   ],
   "jak-jones__judd-trump": [
-   2,
+   3,
    7,
-   29,
-   44
+   35,
+   47
   ],
   "joe-oconnor__judd-trump": [
    2,
@@ -1665,9 +1665,9 @@
   ],
   "david-gilbert__judd-trump": [
    7,
-   12,
+   13,
    54,
-   76
+   80
   ],
   "judd-trump__yuan-sijun": [
    7,
@@ -1796,10 +1796,10 @@
    4
   ],
   "judd-trump__ricky-walden": [
-   18,
+   19,
    7,
-   91,
-   54
+   95,
+   56
   ],
   "david-lilley__judd-trump": [
    0,
@@ -1827,9 +1827,9 @@
   ],
   "jordan-brown__judd-trump": [
    0,
-   2,
    3,
-   11
+   3,
+   15
   ],
   "john-higgins__wu-yize": [
    2,
@@ -2252,10 +2252,10 @@
    4
   ],
   "john-higgins__noppon-saengkham": [
+   7,
    6,
-   6,
-   44,
-   44
+   48,
+   47
   ],
   "hossein-vafaei__john-higgins": [
    1,
@@ -2319,9 +2319,9 @@
   ],
   "john-higgins__stan-moody": [
    0,
-   1,
-   4,
-   5
+   2,
+   6,
+   9
   ],
   "john-higgins__luca-brecel": [
    5,
@@ -2594,10 +2594,10 @@
    120
   ],
   "david-gilbert__shaun-murphy": [
-   4,
    5,
-   30,
-   32
+   5,
+   34,
+   34
   ],
   "shaun-murphy__yuan-sijun": [
    4,
@@ -3644,10 +3644,10 @@
    15
   ],
   "barry-hawkins__lyu-haotian": [
-   1,
+   2,
    0,
-   13,
-   10
+   17,
+   12
   ],
   "barry-hawkins__jiang-jun": [
    2,
@@ -4994,10 +4994,10 @@
    7
   ],
   "ding-junhui__michael-holt": [
-   6,
+   7,
    4,
-   37,
-   30
+   41,
+   33
   ],
   "ben-woollaston__ding-junhui": [
    2,
@@ -5306,10 +5306,10 @@
    21
   ],
   "fan-zhengyi__jack-lisowski": [
-   0,
+   1,
    2,
-   3,
-   8
+   7,
+   10
   ],
   "jack-lisowski__martin-odonnell": [
    3,
@@ -5342,10 +5342,16 @@
    15
   ],
   "jack-lisowski__lyu-haotian": [
-   1,
+   2,
    0,
-   4,
-   2
+   8,
+   3
+  ],
+  "ishpreet-singh-chadha__jack-lisowski": [
+   0,
+   1,
+   3,
+   4
   ],
   "jack-lisowski__jiang-jun": [
    1,
@@ -5487,9 +5493,9 @@
   ],
   "stan-moody__zhou-yuelong": [
    3,
-   0,
-   13,
-   5
+   1,
+   16,
+   9
   ],
   "luca-brecel__zhou-yuelong": [
    2,
@@ -5750,10 +5756,10 @@
    6
   ],
   "anthony-mcgill__stuart-bingham": [
-   2,
+   3,
    5,
-   30,
-   32
+   34,
+   35
   ],
   "stan-moody__stuart-bingham": [
    0,
@@ -5996,10 +6002,10 @@
    26
   ],
   "stan-moody__zhang-anda": [
+   3,
    2,
-   2,
-   15,
-   20
+   19,
+   23
   ],
   "luca-brecel__zhang-anda": [
    6,
@@ -6015,9 +6021,9 @@
   ],
   "zak-surety__zhang-anda": [
    2,
-   2,
-   10,
-   14
+   3,
+   11,
+   18
   ],
   "jimmy-robertson__zhang-anda": [
    2,
@@ -6290,10 +6296,10 @@
    2
   ],
   "robbie-williams__si-jiahui": [
+   2,
    1,
-   1,
-   4,
-   5
+   8,
+   6
   ],
   "oliver-lines__si-jiahui": [
    1,
@@ -6387,9 +6393,9 @@
   ],
   "chang-bingyu__jak-jones": [
    0,
-   1,
-   1,
-   3
+   2,
+   2,
+   7
   ],
   "chang-bingyu__joe-oconnor": [
    1,
@@ -7070,10 +7076,10 @@
    22
   ],
   "ali-carter__jackson-page": [
-   1,
    2,
-   10,
-   12
+   2,
+   14,
+   13
   ],
   "aaron-hill__ali-carter": [
    1,
@@ -7364,10 +7370,10 @@
    13
   ],
   "daniel-wells__gary-wilson": [
-   5,
+   6,
    4,
-   37,
-   37
+   41,
+   39
   ],
   "gary-wilson__matthew-stevens": [
    1,
@@ -8079,9 +8085,9 @@
   ],
   "hossein-vafaei__matthew-selt": [
    4,
-   0,
-   23,
-   10
+   1,
+   24,
+   14
   ],
   "daniel-wells__hossein-vafaei": [
    2,
@@ -8193,9 +8199,9 @@
   ],
   "aaron-hill__jak-jones": [
    0,
-   2,
-   4,
-   11
+   3,
+   8,
+   16
   ],
   "jak-jones__xu-si": [
    2,
@@ -8865,9 +8871,9 @@
   ],
   "tom-ford__yuan-sijun": [
    4,
-   3,
-   24,
-   16
+   4,
+   26,
+   20
   ],
   "jackson-page__yuan-sijun": [
    2,
@@ -9315,9 +9321,9 @@
   ],
   "aaron-hill__xu-si": [
    1,
-   0,
-   3,
-   1
+   1,
+   6,
+   5
   ],
   "aaron-hill__anthony-mcgill": [
    1,
@@ -9392,9 +9398,9 @@
    1
   ],
   "aaron-hill__fan-zhengyi": [
+   3,
    2,
-   2,
-   14,
+   18,
    14
   ],
   "aaron-hill__martin-odonnell": [
@@ -9408,6 +9414,12 @@
    0,
    4,
    1
+  ],
+  "aaron-hill__ben-mertens": [
+   1,
+   0,
+   4,
+   2
   ],
   "aaron-hill__lyu-haotian": [
    0,
@@ -10580,10 +10592,10 @@
    3
   ],
   "fan-zhengyi__matthew-stevens": [
-   0,
+   1,
    2,
-   3,
-   10
+   7,
+   13
   ],
   "martin-odonnell__matthew-stevens": [
    1,
