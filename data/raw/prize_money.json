@@ -2,7 +2,7 @@
  "meta": {
   "source": "cuetracker.net",
   "url": "https://cuetracker.net/statistics/prize-money/won/all-time",
-  "fetched": "2026-09-13 18:33:54",
+  "fetched": "2026-09-13 22:09:05",
   "count": 1623,
   "currency": "GBP",
   "note": "Career prize money (all-time)，单位英镑"
@@ -30,7 +30,7 @@
   },
   "mark-williams": {
    "name": "Mark Williams",
-   "amount": 9064654,
+   "amount": 9109654,
    "rank": 5
   },
   "stephen-hendry": {
@@ -85,7 +85,7 @@
   },
   "ali-carter": {
    "name": "Ali Carter",
-   "amount": 4053806,
+   "amount": 4153806,
    "rank": 16
   },
   "ken-doherty": {
@@ -255,7 +255,7 @@
   },
   "zhou-yuelong": {
    "name": "Zhou Yuelong",
-   "amount": 1384062,
+   "amount": 1389062,
    "rank": 50
   },
   "chris-wakelin": {
