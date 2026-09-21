@@ -11,6 +11,13 @@ on:
 
 permissions:
   contents: write
+  pages: write
+  id-token: write
+
+# 避免多次调度重叠部署
+concurrency:
+  group: pages-deploy
+  cancel-in-progress: false
 
 jobs:
   refresh:
@@ -89,3 +96,28 @@ jobs:
         with:
           path: data/raw
           key: wst-raw-matches-${{ github.run_id }}
+
+      # ---- GitHub Pages (Actions 部署)：把站点需要的文件收进 _site 再上传 ----
+      - name: Build site artifact
+        run: |
+          rm -rf _site && mkdir -p _site/data
+          cp -r index.html assets _site/
+          cp data/dashboard.js data/dashboard.json _site/data/
+          [ -f .nojekyll ] && cp .nojekyll _site/ || true
+          echo "site files:" && find _site -type f | sort
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: "_site"
+
+  deploy:
+    needs: refresh
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
