@@ -14,10 +14,11 @@ permissions:
   pages: write
   id-token: write
 
-# 避免多次调度重叠部署
+# 新 run 直接取消进行中的旧 run 并自己跑，避免每 2h schedule 互相排队取消、deploy 永不成功
+# （原 cancel-in-progress:false 导致 GitHub Pages 自 2026-09-29 起卡在旧数据）
 concurrency:
   group: pages-deploy
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   refresh:
