@@ -233,6 +233,7 @@ def main():
     # ---------------------------------------------------------- 比赛（本赛季）
     matches, centuries = [], []
     today = datetime.now(CST).strftime("%Y-%m-%d")
+    stale_skipped = 0
 
     for item in raw_matches:
         a = item["attributes"]
@@ -252,6 +253,15 @@ def main():
         # 逐局数据 → 单杆统计
         hist = (a.get("history") or {}).get("matchData") or {}
         frames = (hist.get("matchHistory") or {}).get("frames") or []
+
+        # 丢弃 stale 占位场次：状态仍是 Scheduled、日期已过，且没有对手或没有逐局数据。
+        # 这些是官网赛程被真实场次取代后遗留的空壳（本地累积 raw 会长期保留），
+        # 不清会虚增场次，前端还会把过期比赛显示成「未开始」。
+        if status == "Scheduled" and dt[:10] and dt[:10] < today:
+            if away is None or not frames:
+                stale_skipped += 1
+                continue
+
         frame_rows = []
         for f in frames:
             hp = f.get("homePlayerPoints") or 0
@@ -387,7 +397,8 @@ def main():
         else:
             tt["status"] = "upcoming"
 
-    print(f"  赛季比赛：{len(matches)}｜单杆破百：{len(centuries)}")
+    print(f"  赛季比赛：{len(matches)}｜单杆破百：{len(centuries)}"
+          + (f"｜已丢弃 stale 占位 {stale_skipped} 场" if stale_skipped else ""))
 
     # ---------------------------------------------------------- 球员参与赛事
     for rec in matches:
