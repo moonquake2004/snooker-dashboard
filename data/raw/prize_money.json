@@ -2,7 +2,7 @@
  "meta": {
   "source": "cuetracker.net",
   "url": "https://cuetracker.net/statistics/prize-money/won/all-time",
-  "fetched": "2026-11-07 04:53:47",
+  "fetched": "2026-11-07 12:33:09",
   "count": 1625,
   "currency": "GBP",
   "note": "Career prize money (all-time)，单位英镑"
@@ -553,34 +553,34 @@
    "amount": 556249,
    "rank": 109
   },
+  "fan-zhengyi": {
+   "name": "Fan Zhengyi",
+   "amount": 550200,
+   "rank": 110
+  },
   "david-roe": {
    "name": "David Roe",
    "amount": 538182,
-   "rank": 110
+   "rank": 111
   },
   "barry-pinches": {
    "name": "Barry Pinches",
    "amount": 532638,
-   "rank": 111
+   "rank": 112
   },
   "jackson-page": {
    "name": "Jackson Page",
    "amount": 529025,
-   "rank": 112
+   "rank": 113
   },
   "li-hang": {
    "name": "Li Hang",
    "amount": 523119,
-   "rank": 113
+   "rank": 114
   },
   "xu-si": {
    "name": "Xu Si",
    "amount": 520050,
-   "rank": 114
-  },
-  "fan-zhengyi": {
-   "name": "Fan Zhengyi",
-   "amount": 517200,
    "rank": 115
   },
   "cao-yupeng": {
@@ -633,14 +633,14 @@
    "amount": 478633,
    "rank": 125
   },
+  "chang-bingyu": {
+   "name": "Chang Bingyu",
+   "amount": 471200,
+   "rank": 126
+  },
   "peifan-lei": {
    "name": "Peifan Lei",
    "amount": 443300,
-   "rank": 126
-  },
-  "chang-bingyu": {
-   "name": "Chang Bingyu",
-   "amount": 438200,
    "rank": 127
   },
   "quinten-hann": {
