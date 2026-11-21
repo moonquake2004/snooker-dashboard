@@ -2,7 +2,7 @@
  "meta": {
   "source": "cuetracker.net",
   "url": "https://cuetracker.net/statistics/prize-money/won/all-time",
-  "fetched": "2026-11-21 09:16:34",
+  "fetched": "2026-11-21 17:08:17",
   "count": 1625,
   "currency": "GBP",
   "note": "Career prize money (all-time)，单位英镑"
@@ -6658,8 +6658,8 @@
    "amount": 225,
    "rank": 1330
   },
-  "nick-jones": {
-   "name": "Nick Jones",
+  "david-nicholas-jones": {
+   "name": "David-Nicholas Jones",
    "amount": 225,
    "rank": 1331
   },
@@ -7888,13 +7888,13 @@
    "amount": 75,
    "rank": 1576
   },
-  "simon-smith": {
-   "name": "Simon Smith",
+  "bernard-smith": {
+   "name": "Bernard Smith",
    "amount": 75,
    "rank": 1577
   },
-  "bernard-smith": {
-   "name": "Bernard Smith",
+  "simon-smith": {
+   "name": "Simon Smith",
    "amount": 75,
    "rank": 1578
   },
@@ -7948,13 +7948,13 @@
    "amount": 75,
    "rank": 1588
   },
-  "jonathan-white": {
-   "name": "Jonathan White",
+  "p-white": {
+   "name": "P White",
    "amount": 75,
    "rank": 1589
   },
-  "p-white": {
-   "name": "P White",
+  "jonathan-white": {
+   "name": "Jonathan White",
    "amount": 75,
    "rank": 1590
   },
