@@ -42,9 +42,12 @@ jobs:
           restore-keys: |
             wst-raw-matches-
 
-      # 生涯奖金榜：单次请求、稳定无 429，放在 refresh_live.sh 之前跑，
+      # 生涯奖金榜：单次请求，放在 refresh_live.sh 之前跑，
       # 这样 refresh_live.sh 内部 build_dashboard.py 就能写入最新奖金。
+      # 2026-11-23 起 CueTracker 启用 Cloudflare 人机验证（HTTP 403），
+      # 该步骤失败不再阻塞 WST 抓取/构建/部署；奖金沿用 data/raw/prize_money.json 已有快照。
       - name: Fetch all-time prize money from CueTracker
+        continue-on-error: true
         run: python3 scripts/fetch_prize_money.py
 
       # 注：脚本内部会自检 —— 缺 seasons/rankings/players 会先补齐，
